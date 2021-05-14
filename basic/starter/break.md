@@ -1,5 +1,5 @@
 ---
-description: Sobirjonov O'tkirbek
+description: Sobirjonov O'tkirbe
 ---
 
 # Break
