@@ -1,5 +1,5 @@
 ---
-description: Sobirjonov O'tkirbe
+description: Sobirjonov O'tkirbek
 ---
 
 # Break
@@ -8,8 +8,8 @@ Assalomu aleykum ! Har bir inson bir yoki bir nechta boks janglarini ko’rgan b
 
 ![Buni Tayson desak ham bo&apos;larkan](../../.gitbook/assets/break.jpg)
 
-Shu holatda anavi dabdalasi chiqqan bookschi shu so’zni intizorlik bilan kutadi. Va hakam “break” deb jangni to’xtatadi. Dasturlashda har bir kalit so’z amali bilan bog’liq demak bu yerda “break” so’zi jangni to’xtatsa dasturdagi “break” kalit so’zi siklni to’xtatadi.  
-  
+Shu holatda anavi dabdalasi chiqqan bookschi shu so’zni intizorlik bilan kutadi. Va hakam “break” deb jangni to’xtatadi. Dasturlashda har bir kalit so’z amali bilan bog’liq demak bu yerda “break” so’zi jangni to’xtatsa dasturdagi “break” kalit so’zi siklni to’xtatadi.
+
 Ko’p gap eshshakka yuk, Dasturda misol ko’rishga o’tsak.
 
 ```csharp
@@ -59,7 +59,6 @@ namespace boks
         }
     }
 }
-
 ```
 
 Ko’rsatilgan dasturda siz raund tugash dasturini ko’rdingiz

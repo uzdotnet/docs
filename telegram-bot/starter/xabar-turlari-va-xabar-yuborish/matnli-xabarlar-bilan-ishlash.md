@@ -80,7 +80,7 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](../../../.gitbook/assets/image%20%2848%29.png)
+![](../../../.gitbook/assets/image%20%287%29%20%282%29.png)
 
 Matnli xabarlarni doimo bir xil usulda taqdim etish bu foydalanuvchini zeriktiradi. Bu holatda matnni formatlangan ko'rinishlarda tadim etish, samarali yo'l hisoblanadi. Odatda 2 xil formatlash usuli mavjud: 
 
