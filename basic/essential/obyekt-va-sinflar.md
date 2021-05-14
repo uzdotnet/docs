@@ -1,0 +1,2 @@
+# Obyekt va Class lar
+

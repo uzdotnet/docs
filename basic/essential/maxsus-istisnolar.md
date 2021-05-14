@@ -1,0 +1,2 @@
+# Maxsus istisnolar
+

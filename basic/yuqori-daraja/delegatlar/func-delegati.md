@@ -1,0 +1,2 @@
+# Func delegati
+

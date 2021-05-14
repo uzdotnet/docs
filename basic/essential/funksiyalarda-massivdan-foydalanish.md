@@ -1,0 +1,2 @@
+# Funksiyalarda massivdan foydalanish
+
