@@ -5,6 +5,10 @@ description: Suxrob Xayitmurodov
 # Java vs C\#
 
 **Siz bilishingiz kerak bo’lgan eng muhim faktlar!**   
+
+
+![](../../.gitbook/assets/image%20%2813%29.png)
+
   
 Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Umuman olganda har bir dasturlash tilining o’ziga yarasha ijobiy tomonlari, hamda mashuuuncha salbiy tomonlari mavjud. Hozir esa biz ulardan ikkitasini bir biriga solishtirib ko’ramiz, qaysi biri. C\# yoki Java?! Men barchasini ochiq oydin aytaman
 
@@ -18,4 +22,6 @@ Ayni paytda Java dunyo bo’ylab eng mashxur texnologiyalardan biri bo’lib kel
 Aytish kerak bo’lgan jihati yana shundaki C\# dasturlash tili 20 yil mobaynida muntazam ravishda rivojlanib kelmoqda, Javaga o’xshab yoshim o’tdi degani yo’q. Ha demay .NET Core 5 ham chiqadi. Bu esa rivojlanishining yaqqol isboti. Xo’sh, siz qay birini tanladingiz?
 
 ![Bolakayni qarang...:\)\)\)](../../.gitbook/assets/javavsc-3.jpg)
+
+
 
