@@ -10,16 +10,78 @@ description: Suxrob Xayitmurodov
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
   
-Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Umuman olganda har bir dasturlash tilining o’ziga yarasha ijobiy tomonlari, hamda mashuuuncha salbiy tomonlari mavjud. Hozir esa biz ulardan ikkitasini bir biriga solishtirib ko’ramiz, qaysi biri. C\# yoki Java?! Men barchasini ochiq oydin aytaman
+Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Bu mavzu ikki raqobatdosh tillari Java va C\# haqida, ularning ustunlik va kamchilik tomonlari haqida bo'ladi
 
 ![](../../.gitbook/assets/javavc-.png)
 
-Dastur tuzuvchi sifatida kelajagingizni aks ettira boshlaganingizda, ya’ni dasturlashni o’rganayotganingizda sizga bu juda qiyin savol bo’lish mumkin, qaysi biridan boshlaganim ma’qul? Har qanday tilni o’rganish uchun juda ko’p kuch, vaqt va sabr kerak bo’ladi \(to’g’risini aytgan yaxshida\).  
-Ayni paytda Java dunyo bo’ylab eng mashxur texnologiyalardan biri bo’lib kelmoqda. Turli xil reytinglarda top 10 talikka kirgan til hisoblanadi. Balki Java dasturchilarining ham unga yopishib olishining sababi shudir. Bu til 1995-yili James Gosling ismli brat tomonidan ishlab chiqilgan. O’rganish nisbatan oson va ko’plab bepul o’quv manbalari mavjud. Undan Veb dasturlar va Mobil dasturlar uchun ko’p foydalanishadi. Sizning hozir Javaga ishqingiz ketdi, shoshmang hali silliq joyi turibdi. Javada kodlash uchun sizda litsenziya bo’lishi zarur. Agarda litsenziya bo’lmasa siz Oracle kompaniyaga $2000 dan ko'proq jarima to’lashga majbur bo’lasiz. Bundan tashqari ushbu dasturlash tilining kodlari ancha eskirgan, ya’ni zamonaviy trend darajadagi dasturlash tillariga nisbatan uning kodlari 20 yilga qarigan. Java tilini zamonaviylashtirish uchun yana bizga kamida 20 yil vaqt ketadi. Bundan tashqari kelajakda ham Java o’z mavqeyini saqlab qoladi deb o’ylamayman, sababi bizga yanada istiqbolli va yaxshiroq xizmat ko’rsatuvchi ochiq manbaa mavjud. Bu esa .NET Framework C\# dasturlash tili. Ushbu dasturlash tilida siz Javada qila olmagan ishlaringizni bemalol qila olasiz, Veb dasturlar va Mobil dasturlardan tashqari siz aynan C\# da Kompyuter o’yinlar, Kompyuter uchun dasturlar, Mikroservis, Machine Learning, Raspberry PI uchun kodlar….. xullas barcha barchasini qila olasiz.
+Java Object-Oriented \(ob'ektga yo'naltirilgan\) va \(class-based\) klasslarga asoslangan dastrulash tilidir. Dasturchilar Javada bir marta kod yozishadi, har qanday joyda \(run\) ishlata olishadi. Java \(source\) manba kodlarini, Java kompilyatori uni \(bytecode\) bayt kodlarga o'zgartiradi va keyinchalik ushbu kompilyatsiya qilingan bayt kod JRE \(Java Runtime Environment\) yordamida istalgan operatsion tizimda ishlash imkoniyatini beradi.
 
-![](../../.gitbook/assets/javavsc-2.jpg)
+C\# ham \(Object-Oriented\) ob'ektga yo'naltirilgan, funksional, \(generic and component-oriented\)  generic va komponentlarga yo'naltirilgan asosiy tillardan hisoblanadi. OOP, funksiya va generic tiplar haqida [Essential \(muhim\)](https://dot-net.uz/basic/essential) bo'limimizda o'qishingiz mumkin. Bu til turli xil dasturlarni tuzish uchun ishlatilinadi. Windows operatsion tizimida \(windows application\) windows dasturlarini tuzishda va o'yinlarini yasashda ushbu til absolyutno kuchli til hisoblanadi. Veb-ishlab chiqishni C\# yordamida ham samarali bajarish mumkin va u mobil ishlanmalar uchun tobora ommalashib bormoqda.
 
-Aytish kerak bo’lgan jihati yana shundaki C\# dasturlash tili 20 yil mobaynida muntazam ravishda rivojlanib kelmoqda, Javaga o’xshab yoshim o’tdi degani yo’q. Ha demay .NET Core 5 ham chiqadi. Bu esa rivojlanishining yaqqol isboti. Xo’sh, siz qay birini tanladingiz?
+### Birma-bir taqqoslaymiz!
+
+Quyida Java va C\# o'rtasidagi eng yaxshi 8 taqqoslashlar keltirilgan:
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Taqqos</th>
+      <th style="text-align:left">Java</th>
+      <th style="text-align:left">C#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <ol>
+          <li>Paradigma</li>
+        </ol>
+      </td>
+      <td style="text-align:left">Sinflarga asoslangan, C++ dan olingan Ob&apos;ektga yo&apos;naltirilgan
+        til</td>
+      <td style="text-align:left">Ob&apos;ektga yo&apos;naltirilgan, komponentlarga yo&apos;naltirilgan,
+        funktsional</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2. Dastur</td>
+      <td style="text-align:left">Murakkab veb-ga asoslangan, yuqori darajada bir vaqtda qo&apos;llaniladigan
+        dastur</td>
+      <td style="text-align:left">Veb, o&apos;yin va mobil dasturlashda eng ommabop tillar qatorida</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3. Project (loyiha)</td>
+      <td style="text-align:left">Murakkab veb-asosidagi loyihalar uchun javob beradi</td>
+      <td style="text-align:left">Game development loyihalari uchun eng mos til</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4. Foydalanish</td>
+      <td style="text-align:left">Turli xil chatlar, veb-dasturlar uchun foydalaniladi</td>
+      <td style="text-align:left">Mobil va kompyute o&apos;yinlar, VM (Virtual Reality) uchun eng maqbul
+        til</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5. O&apos;rnatish</td>
+      <td style="text-align:left">JDK (Java Development Kit) talab qiladi</td>
+      <td style="text-align:left">.NET farameworki C# tomonidan ishlatiladigan kodlarning katta kutubxonasini
+        taqdim etadi.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6. Qo&apos;llanish sohasi</td>
+      <td style="text-align:left">C# ga taqqoslaganda, Java ushbu jihatini takomillashtirishi kerak deb
+        o&apos;ylayman</td>
+      <td style="text-align:left">Yaxshi dasturiy asosga ega bo&apos;lgan server tili</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7. Tools</td>
+      <td style="text-align:left">Eclipse, NetBeans, IntelliJ IDEA, Android Studio</td>
+      <td style="text-align:left">Visual Studio, VS Code, SharpDevelop, JetBrains Rider va boshqalar</td>
+    </tr>
+  </tbody>
+</table>
+
+> Umuman olganda sizga u yoki bu tilni tanlang demayman. Shunchaki bu ikki tilning ustunlik tomonlari va ba'zi kamchiliklarini ko'rsatib o'tdim. Anglashimiz kerak bo'lgan jihati shundaki, siz o'zingiz tanlagan sohada qaysi til kuchliroq ekanligini bilib olishdir!!!!
 
 ![Bolakayni qarang...:\)\)\)](../../.gitbook/assets/javavsc-3.jpg)
 
