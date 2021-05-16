@@ -7,7 +7,13 @@ description: Suxrob Xayitmurodov
 **Siz bilishingiz kerak bo’lgan eng muhim faktlar!**   
 
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![techempower.com orqali solishtirilgan](../../.gitbook/assets/image%20%2813%29.png)
+
+{% hint style="info" %}
+Techempower linki:
+
+[https://www.techempower.com/benchmarks/\#section=data-r20&hw=ph&test=plaintext](https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=plaintext)
+{% endhint %}
 
   
 Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Bu mavzu ikki raqobatdosh tillari Java va C\# haqida, ularning ustunlik va kamchilik tomonlari haqida bo'ladi.
