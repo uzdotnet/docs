@@ -10,7 +10,7 @@ description: Suxrob Xayitmurodov
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
   
-Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Bu mavzu ikki raqobatdosh tillari Java va C\# haqida, ularning ustunlik va kamchilik tomonlari haqida bo'ladi
+Assalamu alaykum, bo’lajak C\# dasturchilari, galdagi mavzuyimizga xush kelibsiz. Bu mavzu ikki raqobatdosh tillari Java va C\# haqida, ularning ustunlik va kamchilik tomonlari haqida bo'ladi.
 
 ![](../../.gitbook/assets/javavc-.png)
 
@@ -20,70 +20,59 @@ C\# ham \(Object-Oriented\) ob'ektga yo'naltirilgan, funksional, \(generic and c
 
 ### Birma-bir taqqoslaymiz!
 
-Quyida Java va C\# o'rtasidagi eng yaxshi 8 taqqoslashlar keltirilgan:
+Quyida Java va C\# o'rtasidagi eng yaxshi 7 taqqoslashlar keltirilgan:
 
+> ASOSIY FARQLARI
+>
+> * Java Java Runtime Environment \(JRE\) da ishlaydi, C\# esa Common Language Runtime \(CLR\) da ishlashga mo'ljallangan.
+> * Java class-based ya'ni klasslarga asoslangan Ob'ektga yo'naltirilgan til, C\# esa Ob'ektga yo'naltirilgan, funksional va komponentlarga yo'naltirilgan til!
+> * Java operatorning yuklanishini qo'llab-quvvatlamaydi, C\# esa bir nechta operatorlar uchun operatorning yuklanishini ta'minlaydi.
+> * Java pointers \(ko'rsatgichlar\)ni qo'llab-quvvatlamaydi, C\# esa faqat xavfli rejimda qo'llab-quvvatlaydi.
+> * Javada massivlar Object kutubxonasiga tegishli bo'lsa, C\# da massivlar System kutubxonasiga tegishli
 
+![stackoverflowda Java va C\# savollarining berilishi statistikasi](../../.gitbook/assets/java.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Taqqos</th>
-      <th style="text-align:left">Java</th>
-      <th style="text-align:left">C#</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <ol>
-          <li>Paradigma</li>
-        </ol>
-      </td>
-      <td style="text-align:left">Sinflarga asoslangan, C++ dan olingan Ob&apos;ektga yo&apos;naltirilgan
-        til</td>
-      <td style="text-align:left">Ob&apos;ektga yo&apos;naltirilgan, komponentlarga yo&apos;naltirilgan,
-        funktsional</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2. Dastur</td>
-      <td style="text-align:left">Murakkab veb-ga asoslangan, yuqori darajada bir vaqtda qo&apos;llaniladigan
-        dastur</td>
-      <td style="text-align:left">Veb, o&apos;yin va mobil dasturlashda eng ommabop tillar qatorida</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3. Project (loyiha)</td>
-      <td style="text-align:left">Murakkab veb-asosidagi loyihalar uchun javob beradi</td>
-      <td style="text-align:left">Game development loyihalari uchun eng mos til</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4. Foydalanish</td>
-      <td style="text-align:left">Turli xil chatlar, veb-dasturlar uchun foydalaniladi</td>
-      <td style="text-align:left">Mobil va kompyute o&apos;yinlar, VM (Virtual Reality) uchun eng maqbul
-        til</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5. O&apos;rnatish</td>
-      <td style="text-align:left">JDK (Java Development Kit) talab qiladi</td>
-      <td style="text-align:left">.NET farameworki C# tomonidan ishlatiladigan kodlarning katta kutubxonasini
-        taqdim etadi.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6. Qo&apos;llanish sohasi</td>
-      <td style="text-align:left">C# ga taqqoslaganda, Java ushbu jihatini takomillashtirishi kerak deb
-        o&apos;ylayman</td>
-      <td style="text-align:left">Yaxshi dasturiy asosga ega bo&apos;lgan server tili</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7. Tools</td>
-      <td style="text-align:left">Eclipse, NetBeans, IntelliJ IDEA, Android Studio</td>
-      <td style="text-align:left">Visual Studio, VS Code, SharpDevelop, JetBrains Rider va boshqalar</td>
-    </tr>
-  </tbody>
-</table>
+| Xususiyatlari | Java | C\# |
+| :--- | :--- | :--- |
+| Ishlab chiqarilishi | Sun Microsystems tomonidan ishlab chiqilgan | Microsoft .NET ning bir qismi sifatida ishlab chiqilgan |
+| Ecosystem | Ulkan ochiq manbali kod tizimiga ega | Microsoft platformalari uchun dasturiy ta'minotni ishlab chiqish uchun foydalaniladi |
+| Delegatlar | Delegatlarga o'xshagan funksiyalarga erishish uchun interfeysdan foydalanishni talab qiladi | C\# o'zining metod sifatida xizmat qiladigan delegatlari mavjud |
+| Istisno holatlari \(code reviewing\) | Istisno faqat bitta turga ega | Tekshirilgan va tekshirilmagan istisnolarni ajratib turadi |
+| Goto  | Java ushbu operatorni qo'llab quvvatlamaydi | C\# ushbu operatorni qo'llab quvvatlaydi |
+| Polymorphism | Asosiy sinfda "virtual" kalit so'zni chaqiradi va olingan sinfda "bekor qilish" kalit so'zini ishlatadi | Odatiy holat bo'yicha polimorfizmni yoqadi. By default |
+| Xavfsizlik | Himoyalangan | Himoyalanmagan |
+| Qo'shimcha kompilyatsiyani qo'llab quvvatlaydimi | Java qo'shimcha kompilyatsiyani qo'llab quvvatlamaydi | C\# protsessor ko'rsatmalari yordamida qo'shimcha kompilyatsiya xususiyatini qo'llab-quvvatlaydi |
+| Cross-platform | Java o'zining baytkodi bilan yetarlicha kross-platforma hisoblanadi | C\# ham kross-platforma, lekin Javaga taqqoslaganda, C\# bu xususiyatini rivojlantirishi zarur |
+| IDE | Eclipse, NetBeans, IntelliJ IEDA | Visual Studio, MonoDevelop, \#Develop, VS Code |
+| Runtime | Java JVM \(Java Virtual Machine\) yordamida kodni ishga tushiradi | C\# CLR \(Common Language Runtime\) yordamida kodni ishga tushiradi |
+| O'rtacha ish haqi | 2020 - yilga ko'ra Java dasturchilari o'rtacha yiliga $102, 633 ishlab topishadi | 2020 - yilga ko'ra C\# dasturchilari yiliga $108, 145 ishlashadi |
 
-> Umuman olganda sizga u yoki bu tilni tanlang demayman. Shunchaki bu ikki tilning ustunlik tomonlari va ba'zi kamchiliklarini ko'rsatib o'tdim. Anglashimiz kerak bo'lgan jihati shundaki, siz o'zingiz tanlagan sohada qaysi til kuchliroq ekanligini bilib olishdir!!!!
+### Javaning ustunlik tomonlari
+
+1. To'liq har bir Java kodlari detallarigacha tushuntirib berilgan.
+2. Dasturchilarning ma'lum bir qismi, ya'ni dasturchilarning ko'proq qismini Java mutaxasislari tashkil etadi.
+3. Java bir vaqtning o'zida ko'plab vazifalarni bajarishga imkon beradigan ko'p tarmoqli muhitga ega.
+4. Kutubxonalarni boshqarish juda oson.
+
+### C\# ning ustunlik tomonlari
+
+1. Tegishli lambda va genericlarni qo'llab-quvvatlaydi.
+2. Microsoft Corporation tomonidan qo'llab-quvvatlangan. \(O'sha mashhuuur kompaniya\).
+3. Avtomatik tarzda keraksiz kodlarni ajratadi. Warning deb chiqadi.
+4. Maydonlar get va set metodlari bilan birga keladi. Bu esa C\# da kod yozishni yanada osonlashtiradi.
+5. Xotirani avtomatik boshqarish imkoni bor.
+
+### Javaning kamchiliklari
+
+1. JIT kompilyatori dasturni nisbatan sekinlashtiradi.
+2. Java yuqori xotira va ishlash talablariga ega. Bu esa qimmat hardware kerak degani.
+3. Pointers kabi past darajadagi dasturiy tuzilmalarni qo'llab-quvvatlamaydi.
+4. Javada keraksiz kodlar ustida hech qanday nazorat yo'q, chunki Java delete\(\), free\(\) kabi funksiyalarni o'z ichiga olmaydi.
+
+### C\# ning kamchiliklari
+
+1. C\# .NET frameworkining internal qismidir, shuning uchun dasturni ishlaydigan server Windowsga asoslangan bo'lishi kerak.
+2. C\# moslashuvchan emas, chunki u asosan .NET frameworkiga bog'liq.
 
 ![Bolakayni qarang...:\)\)\)](../../.gitbook/assets/javavsc-3.jpg)
-
-
 
