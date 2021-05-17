@@ -8,7 +8,7 @@ description: >-
 
 Ushbu Basic qismni sizlar bilan birgalikda teng 3 qismga bo'lamiz. Kim so'kadi? Hech kim... . Keling men o'sha bo'lingan qismlarni ko'rsataman.
 
-```text
+```csharp
 using System;
 
 namespace dotnetuz
