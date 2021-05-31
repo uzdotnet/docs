@@ -49,7 +49,7 @@ Aynan ushbu 4 qator kod 100 marta yozishdan ko'ra yaxshiroq deb o'ylayman, sabab
 
 Keling endi aynan ushbu kodni mulohaza qilamiz:
 
-![Xafa bo&apos;lish yo&apos;q endi, shogirdlar shunaqa chizishibdi :\(](../../.gitbook/assets/for.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Bu yerda majburiy ajratuvchilar bo'lishi \(nuqta, vergul mana men shu yerdaman deyishi\)  shart, ularsiz biz for operatorida kod yoza olmaymiz \(tan olavering bari bir yoza olmaysiz\). Aynan ko’rsatilgan tartibda yozish ham shart emas. int i = 1 ni siklda tashqari holatlarda ham e’lon qilib sikl parametrini shunchaki i deb ham ketishimiz mumkin bo’ladi!
 
