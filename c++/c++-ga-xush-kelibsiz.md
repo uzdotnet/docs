@@ -1,0 +1,2 @@
+# C++ ga xush kelibsiz
+
