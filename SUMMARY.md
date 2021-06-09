@@ -11,6 +11,7 @@
       * [Visual Studio 2019](c-.net/basic/starter/visual-studio2019.md)
       * [O'zgaruvchilar](c-.net/basic/starter/ozgaruvchilar.md)
       * [Ma'lumot turlari](c-.net/basic/starter/malumot-turlari.md)
+      * [ReadLine](c-.net/basic/starter/readline.md)
       * [Operatorlar](c-.net/basic/starter/operatorlar.md)
       * [Kalit so'zlar](c-.net/basic/starter/keywords.md)
       * [If-else](c-.net/basic/starter/if-else.md)
