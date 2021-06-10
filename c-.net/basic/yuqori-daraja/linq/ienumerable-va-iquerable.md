@@ -1,0 +1,2 @@
+# IEnumerable va IQuerable
+

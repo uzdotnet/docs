@@ -82,6 +82,7 @@
         * [Kirish](c-.net/basic/yuqori-daraja/linq/kirish.md)
         * [Linq qanday ishlaydi?](c-.net/basic/yuqori-daraja/linq/linq-qanday-ishlaydi.md)
         * [Linq query yozish usullari](c-.net/basic/yuqori-daraja/linq/linq-query-yozish-usullari.md)
+        * [IEnumerable va IQuerable](c-.net/basic/yuqori-daraja/linq/ienumerable-va-iquerable.md)
   * [.NET Dasturchi](c-.net/.net-dasturchi/README.md)
     * [API dan foydalanish](c-.net/.net-dasturchi/api-dan-foydalanish.md)
     * [SQL](c-.net/.net-dasturchi/sql.md)
