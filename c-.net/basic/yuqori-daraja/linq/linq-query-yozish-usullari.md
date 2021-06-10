@@ -1,0 +1,2 @@
+# Linq query yozish usullari
+
