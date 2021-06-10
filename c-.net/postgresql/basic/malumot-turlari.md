@@ -1,0 +1,2 @@
+# Ma'lumot turlari
+

@@ -1,0 +1,2 @@
+# Delete so'rovi
+

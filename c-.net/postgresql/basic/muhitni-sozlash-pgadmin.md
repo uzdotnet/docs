@@ -1,0 +1,2 @@
+# Muhitni sozlash \(PgAdmin\)
+
