@@ -1,0 +1,2 @@
+# LINQ operatorlari
+

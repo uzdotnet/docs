@@ -1,0 +1,2 @@
+# Bo'lim operatorlari
+

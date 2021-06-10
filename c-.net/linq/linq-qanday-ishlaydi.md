@@ -1,0 +1,2 @@
+# LINQ qanday ishlaydi?
+
