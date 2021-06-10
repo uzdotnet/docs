@@ -1,2 +1,0 @@
-# SystemException sinfi
-
