@@ -1,2 +1,0 @@
-# Saralash Algoritmlari
-
