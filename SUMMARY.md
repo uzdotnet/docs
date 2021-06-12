@@ -78,7 +78,6 @@
         * [FileInfo](c-.net/basic/yuqori-daraja/file/fileinfo.md)
         * [DirectoryInfo](c-.net/basic/yuqori-daraja/file/directoryinfo.md)
   * [LINQ asoslari](c-.net/linq/README.md)
-    * [Kirish](c-.net/linq/kirish.md)
     * [LINQ qanday ishlaydi?](c-.net/linq/linq-qanday-ishlaydi.md)
     * [LINQ query yozish usullari](c-.net/linq/linq-query-yozish-usullari.md)
     * [IEnumerable va IQuerable](c-.net/linq/ienumerable-va-iquerable.md)
