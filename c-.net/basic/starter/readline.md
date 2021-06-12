@@ -75,3 +75,9 @@ namespace ConsoleApp2
 Ma'lumot o'rnida aytib o'tish lozimki, `Console` sinfi, ekrandan ma'lumot o'qib oladigan 3 ta metodni o'z ichiga oladi.`Read(), ReadLine(), ReadKey()` 
 {% endhint %}
 
+* ReadKey\(\) - Biror klavish bosilishini kutadi va uning kodini qaytaradi \(ConsoleKeyInfo turida\)
+* Read\(\) - Bir belgi kiritilishi kutiladi va o'sha belgining ASCII kodi qaytariladi \(int turida\) 
+* ReadLine\(\) - Satr kiritilishi kutiladi va string turida qaytaradi.
+
+**Boshida ozroq tushinarsiz bo'lishligi mumkin, lekin tezda o'rganib ketasiz :\)**
+
