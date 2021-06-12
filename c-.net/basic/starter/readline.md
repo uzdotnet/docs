@@ -71,3 +71,7 @@ namespace ConsoleApp2
 
 `Parse()` metodidan foydalanishni maslahat beramiz. Har bir tur \(int, long, double...\) ushbu metodni o'z ichiga oladi. Ya'ni string turidan o'sha joriy turga o'girish uchun foydalaniladi
 
+{% hint style="info" %}
+Ma'lumot o'rnida aytib o'tish lozimki, `Console` sinfi, ekrandan ma'lumot o'qib oladigan 3 ta metodni o'z ichiga oladi.`Read(), ReadLine(), ReadKey()` 
+{% endhint %}
+
