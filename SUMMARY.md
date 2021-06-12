@@ -153,6 +153,7 @@
       * [Native SQL](c-.net/entity-framework/query-yozish-usullari-entity-framework/native-sql.md)
     * [Entity Framework Core](c-.net/entity-framework/entity-framework-core.md)
   * [.NET Dasturchi](c-.net/.net-dasturchi/README.md)
+    * [Git](c-.net/.net-dasturchi/git.md)
     * [Postman](c-.net/.net-dasturchi/postman.md)
     * [CLI](c-.net/.net-dasturchi/cli/README.md)
       * [CMD savodxonligi](c-.net/.net-dasturchi/cli/cmd-savodxonligi.md)
