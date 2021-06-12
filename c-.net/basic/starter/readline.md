@@ -17,14 +17,14 @@ namespace ConsoleApp2
         {
             string Ism;
             Console.WriteLine("Ismingizni kiriting: ");
-            //string tipida o'zgaruvchi qaytadi
-            Ism=Console.ReadLine();
+            //string tipida qiymat qaytadi
+            Ism = Console.ReadLine();
         }
     }
 }
 ```
 
-Console.ReadLine\(\) bilan malumotlarni faqat string tipida olishimiz mumkin. Masalan int tipida son kiritmoqchi bo'lsak uni string tipidan int tipiga \(aylantirishimiz\) convertatsiya qilishimiz kerak. Bunda Convert sinfidan yoki int.Parse\(\) funksiyasidan foydalamiz.
+`Console.ReadLine()` bilan ma'lumotlarni faqat string tipida olishimiz mumkin. Masalan int tipida son kiritmoqchi bo'lsak uni string tipidan int tipiga \(o'zgartirishimiz\) konvertatsiya qilishimiz kerak. Bunda `Convert` sinfining `ToInt32()` metodi  yoki `int` sinfining `Parse()`  metodidan foydalanashimiz mumkin!
 
 ```csharp
 using System;
