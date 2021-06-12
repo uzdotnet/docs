@@ -38,11 +38,11 @@ namespace ConsoleApp2
             string Ism;
             int Yosh;
             Console.Write("Ismingizni kiriting: ");
-            //string tipida o'zgaruvchi qaytadi
-            Ism=Console.ReadLine();
+            //string tipidagi qiymat qaytadi
+            Ism = Console.ReadLine();
 
             Console.Write("Yoshingizni kiriting: ");
-            //string int tipiga aylantiriladi 
+            //string turidan int turiga aylantiriladi 
             Yosh = Convert.ToInt32(Console.ReadLine());
             //int.Parse yordamida convertatasiya qilamiz
             // Yosh = int.Parse(Console.ReadLine());   
