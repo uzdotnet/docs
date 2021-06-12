@@ -6,7 +6,7 @@ description: Jasurbek Xasanboyev
 LINQ ma’lumotlar manbasiga murojatlar yuborish va ma’lumotlarni qayta ishlash uchun hizmat qiladi. LINQ so`rov(query)lar ma’lumotlar manbasi turlariga qarab bo`limlarga bo`linadi: 
 ![image](https://user-images.githubusercontent.com/81855769/121767016-353e0f00-cb6f-11eb-80a9-4a10ee1bf0a1.png)
 Misol tariqasida eng oddiy so`rov turini ko`rib chiqamiz: 
-```
+```csharp
 class LINQQueryExample // dot-net.uz uchun
 {
     static void Main()
