@@ -45,13 +45,13 @@ namespace ConsoleApp2
             //string turidan int turiga aylantiriladi 
             Yosh = Convert.ToInt32(Console.ReadLine());
             //int.Parse yordamida convertatasiya qilamiz
-            // Yosh = int.Parse(Console.ReadLine());   
+            //Yosh = int.Parse(Console.ReadLine());   
         }
     }
 }
 ```
 
-Convertatsiyani ikki xil usulini ikki sonning yig’indisi \(a+b\)da ko’rib chiqamiz.
+Convertatsiyani ikki xil usulini ikki sonning yig’indisi \(a+b\) da ko’rib chiqamiz.
 
 ```csharp
 namespace ConsoleApp2
@@ -63,29 +63,11 @@ namespace ConsoleApp2
             int a, b;
             a = Convert.ToInt32(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
-            Console.WriteLine("Natija: "+(a+b));
+            Console.WriteLine("Natija: " + (a + b));
         }
     }
-}
+} 
 ```
 
-Sonlar ketma-ketligini Consoledan o’qib olishimiz uchun uni string tipida massiv \(massiv haqidagi ma’lumotlarni keyingi bo’limlarimizdan bilib olishingiz mumkin\) shaklida e’lon qilamiz. Massiv ele-mentlarini biror belgi bilan ajratish uchun Split\(\) funksiyasidan foydalanamiz.
-
-```csharp
-using System;
-
-namespace ConsoleApp2
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string[] son = Console.ReadLine().Split(' ');
-            Console.WriteLine(int.Parse(son[0]) + int.Parse(son[1]));
-        }
-    }
-}
-```
-
-Split\(\) funksiyasi massiv elemetlarini istalgan char \(belgi\) bilan ajratib beradi\(bu yerda probel bilan ajratilgan\). Massivning har bir elementini int tipiga o’zgartirib amalni bajaramiz.
+`Parse()` metodidan foydalanishni maslahat beramiz. Har bir tur \(int, long, double...\) ushbu metodni o'z ichiga oladi. Ya'ni string turidan o'sha joriy turga o'girish uchun foydalaniladi
 
