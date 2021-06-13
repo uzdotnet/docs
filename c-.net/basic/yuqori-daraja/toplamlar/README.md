@@ -4,7 +4,7 @@ description: Massivning aka-ukalari
 
 # To'plamlar
 
-### [ArrayList](https://app.gitbook.com/@dotnetuz-demo-roboticslab-1/s/dotnetuz/c-.net/basic/yuqori-daraja/toplamlar/tuple)
+### [ArrayList](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/arraylist)
 
 ### [List](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/list)
 
