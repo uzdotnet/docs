@@ -29,7 +29,7 @@ namespace MyProgram
 Demak Bu dasturda meningBirQopPulim degan o’zgaruvchi e’lon qildim, va bir qop  
 pulim yo’qligi uchun false qiymat berdim. Endi esa ifga o’tamiz Dasturda avval “if” kalit so’zi yozib keyin qavslar orasiga shart beriladi, bu shart mantiqiy amallardan bolishi kerak ya’ni true yoki false qiymat qaytaradigan. Shuning uchun qavslar ichiga \(birQopPulim == true\) deb shart berdik, va bilib turganingizdek yolg’on yani false qiymat qaytaradi. Va shart bajarilmaydi. Natijada jingalak qavslar ichidagi codlar ish bajarmaydi. Endi bu Codelarni bizor o’zgartirsak, ya’ni meni biroz boyitsak
 
-```text
+```csharp
 using System;
 namespace MyProgram
 {
@@ -50,7 +50,7 @@ namespace MyProgram
 
 Bu dasturda men men o’zimni bir qop pulim bor deb e’lon qildim va Dastur shartni tekshirib ko’radi e’tibor bering \(true\) qiymatga aylanayapti. Va natijada Console oynaga “yoqib yuborish kerak” degan satr chiqadi. Keling endi else ni ham ishlatamiz avval codeni bir ko’ring va ozroq fikr Yuritingchi.
 
-```text
+```csharp
 using System;
 namespace MyProgram
 {
@@ -78,7 +78,7 @@ Bu dasturda siz if-else ni strukturasini ko’rdingiz Bu structuraga dastur
 
 Shunday qaraydi demak shart true bolsa chap tarafga false bo’lsa o’ng tarafga qarab ketadi. Bu yerda algoritm tarmoqlanayapti shundaymi. Yuqorida siz fikrlagan dastur natijasida Console oynaga “yoqib yuborish” kerak degan yozuv chiqadi yana bir qarang va fikrlab ko’ring. Hullas If kalit so’zidan keyin kelgan shart true bo’lsa if ning ichidagi jingalak qavslar ichidagi kod bajariladi, false bo’lsa else ning ichidagi jingalak qavslar ichidagi kod bajariladi. Hozir yozgan codelarimizni Jamlasak:
 
-```text
+```csharp
 using System;
 namespace MyProgram
 {
@@ -102,7 +102,7 @@ namespace MyProgram
 
 Natijada Console oynaga “Tushingni borib suvga ayt” degan so’z chiqadi. Sababi meningBirQopPulim o’zgaruvchi false qiymat oldi shuning uchun if shartidaga shu o’zgaruvchi nomi yetarli chunki o’zi false qiymat qaytarib turibdi. Yanada yaxshiroq tushunishingiz uchun bir nechta dasturlar ko’rsataman:
 
-```text
+```csharp
 using System;
 namespace MyProgram
 {
@@ -129,7 +129,7 @@ Natija: "Rost"
 
 ! Agar if yoki else ning operatori bitta bolsa jingalak qavslar shart emas!\(qoyilsa ham qoyilmasa ham to’g’ri\)
 
-```text
+```csharp
 using System;
 namespace MyProgram
 {
