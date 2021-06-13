@@ -4,19 +4,19 @@ description: Massivning aka-ukalari
 
 # To'plamlar
 
-### ArrayList
+### [ArrayList](https://app.gitbook.com/@dotnetuz-demo-roboticslab-1/s/dotnetuz/c-.net/basic/yuqori-daraja/toplamlar/tuple)
 
-### List
+### [List](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/list)
 
-### SortedList
+### [SortedList](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/sortedlist)
 
-### Dictionary
+### [Dictionary](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/dictionary)
 
-### HashTable
+### [HashTable](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/hashtable)
 
-### Stack
+### [Stack](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/stack)
 
-### Queue
+### [Queue](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar/queue)
 
 
 
