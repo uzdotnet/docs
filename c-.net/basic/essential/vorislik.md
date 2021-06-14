@@ -44,8 +44,8 @@ Employee sinfining obyekti o’z navbatida Person sinfining ham obyekti bo’lga
 Person p = new Employee();
 ```
 
-	Kelishuv bo’yicha, Vorislik oshkor ravishda ko’rsatilmasa ham, barcha sinflar **Object** tayanch sinfining vorisi hisoblanadi. Shuning uchun ham, yuqorida keltirilgan Person hamda Employee sinflari o'zlarining metodlaridan tashqari, Ob'ekt sinfining quyidagi metodlariga ham ega: ToString(), Equals(), GetHashCode() va GetType().
-	Kelishuv bo'yicha barcha sinflar voris qilib olinishi mumkin. Biroq, bu yerda bir qator cheklovlar mavjud: Person va Employee
+Kelishuv bo’yicha, Vorislik oshkor ravishda ko’rsatilmasa ham, barcha sinflar **Object** tayanch sinfining vorisi hisoblanadi. Shuning uchun ham, yuqorida keltirilgan Person hamda Employee sinflari o'zlarining metodlaridan tashqari, Ob'ekt sinfining quyidagi metodlariga ham ega: ToString(), Equals(), GetHashCode() va GetType().
+Kelishuv bo'yicha barcha sinflar voris qilib olinishi mumkin. Biroq, bu yerda bir qator cheklovlar mavjud: Person va Employee
 
 	-	To’plamli vorislik qo'llanilmaydi, sinf faqat bitta sinfdan voris olishi mumkin.
 	-	Hosilaviy sinfni yaratishda tayanch sinfning kirish kaliti ham hisobga olinilishi zarur, yani hosilaviy sinfning kirish kaliti tayanch sinfniki bilan bir xil bo’lishi yoki undanda cheklovliroq bo'lishi talab etiladi. Ya'ni, agar tayanch sinf **internal** kirish kalitiga ega bo'lsa, hosilaviy sinf (voris sinf) ham **internal** yoki **private** kirish kalitiga ega bo’lishi mumkin, lekin **public** kirish kalitiga ega bo’lishi bo’la olmaydi.
