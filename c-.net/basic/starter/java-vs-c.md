@@ -7,7 +7,7 @@ description: Suxrob Xayitmurodov
 **Siz bilishingiz kerak bo’lgan eng muhim faktlar!**   
 
 
-![techempower.com orqali solishtirilgan](../../../.gitbook/assets/image%20%2813%29.png)
+![techempower.com orqali solishtirilgan](../../../.gitbook/assets/image%20%2813%29%20%281%29.png)
 
 {% hint style="info" %}
 Techempower linki:

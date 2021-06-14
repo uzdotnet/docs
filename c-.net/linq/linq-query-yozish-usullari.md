@@ -20,13 +20,13 @@ where condition
 select obj
 ```
 
-Ikkinchisidan davom ettiramiz: **Method Syntax** bugungi kunda eng mashhur usullardan hisoblanadi \(serioz\). Chunki ko'pgina murakkab vazifalarni ushbu usul bilan osonlikcha hal qilsa bo'ladi. Bu usul sintaksisi o'qishga juda oson hisoblanadi \(ko'pchilik dasturchilar tomonidan tasdiqlangan\). Lekin murakkab **query**lar uchun ushbu usulni **Query Syntax**ga nisbatan yozish birmuncha qiyin. Bu usulda **query** bir necha metodlar \(albatta nuqta\(.\)\) bilan aralashgan holda yoziladi.  Quyida sintaksisini ko'rishingiz mumkin:
+Ikkinchisidan davom ettiramiz: **Method Syntax** bugungi kunda eng mashhur usullardan hisoblanadi \(serioz\). Chunki ko'pgina murakkab vazifalarni ushbu usul bilan osonlikcha hal qilsa bo'ladi. Bu usul sintaksisi o'qishga juda oson hisoblanadi \(ko'pchilik dasturchilar tomonidan tasdiqlangan\). Lekin murakkab **query**lar uchun ushbu usulni **Query Syntax**ga nisbatan yozish birmuncha qiyin. Bu usulda **query** bir necha metodlar \(albatta nuqta\(.\)\) bilan aralashgan holda yoziladi. Quyida sintaksisini ko'rishingiz mumkin:
 
 ```csharp
 DataSource.ConditionMethod().SelectionMethod()
 ```
 
-Uchinchisi bilan tugatamiz: **Mixed Syntax**. Bu usul  joriy usullar, **Query Syntax** va **Method Syntax**larning kombinatsiyasi desak adashmaymiz. Ushbu usul bilan **query**larni yozish bir muncha osonlashishi mumkin. Sintaksisi quyidagicha
+Uchinchisi bilan tugatamiz: **Mixed Syntax**. Bu usul joriy usullar, **Query Syntax** va **Method Syntax**larning kombinatsiyasi desak adashmaymiz. Ushbu usul bilan **query**larni yozish bir muncha osonlashishi mumkin. Sintaksisi quyidagicha
 
 ```csharp
 (from obj in dataSource
@@ -35,6 +35,7 @@ select obj).Method()
 ```
 
 Agarda 10 daqiqa vaqtingizni diqqat bilan ushbu maqolaga sarflasangiz, demak siz hech qachon **query** yozish usullarida qiyinchiliklarga duch kelmaysiz!
+
 ```csharp
 class LINQQueryExample // dot-net.uz uchun
 {
@@ -59,8 +60,8 @@ class LINQQueryExample // dot-net.uz uchun
         }
         Console.WriteLine("#____________#_____________#________________#");
 
-        
-        
+
+
         var mixedSyntax = (from obj in list
                            select obj).Max();
 
@@ -68,5 +69,5 @@ class LINQQueryExample // dot-net.uz uchun
 
     }
 }
-
 ```
+

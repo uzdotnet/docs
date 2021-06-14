@@ -1,9 +1,11 @@
 ---
 description: Jasurbek Xasanboyev
 ---
+
 # Select
-Select operatori yordamida ma'lumotlar bazasidan ma'lumotlarni tanlab olib yangi to'plam hosil qilish uchun ishlatiladi. Yaratilgan yangi to'plam bilan bajarilgan holatlar ma'lumotlar bazasiga ta'sir o'tkazmaydi.
-Tanlashni bir necha usullarini ko'rib o'tamiz:
+
+Select operatori yordamida ma'lumotlar bazasidan ma'lumotlarni tanlab olib yangi to'plam hosil qilish uchun ishlatiladi. Yaratilgan yangi to'plam bilan bajarilgan holatlar ma'lumotlar bazasiga ta'sir o'tkazmaydi. Tanlashni bir necha usullarini ko'rib o'tamiz:
+
 ```csharp
 class Program
     {
@@ -38,7 +40,7 @@ class Program
             {
                 Console.WriteLine($"Id = {item.id} Name: {item.name}");
             }
-            
+
             Console.WriteLine("#--------#---------#---------#");
 
             //-----------------------------------------//
@@ -54,7 +56,7 @@ class Program
             Console.WriteLine("#--------#---------#---------#");
 
             //-----------------------------------------//
-            
+
             var basicPropMethod = employees.Select(emp => emp.name);
             Console.WriteLine("Basic property method: ");
             foreach (var item in basicPropMethod)
