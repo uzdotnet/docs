@@ -35,4 +35,38 @@ select obj).Method()
 ```
 
 Agarda 10 daqiqa vaqtingizni diqqat bilan ushbu maqolaga sarflasangiz, demak siz hech qachon **query** yozish usullarida qiyinchiliklarga duch kelmaysiz!
+```csharp
+class LINQQueryExample // dot-net.uz uchun
+{
+    static void Main()
+    {
+        List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        var querySyntax = from obj in list
+                          where obj > 2
+                          select obj;
+        foreach (var item in querySyntax)
+        {
+            Console.WriteLine(item);
+        }
+        Console.WriteLine("#____________#_____________#________________#");
 
+
+        var methodSyntax = list.Where(obj => obj > 2);
+
+        foreach (var item in methodSyntax)
+        {
+            Console.WriteLine(item);
+        }
+        Console.WriteLine("#____________#_____________#________________#");
+
+        
+        
+        var mixedSyntax = (from obj in list
+                           select obj).Max();
+
+        Console.WriteLine("Max value: " + methodSyntax);
+
+    }
+}
+
+```
