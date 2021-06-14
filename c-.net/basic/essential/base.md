@@ -4,7 +4,7 @@ description: Xushnazarov Faxriddin
 
 # Base
 
-**base** kalit so’zini ishlatishni o’ragtish uchun biz ushbu maqolamizda Vorislik mavzusida yozgan maqolamizni davom ettiramiz.
+**base** kalit so’zini ishlatishni o’ragtish uchun biz ushbu maqolamizda [Vorislik](https://docs.dot-net.uz/c-.net/basic/essential/vorislik) mavzusida yozgan maqolamizni davom ettiramiz.
 ```csharp
 class Person
 {
