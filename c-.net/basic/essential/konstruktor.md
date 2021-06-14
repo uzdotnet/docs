@@ -76,12 +76,12 @@ static void Main(string[] args)
 {
     Person Ali = new Person();              // 1-konstruktor chaqirilyapdi
     Person Vali = new Person("Vali");          //2-konstruktor chaqirilyapdi 
-    Person G’ani = new Person("G’ani", 25);   // 3-konstruktor chaqirilyapdi 
+    Person Gani = new Person("G’ani", 25);   // 3-konstruktor chaqirilyapdi 
      
      
     Ali.GetInfo();             // Name: Nomalum  Age: 18
     Vali.GetInfo();           // Name: Vali  Age: 18
-    G’ani.GetInfo();          // Name: G’ani  Age: 25
+    Gani.GetInfo();          // Name: G’ani  Age: 25
 }
 ```
 Yana bir qoidamiz bor, agar sinfda konstruktorlar yaratilgan bulsa , ulardan birini aniq ishlatishimiz kerak ekan. Menimcha C# mehnatni qadrlaydigan til menimcha shuncha konstruktor yaratganingdan keyin hech bulmasa bittasini ishlatgin demoqchi shekilli.
