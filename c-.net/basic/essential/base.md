@@ -58,8 +58,7 @@ public Employee(string name, string company)
 ```
 Ya'ni, Employee sinfida **base** kalit so'z orqali Person sinfining konstruktori oshkor ravishda chaqirilishi kerak:
 ```csharp
-public Employee(string name, string company)
-: base(name)
+public Employee(string name, string company): base(name)
 {
 Company = company;
 }
