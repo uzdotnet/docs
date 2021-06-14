@@ -2,64 +2,58 @@
 description: Xushnazarov Faxriddin
 ---
 # Vorislik
-**base** kalit so’zini ishlatishni o’ragtish uchun biz ushbu maqolamizda Vorislik mavzusida yozgan maqolamizni davom ettiramiz.
+
+Vorislik (inheritance) Obyektga Yonaltirilgan Dasturlash(OYD)ning muhim tamoyillaridan biridir. Voris orqali bir sinf boshqa sinfning funksionalligini o’zlashtirishi mumkin, ya’ni voris sinflar umumiy xususiyatlarni vorislik bilan olgan holda, ayrim xususiyatlarni qayta aniqlash orqali yoki yangi xususiyat kiritish orqali tayanch sinfga o’gartirish mumkin. Shu sababli hosilaviy sinflarni aniqlash sezilarli ravishda kamayadi, chunki unga tayanch sinfdan farqli elementlar qo’shiladi.
+	 Aytaylik, bizda alohida shaxsni tavsiflovchi quyidagi Person sinfi mavjud:
 ```csharp
 class Person
+{
+    private string _name;
+    public string Name
     {
-        public string Name { get; set; }
-
-        public Person(string name)
-        {
-            Name = name;
-        }
-        public void Display()
-        {
-            Console.WriteLine(Name);
-        }
- }
-	class Employee : Person
-    {
-        public string Company { get; set; }
-        public Employee(string name, string company)
-            : base(name)
-        {
-            Company = company;
-        }
+        get { return _name; }
+        set { _name = value; }
     }
+    public void Display()
+    {
+        Console.WriteLine(Name);
+    }
+}
 ```
-Person sinfi Name xususiyatini o'rnatadigan konstruktorga ega. Employee sinfi Name xususiyatini voris qilib olganligi va o'rnatganligi sababli, o'rnatish kodini qayta qayta yozmasdan qandaydir tarzda Person sinfining tegishli kodini yozish mantiqan to'g'ri bo'ladi. Bundan tashqari, tayanch sinf konstruktorida o'rnatilishi kerak bo'lgan yana bir qancha xususiyatlar va parametrlar bo'lishi mumkin.
-	**base** kalit so’zi yordamida biz tayanch sinfga murojaat qilishimiz mumkin. Bizning holatimizda "Employee" sinfining konstruktorida ism va kompaniyani belgilashimiz kerak. Ammo biz o'rnatish uchun ismni tayanch sinfning konstruktoriga, ya'ni Person sinfining konstruktoriga base(name) ifodasi yordamida uzatamiz.
+Ammo korxona ishchisini tavsiflovchi sinf kerak bo’lib qoldi deylik - bu Employee sinfi. Ushbu sinf Person sinfi bilan bir xil funktsiyani amalga oshirishi sababli, xodim ham o'z navbatida shaxs bo'lganligi sababli, Employee sinfini Person sinfining vorisi (yoki sinf osti) ga aylantirish mantiqan to'g'ri bo'ladi. Bu sinf o’z navbatida ajdod (yoki superklass) tayanch sinf deb nomlanadi:
 ```csharp
+class Employee : Person
+{
+
+}
+```
+	 Ikki nuqtadan keyin ushbu sinf uchun tayanch sinfni ko'rsatiladi. Person sinfi Employee sinfi uchun tayanch sinf hisoblanadi, va shuning uchun Employee sinfi Person sinfining barcha barcha xususiyatlarni, metodlarni, maydonlarni meros qilib oladi. Meros bo’lib o'tmaydigan yagona narsa bu tayanch sinfning konstruktorlari. 
+	 Shunday qilib, Vorislik is-a munosabatini amalga oshiradi, Employee sinfining ob'ekti o’z navbatida Person sinfining ham ob'ekti hisoblanadi
+```csharp    
 static void Main(string[] args)
 {
-    Person p = new Person("Bill");
+    Person p = new Person { Name = "Tom" };
     p.Display();
-    Employee emp = new Employee("Tom", "Microsoft");
-    emp.Display();
+    p = new Employee { Name = "Sam" };
+    p.Display();
     Console.Read();
 }
 ```
-Konstruktorlar voris olayotganda voris sinfga o'tmaydi. Va agar tayanch sinfda kelishuv bo'yicha parametrsiz konstruktor aniqlanmagan, faqat parametrlarga ega bo'lgan konstruktorlar aniqlangan (Person bazaviy sinfda bo'lgani kabi) bo’lsa, u holda hosilaviy sinfda biz ushbu konstruktorlardan birini base kalit so'z yordamida chaqirishimiz kerak. Masalan, Employee sinfidan konstruktorni olib tashlimiz:
+Employee sinfining obyekti o’z navbatida Person sinfining ham obyekti bo’lganligi sababli, o'zgaruvchini quyidagicha aniqlay olamiz : 
 ```csharp
-class Employee : Person
-    {
-        public string Company { get; set; }
-    }
+Person p = new Employee();
 ```
-Bu holda xatolik yuz beradi, chunki "Employee" sinfi "Person" sinfiga to'g'ri kelmaydi, ya'ni u tayanch sinfning konstruktorini chaqirmaydi. Agar bir xil xususiyatlarni o'rnatadigan biron bir konstruktorni qo'shsak ham, xatolik yuz beradi:
-```csharp
-    public Employee(string name, string company)
-    {
-        Name = name;
-        Company = company;
-    }
-```
-Ya'ni, Employee sinfida **base** kalit so'z orqali Person sinfining konstruktori oshkor ravishda chaqirilishi kerak:
-```csharp
-public Employee(string name, string company)
-: base(name)
-{
-Company = company;
+
+	Kelishuv bo’yicha, Vorislik oshkor ravishda ko’rsatilmasa ham, barcha sinflar **Object** tayanch sinfining vorisi hisoblanadi. Shuning uchun ham, yuqorida keltirilgan Person hamda Employee sinflari o'zlarining metodlaridan tashqari, Ob'ekt sinfining quyidagi metodlariga ham ega: ToString(), Equals(), GetHashCode() va GetType().
+	Kelishuv bo'yicha barcha sinflar voris qilib olinishi mumkin. Biroq, bu yerda bir qator cheklovlar mavjud: Person va Employee
+
+	To’plamli vorislik qo'llanilmaydi, sinf faqat bitta sinfdan voris olishi mumkin.
+	Hosilaviy sinfni yaratishda tayanch sinfning kirish kaliti ham hisobga olinilishi zarur, yani hosilaviy sinfning kirish kaliti tayanch sinfniki bilan bir xil bo’lishi yoki undanda cheklovliroq bo'lishi talab etiladi. Ya'ni, agar tayanch sinf **internal** kirish kalitiga ega bo'lsa, hosilaviy sinf (voris sinf) ham **internal** yoki **private** kirish kalitiga ega bo’lishi mumkin, lekin **public** kirish kalitiga ega bo’lishi bo’la olmaydi.
+Shuni hisobga olish kerakki, agar tayanch va hosilaviy sinflar har xil loyihalarda bo'lsa, unda hosilaviy sinf faqat public modifikatorga ega bo'lgan sinfdan voris olinishi mumkin.
+	Agar sinf **sealed** modifikator bilan e'lon qilingan bo'lsa, u holda ushbu sinfdan voris olib bo’lmaydi. Masalan, quyidagi sinfdan voris olib bo'lmaydi:
+	sealed class Admin
+	{
 }
-```
+	Statik sinfdan voris olib bo’lmaydi.
+
 
