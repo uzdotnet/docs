@@ -27,7 +27,7 @@ class Employee : Person
 
 }
 ```
-	 Ikki nuqtadan keyin ushbu sinf uchun tayanch sinfni ko'rsatiladi. Person sinfi Employee sinfi uchun tayanch sinf hisoblanadi, va shuning uchun Employee sinfi Person sinfining barcha barcha xususiyatlarni, metodlarni, maydonlarni meros qilib oladi. Meros bo’lib o'tmaydigan yagona narsa bu tayanch sinfning konstruktorlari. 
+Ikki nuqtadan keyin ushbu sinf uchun tayanch sinfni ko'rsatiladi. Person sinfi Employee sinfi uchun tayanch sinf hisoblanadi, va shuning uchun Employee sinfi Person sinfining barcha barcha xususiyatlarni, metodlarni, maydonlarni meros qilib oladi. Meros bo’lib o'tmaydigan yagona narsa bu tayanch sinfning konstruktorlari. 
 	 Shunday qilib, Vorislik is-a munosabatini amalga oshiradi, Employee sinfining ob'ekti o’z navbatida Person sinfining ham ob'ekti hisoblanadi
 ```csharp    
 static void Main(string[] args)
