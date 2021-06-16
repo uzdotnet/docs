@@ -22,7 +22,7 @@ int value = myText.Length;
 //output: value = 5;
 ```
 
-## String sinfining metodlari:
+# String sinfining metodlari:
 
 **CompareTo** – berilgan satrni boshqa bir satr bilan solishtiradi va bizga **bool**  ya’ni **True/False**  qiymatda javob qaytaradi
 
@@ -130,7 +130,7 @@ string result = $"{a} + {b} = {a + b}";
 // str = "5 + 7 = 12"
 ```
 
-## WARNING!
+# WARNING!
 C# dasturlash tilida "+" (qo’shish) operatori orqali ham qo’shish ham birlashtirish mumkin.
 
 {% hint style="info" %}
