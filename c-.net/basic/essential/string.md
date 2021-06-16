@@ -4,7 +4,7 @@ description: Farrukh Kholmatov
 
 # **String**
 
-C# dasturlash tilida satr bilan ishlash uchun **String** ishlatiladi. **String** o’zgaruvchisi ikkita tirnoq (“ “) bilan o’ralgan belgilar to’plamini o’z ichiga oladi
+C# dasturlash tilida satr bilan ishlash uchun **String** ishlatiladi. **String** o’zgaruvchisi ikkita tirnoq (" ") bilan o’ralgan belgilar to’plamini o’z ichiga oladi
 
 ```csharp
 
@@ -62,7 +62,7 @@ myString[2] = “are”
 myString[3] = “you?”
 ```
 {% hint style="info" %}
-### NOTE! *Split kalit so’zi ishlashi uchun matnda “probel”(“ “) bo’lishi kerak*
+NOTE! *Split kalit so’zi ishlashi uchun matnda “probel”(“ “) bo’lishi kerak*
 {% endhint %}
 
 **StartsWith** – berilgan satrni boshidan boshlab ko’rsatilgan satr bilan tekshiradi
