@@ -62,7 +62,7 @@ myString[2] = “are”
 myString[3] = “you?”
 ```
 {% hint style="info" %}
-NOTE! *Split kalit so’zi ishlashi uchun matnda “probel”(“ “) bo’lishi kerak*
+**NOTE!**  *Split kalit so’zi ishlashi uchun matnda “probel”(“ “) bo’lishi kerak*
 {% endhint %}
 
 **StartsWith** – berilgan satrni boshidan boshlab ko’rsatilgan satr bilan tekshiradi
