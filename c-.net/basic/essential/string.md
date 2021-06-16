@@ -62,7 +62,7 @@ myString[2] = “are”
 myString[3] = “you?”
 ```
 {% hint style="info" %}
-**NOTE!**  *Split kalit so’zi ishlashi uchun matnda “probel”(“ “) bo’lishi kerak*
+**NOTE!**  *Split kalit so’zi ishlashi uchun matnda "probel"(" ") bo’lishi kerak*
 {% endhint %}
 
 **StartsWith** – berilgan satrni boshidan boshlab ko’rsatilgan satr bilan tekshiradi
@@ -117,7 +117,7 @@ string name = string.Concat(Firstname, Lastname);
 //output: Farrukh Kholmatov
 ```
 
-**String.Format  &&  “$”** - satr va obyektlar ustida bir vaqtning o’zida ishlash imkonini beradi
+**String.Format  &&  "$"** - satr va obyektlar ustida bir vaqtning o’zida ishlash imkonini beradi
 
 ```csharp
 string name = "Petr";
@@ -131,10 +131,10 @@ string result = $"{a} + {b} = {a + b}";
 ```
 
 ## WARNING!
-C# dasturlash tilida “+” (qo’shish) operatori orqali ham qo’shish ham birlashtirish mumkin.
+C# dasturlash tilida "+" (qo’shish) operatori orqali ham qo’shish ham birlashtirish mumkin.
 
 {% hint style="info" %}
-Esda tuting! *Sonlar qo’shiladi, satrlar birlashadi*
+**Esda tuting!**  *Sonlar qo’shiladi, satrlar birlashadi*
 {% endhint %}
 
 ```csharp
