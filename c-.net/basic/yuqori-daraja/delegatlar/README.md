@@ -1,2 +1,6 @@
+---
+description: Nodirbek Abdulaxadov
+---
+
 # Delegatlar
 
