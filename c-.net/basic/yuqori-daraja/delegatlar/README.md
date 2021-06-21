@@ -12,14 +12,14 @@ Javob: **Delegat**
 **Delegat** - bu metod imzosini belgilaydigan ma'lumot turi. Siz boshqa ma'lumotlar turi kabi delegatning o'zgaruvchilarini yaratishingiz mumkin va ular yordamida delegat bilan bir xil parametrga ega har qanday metodga murojaat qilishlari mumkin.
 
 Delegatlar bilan ishlashda uchta bosqich mavjud:
-* Delegatni e'lon qiling
-* Kerakli metodni o'rnating
-* Delegatni chaqiring
+1. Delegatni e'lon qiling
+2. Kerakli metodni o'rnating
+3. Delegatni chaqiring
 
 Delegat quyida ko'rsatilgandek , **_delegate_** kalit so'zdan keyin funksiya imzosi yordamida e'lon qilinishi mumkin:
 
 ```csharp
-[access modifier] delegate [return type] [delegate name]([parameters])
+[ruxsat modifikatori] delegate [qaytariluvchi tip] [delegat nomi]([parameterlar])
 ```
 
 Quyida **MyDelegate** deb nomlangan delegat e'lon qiladi:
