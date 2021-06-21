@@ -5,7 +5,7 @@ description: Nodirbek Abdulaxadov
 # Delegatlar
 
 _Agar funksiyani parametr sifatida uzatishni xohlasak nima bo'ladi?
-Qanday qilib C# callback funksiyalari yoki event larni boshqaradi?_
+Qanday qilib C# callback funksiyalari yoki eventlarni boshqaradi?_
 
 Javob: **Delegat**
 
@@ -13,11 +13,11 @@ Javob: **Delegat**
 
 Delegatlar bilan ishlashda uchta bosqich mavjud:
 
-1. Delegatni e'lon qiling
+1. Delegatni e'lon qilish
 
-2. Kerakli metodni o'rnating
+2. Kerakli metodni o'rnatish
 
-3. Delegatni chaqiring
+3. Delegatni chaqirish
 
 Delegat quyida ko'rsatilgandek , **_delegate_** kalit so'zdan keyin funksiya imzosi yordamida e'lon qilinishi mumkin:
 
@@ -30,7 +30,7 @@ Quyida **MyDelegate** deb nomlangan delegat e'lon qilingan:
 ```csharp
 public delegate void MyDelegate(string msg);
 ```
-Yuqorida biz void tipidagi va string parametrli MyDelegate delegatini e'lon qildik. Delegat sinfdan tashqarida yoki sinf ichida e'lon qilinishi mumkin. Quyidagi misolda, bu sinfdan tashqarida e'lon qilamiz.
+Yuqorida biz void tipidagi va string parametrli MyDelegate delegatini e'lon qildik. Delegat sinfdan tashqarida yoki sinf ichida e'lon qilinishi mumkin. Quyidagi misolda sinfdan tashqarida e'lon qilamiz.
 
 ```csharp
 using System;
@@ -49,7 +49,7 @@ namespace Delegate
             // delegat obyektiga metod tayinlash
             MyDelegate del2 = MethodA;
         
-            //lyambda ifodadan foydalanish
+            //lambda ifodadan foydalanish
             MyDelegate del3 = (string msg) => Console.WriteLine(msg);
             
             Console.ReadKey();
@@ -165,9 +165,9 @@ namespace Delegate
 }
 ```
 
-**_Multicast delegati_**
+**_Ko'p tarmoqli(Multicast) delegat_**
 
-Delegat bir nechta metodlarni ko'rsatishi mumkin. Bir nechta metodni ko'rsatadigan delegat ko'p tarmoqli delegat deb ataladi. "+" Yoki "+ =" operatori chaqiruvlar ro'yxatiga funksiyani qo'shadi va "-" va "-=" operatorlari uni o'chirib tashlaydi.
+Delegat bir nechta metodlarni ko'rsatishi mumkin. Bir nechta metodni ko'rsatadigan delegat **_ko'p tarmoqli_(Multicast) delegat** deb ataladi. "+" yoki "+ =" operatori chaqiruvlar ro'yxatiga funksiyani qo'shadi va "-" yoki "-=" operatorlari uni o'chirib tashlaydi.
 
 ```csharp
 using System;
@@ -218,8 +218,6 @@ namespace Delegate
 **Natija:**
 
 ![](../../../../.gitbook/assets/delegat3.png)
-
-Qo'shish va olib tashlash operatorlari har doim topshiriqning bir qismi sifatida ishlaydi: del1 += del2; ayirboshlashga aynan teng del1 = del1+del2; va shunga o'xshashdir.
 
 Agar delegat qiymatni qaytaradigan bo'lsa, unda ko'p sonli delegat chaqirilganda oxirgi tayinlangan maqsad metodining qiymati qaytariladi.
 
