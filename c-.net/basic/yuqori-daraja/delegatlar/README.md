@@ -121,6 +121,7 @@ Quyidagi rasm delegatni tasvirlaydi:
 ![](../../../../.gitbook/assets/delegat2.png)
 
 **_Delegatni Parametr sifatida uzatish_**
+
 Metod quyida ko'rsatilgandek, Delegat turi parametriga ega bo'lishi mumkin:
 
 ```csharp
@@ -165,6 +166,7 @@ namespace Delegate
 ```
 
 **_Multicast delegati_**
+
 Delegat bir nechta metodlarni ko'rsatishi mumkin. Bir nechta metodni ko'rsatadigan delegat ko'p tarmoqli delegat deb ataladi. "+" Yoki "+ =" operatori chaqiruvlar ro'yxatiga funksiyani qo'shadi va "-" va "-=" operatorlari uni o'chirib tashlaydi.
 
 ```csharp
@@ -215,7 +217,7 @@ namespace Delegate
 
 **Natija:**
 
-![](../../../../.gitbook/assets/delegat3.jpg)
+![](../../../../.gitbook/assets/delegat3.png)
 
 Qo'shish va olib tashlash operatorlari har doim topshiriqning bir qismi sifatida ishlaydi: del1 += del2; ayirboshlashga aynan teng del1 = del1+del2; va shunga o'xshashdir.
 
@@ -258,6 +260,7 @@ namespace Delegate
 ```
 
 **_Umumiy delegat_**
+
 Umumiy delegatni delegat bilan bir xil tarzda aniqlash mumkin, lekin umumiy turdagi parametrlardan yoki qaytish turidan foydalangan holda. Maqsadli metodni o'rnatganingizda umumiy tur ko'rsatilishi kerak.
 
 Masalan, int va string parametrlari uchun ishlatiladigan quyidagi umumiy delegatni ko'rib chiqamiz:
@@ -293,4 +296,4 @@ namespace Delegate
 
 **Natija:**
 
-![](../../../../.gitbook/assets/delegat4.jpg)
+![](../../../../.gitbook/assets/delegat4.png)
