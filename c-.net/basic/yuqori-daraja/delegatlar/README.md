@@ -5,11 +5,11 @@ description: Nodirbek Abdulaxadov
 # Delegatlar
 
 _Agar funksiyani parametr sifatida uzatishni xohlasak nima bo'ladi?
-Qanday qilib C# callback funktiyalari yoki event larni boshqaradi?_
+Qanday qilib C# callback funksiyalari yoki event larni boshqaradi?_
 
 Javob: **Delegat**
 
-**Delegat** - bu metod imzosini belgilaydigan ma'lumot turi. Siz boshqa ma'lumotlar turi kabi delegatning o'zgaruvchilarini yaratishingiz mumkin va ular yordamida delegat bilan bir xil parametrga ega har qanday metodga murojaat qilishlari mumkin.
+**Delegat** - bu metod imzosini belgilaydigan ma'lumot turi. Siz boshqa ma'lumotlar turi kabi delegatning o'zgaruvchilarini yaratishingiz mumkin va ular yordamida delegat bilan bir xil parametrga ega har qanday metodga murojaat qilishingiz mumkin.
 
 Delegatlar bilan ishlashda uchta bosqich mavjud:
 
