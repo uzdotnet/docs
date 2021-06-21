@@ -30,3 +30,4 @@ Quyida **MyDelegate** deb nomlangan delegat e'lon qilingan:
 ```csharp
 public delegate void MyDelegate(string msg);
 ```
+**Information not finished yet**
