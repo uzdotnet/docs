@@ -22,7 +22,7 @@ Delegat quyida ko'rsatilgandek , **_delegate_** kalit so'zdan keyin funksiya imz
 [access modifier] delegate [return type] [delegate name]([parameters])
 ```
 
-Quyida MyDelegate nomlangan delegat e'lon qiladi:
+Quyida **MyDelegate** deb nomlangan delegat e'lon qiladi:
 
 ```csharp
 public delegate void MyDelegate(string msg);
