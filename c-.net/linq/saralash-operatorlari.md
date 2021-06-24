@@ -1,5 +1,5 @@
 ---
-description: Xasanboyev Jasurbek
+description: Jasurbek Xasanboyev
 ---
 # Saralash operatorlari
 
