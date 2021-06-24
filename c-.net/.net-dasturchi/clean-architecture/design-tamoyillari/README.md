@@ -1,2 +1,2 @@
-# Design Tamoyillari
+# Dizayn Tamoyillari
 

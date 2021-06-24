@@ -1,2 +1,2 @@
-# Design Patterns
+# Dizayn Patternlar
 

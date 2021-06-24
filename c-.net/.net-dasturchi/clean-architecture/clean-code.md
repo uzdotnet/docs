@@ -1,2 +1,2 @@
-# Clean Code
+# Clean Kod
 
