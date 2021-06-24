@@ -4,8 +4,7 @@ description: Nodirbek Abdulaxadov
 
 # Delegatlar
 
-_Agar funksiyani parametr sifatida uzatishni xohlasak nima bo'ladi?
-Qanday qilib C# callback funksiyalari yoki eventlarni boshqaradi?_
+_Agar funksiyani parametr sifatida uzatishni xohlasak nima bo'ladi? Qanday qilib C\# callback funksiyalari yoki eventlarni boshqaradi?_
 
 Javob: **Delegat**
 
@@ -14,12 +13,10 @@ Javob: **Delegat**
 Delegatlar bilan ishlashda uchta bosqich mavjud:
 
 1. Delegatni e'lon qilish
-
 2. Kerakli metodni o'rnatish
-
 3. Delegatni chaqirish
 
-Delegat quyida ko'rsatilgandek , **_delegate_** kalit so'zdan keyin funksiya imzosi yordamida e'lon qilinishi mumkin:
+Delegat quyida ko'rsatilgandek , _**delegate**_ kalit so'zdan keyin funksiya imzosi yordamida e'lon qilinishi mumkin:
 
 ```csharp
 [ruxsat modifikatori] delegate [qaytariluvchi tip] [delegat nomi]([parameterlar])
@@ -30,6 +27,7 @@ Quyida **MyDelegate** deb nomlangan delegat e'lon qilingan:
 ```csharp
 public delegate void MyDelegate(string msg);
 ```
+
 Yuqorida biz void tipidagi va string parametrli MyDelegate delegatini e'lon qildik. Delegat sinfdan tashqarida yoki sinf ichida e'lon qilinishi mumkin. Quyidagi misolda sinfdan tashqarida e'lon qilamiz.
 
 ```csharp
@@ -40,7 +38,7 @@ namespace Delegate
     {
         // delegat e'lon qilish
         public delegate void MyDelegate(string msg); 
-        
+
         public static void Main(string[] args)
         {
             // delegat obyektiga metod tayinlash
@@ -48,13 +46,13 @@ namespace Delegate
 
             // delegat obyektiga metod tayinlash
             MyDelegate del2 = MethodA;
-        
+
             //lambda ifodadan foydalanish
             MyDelegate del3 = (string msg) => Console.WriteLine(msg);
-            
+
             Console.ReadKey();
         }
-        
+
         //metodni e'lon qilish
         static void MethodA(string message)
         {
@@ -64,7 +62,7 @@ namespace Delegate
 }
 ```
 
-Kerakli metodni o'rnatgandan so'ng, Invoke() metodi yordamida yoki () operator yordamida delegat chaqirilishi mumkin.
+Kerakli metodni o'rnatgandan so'ng, Invoke\(\) metodi yordamida yoki \(\) operator yordamida delegat chaqirilishi mumkin.
 
 ```csharp
 del.Invoke("Hello World!");
@@ -112,6 +110,7 @@ namespace Delegate
     }
 }
 ```
+
 **Natija:**
 
 ![](../../../../.gitbook/assets/delegat1.jpg)
@@ -120,7 +119,7 @@ Quyidagi rasm delegatni tasvirlaydi:
 
 ![](../../../../.gitbook/assets/delegat2.png)
 
-**_Delegatni Parametr sifatida uzatish_**
+_**Delegatni Parametr sifatida uzatish**_
 
 Metod quyida ko'rsatilgandek, Delegat turi parametriga ega bo'lishi mumkin:
 
@@ -165,9 +164,9 @@ namespace Delegate
 }
 ```
 
-**_Ko'p tarmoqli(Multicast) delegat_**
+_**Ko'p tarmoqli\(Multicast\) delegat**_
 
-Delegat bir nechta metodlarni ko'rsatishi mumkin. Bir nechta metodni ko'rsatadigan delegat **_ko'p tarmoqli_(Multicast) delegat** deb ataladi. "+" yoki "+ =" operatori chaqiruvlar ro'yxatiga funksiyani qo'shadi va "-" yoki "-=" operatorlari uni o'chirib tashlaydi.
+Delegat bir nechta metodlarni ko'rsatishi mumkin. Bir nechta metodni ko'rsatadigan delegat _**ko'p tarmoqli**_**\(Multicast\) delegat** deb ataladi. "+" yoki "+ =" operatori chaqiruvlar ro'yxatiga funksiyani qo'shadi va "-" yoki "-=" operatorlari uni o'chirib tashlaydi.
 
 ```csharp
 using System;
@@ -257,11 +256,12 @@ namespace Delegate
 }
 ```
 
-**_Umumiy delegat_**
+_**Umumiy delegat**_
 
 Umumiy delegatni delegat bilan bir xil tarzda aniqlash mumkin, lekin umumiy turdagi parametrlardan yoki qaytish turidan foydalangan holda. Maqsadli metodni o'rnatganingizda umumiy tur ko'rsatilishi kerak.
 
 Masalan, int va string parametrlari uchun ishlatiladigan quyidagi umumiy delegatni ko'rib chiqamiz:
+
 ```csharp
 using System;
 namespace Delegate
@@ -295,3 +295,4 @@ namespace Delegate
 **Natija:**
 
 ![](../../../../.gitbook/assets/delegat4.png)
+
