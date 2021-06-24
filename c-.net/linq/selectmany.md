@@ -4,7 +4,7 @@ description: Xasanboyev Jasurbek
 # SelectMany
 To’plam elementlarini **IEnumerable<T> ** ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi.
 Method ko’rinishi:
-```
+```csharp
  static void Main(string[] args)
         {
             List<string> strList = new List<string>() { "Jasurbek", "Xasanboyev" };
@@ -17,7 +17,7 @@ Method ko’rinishi:
  }
 ```
 Query ko’rinishi o`zi aslida vajud emas lekin quydagi ko’rinishda ifodalash mumkin:
-```
+```csharp
  static void Main(string[] args)
         {
             List<string> strList = new List<string>() { "Jasurbek", "Xasanboyev" };
@@ -32,7 +32,7 @@ Query ko’rinishi o`zi aslida vajud emas lekin quydagi ko’rinishda ifodalash 
  }
 ```
 Asosan quydagi holatlar uchun ko’proq ishlatiladi:
-```
+```csharp
 class Program
     {
         static void Main(string[] args)
