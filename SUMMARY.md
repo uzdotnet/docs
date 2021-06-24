@@ -94,7 +94,6 @@
     * [Where](c-.net/linq/where.md)
     * [OfType](c-.net/linq/oftype.md)
     * [Saralash operatorlari](c-.net/linq/saralash-operatorlari.md)
-    * [Where](c-.net/linq/where-1.md)
     * [OrderBy va OrderByDescending](c-.net/linq/orderby-va-orderbydescending.md)
     * [ThenBy va ThenByDescending](c-.net/linq/thenby-va-thenbydescending.md)
     * [Reverse](c-.net/linq/reverse.md)
