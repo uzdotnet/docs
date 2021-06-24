@@ -1,9 +1,11 @@
 ---
 description: Xasanboyev Jasurbek
 ---
+
 # OfType
-**OfType** kalit so’zi IEnumerable tipidagi ma’lumotlarni berilgan toifa bo’yicha filtirlaydi. 
-Method syntax:
+
+**OfType** kalit so’zi IEnumerable tipidagi ma’lumotlarni berilgan toifa bo’yicha filtirlaydi. Method syntax:
+
 ```csharp
 class Program
 {
@@ -19,7 +21,9 @@ class Program
     }
 }
 ```
+
 Query syntax:
+
 ```csharp
 class Program
 {
@@ -37,6 +41,4 @@ class Program
     }
 }
 ```
-
-
 

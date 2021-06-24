@@ -19,12 +19,12 @@ Veb saytlar
 
 ## Nimada boshlashim mumkin?
 
-Birinchi qiladigan vazifamiz kod yozish uchun muhit yuklab olish va uni o’rnatish hisoblanadi. Chunki muhitsiz siz hech narsa qila olmaysiz. Bizga kerak bo’lgan muhit esa Visual Studio 2019 nomli editor.   
+Birinchi qiladigan vazifamiz kod yozish uchun muhit yuklab olish va uni o’rnatish hisoblanadi. Chunki muhitsiz siz hech narsa qila olmaysiz. Bizga kerak bo’lgan muhit esa Visual Studio 2019 nomli editor.  
 Uni bu yerdan topasiz:  
-    Windows: [https://visualstudio.microsoft.com/vs/preview/](https://visualstudio.microsoft.com/vs/preview/)  
-    Mac:[https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes)
+Windows: [https://visualstudio.microsoft.com/vs/preview/](https://visualstudio.microsoft.com/vs/preview/)  
+Mac:[https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes)
 
-![](../../../.gitbook/assets/image%20%2829%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2829%29%20%281%29%20%281%29.png)
 
 Qizil chiziq ichidagi knopkani bosasiz. So’ngra fayllar orasidan installation \(o’rnatuvchi dasturini\) topib **Run as administrator** ni bosib, ishga tushirasiz.
 

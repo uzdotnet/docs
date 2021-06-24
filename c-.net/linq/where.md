@@ -1,9 +1,11 @@
 ---
 description: Xasanboyev Jasurbek
 ---
+
 # Where
-**Where** filtrlash kalit so’zi if shart operatori kabi ishlaydi. U bilan filtirlash jarayonida shart beriladi va bizga shartga to’g’ri keladigan varinatlarni [qaytaradi ]( https://docs.dot-net.uz/c-.net/linq/filterlash-operatorlari). Ushbu filtrlash uslubi shart operatori kabi ishlagani uchun unda [mantiqiy operatorlar]( https://docs.dot-net.uz/c-.net/basic/starter/operatorlar) dan ham foydalanishimiz mumkin.
-Method syntax:
+
+**Where** filtrlash kalit so’zi if shart operatori kabi ishlaydi. U bilan filtirlash jarayonida shart beriladi va bizga shartga to’g’ri keladigan varinatlarni [qaytaradi ](https://docs.dot-net.uz/c-.net/linq/filterlash-operatorlari). Ushbu filtrlash uslubi shart operatori kabi ishlagani uchun unda [mantiqiy operatorlar](https://docs.dot-net.uz/c-.net/basic/starter/operatorlar) dan ham foydalanishimiz mumkin. Method syntax:
+
 ```csharp
 class Program
 {
@@ -18,8 +20,10 @@ class Program
         // Output: 5, 6
     }
 }
- ```
+```
+
 Query syntax
+
 ```csharp
 class Program
 {
