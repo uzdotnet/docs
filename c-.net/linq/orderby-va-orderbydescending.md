@@ -1,5 +1,5 @@
 ---
-description: Xasanboyev Jasurbek
+description: Jasurbek Xasanboyev
 ---
 # OrderBy va OrderByDescending
 {% hint style="info" %}
