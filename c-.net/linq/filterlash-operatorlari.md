@@ -4,7 +4,7 @@ description: Xasanboyev Jasurbek
 # Filterlash operatorlari
 
 Filtrlash operatorlari ma’lumotlar ichidan o’zimiz uchun moslarini ajratib olish imkonini yaratadi. Misol uchun: bizda imtihon natijalari berilgan ro’yhat bor ushbu ro’yhatdan imtihondan o’tganlarni ajratib olishimiz kerak ya’ni 60% dan yuqarori natija ko’rsatganlarni o’tkazishimiz kerak shunday holatlarda filtirlash bizga qo’l keladi.
-Ma’lumotlarni filtrlash uchun **where** va **OfType** kalit so’zlari ishlatilinadi.
+Ma’lumotlarni filtrlash uchun **Where** va **OfType** kalit so’zlari ishlatilinadi.
 ```csharp
     class Program
     {
