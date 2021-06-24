@@ -1,9 +1,11 @@
 ---
 description: Xasanboyev Jasurbek
 ---
+
 # SelectMany
-To’plam elementlarini **IEnumerable<T> ** ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi.
-Method ko’rinishi:
+
+To’plam elementlarini **IEnumerable**  ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi. Method ko’rinishi:
+
 ```csharp
  static void Main(string[] args)
         {
@@ -16,7 +18,9 @@ Method ko’rinishi:
             //Output: J a s u r b e k X a s a n b o y e v 
  }
 ```
-Query ko’rinishi o`zi aslida vajud emas lekin quydagi ko’rinishda ifodalash mumkin:
+
+Query ko’rinishi o\`zi aslida vajud emas lekin quydagi ko’rinishda ifodalash mumkin:
+
 ```csharp
  static void Main(string[] args)
         {
@@ -31,7 +35,9 @@ Query ko’rinishi o`zi aslida vajud emas lekin quydagi ko’rinishda ifodalash 
             //Output: J a s u r b e k X a s a n b o y e v 
  }
 ```
+
 Asosan quydagi holatlar uchun ko’proq ishlatiladi:
+
 ```csharp
 class Program
     {
@@ -59,6 +65,6 @@ class Program
         public List<String> Programming { get; set; }
     }
 ```
-SelectMany bizga asosan ichma – ich ro’yhatlar bilan ishlashda qo’l keladi. Query syntaxdan ko’ra method syntaxdan foydalanishni tavsiya beraman chunki query uchun SelectMany yo’q ichma ich tanlab kirishga to’g’ri keladi.
 
+SelectMany bizga asosan ichma – ich ro’yhatlar bilan ishlashda qo’l keladi. Query syntaxdan ko’ra method syntaxdan foydalanishni tavsiya beraman chunki query uchun SelectMany yo’q ichma ich tanlab kirishga to’g’ri keladi.
 
