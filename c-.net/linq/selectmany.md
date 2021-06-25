@@ -1,10 +1,10 @@
 ---
-description: Jasurbek Xasanboyev 
+description: Jasurbek Xasanboyev
 ---
 
 # SelectMany
 
-To’plam elementlarini **IEnumerable**  ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi. Method ko’rinishi:
+To’plam elementlarini **IEnumerable** ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi. Method ko’rinishi:
 
 ```csharp
  static void Main(string[] args)
