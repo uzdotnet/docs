@@ -108,7 +108,7 @@ Func<int> getRandomNumber = delegate()
                             };
 ```
 
-_**Func** delegatining anonim metod bilan qo'llanishi:_
+_**Func** delegatining lyambida ifoda bilan qo'llanishi:_
 
 ```csharp
     Func<int> getRandomNumber = () => new Random().Next(1, 100);
