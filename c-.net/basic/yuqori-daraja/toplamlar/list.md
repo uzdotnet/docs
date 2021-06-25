@@ -245,4 +245,5 @@ description: Tolibjonov Abdulloh
         Console.WriteLine(value); 
 ```
    Kichikdan kattaga qarab tartiblanadi
+   
    ![](../../../../.gitbook/assets/list9.png)
