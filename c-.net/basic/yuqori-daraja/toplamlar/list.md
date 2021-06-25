@@ -67,7 +67,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
         foreach(int value in my_list)
             Console.WriteLine(value);
 ```
-     ![](../../../../.gitbook/assets/list2.png)
+    ![](../../../../.gitbook/assets/list2.png)
     
     Listda **foreach** ni quyidagi usulda ham ishlatish mumkin
 ```csharp
@@ -102,7 +102,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
             }
        }
 ```                                  
-    ![](../../../../.gitbook/assets/list3.png)
+   ![](../../../../.gitbook/assets/list3.png)
     
  ### Listni yaratishga yaratib oldik. Endi elementlarni qanday o`chiramiz?
     Remove(), RemoveAll(), RemoveAt(), RemoveRange(), Clear() funksiyalari yordamida misollar yozamiz
@@ -124,7 +124,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
             Console.WriteLine(value);
         }
 ```
-    ![](../../../../.gitbook/assets/list4.png)
+   ![](../../../../.gitbook/assets/list4.png)
     
     **RemoveAll(x=> x==T)** – Listdagi barcha T ga teng bo`lgan elementlari o`chiradi
 ```csharp
@@ -143,7 +143,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
             Console.WriteLine(value);
         }
 ```
-    ![](../../../../.gitbook/assets/list5.png)
+   ![](../../../../.gitbook/assets/list5.png)
     
     **RemoveAt(index)** - index ni joyiga, Listdagi qaysi elementni o`chirmoqchi bo`lsak, o`sha elementni indeksini yozamiz
 ```csharp
@@ -162,7 +162,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
         foreach (var value in my_list)
             Console.WriteLine(value); 
 ```
-    ![](../../../../.gitbook/assets/list6.png)
+   ![](../../../../.gitbook/assets/list6.png)
     Bu yerda so`rashingiz mumkin (-5) ni o`cherish uchun nega indeksini 3 yozdik, axir indeksi 4 ku? Ha to`g`ri (-5) qiymatli elementni indeksi 4 edi. Ammo 0-indeksdagi (101)ni o`chirganimizdan so`ng elementlari qaytda indekslanadi shunda:
 ```csharp
         my_list.Add(33);    //0
@@ -190,7 +190,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
 ```
     Bu yerda 0-indeksdan 3-indeksgacha o`chiriladi (101,33,8). Ammo 3-indeksdagi o`chmaydi(616). Natijada: 616 va -5 qoladi.
     
-    ![](../../../../.gitbook/assets/list7.png)
+   ![](../../../../.gitbook/assets/list7.png)
     
     **Clear()**- bu funksiya Listdagi barcha qiymatlarni o`chirib tashlaydi
 ```csharp
@@ -209,7 +209,7 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
         Console.WriteLine(value); 
 ```
     Hamma element o`chib ketgandan keyin, hech narsa qolmaydi
-    ![](../../../../.gitbook/assets/list8.png)
+   ![](../../../../.gitbook/assets/list8.png)
     
     ### Listni qanday tartiblash mumkin?
     
@@ -230,4 +230,4 @@ List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **
         Console.WriteLine(value); 
 ```
     Kichikdan kattaga qarab tartiblanadi
-    ![](../../../../.gitbook/assets/list9.png)
+   ![](../../../../.gitbook/assets/list9.png)
