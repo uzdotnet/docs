@@ -1,10 +1,11 @@
 ---
 description: Jasurbek Xasanboyev
 ---
+
 # ThenBy va ThenByDescending
 
-**ThenBy** ikkinchi tartibli saralash bo’lib avval saralangan ro’yhatni ikkinchi navbatda qaysi hususiyat bo’yicha sarlash kerak ekanligini bildiradi. Masalan avval familiya bo’yicha saralangan bo’lsa familiyasi bir xil insonlarni ismi bo’yicha saralash kerak bo’ladi shunday vaziyatlarda **ThenBy** dan foydalaniladi. 
-Method syntax:
+**ThenBy** ikkinchi tartibli saralash bo’lib avval saralangan ro’yhatni ikkinchi navbatda qaysi hususiyat bo’yicha sarlash kerak ekanligini bildiradi. Masalan avval familiya bo’yicha saralangan bo’lsa familiyasi bir xil insonlarni ismi bo’yicha saralash kerak bo’ladi shunday vaziyatlarda **ThenBy** dan foydalaniladi. Method syntax:
+
 ```csharp
 class Program
 {
@@ -36,7 +37,9 @@ class Employee
     public string Lastname { get; set; }
 }
 ```
+
 Query syntax:
+
 ```csharp
 class Program
 {
@@ -71,4 +74,6 @@ class Employee
     public string Lastname { get; set; }
 }
 ```
+
 ThenByDescending ham huddi shu tartibda ishlatiladi lekin u ma’lumotlarni kamayish tartibida saralaydi.
+

@@ -4,12 +4,9 @@ description: Shohruh Nosirov
 
 # Skip
 
-Skip() methodi [Take()](https://docs.dot-net.uz/c-.net/linq/bolim-operatorlari/take) methodini teskarisi hisoblanadi. Demak Take() qanchadir elementni bizga olib berardi Skip()  esa shuncha elementni tashlab qolganlarini bizga qaytarib beradi. Endi sodda qilib tushuntiraman Diqqat qiling!!!<br/>
-Take() bizga bir nechta elementni olib berarmidi. Endi bizga o’sha olgan elementlaridan keyin to’plamda qolgan elementlarni Skip() olib beradi.<br/>
-Buni misolda kursayiz yanada yaxshiroq tushuncha olasiz.
-
-
-
+Skip\(\) methodi [Take\(\)](https://docs.dot-net.uz/c-.net/linq/bolim-operatorlari/take) methodini teskarisi hisoblanadi. Demak Take\(\) qanchadir elementni bizga olib berardi Skip\(\) esa shuncha elementni tashlab qolganlarini bizga qaytarib beradi. Endi sodda qilib tushuntiraman Diqqat qiling!!!  
+ Take\(\) bizga bir nechta elementni olib berarmidi. Endi bizga o’sha olgan elementlaridan keyin to’plamda qolgan elementlarni Skip\(\) olib beradi.  
+ Buni misolda kursayiz yanada yaxshiroq tushuncha olasiz.
 
 ```csharp
 class Program
@@ -32,7 +29,7 @@ class Program
             foreach (var i in yangisonlar)
             {
                 Console.Write(i + " ");
-                    
+
            }
 
 
@@ -42,9 +39,8 @@ class Program
     }
 }
 ```
-Bu dasturni albatta ishlatib kuring!!!<br/>
-Endi sizda shunday muammolar yuzaga keladigan bulsa bemalol hijolat bulmasdan Skip() ga murojat qilishingiz mumkin.<br/>
-Shu bilan Skip() methodi mavzuyimiz ham o’z nihoyasiga yetdi.
 
-
+Bu dasturni albatta ishlatib kuring!!!  
+ Endi sizda shunday muammolar yuzaga keladigan bulsa bemalol hijolat bulmasdan Skip\(\) ga murojat qilishingiz mumkin.  
+ Shu bilan Skip\(\) methodi mavzuyimiz ham o’z nihoyasiga yetdi.
 

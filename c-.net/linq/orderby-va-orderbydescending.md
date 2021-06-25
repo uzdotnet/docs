@@ -4,8 +4,8 @@ description: Jasurbek Xasanboyev
 
 # OrderBy va OrderByDescending
 
-**OderBy**  buyrug’I ma’lumotlarni o’sish tartibida saralab beradi:
-Method syntax:
+**OderBy** buyrug’I ma’lumotlarni o’sish tartibida saralab beradi: Method syntax:
+
 ```csharp
 class Program
 {
@@ -32,7 +32,9 @@ class Student
     public int Result { get; set; }
 }
 ```
+
 Query syntax:
+
 ```csharp
 class Program
 {
@@ -62,8 +64,9 @@ class Student
     public int Result { get; set; }
 }
 ```
-** OrderByDescending** ma’lumotlarni kamayish tartibida saralab beradi:
-Method syntax:
+
+ **OrderByDescending** ma’lumotlarni kamayish tartibida saralab beradi: Method syntax:
+
 ```csharp
 class Program
 {
@@ -89,7 +92,9 @@ class Student
     public string Name { get; set; }
     public int Result { get; s
 ```
+
 Query syntax:
+
 ```csharp
 class Program
 {
@@ -119,3 +124,4 @@ class Student
     public int Result { get; set; }
 }
 ```
+
