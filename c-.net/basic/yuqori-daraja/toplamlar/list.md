@@ -4,7 +4,7 @@ description: Tolibjonov Abdulloh
 
 # LIST
 
-List - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to;plamga **List** deb nom berilishiga sabab, ro'yxatlar bilan qulay ishlash mumkin (tarjimasidan bilib olsa bo'ladi). Ro'yxatda nima qilishimiz mumkin, elementlarni ixtiyoriy joyga qo'shish yoki ixtiyoriy joyidan o'chirib tashlash va tartiblash (sort) funksiyasi borligi bilan boshqa to'plamlardan ajralib turadi. 
+**List** - elementlarni va obyektlarni saqlashga moslashgan to'plam. Bu to'plamga **List** deb nom berilishiga sabab, ro'yxatlar bilan qulay ishlash mumkin (tarjimasidan bilib olsa bo'ladi). Ro'yxatda nima qilishimiz mumkin, elementlarni ixtiyoriy joyga qo'shish yoki ixtiyoriy joyidan o'chirib tashlash va tartiblash (sort) funksiyasi borligi bilan boshqa to'plamlardan ajralib turadi. 
 
 {% hint style="info" %}
 **MUHIM QOIDALAR!**
