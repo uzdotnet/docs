@@ -14,7 +14,7 @@ Bitta kirish va chiqish parametriga ega Func delegatining umumiy ko'rinishi:
 
 Ikkita kirish va chiqish parametriga ega Func delegatining umumiy ko'rinishi:
 
-![](../../../../.gitbook/assets/func2.png)
+![](../../../../.gitbook/assets/func12.png)
 
 
 
