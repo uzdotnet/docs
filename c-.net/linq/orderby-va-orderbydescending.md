@@ -4,7 +4,9 @@ description: Jasurbek Xasanboyev
 
 # OrderBy va OrderByDescending
 
-**OderBy** buyrug’I ma’lumotlarni o’sish tartibida saralab beradi: Method syntax:
+**OderBy** buyrug’I ma’lumotlarni o’sish tartibida saralab beradi: 
+
+Method syntax:
 
 ```csharp
 class Program
@@ -65,7 +67,9 @@ class Student
 }
 ```
 
- **OrderByDescending** ma’lumotlarni kamayish tartibida saralab beradi: Method syntax:
+ **OrderByDescending** ma’lumotlarni kamayish tartibida saralab beradi:
+ 
+ Method syntax:
 
 ```csharp
 class Program
