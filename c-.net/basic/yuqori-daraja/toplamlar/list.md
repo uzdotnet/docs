@@ -57,7 +57,7 @@ description: Tolibjonov Abdulloh
         my_list.Add(4);
      my_list.Add(5);
 ```
-   ![](../../../../.gitbook/assets/list1.png)
+       ![](../../../../.gitbook/assets/list1.jpg)
     
   Elementlar shu tarzda birin ketin joylashib boradi
    
