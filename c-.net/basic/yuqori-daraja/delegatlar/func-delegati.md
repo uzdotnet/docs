@@ -94,7 +94,9 @@ Natija:
 
 ![](../../../../.gitbook/assets/func3.png)
 
+Yuqoridagi misollardan tashqari Func delegati quyidagi ko'rinishlarda bo'lishi mumkin:
 
+![](../../../../.gitbook/assets/func4.png)
 
 
 **..information not finished yet 🙃..**
