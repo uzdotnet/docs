@@ -18,28 +18,38 @@ description: Tolibjonov Abdulloh
 **1-Bosqich.** Kod yuqorisida using System.Collections.Generic; ni kiritib o'tamiz
 
 ```csharp
+
     using System.Collections.Generic;
+    
 ```
 
-**2-Bosqich.** List<T> shabloni yordamida Listni yaratamiz.
+**2-Bosqich.** List<T> shabloni yordamida Listni yaratamiz
   
 ```csharp
-  /* List<tipi> List_nomi = new List<tipi>(); 
+    
+   /* List<tipi> List_nomi = new List<tipi>(); 
 
-           tipi=int, float, string, char.......... */
+           tipi = int, float, string, char........ */
 
-        List<int> my_list = new List<int>();
+           List<int> my_list = new List<int>();
+    
 ```
   
 **3-Bosqich.** Element qo`shamiz
+    
   Element qo`shishning ikki yo'li mavjud:
+    
    1) Xuddi massivdek, Listni yaratgan zahotingiz elementlarini kiritib qo'yishingiz mumkin
+    
  ```csharp
     List<int> my_list = new List<int>() { 1, 2, 3, 4, 5 };
  ```
+    
    2) Add() va AddRange() funksiyasi yordamida ham element qo`shish mumkin
+    
     **Add()**
-```csharp    
+    
+```csharp        
     List<int> my_list = new List<int>();
         my_list.Add(1);
         my_list.Add(2);
@@ -81,7 +91,7 @@ description: Tolibjonov Abdulloh
         }
 ```  
    
-    Listga misollar:
+    ### Listga misollar:
                                      
 ```csharp
        using System;
@@ -163,6 +173,7 @@ description: Tolibjonov Abdulloh
             Console.WriteLine(value); 
 ```
    ![](../../../../.gitbook/assets/list6.png)
+    
     Bu yerda so'rashingiz mumkin (-5) ni o'cherish uchun nega indeksini 3 yozdik, axir indeksi 4 ku? Ha to'g'ri (-5) qiymatli elementni indeksi 4 edi. Ammo 0-indeksdagi (101)ni o'chirganimizdan so'ng elementlari qaytda indekslanadi shunda:
 ```csharp
         my_list.Add(33);    //0
@@ -193,6 +204,7 @@ description: Tolibjonov Abdulloh
    ![](../../../../.gitbook/assets/list7.png)
     
     **Clear()**- bu funksiya Listdagi barcha qiymatlarni o'chirib tashlaydi
+    
 ```csharp
    List<int> my_list = new List<int>();
 
@@ -209,6 +221,7 @@ description: Tolibjonov Abdulloh
         Console.WriteLine(value); 
 ```
     Hamma element o'chib ketgandan keyin, hech narsa qolmaydi
+    
    ![](../../../../.gitbook/assets/list8.png)
     
     ### Listni qanday tartiblash mumkin?
