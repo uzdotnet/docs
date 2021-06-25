@@ -4,7 +4,7 @@ description: Shohruh Nosirov
 
 # All
 
-SBizga to’plam berilgan payti biz unga biror bir shartlarni bergan vaqtimiz uning ichidagi barcha elementlar shu shartga mos kelish kelmasligini tekshirib beruvchi All() methodimiz mavjud.U  bizga mantiqiy qiymat qaytaradi yani true yoki false .<br/>
+Bizga to’plam berilgan payti biz unga biror bir shartlarni bergan vaqtimiz uning ichidagi barcha elementlar shu shartga mos kelish kelmasligini tekshirib beruvchi All() methodimiz mavjud.U  bizga mantiqiy qiymat qaytaradi yani true yoki false .<br/>
 Agar barcha elementlar shu shart mos kelsa true aks holda false qiymat qaytib keladi.<br/>
 Bizga butun sonlardan iborat tuplam berilgan. Ularning barchasi juft ekanligini  tekshirishimiz kerak.
 
