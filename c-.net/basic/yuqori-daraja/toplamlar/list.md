@@ -32,8 +32,8 @@ description: Tolibjonov Abdulloh
 ```
   
 **3-Bosqich.** Element qo`shamiz
-  Element qo`shishning ikki yo`li mavjud:
-   1) Xuddi massivdek, Listni yaratgan zahotingiz elementlarini kiritib qo`yishingiz mumkin
+  Element qo`shishning ikki yo'li mavjud:
+   1) Xuddi massivdek, Listni yaratgan zahotingiz elementlarini kiritib qo'yishingiz mumkin
  ```csharp
     List<int> my_list = new List<int>() { 1, 2, 3, 4, 5 };
  ```
@@ -163,16 +163,16 @@ description: Tolibjonov Abdulloh
             Console.WriteLine(value); 
 ```
    ![](../../../../.gitbook/assets/list6.png)
-    Bu yerda so`rashingiz mumkin (-5) ni o`cherish uchun nega indeksini 3 yozdik, axir indeksi 4 ku? Ha to`g`ri (-5) qiymatli elementni indeksi 4 edi. Ammo 0-indeksdagi (101)ni o`chirganimizdan so`ng elementlari qaytda indekslanadi shunda:
+    Bu yerda so'rashingiz mumkin (-5) ni o'cherish uchun nega indeksini 3 yozdik, axir indeksi 4 ku? Ha to'g'ri (-5) qiymatli elementni indeksi 4 edi. Ammo 0-indeksdagi (101)ni o'chirganimizdan so'ng elementlari qaytda indekslanadi shunda:
 ```csharp
         my_list.Add(33);    //0
         my_list.Add(8);     //1
         my_list.Add(616);   //2
         my_list.Add(-5);    //3 
 ```
-    (-5) ning indeksi 3 bo`lib qoladi. Endi esa (-5)ni o`cherish uchun indeksiga 3 yozishimiz kerak bo`ladi.
+    (-5) ning indeksi 3 bo'lib qoladi. Endi esa (-5)ni o'cherish uchun indeksiga 3 yozishimiz kerak bo'ladi.
     
-    **RemoveRange(index,index)** – bu funksiya qaysi elementdan qaysi elementga o`chirish kerakligini anglatadi
+    **RemoveRange(index,index)** – bu funksiya qaysi elementdan qaysi elementga o'chirish kerakligini anglatadi
 ```csharp
    List<int> my_list = new List<int>();
 
@@ -188,11 +188,11 @@ description: Tolibjonov Abdulloh
         foreach (var value in my_list)
           Console.WriteLine(value); 
 ```
-    Bu yerda 0-indeksdan 3-indeksgacha o`chiriladi (101,33,8). Ammo 3-indeksdagi o`chmaydi(616). Natijada: 616 va -5 qoladi.
+    Bu yerda 0-indeksdan 3-indeksgacha o'chiriladi (101,33,8). Ammo 3-indeksdagi o'chmaydi(616). Natijada: 616 va -5 qoladi.
     
    ![](../../../../.gitbook/assets/list7.png)
     
-    **Clear()**- bu funksiya Listdagi barcha qiymatlarni o`chirib tashlaydi
+    **Clear()**- bu funksiya Listdagi barcha qiymatlarni o'chirib tashlaydi
 ```csharp
    List<int> my_list = new List<int>();
 
@@ -208,7 +208,7 @@ description: Tolibjonov Abdulloh
         foreach (var value in my_list)
         Console.WriteLine(value); 
 ```
-    Hamma element o`chib ketgandan keyin, hech narsa qolmaydi
+    Hamma element o'chib ketgandan keyin, hech narsa qolmaydi
    ![](../../../../.gitbook/assets/list8.png)
     
     ### Listni qanday tartiblash mumkin?
