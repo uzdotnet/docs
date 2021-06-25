@@ -81,7 +81,7 @@ namespace Delegates
             Console.ReadLine();
         }
 
-        //sonni toqlikka tekshiruvchi metod
+        //Ikkita sonni yig'indisini qaytaruvchi metod
         static int Summ(int a, int b)
         {
             return a + b;
