@@ -57,7 +57,7 @@ description: Tolibjonov Abdulloh
         my_list.Add(4);
      my_list.Add(5);
 ```
-       ![](../../../../.gitbook/assets/list1.jpg)
+  ![](../../../../.gitbook/assets/list1.jpg)
     
   Elementlar shu tarzda birin ketin joylashib boradi
    
@@ -77,7 +77,7 @@ description: Tolibjonov Abdulloh
         foreach(int value in my_list)
             Console.WriteLine(value);
 ```
-    ![](../../../../.gitbook/assets/list2.png)
+ ![](../../../../.gitbook/assets/list2.png)
     
     Listda **foreach** ni quyidagi usulda ham ishlatish mumkin
 ```csharp
