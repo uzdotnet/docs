@@ -4,7 +4,7 @@ description: Jasurbek Xasanboyev
 
 # Reverse
 
-**Reverse** methodi ma’lumotlar tartibini teskarisiga o’zgartirish uchun ishlatiladi. 
+**Reverse** methodi ma’lumotlar tartibini teskarisiga o’zgartirish uchun ishlatiladi.
 
 Method syntax:
 

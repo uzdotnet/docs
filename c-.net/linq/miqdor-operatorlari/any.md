@@ -4,8 +4,8 @@ description: Shohruh Nosirov
 
 # Any
 
-Bizga to’plam berilgan payti biz unda bazi shartlarga javob beradigan bironta element bor yoki yuqligini bilishni hoxlasak bizga Any() methodi yordamga keladi.  U  bizga mantiqiy qiymat qaytaradi yani true yoki false.<br/>
-Bizga butun sonlardan iborat tuplam berilgan. Ularning orasida birorta juft element bor yoki yuqligini tekshirishimiz kerak.
+Bizga to’plam berilgan payti biz unda bazi shartlarga javob beradigan bironta element bor yoki yuqligini bilishni hoxlasak bizga Any\(\) methodi yordamga keladi. U bizga mantiqiy qiymat qaytaradi yani true yoki false.  
+ Bizga butun sonlardan iborat tuplam berilgan. Ularning orasida birorta juft element bor yoki yuqligini tekshirishimiz kerak.
 
 ```csharp
 class Program
@@ -46,5 +46,4 @@ class Program
 ```
 
 Yuqoridagi kodni o’zingiz ham ishlatib kurgan bulsangiz “Bor” degan yozuv chiqqaniga guvoh bulasiz demak kodimiz to’g’ri ishlagan ekan.
-
 

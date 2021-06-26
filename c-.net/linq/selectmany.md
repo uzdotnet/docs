@@ -4,7 +4,7 @@ description: Jasurbek Xasanboyev
 
 # SelectMany
 
-To’plam elementlarini **IEnumerable** ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi. 
+To’plam elementlarini **IEnumerable** ga o’zlashtiradi va hosil bo’lgan ketma – ketlikni bitta kesamdek tasvirlaydi.
 
 Method ko’rinishi:
 

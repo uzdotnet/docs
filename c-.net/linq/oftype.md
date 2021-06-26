@@ -4,7 +4,7 @@ description: Jasurbek Xasanboyev
 
 # OfType
 
-**OfType** kalit so’zi IEnumerable tipidagi ma’lumotlarni berilgan toifa bo’yicha filtirlaydi. 
+**OfType** kalit so’zi IEnumerable tipidagi ma’lumotlarni berilgan toifa bo’yicha filtirlaydi.
 
 Method syntax:
 

@@ -4,10 +4,9 @@ description: Shohruh Nosirov
 
 # All
 
-Bizga to’plam berilgan payti biz unga biror bir shartlarni bergan vaqtimiz uning ichidagi barcha elementlar shu shartga mos kelish kelmasligini tekshirib beruvchi All() methodimiz mavjud.U  bizga mantiqiy qiymat qaytaradi yani true yoki false .<br/>
-Agar barcha elementlar shu shart mos kelsa true aks holda false qiymat qaytib keladi.<br/>
-Bizga butun sonlardan iborat tuplam berilgan. Ularning barchasi juft ekanligini  tekshirishimiz kerak.
-
+Bizga to’plam berilgan payti biz unga biror bir shartlarni bergan vaqtimiz uning ichidagi barcha elementlar shu shartga mos kelish kelmasligini tekshirib beruvchi All\(\) methodimiz mavjud.U bizga mantiqiy qiymat qaytaradi yani true yoki false .  
+ Agar barcha elementlar shu shart mos kelsa true aks holda false qiymat qaytib keladi.  
+ Bizga butun sonlardan iborat tuplam berilgan. Ularning barchasi juft ekanligini tekshirishimiz kerak.
 
 ```csharp
 class Program
@@ -40,15 +39,13 @@ class Program
 
 
             Console.ReadKey();
-           
+
 
 
 
     }
 }
-
 ```
+
 Yuqoridagi kodni o’zingiz ham ishlatib kurgan bulsangiz “Barchasi juft emas” degan yozuv chiqqaniga guvoh bulasiz demak kodimiz to’g’ri ishlagan ekan. Chunki barcha elementlar juft emas. Toqlari ham mavjud.
-
-
 

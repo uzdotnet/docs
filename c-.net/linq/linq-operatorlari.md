@@ -4,7 +4,7 @@ description: Jasurbek Xasanboyev
 
 # LINQ operatorlari
 
-Operatorlar LINQ yozish jarayonida ishlatiladigan metodlardir.  Bu metodlar ko\`plab imkoniyatlarni o\`z ichiga oladi. 
+Operatorlar LINQ yozish jarayonida ishlatiladigan metodlardir. Bu metodlar ko\`plab imkoniyatlarni o\`z ichiga oladi.
 
 Misol uchun:
 
