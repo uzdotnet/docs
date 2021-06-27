@@ -105,7 +105,7 @@ Natija:
 
 ![](../../../../.gitbook/assets/image%20%2874%29.png)
 
-Nusxalashni bir foyda taraflaridan biri, agar obyektlarda qaysidur maydonlar bir xil bo'lsa, unga o'zgartirish kiritish shart emas. 
+Nusxalashni foyda taraflaridan biri, agar obyektlarda qaysidur maydonlar bir xil bo'lsa, unga o'zgartirish kiritish shart emas. 
 
 ### Builder patternidan qachon foydalanamiz?
 
