@@ -14,7 +14,7 @@ Bu patternni turli xil usullardan foydalanib implement qilish mumkin. Men osonro
 
 ### Prototype dizayn patterni diagramma ko'rinishdagi implementatsiyasi
 
-![](../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../.gitbook/assets/image%20%2875%29.png)
 
 1. **Prototype** - nusxalashni amalga oshiruvchi interfeys
 2. **ConcretePrototype** - obyektni nusxalash uchun, Prototype interfeysni implement qilgan sinf
@@ -76,24 +76,34 @@ namespace PrototypeDesignPattern
                 Name = "Khondamir",
                 Degree = "Junior"
             };
-
+        
             Developer developerNusxasi = (Developer)developer.NusxaOlish();
-
+        
             developerNusxasi.Name = "Olimjon";
-
+        
             Console.WriteLine(developer.MalumotlarniOlish());
-
+        
             Console.WriteLine("---------Olingan Nusxa-----------");
-
+        
             Console.WriteLine(developerNusxasi.MalumotlarniOlish());
-
-            Console.ReadKey();
+        
+            Developer yanabirDeveloperNusxasi = (Developer)developer.NusxaOlish();
+        
+            yanabirDeveloperNusxasi.Name = "Malik";
+        
+            yanabirDeveloperNusxasi.Degree = "Senior";
+        
+            Console.WriteLine("---------Olingan Nusxa-----------");
+        
+            Console.WriteLine(yanabirDeveloperNusxasi.MalumotlarniOlish());
         }
     }
 }
 ```
 
-![](../../../../.gitbook/assets/image%20%2873%29.png)
+Natija:
+
+![](../../../../.gitbook/assets/image%20%2874%29.png)
 
 Nusxalashni bir foyda taraflaridan biri, agar obyektlarda qaysidur maydonlar bir xil bo'lsa, unga o'zgartirish kiritish shart emas. 
 
