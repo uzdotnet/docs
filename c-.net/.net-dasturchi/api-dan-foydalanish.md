@@ -92,9 +92,3 @@ Endi berilgan satr ichidan o'zingiz kerakli bo'lgan ma'lumotni olishingiz va ula
 
 Qisqacha API nimaligi va undan qanday foydalanish mumkinligi to'g'risida tanishib o'tdik.
 
-
-
-
-
-
-
