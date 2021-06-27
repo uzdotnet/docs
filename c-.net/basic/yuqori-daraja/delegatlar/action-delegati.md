@@ -36,6 +36,7 @@ namespace Delegates
 ```
 
 Natija:
+
 ![](../../../../.gitbook/assets/action1.png)
 
 Endi xuddi shu metodni **Action** delegati yordamida ishlatib ko'ramiz:
@@ -65,6 +66,7 @@ namespace Delegates
 ```
 
 Natija:
+
 ![](../../../../.gitbook/assets/action2.png)
 
 Shu joyiga kelganda kallamni ichida qisqa tutashuv bo'lib simi tegib ketdi shekilli bir qiziq savol keb qoldi:
@@ -96,6 +98,7 @@ namespace Delegates
 ```
 
 Natija:
+
 ![](../../../../.gitbook/assets/action3.png)
 
 **Action** delegatini new kalit so'zi yordamida ham e'lon qilish mumkin:
