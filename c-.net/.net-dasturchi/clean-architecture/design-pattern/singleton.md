@@ -23,7 +23,7 @@ Asosiy 6 ta implement qilish usuli mavjud:
 5. To'liq lazy instatsiyasi orqali
 6. Hech qanday bloklash va lazy instantatsiyasiz Thread-Safe Singleton implementatsiyasi 
 
-Maqolamizda No Thread-Safe Singleton implementatsiyasi qanday amalga oshirilishi to'g'risida suxbatlashamiz.
+Maqolamizda No Thread-Safe Singleton implementatsiyasi qanday amalga oshirilishini ko'rib o'tamiz.
 
 ### No Thread - Safe implementatsiyasi
 
@@ -70,7 +70,7 @@ Natija:
 ![](../../../../.gitbook/assets/image%20%2878%29.png)
 
 {% hint style="info" %}
-Ushbu implementatsiya usuli multithreading bilan ishlashda xatoliklarga olib kelishi mumkin. Ushbu holatda boshqa yechimlar yaxshiroq yechim bo'ladi oladi.
+Ushbu implementatsiya usuli multithreading bilan ishlashda xatoliklarga olib kelishi mumkin. Ushbu holatda boshqa holatlar yaxshiroq yechim bo'ladi oladi.
 {% endhint %}
 
 Ko'rib tuganingizdek ushbu Singleton paterndan foydalanishni tushunish unchalik qiyin emas. Umid qilamanki, siz allaqachon anglab yetdingiz. Qolgan holatlarni esa, o'zingizga havola etamiz.
