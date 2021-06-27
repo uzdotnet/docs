@@ -111,7 +111,7 @@ Action<int> print = new Action<int>(Console.WriteLine);
 **Action** delegati 16 tagacha har xil turdagi kirish parametrlarini qabul qilishi mumkin.
 {% endhint %}
 
-**Action** delagatining anonim metod bilan qo'llaishi:
+**Action** delagatining anonim metod bilan qo'llanishi:
 
 ```csharp
 static void Main(string[] args)
