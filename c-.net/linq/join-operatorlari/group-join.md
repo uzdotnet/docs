@@ -27,7 +27,8 @@ class Program
         new Address() {Id = 3, AddressLine = "Line 3"},
         new Address() {Id = 4, AddressLine = "Line 4"},
     };
-        var MethodSyntax = addresses.GroupJoin(students, address => address.Id, student => student.AddressId, (address, student) => new { address, student}).ToList();
+        var MethodSyntax = addresses.GroupJoin(students, address => address.Id, 
+        student => student.AddressId, (address, student) => new { address, student}).ToList();
         foreach (var item in MethodSyntax)
         {
             Console.WriteLine($"Line: {item.address.AddressLine}");
