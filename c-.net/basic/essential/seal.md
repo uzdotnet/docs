@@ -1,2 +1,2 @@
-# Seal
+# Sealed
 
