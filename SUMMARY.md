@@ -230,7 +230,7 @@
       * [Nima uchun Web API zarur?](c-.net/web-development/asp.net-core-web-api/nima-uchun-web-api-zarur.md)
       * [Web API uchun Qaysi til afzalroq?](c-.net/web-development/asp.net-core-web-api/web-api-uchun-qaysi-til-afzalroq.md)
       * [Rest va Restful API nima?](c-.net/web-development/asp.net-core-web-api/rest-va-restful-api-nima.md)
-      * [Untitled](c-.net/web-development/asp.net-core-web-api/untitled-1.md)
+      * [HTTP nima?](c-.net/web-development/asp.net-core-web-api/untitled-1.md)
       * [Untitled](c-.net/web-development/asp.net-core-web-api/untitled.md)
     * [ASP.NET Core MVC](c-.net/web-development/asp.net-core-mvc.md)
     * [MicroServices](c-.net/web-development/microservices.md)
