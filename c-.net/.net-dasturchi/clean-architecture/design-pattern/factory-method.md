@@ -108,7 +108,7 @@ namespace Factory
 
 Natija:
 
-![](../../../../.gitbook/assets/image%20%287%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%287%29%20%281%29%20%281%29.png)
 
 ### FMni qachon foydalanamiz?
 
