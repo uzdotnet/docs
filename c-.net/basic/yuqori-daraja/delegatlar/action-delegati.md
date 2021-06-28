@@ -4,8 +4,7 @@ description: Nodirbek Abdulaxadov
 
 # Action delegati
 
-**Action** delegati bu - [**Func**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati) kabi System nomlar fazosi tarkibiga kiruvchi umumiy delegatdir.
-**Action** delegati tuzilish jihatidan **Func** delegatiga o'xshash, lekin **Action** delegatida hech qanday parametr qaytarilmaydi. Shuning uchun **Action** delegati void tipli metodlar bilan ishlatiladi.
+**Action** delegati bu - [**Func**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati) kabi System nomlar fazosi tarkibiga kiruvchi umumiy delegatdir. **Action** delegati tuzilish jihatidan **Func** delegatiga o'xshash, lekin **Action** delegatida hech qanday parametr qaytarilmaydi. Shuning uchun **Action** delegati void tipli metodlar bilan ishlatiladi.
 
 Masalan, quyidagi delegat int qiymatini ekranga chiqaradi:
 
@@ -131,16 +130,18 @@ static void Main(string[] args)
 static void Main(string[] args)
 {
     Action<int> printActionDel = i => Console.WriteLine(i);
-       
+
     printActionDel(10);
 }
 ```
 
 {% hint style="success" %}
 **Action va Func delegatlarining afzalliklari**
+
 * Delegatlarni aniqlash oson va tez.
 * Kodni qisqa qiladi.
 * Ilova davomida mos keladigan tip.
 {% endhint %}
 
 _**Shunday qilib, Action delegati tiplari bilan qiymat qaytarmaydigan har qanday metoddan foydalanishingiz mumkin.**_
+
