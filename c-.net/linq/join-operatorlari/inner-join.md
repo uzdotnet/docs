@@ -159,11 +159,11 @@ class Program
         {
             Console.WriteLine($"Name: {item.StudentName} \tLine: {item.Line} \tMark={item.TotalMarks}");
         }
-    /*OUTPUT: Name: Jasurbek  Line: Line 1
-                Name: Xondamir Line: Line 1
-                Name: Shoxruh Line: Line 3
-                Name: Shaxzod Line: Line 4
-                Name: Abdulloh Line: Line 2  */
+    /*OUTPUT: Name: Jasurbek  Line: Line 1    Mark=80
+              Name: Xondamir  Line: Line 1    Mark=85
+              Name: Shoxruh   Line: Line 3    Mark=75
+              Name: Shaxzod   Line: Line 4    Mark=90
+              Name: Abdulloh  Line: Line 2    Mark=85  */
     }
 }
 class Student
