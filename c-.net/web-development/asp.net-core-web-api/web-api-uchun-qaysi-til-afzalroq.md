@@ -2,5 +2,5 @@
 description: Muhammadkarim To'xtaboyev
 ---
 
-# Web API ga kirish
+# Web API uchun Qaysi til afzalroq?
 
