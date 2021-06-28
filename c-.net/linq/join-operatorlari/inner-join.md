@@ -113,5 +113,75 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
-
+{% hint style="info" %} Bilib qo'ygan yaxshi! **INNER JOIN** orqali huddi shunday ketma-ketlikda 2dan ortiq to'plamlarni birlashtirish ham mumkin {% endhint %}
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        var students = new List<Student>()
+        {
+            new Student() { Id = 1, Name = "Jasurbek", AddressId = 1},
+            new Student() { Id = 2, Name = "Xondamir", AddressId = 1},
+            new Student() { Id = 3, Name = "Shoxruh", AddressId = 3},
+            new Student() { Id = 4, Name = "Shaxzod", AddressId = 4},
+            new Student() { Id = 5, Name = "Abdulloh", AddressId = 2}
+        };
+        var addresses = new List<Address>()
+        {
+            new Address() {Id = 1, AddressLine = "Line 1"},
+            new Address() {Id = 2, AddressLine = "Line 2"},
+            new Address() {Id = 3, AddressLine = "Line 3"},
+            new Address() {Id = 4, AddressLine = "Line 4"},
+            new Address() {Id = 5, AddressLine = "Line 5"}
+        };
+        var marks = new List<Mark>()
+        {
+            new Mark() {Id = 1, StudentId = 1, TMarks = 80},
+            new Mark() {Id = 2, StudentId = 2, TMarks = 85},
+            new Mark() {Id = 3, StudentId = 3, TMarks = 75},
+            new Mark() {Id = 4, StudentId = 4, TMarks = 90},
+            new Mark() {Id = 5, StudentId = 5, TMarks = 85}
+        };
+        var QuerySyntax = from student in students
+                            join address in addresses
+                            on student.AddressId equals
+                            address.Id
+                            join mark in marks
+                on student.Id equals mark.StudentId
+                            select new
+                            {
+                                StudentName = student.Name,
+                                Line = address.AddressLine,
+                                TotalMarks = mark.TMarks
+                            };
+        foreach (var item in QuerySyntax)
+        {
+            Console.WriteLine($"Name: {item.StudentName} \tLine: {item.Line} \tMark={item.TotalMarks}");
+        }
+    /*OUTPUT: Name: Jasurbek  Line: Line 1
+                Name: Xondamir Line: Line 1
+                Name: Shoxruh Line: Line 3
+                Name: Shaxzod Line: Line 4
+                Name: Abdulloh Line: Line 2  */
+    }
+}
+class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int AddressId { get; set; }
+}
+class Address
+{
+    public int Id { get; set; }
+    public string AddressLine { get; set; }
+}
+class Mark
+{
+    public int Id { get; set; }
+    public int StudentId { get; set; }
+    public int TMarks { get; set; }
+}
+```
 
