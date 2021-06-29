@@ -4,7 +4,8 @@ description: Jasurbek Xasanboyev
 
 # IEnumerable va IQuerable
 
-LINQ so\`rovlarda qaytish tipi aniq bo\`lgan holatlarda ularni to\`plam holatida qabul qilib olish uchun IEnumerable interfeysidan foydalaniladi.   Ushbu interfeys System.Collection namespace da joylashgan. IEnumerable C\# dasturlash tilidagi barcha to\`plamlar bilan ishlay oladi. To\`plam elementlariga itteratorlik murojaat mavjud bo\`lgani uchun bemalol foreach takrorlanish operatori yordamida  elementlarni olishimiz mumkin bo\`ladi. IEnumerable umumiy tiplar uchun IEnumerable&lt;T&gt;  ko\`rinishi ham mavjud. Ikkisi ham ma’lumotlardan foydalanish uchun ishlatiladi.
+
+LINQ so\`rovlarda qaytish tipi aniq bo\`lmagan holatlarda ularni to\`plam holatida qabul qilib olish uchun IEnumerable interfeysidan foydalaniladi.   Ushbu interfeys System.Collection namespace da joylashgan. IEnumerable C\# dasturlash tilidagi barcha to\`plamlar bilan ishlay oladi. Ushbu toifadagi to\`plam elementlariga itteratorlik murojaat mavjud bo\`lgani uchun bemalol foreach takrorlanish operatori yordamida  elementlarni olishimiz mumkin bo\`ladi. IEnumerable umumiy tiplar uchun IEnumerable&lt;T&gt;  ko\`rinishda ham murojaat qilish mumkin.
 
 ```csharp
 static void Main(string[] args)
