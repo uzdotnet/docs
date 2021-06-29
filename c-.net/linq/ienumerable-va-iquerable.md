@@ -31,7 +31,7 @@ class Employee
 
 ```
 
-IQuerable ham  interfeys bo\`lib u System.Linq  namespace da joylashgan. IQuerable interfeysi IEnumerable interfeysidan olingan vorisdir. IQuerable Provayderlik hususiyatiga ega bo\`lib u IQueryProvider interfeysidir. U LinqProviders dan foydalanadi. IQuerable boshqa provayderlar bilan ishlash jarayonida eng yaxshi tanlovdir\( LINQ to Entites ga o\`xshash\).
+IQuerable ham  interfeys bo\`lib u System.Linq  namespace da joylashgan. IQuerable interfeysi IEnumerable interfeysidan olingan vorisdir. IQuerable Provayderlik hususiyatiga ham ega. Ushbu hususiyat IQueryProvider deb nomlanadi.IQueryProvider LinqProviders dan foydalanadi. IQuerable boshqa provayderlar bilan ishlash jarayonida eng yaxshi ko\`makchi bo\`la oladi(chunki tezlik jihatdan IEnumerable ko\`ra tezroq ishlaydi). 
 
 ```csharp
 static void Main(string[] args)
