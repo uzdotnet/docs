@@ -1,3 +1,6 @@
+---
+description: Jasurbek Xasanboyev
+---
 # First va FirstOrDefault
 **ElementAt** metodiga parameter sifatida biror index ni kiritsak o\`sha index dagi elementni qaytaradi. Oddiy massivda index bo\`yicha murojaat bor lekin list va shunga o\`shash ba’zi to\`plamalar mavjud emas shunday holatda bizga ushbu metod qo\`l keladi.
 Agar biz bergan index mavjud bo’lmasa dastur hatolikka uchraydi. Shunday holatlarni oldini olish maqsadida **ElementAtOrDefault** metodi yordam beradi. Avvalgi darsdagi **DefaultEmpty** kabi bu metod ham index mavjud bo\`lmagan holatda **null** qiymat qaytaradi dastur esa hatoliksiz ishlayverdi.
