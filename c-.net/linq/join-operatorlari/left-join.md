@@ -2,7 +2,7 @@
 description: Jasurbek Xasanboyev
 ---
 # Left Join
-Avvalgi **JOIN** tularidan farqli tomoni **LEFT JOIN** da maydon bo’sh bo’lishi ham mumkin. Ikki ro’yhatni birlashtirish vaqtida agar to’g’ri keladigan maydon topilmasa uni bo’sh holatda (null) tashlab ketadi. Buning uchun **DefaultEmpty** method didan foydalanamiz:
+Avvalgi **JOIN** tularidan farqli tomoni **LEFT JOIN** da maydon bo’sh bo’lishi ham mumkin. Ikki ro’yhatni birlashtirish vaqtida agar to’g’ri keladigan maydon topilmasa uni bo’sh holatda (null) tashlab ketadi. Buning uchun **DefaultEmpty** metodidan foydalanamiz:
 
 Query Syntax:
 ```csharp
