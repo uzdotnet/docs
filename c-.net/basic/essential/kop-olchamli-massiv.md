@@ -60,7 +60,7 @@ for (int i = 0; i < 4; i++)
     Console.WriteLine();
 }
 ```
-Bu yerda Random sinfidan foydalanildi, bu haqda ko’proq malumot olish uchun quyidagi linkdan foydalanishingiz mumkin: link
+Bu yerda **Random** sinfidan foydalanildi.
 Shuningdek massivning har bir elementini alohidadan aniqlashimiz mumkin:
 ```csharp
 int[,] nums2 = new int[2, 3];
