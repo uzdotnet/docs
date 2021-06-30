@@ -112,12 +112,19 @@ using System;
 ```
 Natija:
 5       3       5       4
+
 4       3       5       4
+
 3       3       3       3
+
 Sinfning umumiy bahosi: 45
+
 Sinfning o'rtacha bahosi: 3,75
 
 Massivlarning asosiy hususiyatlari:
+
 O’lchovi(rank): massivning o’lchovini bildiradi
+
 Massiv uzunligi(array lenght): massivning barcha elementlari soni
+
 o'lchov uzunligi(dimension length): bir alohida o’lchovining uzunligi
