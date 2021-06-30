@@ -30,7 +30,9 @@ int[,,,] arr4d; // to’rt o’lchamli massiv
 int[,,,,] arr5d; // besh o’lchamli massiv
 ```
 C# 32 o’lchovgacha bo’lgan massivlarni qo’llab quvvatlaydi. 
-32 o’lchovgacha Karl, 32!
+
+**32 o’lchovgacha Karl, 32!**
+
 Odatda 1,2 yoki 3 o’lchamli massivlar ko’p ishlatiladi. 2 o’lchamli massivlar shuningdek matritsa deb ham ataladi.
 Ko’p o’lchamli massivlarni ham bir o’lchamli massivlar kabi turli hil yo’l bilan e’lon qilishimiz mumkin:
 ```csharp
