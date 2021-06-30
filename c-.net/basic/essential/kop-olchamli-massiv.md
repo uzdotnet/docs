@@ -11,13 +11,17 @@ Bir o’lchovli massivlarni bitta gorizontal qator kabi tasavvur qilishimiz mumk
 int[] nums1 = new int[] { 0, 1, 2, 3, 4};
 ```
 Vizual ko’rinishda bu massiv:
+
 ![image](https://user-images.githubusercontent.com/81855769/123962446-e98ec080-d9ca-11eb-9420-48b1fba3373f.png)
+
 Endi esa 2 o’lchamli massivga misol ko’ramiz:
 ```csharp
 int[,] nums2 = { { 0, 1, 2 }, { 3, 4, 5 } };
 ```
 Vizual ko’rinishda bu massiv:
+
 ![image](https://user-images.githubusercontent.com/81855769/123962584-0d520680-d9cb-11eb-9c42-00e565b36a2b.png)
+
 Ko’p o’lchamli massivlarni e’lon qilish uchun kvadrat qavs ichiga vergul qo’yiladi, yani [,] ikki o’lchamli massiv, [,,] uch o’lchamli massiv va hokazo.
 ```csharp
 int[,] arr2d; // ikki o’lchamli massiv
