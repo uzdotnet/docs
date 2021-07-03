@@ -47,7 +47,7 @@ Yuqorida **Employee** nomi bilan sinf va unda bir nechta maydon, hamda metodlar 
 
 * **Employee** - konstruktor, yangi kelgan ishchini yaratadi.
 * **AddSubordinate** - Berilgan ishchiga yordamchi qo'shadi
-* **RemoveAllSubordinates** - Berilgan yordamchidan barcha yordamchilarni o'chiradi.
+* **RemoveAllSubordinates** - Berilgan ishchidan barcha yordamchilarni o'chiradi.
 * **Print** - Printerdan ma'lumotlarni chop etishga xizmat qiladi.
 
 Ko'rib turganingizdek **Print** metodi Employee sinfiga ortiqcha mas'uliyat yuklamoqda. Nimaga desangiz, dasturda aynan shu servisni ishlatadigan boshqa toifaga mansub foydalanuvchilar ham bo'lishi mumkin.
