@@ -4,9 +4,10 @@ description: Jasurbek Xasanboyev
 
 # Group Join
 
-[INNER JOIN]( https://docs.dot-net.uz/c-.net/linq/join-operatorlari/inner-join) orqali to’plamlarni ulashda bizga kerakli qismlarni ajratib olib yangi to’plam hosil qilar edik. **GROUP JOIN** da esa avvalgidek bir xil qism bo’yicha qo’shadi lekin hamma parametrlar ko’chib o’tadi.
+[INNER JOIN](https://docs.dot-net.uz/c-.net/linq/join-operatorlari/inner-join) orqali to’plamlarni ulashda bizga kerakli qismlarni ajratib olib yangi to’plam hosil qilar edik. **GROUP JOIN** da esa avvalgidek bir xil qism bo’yicha qo’shadi lekin hamma parametrlar ko’chib o’tadi.
 
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -60,7 +61,9 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
+
 Query Syntax
+
 ```csharp
 class Program
 {

@@ -1,10 +1,13 @@
 ---
 description: Jasurbek Xasanboyev
 ---
+
 # Left Join
-Avvalgi **JOIN** tularidan farqli tomoni **LEFT JOIN** da maydon bo’sh bo’lishi ham mumkin. Ikki ro’yhatni birlashtirish vaqtida agar to’g’ri keladigan maydon topilmasa uni bo’sh holatda (null) tashlab ketadi. Buning uchun **DefaultEmpty** metodidan foydalanamiz:
+
+Avvalgi **JOIN** tularidan farqli tomoni **LEFT JOIN** da maydon bo’sh bo’lishi ham mumkin. Ikki ro’yhatni birlashtirish vaqtida agar to’g’ri keladigan maydon topilmasa uni bo’sh holatda \(null\) tashlab ketadi. Buning uchun **DefaultEmpty** metodidan foydalanamiz:
 
 Query Syntax:
+
 ```csharp
 class Program
 {
@@ -33,7 +36,7 @@ class Program
                             select new { Name = std.Name, StudentAddress = studentAddress != null ? studentAddress.AddressLine : "Empty"};
         foreach (var item in QueerySyntax)
         {
-                
+
             Console.WriteLine($"Name: {item.Name} Line: {item.StudentAddress}");
         }
         /*OUTPUT:   Name: Jasurbek Line: Line 1
@@ -55,7 +58,9 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
+
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -81,7 +86,7 @@ class Program
                 (StudentData, AddressData) => new { Name = StudentData.std.Name, Line = AddressData != null ? AddressData.AddressLine : "Empty"});
         foreach (var item in MethodSyntax)
         {
-                
+
             Console.WriteLine($"Name: {item.Name} Line: {item.Line}");
         }
         /*OUTPUT:   Name: Jasurbek Line: Line 1
@@ -103,5 +108,4 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
-
 

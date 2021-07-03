@@ -1,0 +1,2 @@
+# Interfeysga ajratish tamoyili\(ISP\)
+

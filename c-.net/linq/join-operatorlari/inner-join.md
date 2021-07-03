@@ -3,13 +3,19 @@ description: Jasurbek Xasanboyev
 ---
 
 # Inner Join
- ![image](https://user-images.githubusercontent.com/81855769/123627171-1d32e480-d82b-11eb-941a-443a3c13a3a8.png)
 
-[To’plamlar](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar) mavzusi orqali sizlar bilan C# dasturlash tilida to’plamlar qanday yaratilishi haqida gaplashgan edik. Avvalgi **LINQ** darslarda to’plam ustidagi amallarni ko’rib chiqqan edik. Endi esa bu mavzular asosan ikkita to’plam elementlarini birlashtirish haqida gaplashamiz.
+![image](https://user-images.githubusercontent.com/81855769/123627171-1d32e480-d82b-11eb-941a-443a3c13a3a8.png)
 
-**INNER JOIN** xuddi matematikada to’plamlar mavzusidan bizga tanish bo’lgan ikki to’plam birlashmasi kabi bo’ladi. Ya’ni ikki to’plamda ham mavjud elementlardan tashkil topadi: A = {1 , 2, 3, 4, 5}, B = {4, 5, 6, 7};  A ꓵ B = {4, 5}
-{% hint style="info" %} Esda tuting! **INNER JOIN** ikkisida ham bor qism bo’yicha ikki to’plamni birlashtiradi. {% endhint %}
+[To’plamlar](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/toplamlar) mavzusi orqali sizlar bilan C\# dasturlash tilida to’plamlar qanday yaratilishi haqida gaplashgan edik. Avvalgi **LINQ** darslarda to’plam ustidagi amallarni ko’rib chiqqan edik. Endi esa bu mavzular asosan ikkita to’plam elementlarini birlashtirish haqida gaplashamiz.
+
+**INNER JOIN** xuddi matematikada to’plamlar mavzusidan bizga tanish bo’lgan ikki to’plam birlashmasi kabi bo’ladi. Ya’ni ikki to’plamda ham mavjud elementlardan tashkil topadi: A = {1 , 2, 3, 4, 5}, B = {4, 5, 6, 7}; A ꓵ B = {4, 5}
+
+{% hint style="info" %}
+Esda tuting! **INNER JOIN** ikkisida ham bor qism bo’yicha ikki to’plamni birlashtiradi.
+{% endhint %}
+
 Query Syntax:
+
 ```csharp
 class Program
 {
@@ -62,7 +68,9 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
+
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -113,7 +121,11 @@ class Address
     public string AddressLine { get; set; }
 }
 ```
-{% hint style="info" %} Bilib qo'ygan yaxshi! **INNER JOIN** orqali huddi shunday ketma-ketlikda 2dan ortiq to'plamlarni birlashtirish ham mumkin {% endhint %}
+
+{% hint style="info" %}
+Bilib qo'ygan yaxshi! **INNER JOIN** orqali huddi shunday ketma-ketlikda 2dan ortiq to'plamlarni birlashtirish ham mumkin
+{% endhint %}
+
 ```csharp
 class Program
 {

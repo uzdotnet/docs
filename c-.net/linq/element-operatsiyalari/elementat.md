@@ -1,12 +1,13 @@
 ---
 description: Jasurbek Xasanboyev
 ---
-# ElementAt va ElementAtOrDefault
 
-**ElementAt** metodiga parameter sifatida biror index ni kiritsak o\`sha index dagi elementni qaytaradi. Oddiy massivda index bo\`yicha murojaat bor lekin list va shunga o\`shash ba’zi to\`plamalar mavjud emas shunday holatda bizga ushbu metod qo\`l keladi.
-Agar biz bergan index mavjud bo’lmasa dastur hatolikka uchraydi. Shunday holatlarni oldini olish maqsadida **ElementAtOrDefault** metodi yordam beradi. Avvalgi darsdagi **DefaultEmpty** kabi bu metod ham index mavjud bo\`lmagan holatda **null** qiymat qaytaradi dastur esa hatoliksiz ishlayverdi.
+# ElementAt
+
+**ElementAt** metodiga parameter sifatida biror index ni kiritsak o\`sha index dagi elementni qaytaradi. Oddiy massivda index bo\`yicha murojaat bor lekin list va shunga o\`shash ba’zi to\`plamalar mavjud emas shunday holatda bizga ushbu metod qo\`l keladi. Agar biz bergan index mavjud bo’lmasa dastur hatolikka uchraydi. Shunday holatlarni oldini olish maqsadida **ElementAtOrDefault** metodi yordam beradi. Avvalgi darsdagi **DefaultEmpty** kabi bu metod ham index mavjud bo\`lmagan holatda **null** qiymat qaytaradi dastur esa hatoliksiz ishlayverdi.
 
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -18,7 +19,9 @@ class Program
     }
 }
 ```
+
 Query Syntax:
+
 ```csharp
 class Program
 {
@@ -31,7 +34,9 @@ class Program
     }
 }
 ```
+
 Quydagi holatda esa hatolikka uchraydi, chunki 10-index mavjud emas
+
 ```csharp
 class Program
 {
@@ -43,9 +48,11 @@ class Program
     }
 }
 ```
- ![image](https://user-images.githubusercontent.com/81855769/123847020-7e43e080-d92f-11eb-9cb5-517ecf6012b6.png)
+
+![image](https://user-images.githubusercontent.com/81855769/123847020-7e43e080-d92f-11eb-9cb5-517ecf6012b6.png)
 
 Bunday holatga uchramaslik uchun quydagicha yo’l tutamiz:
+
 ```csharp
 class Program
 {
@@ -57,5 +64,4 @@ class Program
     }
 }
 ```
-
 

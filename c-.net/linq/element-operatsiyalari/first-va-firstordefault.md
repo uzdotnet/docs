@@ -1,10 +1,13 @@
 ---
 description: Jasurbek Xasanboyev
 ---
+
 # First va FirstOrDefault
+
 **First** ingliz tilidan tarjima qiladigan bo\`lsak birinchi degan ma’noni anglatadi. O\`z nomidan ko\`rinib turibdiki bu metod to\’plamning birinchi elementini qaytaradi. Agar unga shart beradigan bo\`lsak ushbu shartga to\`g\`ri keladigan birinchi elementni qaytaradi. Quydagi misollar orqali buni yanada yaxshi tushunib olasiz degan umiddaman.
 
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -16,7 +19,9 @@ class Program
     }
 }
 ```
+
 Query Syntax:
+
 ```csharp
 class Program
 {
@@ -29,9 +34,11 @@ class Program
     }
 }
 ```
+
 Shartga mos keluvchi birinchi elementni topish:
 
 Method Syntax:
+
 ```csharp
 class Program
 {
@@ -43,7 +50,9 @@ class Program
     }
 }
 ```
+
 Query Syntax:
+
 ```csharp
 class Program
 {
@@ -57,7 +66,9 @@ class Program
     }
 }
 ```
+
 Ro\`yxat bo\`sh bo\`lsa yoki shartni qanoatlantiruchi qiymat bo\`lmasa dastur hatolikka uchraydi. Bunday holat yuzaga kelmasligi uchun **FirstOrDefault** dan foydalanish tavsiya etiladi.
+
 ```csharp
 class Program
 {
@@ -69,3 +80,4 @@ class Program
     }
 }
 ```
+

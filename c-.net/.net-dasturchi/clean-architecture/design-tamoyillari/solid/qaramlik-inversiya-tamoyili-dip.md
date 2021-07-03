@@ -1,0 +1,2 @@
+# Qaramlik Inversiya Tamoyili\(DIP\)
+

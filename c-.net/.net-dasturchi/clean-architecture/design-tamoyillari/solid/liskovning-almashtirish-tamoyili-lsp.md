@@ -1,0 +1,2 @@
+# Liskovning Almashtirish Tamoyili\(LSP\)
+
