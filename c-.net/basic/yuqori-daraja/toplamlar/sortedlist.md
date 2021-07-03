@@ -1,3 +1,7 @@
+---
+description: Tolibjonov Abdulloh
+---
+
 # SortedList
 
 SortedList ham xuddi Listga o\`xshash to\`plam. Elementlarni qo\`shish, o\`chirish, saralash kabi funksiyalar SortedListda ham mavjud. Ammo Listdan farqi elementlar kalit/qiymat tarzida bo\`ladi. Bu qanday bo\`ladi deysizmi? Har bir element qiymatini o\`z kaliti bo\`ladi.
