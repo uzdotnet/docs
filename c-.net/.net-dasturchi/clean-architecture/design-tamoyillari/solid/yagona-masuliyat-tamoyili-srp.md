@@ -43,7 +43,7 @@ public class Employee
 }
 ```
 
-Yuqorida **Employee** nomi bilan sinf e'lon qilinyabdi va unda bir nechta maydon va metodlar e'lon qilinyabdi:
+Yuqorida **Employee** nomi bilan sinf va unda bir nechta maydon, hamda metodlar e'lon qilinyabdi:
 
 * **Employee** - konstruktor, yangi kelgan ishchini yaratadi.
 * **AddSubordinate** - Berilgan ishchiga yordamchi qo'shadi
