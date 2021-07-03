@@ -8,3 +8,5 @@ SOLID tamoyillari bilan tanishishni boshlaymiz. Birinchi navbatda **Yagona Mas'u
 
 Tasavvur qiling siz bazm uyushtirmoqchisiz. Sizda bazm uchun qilinishi kerak bo'lgan ishlar ro'yxati bor va bu ishda sizga bir nechta do'stlariz yordam bermoqchi.
 
+Davomi bor...
+
