@@ -15,7 +15,9 @@ Oddiy hayotda bo'lgandek, dasturlashda ham SRP tamoyilini e'tiborsiz qoldirish u
 SRPni qo'llash bizga shuni eslatadiki, har bir modul yoki sinf yagona vazifani qilishga javob berishi kerak. 
 
 {% hint style="info" %}
-1 - qoida                                                                                              **Sinfni o'zgartirish uchun faqat bitta sabab bo'lishi kerak**
+1 - qoida                                                                                              
+
+**Sinfni o'zgartirish uchun faqat bitta sabab bo'lishi kerak**
 {% endhint %}
 
 Siz yaratgan sinf ichidagi metodlar yagona bir maqsad ostida birlashishi kerak. Endi yuqoridagi bitta sabab birikmasiga e'tibor qaratamiz.
