@@ -69,5 +69,5 @@ Hisob kitob ishlarini ta'minlab beruvchi dasturimizda **Account** nomli sinf bor
 
 Buyerda Save metodi ortiqcha mas'uliyatni olib kelyabdi. SRPga amal qilish uchun, Save metodini alohida sinfga olib o'tishimiz lozim.
 
-SRPni dasturda qo'llash, dasturingizni qanchalik tushunarli va toza\(clean\) bo'lishiga yordam beradi. 
+SRPni dasturda qo'llash, uning qanchalik tushunarli va toza\(clean\) bo'lishiga yordam beradi. 
 
