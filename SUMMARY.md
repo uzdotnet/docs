@@ -83,6 +83,7 @@
       * [File va Directory](c-.net/basic/yuqori-daraja/file/README.md)
         * [FileInfo](c-.net/basic/yuqori-daraja/file/fileinfo.md)
         * [DirectoryInfo](c-.net/basic/yuqori-daraja/file/directoryinfo.md)
+      * [MultiThread va Parallel dasturlash](c-.net/basic/yuqori-daraja/multithread-va-parallel-dasturlash.md)
   * [LINQ asoslari](c-.net/linq/README.md)
     * [LINQ qanday ishlaydi?](c-.net/linq/linq-qanday-ishlaydi.md)
     * [LINQ query yozish usullari](c-.net/linq/linq-query-yozish-usullari.md)

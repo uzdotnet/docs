@@ -1,0 +1,2 @@
+# MultiThread va Parallel dasturlash
+
