@@ -15,7 +15,9 @@ Hash jadval – bu kalit/qiymat elementlarni saqlash uchun maxsus to'plam. Stack
 {% hint style="info" %}
 **MUHIM QOIDALAR!**
   •	Hashtable kaliti null qiymatli bo'lishi mumkin emas
+  
   •	Hashtable elementlari kalit/qiymat juftligida bo'ladi
+  
   •	Kalitni nomi boshqa kalitlar bilan bir xil bo'lmasligi kerak
 {% endhint %}
 
@@ -129,7 +131,9 @@ Hash jadval – bu kalit/qiymat elementlarni saqlash uchun maxsus to'plam. Stack
   ![](../../../../.gitbook/assets/hashtable3.png)
 
   **True** bo'lganini sababi Hashtable kaliti 1 ga teng bo'lgan elementi bor
+  
   **False** bo'lganini sababi kaliti 6ga teng bo'lgan elementi yo'q
-  True bo'lganini sababi Hashtable ni qiymati "element3" ga teng bo'lgan elementi bor
+  
+  **True** bo'lganini sababi Hashtable ni qiymati "element3" ga teng bo'lgan elementi bor
 
 
