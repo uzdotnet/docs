@@ -14,6 +14,7 @@ Hash jadval – bu kalit/qiymat elementlarni saqlash uchun maxsus to'plam. Stack
 
 {% hint style="info" %}
 **MUHIM QOIDALAR!**
+
   •	Hashtable kaliti null qiymatli bo'lishi mumkin emas
   
   •	Hashtable elementlari kalit/qiymat juftligida bo'ladi
