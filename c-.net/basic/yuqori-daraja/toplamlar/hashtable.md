@@ -74,6 +74,7 @@ Hash jadval – bu kalit/qiymat elementlarni saqlash uchun maxsus to'plam. Stack
   **Remove()** va **Clear()** funksiyalari orqali
 
   **Remove()** – funksiyasidan foydalanib kalitni kiritish orqali elementlarni o'cherish mumkin
+  
   **Clear()** –  funksiyasi **Hashtable** dagi barcha elementlarni o'cherish uchun
 
 
@@ -108,7 +109,9 @@ Hash jadval – bu kalit/qiymat elementlarni saqlash uchun maxsus to'plam. Stack
   ### Hashtable elementlarni bor yoki yo'qligini qanday bilamiz?
 
   **Contains()** – funksiyasi Hashtableda bizga kerakli kalit bor yoki yo'qligini tekshriadi
+  
   **ContainsKey()** – Contains() bilan bir xil
+  
   **ContainsValue()** – funksiyasi Hashtableda bizga kerakli qiymat bor yoki yo'qligini tekshiradi
 
  ### Misol:
