@@ -8,7 +8,7 @@ SortedList ham xuddi Listga o\`xshash to\`plam. Elementlarni qo\`shish, o\`chiri
 
 | **1** | **2** | **3** | **4** | **5** |
 | :--- | :--- | :--- | :--- | :--- |
-| Muhammad Karim | Xondamir | Jasur | Farruh | Abdulloh |
+| Muhammad Karim | Xondamir | Jasur | Farrukh | Abdulloh |
 
 Masalan bu rasmda,
 
@@ -18,18 +18,21 @@ Masalan bu rasmda,
 
 3 – kalitda Jasur
 
-4 – kalitda Farruh
+4 – kalitda Farrukh
 
 5 – kalitda Abdulloh turadi degani.
 
-####  MUHIM QOIDALAR !
+#### 
+ MUHIM QOIDALAR !
 
 * SortedListda elementga nafaqat indeksi orqali balki, kaliti orqali ham kirish mumkin
 *  Kalit null qiymat qabul qilmaydi, ammo element null qiymatni qabul qiladi.
 * Bir xil qiymatli elementlar bo\`lishi mumkin, ammo ularning kalitlari bir xil bo\`lmaydi
 * Kalitlarni faqat sonlar emas balki ixtiyoriy tipda ham berishingiz mumkin, faqatgina kalitlarning hammasi bir xil tipda bo\`lishi kerak, aks holda kompilyator ishlamaydi
 
-### **SortedListni qanday yaratamiz ?**
+### 
+
+**SortedListni qanday yaratamiz ?**
 
 #### 1-bosqich ****
 
@@ -60,7 +63,8 @@ SortedList list = new SortedList()
 };
 ```
 
-  
+
+  
 Ahamiyat bersangiz elementlar ham jingalak qavs ichida yoziladi, sababi kompilyator kaliti qaysi qiymatga tegishli ekanini aniqlashda xato qilmasligi uchun.
 
 2\) Add\(\) funksiyasi yordamida qo\`shish mumkin
@@ -72,9 +76,12 @@ list.Add(2, "Shum bola");
 list.Add(3, "Sariq dev");
 ```
 
-####  **4-bosqich**
+#### 
 
-**Elementlarga kirish GetKey\(\) va GetByIndex\(\)**
+ **4-bosqich**
+
+
+**Elementlarga kirish GetKey\(\) va GetByIndex\(\)**
 
 ```csharp
 SortedList list = new SortedList();
@@ -92,7 +99,8 @@ for(int i = 0; i < list.Count; i++)
 
 ![](../../../../.gitbook/assets/image%20%28109%29.png)
 
-  
+
+  
 GetKey\(i\) – i element turgan indeksi, indeksiga qarab elementning kalitini aniqlab beradi**.** GetByIndex\(i\) – i indeksiga qarab element qiymatini aniqlab beradi
 
 ```csharp
@@ -127,7 +135,8 @@ Natija:
 
 ![](../../../../.gitbook/assets/image%20%28100%29.png)
 
-### **SortedListga misollar**
+### 
+**SortedListga misollar**
 
 ```csharp
 using System;
