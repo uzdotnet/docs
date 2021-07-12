@@ -4,7 +4,7 @@ description: Tolibjonov Abdulloh
 
 # Dictionary
 
-**Dictionary**<TKey, TValue> shablonidagi klass bo'lib, **System.Collection.Generics** namespace sida joylashgan. **Dictionary**  kalitlar va qiymatlar to'plami bo'lib, boshqa to'plamlar kabi kalit/qiymat ko'rinishida element qabul qiladi. **Hashtable** dan farqi, **Dictionary** da qidirish tizimi tezroq
+**Dictionary** "<TKey, TValue>" shablonidagi klass bo'lib, **System.Collection.Generics** namespace sida joylashgan. **Dictionary**  kalitlar va qiymatlar to'plami bo'lib, boshqa to'plamlar kabi kalit/qiymat ko'rinishida element qabul qiladi. **Hashtable** dan farqi, **Dictionary** da qidirish tizimi tezroq
 
 ```csharp
     using System.Collections.Generic;
@@ -14,6 +14,7 @@ description: Tolibjonov Abdulloh
 **MUHIM QOIDALAR!**
 
   •	Kalitlar bir xil bo'lmasligi kerak
+  
   •	Kalit null qiymat qabul qilmaydi
   
 {% endhint %}
