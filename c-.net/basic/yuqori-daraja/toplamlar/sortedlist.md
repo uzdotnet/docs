@@ -22,25 +22,22 @@ Masalan bu rasmda,
 
 5 – kalitda Abdulloh turadi degani.
 
-#### 
- MUHIM QOIDALAR !
+MUHIM QOIDALAR !
 
 * SortedListda elementga nafaqat indeksi orqali balki, kaliti orqali ham kirish mumkin
-*  Kalit null qiymat qabul qilmaydi, ammo element null qiymatni qabul qiladi.
+* Kalit null qiymat qabul qilmaydi, ammo element null qiymatni qabul qiladi.
 * Bir xil qiymatli elementlar bo\`lishi mumkin, ammo ularning kalitlari bir xil bo\`lmaydi
 * Kalitlarni faqat sonlar emas balki ixtiyoriy tipda ham berishingiz mumkin, faqatgina kalitlarning hammasi bir xil tipda bo\`lishi kerak, aks holda kompilyator ishlamaydi
 
-### 
-
 **SortedListni qanday yaratamiz ?**
 
-#### 1-bosqich ****
+### 1-bosqich _\*\*_
 
 Kod yuqorisiga using System.Collections; ni yozib qo\`ying
 
-#### 2-bosqich 
+### 2-bosqich
 
-Berilgan sintaksis bo\`yicha SortedList yaratamiz 
+Berilgan sintaksis bo\`yicha SortedList yaratamiz
 
 ```csharp
 SortedList list_nomi = new SortedList();
@@ -48,7 +45,7 @@ SortedList list_nomi = new SortedList();
 
 list\_nomi degan joyga o\`zingiz ixtiyoriy nom berishingiz mumkin !
 
-#### **3-bosqich Element qo\`shamiz 2 xil usulda :** 
+### **3-bosqich Element qo\`shamiz 2 xil usulda :**
 
 1\) SortedListni yaratiboq elementlarni yoniga yozib qo\`ying \(xuddi massivdek\)
 
@@ -56,15 +53,13 @@ list\_nomi degan joyga o\`zingiz ixtiyoriy nom berishingiz mumkin !
 SortedList list = new SortedList() 
 { 
     {1, "Abdullajon" }, 
-    
+
     {2, "Shum bola" },
-    
+
     {3, "Sariq dev" }  
 };
 ```
 
-
-  
 Ahamiyat bersangiz elementlar ham jingalak qavs ichida yoziladi, sababi kompilyator kaliti qaysi qiymatga tegishli ekanini aniqlashda xato qilmasligi uchun.
 
 2\) Add\(\) funksiyasi yordamida qo\`shish mumkin
@@ -76,10 +71,7 @@ list.Add(2, "Shum bola");
 list.Add(3, "Sariq dev");
 ```
 
-#### 
-
- **4-bosqich**
-
+**4-bosqich**
 
 **Elementlarga kirish GetKey\(\) va GetByIndex\(\)**
 
@@ -99,8 +91,6 @@ for(int i = 0; i < list.Count; i++)
 
 ![](../../../../.gitbook/assets/image%20%28109%29.png)
 
-
-  
 GetKey\(i\) – i element turgan indeksi, indeksiga qarab elementning kalitini aniqlab beradi**.** GetByIndex\(i\) – i indeksiga qarab element qiymatini aniqlab beradi
 
 ```csharp
@@ -135,7 +125,6 @@ Natija:
 
 ![](../../../../.gitbook/assets/image%20%28100%29.png)
 
-### 
 **SortedListga misollar**
 
 ```csharp
@@ -169,9 +158,9 @@ Natija:
 
 ![](../../../../.gitbook/assets/image%20%2892%29.png)
 
-### SortedList dan elementlarni o\`chirish
+## SortedList dan elementlarni o\`chirish
 
-#### Clear\(\) Remove\(\) RemoveAt\(\) 
+### Clear\(\) Remove\(\) RemoveAt\(\)
 
 Clear\(\) - funksiyasi to'plamdagi barcha elementlarni o'chirib tashlaydi
 
@@ -219,7 +208,7 @@ Natija:
 
 ![](../../../../.gitbook/assets/image%20%28110%29.png)
 
-#### RemoveAt\(\)
+### RemoveAt\(\)
 
 ```csharp
 SortedList list = new SortedList();
@@ -246,9 +235,9 @@ Natija:
 Eslatma! Remove\(\) bilan RemoveAt\(\) funksiyalarida qaysi element o\`chib ketganiga ahamiyat bering ular bir xil emas.
 {% endhint %}
 
-### Element bor yoki yo\`qligini tekshirish 
+## Element bor yoki yo\`qligini tekshirish
 
-#### Contains\(\), ContainsKey\(\), ContainsValue\(\)
+### Contains\(\), ContainsKey\(\), ContainsValue\(\)
 
 Contains\(\) va ContainsKey\(\) funksiyalari bir xil
 
@@ -262,7 +251,6 @@ list.Add(4, "RoLLs");
 list.Add(5, "BentLey");
 
 Console.WriteLine(list.Contains(3));//kaliti 3
-
 ```
 
 Natija:
@@ -271,7 +259,7 @@ Natija:
 
 Bu funksiya kaliti 3ga teng bo'lgan element bor yoki yo'qligini tekshirib beradi. Bor bo'lsa True, bo'lmasa False.
 
-#### ContainsValue\(\)
+### ContainsValue\(\)
 
 ```csharp
 SortedList list = new SortedList();
