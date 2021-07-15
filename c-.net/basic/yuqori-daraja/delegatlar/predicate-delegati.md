@@ -15,7 +15,7 @@ U quyidagi ko'rinishda e'lon qilinadi:
   public delegate bool Predicate<in T>(T obj);
 ```
 
-Quyidagi misolda: sonni tub ekanini tekshiruvchi metod yordamida Predicate qo'llab 2 dan 50 gacha bo'lgan oraliqdagi tub sonlarni ekranga chiqarish dasturini ko'ramiz:
+Quyidagi misolda: sonni tub ekanini tekshiruvchi metod yordamida **Predicate** qo'llab 2 dan 50 gacha bo'lgan oraliqdagi tub sonlarni ekranga chiqarish dasturini ko'ramiz:
 
 ```csharp
 using System;
