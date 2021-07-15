@@ -17,7 +17,7 @@ U quyidagi ko'rinishda e'lon qilinadi:
 
 Boshqa delegat turlari singari **Predicate** dan har qanday metod, anonim metod yoki lambda ifodasi bilan ham foydalanish mumkin.
 
-Quyidagi misolda: sonni tub ekanini tekshiruvchi metodni Predicate qo'llagan holda 2 dan 50 gacha bo'lgan oraliqdagi tub sonlarni ekranga chiqarish dasturini ko'ramiz:
+Quyidagi misolda: sonni tub ekanini tekshiruvchi metod yordamida Predicate qo'llab 2 dan 50 gacha bo'lgan oraliqdagi tub sonlarni ekranga chiqarish dasturini ko'ramiz:
 
 ```csharp
 using System;
