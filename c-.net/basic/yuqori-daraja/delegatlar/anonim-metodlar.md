@@ -11,3 +11,4 @@ Nomidan ko'rinib turibdiki, **Anonim metod** - bu ismsiz metod. U metod bo'lsa, 
 {% hint style="success" %}
 Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan paytingizda: _"keling endi shu metodni benom qoldiramiz"_ deb yordamga keladi.
 {% endhint %}
+sdr
