@@ -55,29 +55,25 @@ Boshqa delegat turlari singari **Predicate** dan har qanday metod, anonim metod 
 
 Yuqoridagi masalaning anonim metod yordamidagi yechimi:
 ```csharp
-using System;
-
-namespace Delegates
-{
-    class Program
+    Predicate<int> predicate = delegate (int n)
     {
-        static void Main(string[] args)
+        for (int i = 2; i <= Math.Sqrt(n); i++)
         {
-            Predicate<int> predicate = delegate (int n)
-            {
-                for (int i = 2; i <= Math.Sqrt(n); i++)
-                {
-                    if (n % i == 0) return false;
-                }
-                return true;
-            };
-
-            for(int i=2; i<50; i++)
-            {
-                if(predicate(i)) Console.Write(i + " ");
-            }
-            Console.ReadKey();
+            if (n % i == 0) return false;
         }
-    }
-}
+        return true;
+    };
+```
+
+Yuqoridagi masalaning lambda ifoda yordamidagi yechimi:
+
+```csharp
+    Predicate<int> predicate = (n=>
+        {
+            for (int i = 2; i <= Math.Sqrt(n); i++)
+            {
+                if (n % i == 0) return false;
+            }
+            return true;
+        });
 ```
