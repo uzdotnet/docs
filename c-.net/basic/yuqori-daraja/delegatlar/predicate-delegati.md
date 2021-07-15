@@ -8,6 +8,6 @@ description: Nodirbek Abdulaxadov
 
 **Predicate** delegatining umumiy ko'rinishi:
 
-![](../../../../.gitbook/assets/predicate1.png)
+![](../../../../.gitbook/assets/predicat1.png)
 
 
