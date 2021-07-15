@@ -69,11 +69,11 @@ Yuqoridagi masalaning lambda ifoda yordamidagi yechimi:
 
 ```csharp
     Predicate<int> predicate = (n=>
+    {
+        for (int i = 2; i <= Math.Sqrt(n); i++)
         {
-            for (int i = 2; i <= Math.Sqrt(n); i++)
-            {
-                if (n % i == 0) return false;
-            }
-            return true;
-        });
+            if (n % i == 0) return false;
+        }
+        return true;
+    });
 ```
