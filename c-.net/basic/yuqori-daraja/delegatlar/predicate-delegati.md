@@ -10,4 +10,8 @@ description: Nodirbek Abdulaxadov
 
 ![](../../../../.gitbook/assets/predicat1.png)
 
+U quyidagi ko'rinishda e'lon qilinadi:
+```csharp
+  public delegate bool Predicate<in T>(T obj);
+```
 
