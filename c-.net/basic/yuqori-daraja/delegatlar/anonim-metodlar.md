@@ -14,7 +14,7 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 
 **Anonim metod** umumiy ko'rinishi:
 
-![](../../../../.gitbook/assets/anonim2.png)
+![](../../../../.gitbook/assets/anonim11.png)
 
 {% hint style="success" %}
 **Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:**
