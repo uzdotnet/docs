@@ -56,7 +56,7 @@ namespace Delegates
 //  Hello DOT-NET.UZ
 ```
 
-Anonim metodlar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan:
+Anonim metodlar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan(bu yerda 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan):
 
 ```csharp
 using System;
