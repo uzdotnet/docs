@@ -1,6 +1,0 @@
----
-description: Nodirbek Abdulaxadov
----
-
-# Directory
-
