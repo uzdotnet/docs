@@ -2,11 +2,13 @@
 description: Nodirbek Abdulaxadov
 ---
 
-# FileInfo
+# File va FileInfo
 
-FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun xususiyatlar va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
 
-**FileInfo xususiyatlari:**
+FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun xususiyatlar va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
+
+
+**FileInfo xususiyatlari:**
 
 | Directory | Fayl joylashgan katalog nomini qaytaradi |
 | :--- | :--- |
@@ -21,7 +23,8 @@ description: Nodirbek Abdulaxadov
 | Length | Fayl hajmini qaytaradi \(baytlarda\) |
 | Name | Fayl nomini qayatardi |
 
-**FileInfo metodlari:**
+
+**FileInfo metodlari:**
 
 | AppendText | FileInfo ushbu nusxasi tomonidan taqdim etilgan faylga matn qo'shadigan StreamWriter yaratadi. |
 | :--- | :--- |
@@ -132,7 +135,8 @@ namespace FileInfo_Examples
 
 ![](../../../../.gitbook/assets/image%20%2883%29.png)
 
-**Izohlar:**
+
+**Izohlar:**
 
 Fayllarni ko'chirish, nomini o'zgartirish, yaratish, ochish, o'chirish va qo'shib qo'yish kabi odatiy operatsiyalar uchun FileInfo sinfidan foydalaning.
 
