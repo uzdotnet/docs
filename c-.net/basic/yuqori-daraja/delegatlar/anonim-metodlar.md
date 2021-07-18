@@ -15,3 +15,41 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 **Anonim metod** umumiy ko'rinishi:
 
 ![](../../../../.gitbook/assets/anonim2.png)
+
+{% hint style="success" %}
+Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:
+* Delegat e'lon qilish
+* Delegatdan obyekt hosil qilish
+* _delegate_ kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish(bunda metod parametrlari delegat parametrlariga mos bo'lishi kerak)
+* delegatdan foydalanish
+{% endhint %}
+
+Misol:
+
+```csharp
+using System;
+
+namespace Delegates
+{
+    class Program
+    {
+        //delegat e'lon qilish
+        public delegate void Print(string s);
+        static void Main(string[] args)
+        {
+            //delegatdan obyekt hosil qilib unga anonim metod tayinlash
+            Print p;
+            p = delegate (string str)
+            {
+                Console.WriteLine($"Hello {str}");
+            };
+
+            //delegatni chaqirish
+            p("DOT-NET.UZ");
+
+            Console.ReadKey();
+        }
+    }
+}
+
+```
