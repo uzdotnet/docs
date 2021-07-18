@@ -111,7 +111,7 @@ Action<int, double, bool, string> introduce = delegate { Console.WriteLine("This
     introduce(42, 2.7, 2>4, "Hello");
 ```
 
-C# 9.0 dan boshlab siz **Anonim metod**lani static holatda e'lon qilishingiz mumkin:
+C# 9.0 dan boshlab siz **Anonim metod**larni static holatda e'lon qilishingiz mumkin:
 
 ```csharp
 Func<int, int, double> degree = static delegate (int a, int b)
