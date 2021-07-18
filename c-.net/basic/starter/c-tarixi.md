@@ -4,7 +4,7 @@ description: Suxrob Xayitmurodov
 
 # C\# Tarixi
 
-Assalamu alaykum, xurmatli yurtdoshlar. Ushbu maqolamizda sizlarga C\# dasturlash tili tarixi haqida qisqacha ma’lumot berishga harakat qilamiz. Agarda siz dasturlash olamida yangi va nimadan boshlashi bilmay turgan bo’lsangiz, ushbu kamtargina maqolachamiz aynan siz uchun. Nega bu til juda mashhur? Ushbu mashhur dasturlash tilining tarixini ko’rib chiqing.
+Ushbu maqolamizda sizlarga C\# dasturlash tili tarixi haqida qisqacha ma’lumot berishga harakat qilamiz. Agarda siz dasturlash olamida yangi va nimadan boshlashi bilmay turgan bo’lsangiz, ushbu kamtargina maqolachamiz aynan siz uchun. Nega bu til juda mashhur? Ushbu mashhur dasturlash tilining tarixini ko’rib chiqing.
 
 C\# ning kelib chiqishi 2000-yillarga borib taqaladi. O’sha yillarda Microsoft ushbu dasturlash tilini o’zlari uchun yaratshdi. Dastlab C\#, JavaScript bilan raqobatlashayotgan Java tillariga javob sifatida, ya’ni Microsoftning talabiga Java javob bera olamgani tufayli Microsoft Visual Studio 2002 bilan birglikda ishlab chiqilgan til edi. C\# va Java ham dastlabki davrlardan tan olinishi uchun raqobatlashayotgan edi. Darhaqiqat, bu ikkisi bir biridan ancha ko’chirmachiliklar qildi, toki C\# boshqa yo’nalishga o’tmaguniga qadar. Shundan so’ng C\# kompyuter uchun dasturlar ishlab chiqarish bo’yicha xalqaro standart sifatida tasdiqlandi va umumiy til infrastrukturasi bilan ishlatiladi.
 

@@ -4,13 +4,14 @@ description: Nodirbek Abdulaxadov
 
 # Predicate delegati
 
-**Predicate** delegati bu - [**Func**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati) va [**Action**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/action-delegati) kabi System nomlar fazosi tarkibiga kiruvchi umumiy delegatdir. U ma'lum bir qoidalar(shartlar) to'plamini o'z ichiga olgan metodni ifodalaydi va berilgan parametrni ushbu qoidalarga mos kelishini tekshiradi. **Predicate** delegati bitta kirish parametri hamda bool qiymatidagi bitta chiqish parametriga ega.
+**Predicate** delegati bu - [**Func**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati) va [**Action**](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/action-delegati) kabi System nomlar fazosi tarkibiga kiruvchi umumiy delegatdir. U ma'lum bir qoidalar\(shartlar\) to'plamini o'z ichiga olgan metodni ifodalaydi va berilgan parametrni ushbu qoidalarga mos kelishini tekshiradi. **Predicate** delegati bitta kirish parametri hamda bool qiymatidagi bitta chiqish parametriga ega.
 
 **Predicate** delegatining umumiy ko'rinishi:
 
 ![](../../../../.gitbook/assets/predicat1.png)
 
 U quyidagi ko'rinishda e'lon qilinadi:
+
 ```csharp
   public delegate bool Predicate<in T>(T obj);
 ```
@@ -54,6 +55,7 @@ Natija:
 Boshqa delegat turlari singari **Predicate** dan har qanday metod, anonim metod yoki lambda ifodasi bilan ham foydalanish mumkin.
 
 Yuqoridagi masalaning anonim metod yordamidagi yechimi:
+
 ```csharp
     Predicate<int> predicate = delegate (int n)
     {
@@ -77,3 +79,4 @@ Yuqoridagi masalaning lambda ifoda yordamidagi yechimi:
         return true;
     });
 ```
+

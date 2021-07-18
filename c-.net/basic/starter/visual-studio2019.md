@@ -4,7 +4,7 @@ description: Suxrob Xayitmurodov
 
 # Visual Studio 2019
 
-Assalomu alaykum, hurmatli .NET dasturchilar!!! Ushbu maqolada sizga Visual Studio 2019 matn muharriri bilan tanishtirib chiqaman!
+Ushbu maqolada sizga Visual Studio 2019 matn muharriri bilan tanishtirib chiqaman!
 
 Oldingi maqolam uni qanday yuklab olish va o’rnatish haqida edi, bu maqola esa uni qanday ishlatish haqida
 

@@ -6,7 +6,7 @@ description: Suxrob Xayitmurodov
 
 ## Tanlash Operatori
 
-Assalomu alaykum hurmatli .NET dasturchilar! Ushbu maqolamda men sizga tanlash operatorini tushuntirib beraman!
+Bu maqolamda men sizga tanlash operatorini tushuntirib beraman!
 
 Tanlash operatori bizga bir nechta qiymatlardan, o’zgaruvchilarga to’g’ri keluvchi qiymatni tanlashda va uni ishga tushirishda ishlatiladi. Misol uchun hafta kunlarini raqamidan topish topshiriq sifatida berildi. Ularni bemalol topishimiz mumkin, lekin kompyuterga uni qanday tushuntiramiz? Buni bilish uchun ushbu maqolamni o’qib chiqishingizni tavsiya qilaman
 

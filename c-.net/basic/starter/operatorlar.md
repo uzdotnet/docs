@@ -4,7 +4,7 @@ description: Suxrob Xayitmurodov
 
 # Operatorlar
 
-Assalamu alaykum!!! Bu maqolamda men operatorlar haqida qisman ma'lumot berib o'taman.
+Bu maqolamda men operatorlar haqida qisman ma'lumot berib o'taman.
 
 Operatorlar odatda harakat yoki jarayonni \(harakat va jarayonni ham bo’lishi mumkin\) ifodalovchi belgidir. Ular matematika va logikani yaxshi biladigan har qanday inson uchun muammo tug’dirmaydi. Ya’ni ularning asosini aynan shular tashkil qiladi. Operatorlar ma’lum bir qiymat yoki operandlarni boshqarishga qodir bo’ladi. Operatorlar har qanday dasturlash tilining asosini tashkil qiladi. Ular oddiy hisoblashlardan tortib, hattoki xavsizlikni shifrlash kabi murakkab algoritmik vazifalarni ham bajara oladi!
 

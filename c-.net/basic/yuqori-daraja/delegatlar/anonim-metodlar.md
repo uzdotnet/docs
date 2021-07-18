@@ -4,9 +4,9 @@ description: Nodirbek Abdulaxadov
 
 # Anonim metodlar
 
-_Yuqoridagi [Func](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati), [Action](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/action-delegati) va [Predicate](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/predicate-delegati) mavzularida ushbu delegatlarning anonim metod bilan qo'llanishini ko'rdik, lekin anonim metod qanday ekanligi haqida endi  gaplashamiz._😊
+_Yuqoridagi_ [_Func_](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/func-delegati)_,_ [_Action_](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/action-delegati) _va_ [_Predicate_](https://docs.dot-net.uz/c-.net/basic/yuqori-daraja/delegatlar/predicate-delegati) _mavzularida ushbu delegatlarning anonim metod bilan qo'llanishini ko'rdik, lekin anonim metod qanday ekanligi haqida endi gaplashamiz._😊
 
-Nomidan ko'rinib turibdiki, **Anonim metod** - bu ismsiz metod. U metod bo'lsa, delegatlar mavzusida nima qilyapti degan savol tug'ilishi mumkin.  Buning sababi shundaki, **Anonim metod** delegat tushunchasi bilan chambarchas bog'liq va delegatlarni chaqirish uchun ishlatiladi.
+Nomidan ko'rinib turibdiki, **Anonim metod** - bu ismsiz metod. U metod bo'lsa, delegatlar mavzusida nima qilyapti degan savol tug'ilishi mumkin. Buning sababi shundaki, **Anonim metod** delegat tushunchasi bilan chambarchas bog'liq va delegatlarni chaqirish uchun ishlatiladi.
 
 {% hint style="info" %}
 Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan paytingizda: _"keling endi shu metodni benom qoldiramiz"_ deb yordamga keladi.
@@ -18,9 +18,10 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 
 {% hint style="success" %}
 **Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:**
+
 * **Delegat e'lon qilish**
 * **Delegatdan obyekt hosil qilish**
-* **_delegate_ kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**
+* _**delegate**_ **kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**
 * **delegatdan foydalanish**
 {% endhint %}
 
@@ -56,7 +57,7 @@ namespace Delegates
 //  Hello DOT-NET.UZ
 ```
 
-**Anonim metod**lar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan(anonim metod ichida 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan):
+**Anonim metod**lar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan\(anonim metod ichida 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan\):
 
 ```csharp
 using System;
@@ -96,6 +97,7 @@ Natija:
 
 {% hint style="danger" %}
 **Anonim metod cheklovlari:**
+
 * **Anonim metod** goto, break va continue o'tish operatorlarini o'z ichiga olmaydi
 * **Anonim metod** out va ref parametrlarini ishlata olmaydi
 * **Anonim metod** operatorning chap tomonida ishlatilmaydi
@@ -111,7 +113,7 @@ Action<int, double, bool, string> introduce = delegate { Console.WriteLine("This
     introduce(42, 2.7, 2>4, "Hello");
 ```
 
-C# 9.0 dan boshlab siz **Anonim metod**larni static holatda e'lon qilishingiz mumkin:
+C\# 9.0 dan boshlab siz **Anonim metod**larni static holatda e'lon qilishingiz mumkin:
 
 ```csharp
 Func<int, int, double> degree = static delegate (int a, int b)
@@ -130,3 +132,4 @@ saveButton.Click += delegate(Object o, EventArgs e)
     System.Windows.Forms.MessageBox.Show("Save Successfully!"); 
 };
 ```
+

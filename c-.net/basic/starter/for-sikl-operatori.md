@@ -4,7 +4,7 @@ description: Suxrob Xayitmurodov
 
 # For sikl operatori
 
-Assalamu alaykum, mening internetdagi ajoyib zemlyaklarim. Galdagi mavzuda sizlarni takrorlash operatorlari haqida tanishtirib o’taman va shu bilan birgalikda For Loop operatorini ham ishlash sintaksisini ya'ni qanday ishlashini ko’rsataman
+Galdagi mavzuda sizlarni takrorlash operatorlari haqida tanishtirib o’taman va shu bilan birgalikda For Loop operatorini ham ishlash sintaksisini ya'ni qanday ishlashini ko’rsataman
 
 Umuman olganda kod yozayotganingizda bir xil hisoblash jarayonini qayta qayta yozish qimmatli vaqtingizni o'g'irlab sizni bezor qilishi mumkin, masalan siz “Salom, Dunyo!” jumlasini 100 marta yozishingiz zarur bo’lib qoldi. Siz uni qayta qayta yozib chiqgan bo’larmidingiz, yo’q albatta. Bu dasturchining asabini buzib, ko'ziga baloday ko'rsatib qo'yishi aniq. Aynan ushbu muammoning oldini olish uchun takrorlash operatorlari ishlab chiqilgan, ya’ni siz ta’kidlab o’tilgan jumlani bir necha qator kod bilan nafaqat 100 marta balkim googel marta ham yozishingiz mumkin. Googel bu eng katta son bo’lib, siz unga 1 soni qo’shsangiz, aynan ushbu sonni googel o’zlashtiradi. Siz o’zingiz uchun ulardan o’zingizga qulay bo’lganini tanlab olishingiz mumkin.
 

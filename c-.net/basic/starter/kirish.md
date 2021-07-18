@@ -4,7 +4,7 @@ description: Suxrob Xayitmurodov
 
 # Kirish
 
-Assalomu alaykum, hurmatli yurtdoshlar. Dasturchi sifatida bizni tanlaganingizdan juda xursandmiz \(mendan tashqari yana bir nechta maqolalar tayyorlagan akalarim ham\). Ushbu darsdan boshlab siz C\# tilini o’rganishni boshlaysiz!!!
+Dasturchi sifatida bizni tanlaganingizdan juda xursandmiz \(mendan tashqari yana bir nechta maqolalar tayyorlagan akalarim ham\). Ushbu darsdan boshlab siz C\# tilini o’rganishni boshlaysiz!!!
 
 ## C\# tilida nimalar qilsa bo'ladi, to'liq ma'lumot bering?!
 
