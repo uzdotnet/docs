@@ -18,10 +18,10 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 
 {% hint style="success" %}
 **Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:
-* **Delegat e'lon qilish
-* **Delegatdan obyekt hosil qilish
+* **Delegat e'lon qilish**
+* **Delegatdan obyekt hosil qilish**
 * **_delegate_ kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**(_bunda metod parametrlari delegat parametrlariga mos bo'lishi kerak_)
-* **delegatdan foydalanish
+* **delegatdan foydalanish**
 {% endhint %}
 
 Misol:
