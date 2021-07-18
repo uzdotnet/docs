@@ -56,7 +56,7 @@ namespace Delegates
 //  Hello DOT-NET.UZ
 ```
 
-Anonim metodlar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan(bu yerda 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan):
+**Anonim metod**lar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan(anonim metod ichida 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan):
 
 ```csharp
 using System;
@@ -94,3 +94,39 @@ Natija:
 
 ![](../../../../.gitbook/assets/anonim2.png)
 
+{% hint style="danger" %}
+**Anonim metod cheklovlari:**
+* **Anonim metod** goto, break va continue o'tish operatorlarini o'z ichiga olmaydi
+* **Anonim metod** out va ref parametrlarini ishlata olmaydi
+* **Anonim metod** operatorning chap tomonida ishlatilmaydi
+{% endhint %}
+
+**delegate** operatoridan foydalanishda parametrlarni tashlab ketish ham mumkin. Bunday holatda siz ixtiyoriy parametrlarni yuborish imkoniyatiga ega bo'lasiz:
+
+```csharp
+Action SayHello = delegate { Console.WriteLine("Hello!"); };
+    SayHello();
+
+Action<int, double, bool, string> introduce = delegate { Console.WriteLine("This method can be called with any parameters!"); };
+    introduce(42, 2.7, 2>4, "Hello");
+```
+
+C# 9.0 dan boshlab siz **Anonim metod**lani static holatda e'lon qilishingiz mumkin:
+
+```csharp
+Func<int, int, double> degree = static delegate (int a, int b)
+    {
+        return Math.Pow(a, b);
+    };
+degree(2, 3);
+```
+
+Shuningdek **Anonim metod**lar Event Handler sifatida ham ishlatilishi mumkin:
+
+```csharp
+saveButton.Click += delegate(Object o, EventArgs e)
+{ 
+    //some code for saving
+    System.Windows.Forms.MessageBox.Show("Save Successfully!"); 
+};
+```
