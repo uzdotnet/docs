@@ -17,7 +17,7 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 ![](../../../../.gitbook/assets/anonim2.png)
 
 {% hint style="success" %}
-**Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:
+**Anonim metoddan foydalanish uchun quyidagi qadamlarni bajarish yetarli:**
 * **Delegat e'lon qilish**
 * **Delegatdan obyekt hosil qilish**
 * **_delegate_ kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**(_bunda metod parametrlari delegat parametrlariga mos bo'lishi kerak_)
