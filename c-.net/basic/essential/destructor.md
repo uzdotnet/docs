@@ -6,6 +6,12 @@ description: Suxrob Xayitmurodov
 
 Destructor - bu shunday methodki, ortiq kerak bo'lmaydigan classlarni destroy \(o'chirish\) qilishga imkon beradi. Ya'ni bir necha bor ishlatilingan classlarga bizning boshqa ehtiyojimiz bo'lmasa, uni destroy qiladi. Bu method .NET Framework Garbage collectoridan bilvosita chaqiriladi va shu sababli dasturchiga uni chaqirishga \(invoke\) aslo hojat qolmaydi. Qachonki o'zgaruvchilar va ob'ektlar \(objects\) reachable \(erishish mumkin bo'lmasa -- bu yerda o'zgaruvchi va ob'ektlarni ishlata olishimiz nazarda tutilayapti ;\) \) bo'lmasa, ularni destruct \(o'chirish\) qilishimiz mumkin.
 
+![Constructor ](../../../.gitbook/assets/area-building-construction-300x214.jpg)
+
+Agar shundayam tushunmagan bo'lsangiz, unda sodda tilda tushuntiraman, Constructor qandaydir vazifani build \(qurish\)bajarishga asoslangan method bo'lsa, Destructor destroy \(buzish\) qilishga asoslanadi.
+
+![Bu destructor, qarang buzayapti :\(](../../../.gitbook/assets/unnamed.png)
+
 ### Shularni bilmasangiz bo'lmaydi!
 
 * Har bir classda destructorlarni bir marta e'lon qilish mumkin
@@ -27,6 +33,40 @@ class NimaGap
     {
         // Yana qandaydir kodlar
     }
-} 
+}
 ```
+
+### **Misol**
+
+```csharp
+using System;
+   public class NimaGap
+    {
+        public Odam()
+        {
+            Console.WriteLine("Constructor Invoked");
+        }
+        ~NimaGap()
+        {
+            Console.WriteLine("Destructor Invoked");
+        }
+    }
+   class OdamniSina{
+       public static void Main(string[] args)
+        {
+            Odam e1 = new Odam();
+            Odam e2 = new Odam();
+        }
+    }
+```
+
+```csharp
+OUTPUT:
+    Constructor Invoked
+    Constructor Invoked
+    Destructor Invoked
+    Destructor Invoked
+```
+
+Bu misolda, destructor nima ekanligini va qanday ishlashini ko'rdik!
 
