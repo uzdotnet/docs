@@ -38,18 +38,22 @@ namespace Delegates
         static void Main(string[] args)
         {
             //delegatdan obyekt hosil qilib unga anonim metod tayinlash
-            Print p;
-            p = delegate (string str)
+            Print print;
+            print = delegate (string str)
             {
                 Console.WriteLine($"Hello {str}");
             };
 
             //delegatni chaqirish
-            p("DOT-NET.UZ");
+            print("DOT-NET.UZ");
 
             Console.ReadKey();
         }
     }
 }
 
+```
+```csharp
+//Chiquvchi
+Hello DOT-NET.UZ
 ```
