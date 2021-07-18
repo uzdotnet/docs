@@ -52,8 +52,45 @@ namespace Delegates
     }
 }
 
+//Chiquvchi:
+//  Hello DOT-NET.UZ
 ```
+
+Anonim metodlar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan:
+
 ```csharp
-//Chiquvchi
-Hello DOT-NET.UZ
+using System;
+
+namespace Delegates
+{
+    class Program
+    {
+        //delegat e'lon qilish
+        public delegate int Degree(int i);
+        static void Main(string[] args)
+        {
+            //o'zgaruvchilarni kiritish
+            Console.Write("Son kiriting: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Darajani kiriting: ");
+            int n = int.Parse(Console.ReadLine());
+
+            //delegatdan obyekt hosil qilib unga anonim metod tayinlash
+            Degree d = delegate (int N)
+            {
+                return (int)Math.Pow(a, N);
+            };
+
+            //delegatni chaqirish
+            Console.WriteLine($"\n{a} sonining {n}-darajasi: {d(n)}");
+
+            Console.ReadKey();
+        }
+    }
+}
 ```
+
+Natija:
+
+![](../../../../.gitbook/assets/anonim2.png)
+
