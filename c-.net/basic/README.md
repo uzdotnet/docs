@@ -22,6 +22,8 @@ namespace dotnetuz
         }
     }
 }
+
+//from C# 9.0 System.Console.WriteLine("Hello World!"); enough for us! :)
 ```
 
 Hamma ma'lumot beradi, keyin esa kodni ko'rsatadi. Men esa sizga kodni berib, shu kodni o'rgatmoqchiman! Nima deysiz?  
