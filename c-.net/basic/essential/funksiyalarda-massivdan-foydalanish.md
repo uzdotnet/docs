@@ -41,10 +41,20 @@ static int[] GetRandomNums(int n)
     do
     {
       num = random.Next(1, n + 1);
-    } while (arr.Contains(num));
+    } while (Contains(arr, num));
     arr[i] = num;
   }
   return arr;
+}
+
+// n soni arr massivda mavjudliligini tekshiramiz
+static bool Contains(int[] arr, int n)
+{
+  foreach (var item in arr)
+  {
+    if (item == n) return true;
+  }
+  return false;
 }
 ```
 Ushbu funksiyadan foydalanamiz:
@@ -57,7 +67,6 @@ Console.WriteLine(string.Join(" ", randomNumsArr));
 
 ```csharp
 using System;
-using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -80,6 +89,7 @@ namespace ConsoleApp1
             };
         }
 
+
         static int[] GetRandomNums(int n)
         {
             int[] arr = new int[n];
@@ -91,12 +101,21 @@ namespace ConsoleApp1
                 do
                 {
                     num = random.Next(1, n + 1);
-                } while (arr.Contains(num));
+                } while (Contains(arr, num));
                 arr[i] = num;
             }
             return arr;
         }
+
+        // n sonini arr massivda mavjudliligini tekshiramiz
+        static bool Contains(int[] arr, int n)
+        {
+            foreach (var item in arr)
+            {
+                if (item == n) return true;
+            }
+            return false;
+        }
     }
 }
-
 ```
