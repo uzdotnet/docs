@@ -2,7 +2,7 @@
 description: Xolbek Xoliyorov
 ---
 
-# Funksiya
+# Funksiya (metodlar)
 
 C\# dasturlash tilida funksiyalar nimaligini o’rganishdan oldin funksiyaning o’zi nima u bizga nega kerak degan savollarga javob topamiz.  
   
