@@ -4,7 +4,7 @@ description: Xushnazarov Faxriddin
 
 # Vorislik
 
-Vorislik \(inheritance\) Obyektga Yonaltirilgan Dasturlash\(OYD\)ning muhim tamoyillaridan biridir. Voris orqali bir sinf boshqa sinfning funksionalligini o’zlashtirishi mumkin, ya’ni voris sinflar umumiy xususiyatlarni vorislik bilan olgan holda, ayrim xususiyatlarni qayta aniqlash orqali yoki yangi xususiyat kiritish orqali tayanch sinfga o’gartirish mumkin. Shu sababli hosilaviy sinflarni aniqlash sezilarli ravishda kamayadi, chunki unga tayanch sinfdan farqli elementlar qo’shiladi. Aytaylik, bizda alohida shaxsni tavsiflovchi quyidagi Person sinfi mavjud:
+Vorislik \(inheritance\) Obyektga Yonaltirilgan Dasturlash\(OYD\)ning muhim tamoyillaridan biridir. Voris orqali bir sinf boshqa sinfning funksionalligini o’zlashtirishi mumkin, ya’ni voris sinflar umumiy xususiyatlarni vorislik bilan olgan holda, ayrim xususiyatlarni qayta aniqlash orqali yoki yangi xususiyat kiritish orqali tayanch sinfga o’zgartirish mumkin. Shu sababli hosilaviy sinflarni aniqlash sezilarli ravishda kamayadi, chunki unga tayanch sinfdan farqli elementlar qo’shiladi. Aytaylik, bizda alohida shaxsni tavsiflovchi quyidagi Person sinfi mavjud:
 
 ```csharp
 class Person
