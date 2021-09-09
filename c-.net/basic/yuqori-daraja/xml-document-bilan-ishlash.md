@@ -1,5 +1,5 @@
 ---
-description: Nodirbek Abdulahadov
+description: Nodirbek Abdulaxadov
 ---
 
 # XML Document bilan ishlash
