@@ -21,3 +21,5 @@ description: Nodirbek Abdulaxadov
 * [**XmlTextReader**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmltextreader?view=net-5.0)
 * [**XmlWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlwriter?view=net-5.0)
 * [**XmlTextWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmltextwriter?view=net-5.0)
+
+{% hint style="info" %}Davomi tez kunlarda{% endhint %}
