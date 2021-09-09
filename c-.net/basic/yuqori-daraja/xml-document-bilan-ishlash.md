@@ -12,13 +12,12 @@ description: Nodirbek Abdulaxadov
 
 **XML** hujjatlar bilan ishlash uchun C# dasturlash tilida **System.Xml** nomlar fazosidagi asosan quyidagi sinflardan foydalaniladi:
 
-* **XmlDocument**
-* **XmlConvert**
-* **XmlSerialization**
-* **XmlNode**
-* **XmlNodeList**
-* **XmlScheme**
-* **XmlReader**
-* **XmlTextReader**
-* **XmlWriter**
-* **XmlTextWriter**
+* [**XmlDocument**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument?view=net-5.0)
+* [**XmlConvert**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlconvert?view=net-5.0)
+* [**XmlNode**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlnode?view=net-5.0)
+* [**XmlNodeList**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlnodelist?view=net-5.0)
+* [**XmlScheme**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlscheme?view=net-5.0)
+* [**XmlReader**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlreader?view=net-5.0)
+* [**XmlTextReader**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmltextreader?view=net-5.0)
+* [**XmlWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlwriter?view=net-5.0)
+* [**XmlTextWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmltextwriter?view=net-5.0)
