@@ -1,7 +1,0 @@
-# ASP.NET Core MVC
-
-### MVC Nima ?
-#CONTROLLER
-#MODEL
-#VIEW
-
