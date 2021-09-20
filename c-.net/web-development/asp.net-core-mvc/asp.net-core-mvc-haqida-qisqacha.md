@@ -20,3 +20,17 @@ description: Temur G'aniyev
 * Strongly typed views
 * Tag Helpers
 * View Components
+
+## Routing
+Routing loyihangizga kelgan so'rov urlni qayta ishlovchi mehanizm hisoblanib kelgan urlga mos kodni bajarilishni taminlaydi Boshqacha qilib aytsak **URL Maping** bilan shug'ulanadi. ASP.NET Core MVC da har bir routeni nomi bo'ladi. Dastlab default\(birinchi tanlangan yoki standart\) route ga yo'naltiriladi. Routing orqali loyihangiz tushunarli va qidirishga oson urllarga ega bo'ladi. **Routing Template Syntax** yordamida o'zingizga qulay ko'rnishdagi standart yoki ixtiyoriy qiymatlarga ega bo'lgan routing shablonini yasashingiz mumkin.
+```csharp
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+```
+Model binding
+
+editing...
