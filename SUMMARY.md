@@ -243,7 +243,7 @@
       * [HTTP Request va HTTP Response](c-.net/web-development/asp.net-core-web-api/untitled.md)
     * [ASP.NET Core MVC](c-.net/web-development/asp.net-core-mvc/README.md)
       * [MVC nima?](c-.net/web-development/asp.net-core-mvc/mvc-nima.md)
-      * [ASP.NET Core MVC haqida qisqacha](c-.net/web-development/asp.net-core-mvc/asp.net-mvc-haqida-qisqacha.md)
+      * [ASP.NET Core MVC haqida qisqacha](c-.net/web-development/asp.net-core-mvc/asp.net-core-mvc-haqida-qisqacha.md)
       * [Controller](c-.net/web-development/asp.net-core-mvc/controller.md)
       * [View](c-.net/web-development/asp.net-core-mvc/view.md)
       * [Model](c-.net/web-development/asp.net-core-mvc/model.md)
