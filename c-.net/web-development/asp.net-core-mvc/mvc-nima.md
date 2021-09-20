@@ -8,7 +8,7 @@ description: Temur G'aniyev
 
 ![](../../.gitbook/assets/mvc1.png)
 
-Yuqoridagi diagrammada Model View va Controller orasidagi bog'liqliklar ko'rsatilgan. MVC ning asosiy maqsadlaridan bir vazifalarni Model View va Controllerga taqsimlashdir. Bu orqali loyihani **coding \(kod yozish\), debug \(tekshirish\) va testing \(testlash\)** jarayoni osonlashadi. **MVC** patterni orqali siz **scalable** \(keng miqyosdagi\) va **extensible** \(kengayuvchi\) loyihalar yaratishingiz mumkin 
+Yuqoridagi diagrammada Model View va Controller orasidagi bog'liqliklar ko'rsatilgan. MVC ning asosiy maqsadlaridan bir vazifalarni Model View va Controllerga taqsimlashdir. Bu orqali loyihani **coding \(kod yozish\), debug \(tekshirish\) va testing \(testlash\)** jarayoni osonlashadi. **MVC** patterni orqali siz **scalable** \(keng miqyosdagi\) va **extensible** \(kengayuvchi\) loyihalar yaratishingiz mumkin.
 
 
 
