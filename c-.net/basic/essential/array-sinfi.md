@@ -318,4 +318,4 @@ output:
 
 
 
-Bu mavzudan sizga foydali nimadir o’rgata olgan bo’lsam xursandman. E’tiboringiz uchun rahmat.
+Bu mavzudan sizga foydali nimadir o’rgata olgan bo’lsam xursandman.  E’tiboringiz uchun rahmat.
