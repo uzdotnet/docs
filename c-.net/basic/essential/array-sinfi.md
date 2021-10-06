@@ -4,6 +4,7 @@ description: Mamataliyev Diyorbek
 
 # Array sinfi
 Assalomu alaykum, yosh dasturchilar! Bugun sizlar bilan **Array** abstrakt sinfiga tegishli bo’lgan bir nechta standart metod va funksiyalarni o’rganamiz. Ulardan foydalanib, bir o'lchamli massivlar ustida turli amallarni osonlik bilan bajarishingiz mumkin bo'ladi. Darsga tayyor bo'lsangiz, boshladik.
+
 Array abstrakt sinfi System nomlar fazosida joylashgan. Bu sinf metodlariga murojaat qilish uchun **Array** kalit so’zidan keyin nuqta qo’yib, metod nomini yozamiz.  Masalan, **Array.Sort(A);**
 
 ### **Array.Exists()**
