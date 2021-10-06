@@ -152,7 +152,7 @@ output: 3; -1; 4
 Ana endi sizlar bilan o’sha mashxur binar qidiruv algoritmi haqida gaplashamiz. Agar massivda shu algoritm yordamida elementni qidirmoqchi bo’lsangiz, buning ham yo’li oson. Array sinfida buning uchun ham tayyor standart metod mavjud. **Array.BinarySearch()** metodi ham huddi **Array.IndexOf()** metodiga o’xshaydi. Agar kiritilgan element massivda mavjud bo’lsa shu element indeksini, aks holda biror manfiy sonni qaytaradi. Unda yana bitta metodning nima keragi bor, deb o’ylayotgan bo’lsangiz javob beraman: binar qidiruvning asosiy ustunligi uning ishlash tezligi yuqoriligida. IndexOf() metodi bilan kerakli elementni topish uchun ko’pi bilan O(n) vaqt sarflaysiz (n - elementlar soni), BinarySearch() da esa O(log2(n)) vaqt. Bu farqni tasavvur qilish uchun bir misol: 1024 ta elementga ega massivdan kerakli elementni topish uchun IndexOf() metodi O(1024) vaqt, BinarySearch O(10) vaqt sarflaydi. Ya’ni binar qidiruvning ishlash tezligi juda yuqori hamda bu farq elementlari soni ko’p bo’lgan massivlarda yaqqol seziladi. 
 
 {% hint style="info" %}
-_**Eslatma:**  **BinarySearch()** metodi to’g’ri ishlashi uchun unga kiritilayotgan massiv o’sish tartibida tartiblangan bo’lishi shart !._
+_**Eslatma:**  **BinarySearch()** metodi to’g’ri ishlashi uchun unga kiritilayotgan massiv o’sish tartibida tartiblangan bo’lishi shart !_
 {% endhint %}
 
 Binar qidiruvni sizga shuncha maqtadim, endi kodda ham ko’raylik:
