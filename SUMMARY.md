@@ -16,6 +16,7 @@
       * [ReadLine](c-.net/basic/starter/readline.md)
       * [If-else](c-.net/basic/starter/if-else.md)
       * [Switch](c-.net/basic/starter/switch.md)
+      * [Math sinfi](c-.net/basic/starter/math-sinfi.md)
       * [For sikl operatori](c-.net/basic/starter/for-sikl-operatori.md)
       * [While sikl operatori](c-.net/basic/starter/while-sikl-operatori.md)
       * [Do-While sikl operatori](c-.net/basic/starter/untitled-3.md)
