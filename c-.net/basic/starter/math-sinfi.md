@@ -24,4 +24,4 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Cosh()** – sonning giperbolik kosinusini hisoblaydi
 
-**Math.E** – konstanta, e(eksponenta) sonini qaytaradi. 
+**Math.E** – konstanta, e(eksponenta) sonini qaytaradi.  
