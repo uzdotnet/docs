@@ -30,3 +30,16 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Floor()** - sonning butun qismi, kiritilgan sondan kichik yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi.       Math.Floor(1.5)=1;  Math.Floor(-1.5)=-2;  Math.Floor(1.0)=1.
 
+**Math.IEEERemainder()** - bir sonni ikkinchisiga bo'lingandagi qoldiqni hisoblaydi. Lekin uning hisoblash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga shu metoddan foydalanib bo'lsak, qoldiq IEEERemainder(a,b) = a - (b * Math.Round(a / b)) umumiy formula bilan hisoblanadi. Math.Round - butun songacha yaxlitlash metodi. Bundan shunday xulosa qilishimiz mumkin: agar a/b ning kasr qismi 0.5 dan kichik bo'lsa IEEERemainder metodi oddiy qoldiq bilan bir xil javob qaytaradi. Aks holda qoldiqdan b ni ayirilgan javobni qaytaradi. Masalan IEEEReaminder(10,3)=-1; IEEEReaminder(9,4)=1; 
+
+**Math.Log()** - sonning logarifmini hisoblaydi. Agar **Math.Log(a)** ko'rinishida kiruvchi parametr sifatida bitta son kiritilsa  shu sonning natural logarifmini, agar **Math.Log(a,b)** ko'rinishida ikkita son kiritilsa a sonning b asosga ko'ra logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi.
+
+**Math.Log10()** - sonning o'nli logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi.
+
+**Math.Max()** - ikkita sondan kattasini topadi. Kiruvchi parametr sifatida istalgan sonli tipda (*int, byte, double, ..*) qiymat berish mumkin. Qaysi tipda qiymat berilsa huddi shu tipda qiymat qaytaradi.
+
+**Math.Min()** - ikkita sondan kichigini topadi. Kiruvchi parametr sifatida istalgan sonli tipda (*int, byte, double, ..*) qiymat berish mumkin. Qaysi tipda qiymat berilsa huddi shu tipda qiymat qaytaradi.
+
+**Math.PI** - konstanta. O'zgarmas pi sonining qiymatini qaytaradi. Math.PI=3,14159265358979.
+
+**Math.Pow()** - sonni darajaga ko'taradi.
