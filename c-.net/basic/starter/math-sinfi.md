@@ -30,3 +30,31 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Floor()** - sonning butun qismi, kiritilgan sondan kichik yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi.       Math.Floor(1.5)=1;  Math.Floor(-1.5)=-2;  Math.Floor(1.0)=1.
 
+**Math.IEEERemainder()** - bir sonni boshqasiga bo'lgandagi qoldiqni hisoblaydi, faqat bu metodning ishlash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga IEEERemainder orqali bo'lsak qoldiq IEEERemainder(a,b) = a - (b * Math.Round(a / b)) umumiy formula bilan hisoblanadi. Ya'ni agar a/b ning butun qismi 0.5 dan kichik bo'lsa IEEERemainder() ning qaytargan javobi oddiy qoldiq(a%b) bilan bir xil, aks holda a%b-b ga teng bo'ladi. Masalan, IEEERemainder(10,3)=-1; IEEERemainder(9,4)=1.
+
+**Math.Log()** - sonning logarifmini hisoblaydi. Ikki xil usulda ishlatish mumkin. Agar bitta son  kiritilsa shu sonning natural logarifmini, ikkita son kiritilsa ikkinchi son logarifmning yangi asosi bo’lib qoladi. Masalan, Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
+
+**Math.Log10** - sonning o’nli logarifmini hisoblaydi. Math.Log(100) bizga 2 degan javobni qaytaradi.
+
+**Math.Max()** - ikki sondan kattasini aniqlab beradi. Kiruvchi parametr sifatida ikkita son kiritiladi, bizga ulardan kattasining qiymatini qaytaradi.
+
+**Math.Min()** - ikki sondan kichigini topadi. Kiruvchi parametr sifatida ikkita son kiritiladi, bizga ulardan kichigining qiymatini qaytaradi.
+
+**Math.PI** - konstanta. Pi sonining qiymati 3,14159265358979 ni qaytaradi.
+
+**Math.Pow()** - sonni darajaga ko’taradi. Kiruvchi parametrda ikkita son asos va daraja kiritiladi, bizga hisoblangan qiymatni qaytaradi. Masalan, Math.Pow(3,2) 9 ni qaytaradi.
+
+**Math.Round** - sonni yaxlitlaydi. Agar kiruvchi parametrda bitta son Math.Round(a) ko’rinishida kiritilsa, a ni butun songacha yaxlitlangan qiymatini, ikkita son Math.Round(a,b) ko’rinishida kiritilsa, a sonni verguldan keyin b ta xonagacha yaxlitlangan qiymatini qaytaradi.
+
+**Math.Sign()** - sonning ishorasini aniqlab beradi. Agar son musbat bo’lsa 1 ni, manfiy bo’lsa -1 ni, nolga teng bo’lsa 0 ni qaytaradi.
+
+**Math.Sin()** – burchakning sinusini hisoblaydi. Burchak qiymati radianda kiritiladi.  Kiruvchi va qaytariluvchi parametrlar faqat *double* tipida bo'ladi. Math.Sin(3.141592653589793)=0;
+
+**Math.Sqrt()** - sonning kvadrat ildizini hisoblaydi. 
+
+**Math.Tan()** - burchakning tangensini hisoblaydi. Burchak radianda kiritiladi. Kiruvchi va chiquvchi parametrlar faqat *double* tipida bo’ladi. Masalan,  Math.Tan(3.141592653589793) ifoda 0 ni qaytaradi.
+
+**Math.Tanh()** - burchakning giperbolik tangensini hisoblaydi.
+
+**Math.Truncate()** - bu metod ham sonning butun qismini hisoblaydi. Musbat sonlarda Math.Floor() bilan bir xil ishlaydi. Lekin ularning farqi manfiy sonlarda namoyon bo’ladi. -3.14 ning butun qismini olib ko’radigan bo’lsak, Math.Truncate(-3.14) ifoda -3 ni,  Math.Floor(-3.14) ifoda esa -4 ni qaytaradi. Matematik tomondan butun qism olish uchun Math.Floor() to’la mos keladi, lekin shuni unutmangki, Math.Truncate() ni ham o’z o’rni bor.
+
