@@ -50,7 +50,7 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Sin()** – burchakning sinusini hisoblaydi. Burchak qiymati radianda kiritiladi.  Kiruvchi va qaytariluvchi parametrlar faqat *double* tipida bo'ladi. Math.Sin(3.141592653589793)=0;
 
-**Math.Sqrt()** - sonning kvadrat ildizini hisoblaydi. 
+**Math.Sqrt()** - sonning kvadrat ildizini hisoblaydi. Kiritiladigan va qaytaradigan son *double* tipida bo'ladi.
 
 **Math.Tan()** - burchakning tangensini hisoblaydi. Burchak radianda kiritiladi. Kiruvchi va chiquvchi parametrlar faqat *double* tipida bo’ladi. Masalan,  Math.Tan(3.141592653589793) ifoda 0 ni qaytaradi.
 
