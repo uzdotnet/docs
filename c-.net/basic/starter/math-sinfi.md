@@ -1,3 +1,4 @@
+![misol1](https://user-images.githubusercontent.com/91861166/137533450-80fcc47b-d82b-4a02-b152-4cac8bab370a.jpg)
 ---
 description: Mamataliyev Diyorbek
 ---
