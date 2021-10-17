@@ -1,10 +1,8 @@
-
 ---
 description: Mamataliyev Diyorbek
 ---
 
 # Math sinfi
-
 
 Assalomu alaykum, yosh dasturchilar. Dasturlashni o'rganar ekansiz, matematikaga ishingiz tushishi tabiiy hol. Aytaylik, dasturingizda biror formula yoki ifodaning qiymatini hisoblashga to'g'ri kelib qolishi mumkin. Xo'sh, bu holatlarda matematik ifodalarni dastur kodiga qanday kiritamiz? Ifoda ichida qo'shish (+), ayirish (-), ko'paytirish (`*`), bo'lish (/), qoldiqli bo'lish(%) dan tashqari boshqa amallar qatnashgan bo'lsa, qo'shimcha metodlardan foydalanishga to'g'ri keladi. Buning uchun bizga **Math** sinfi metodlari yordam beradi. Bu metodlarni chaqirish uchun **Math** so'zidan keyin nuqta qo'yib, metod nomini yozamiz. Metod turiga qarab bir yoki bir nechta qiymatni kiritganimizda bizga hisoblangan qiymatni qaytaradi. Masalan, **Math.Abs(-3.5)** metodi 3.5 ni qaytaradi. Endi esa, sizga ko'proq **Math** sinfi metodlarini tanishtirishga harakat qilaman.
 
