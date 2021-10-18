@@ -31,7 +31,7 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.IEEERemainder()** - bir sonni boshqasiga bo'lgandagi qoldiqni hisoblaydi, faqat bu metodning ishlash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga IEEERemainder orqali bo'lsak qoldiq `IEEERemainder(a,b) = a - (b * Math.Round(a / b))` umumiy formula bilan hisoblanadi. Ya'ni agar a/b ning butun qismi 0.5 dan kichik bo'lsa IEEERemainder() ning qaytargan javobi oddiy qoldiq(a%b) bilan bir xil, aks holda a%b-b ga teng bo'ladi. Masalan, IEEERemainder(10,3)=-1; IEEERemainder(9,4)=1. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
 
-**Math.Log()** - sonning logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi. Ikki xil usulda ishlatish mumkin. Agar bitta son  kiritilsa shu sonning natural logarifmini, ikkita son kiritilsa ikkinchi son logarifmning yangi asosi bo’lib qoladi. Masalan, Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
+**Math.Log()** - sonning logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi. Ikki xil usulda ishlatish mumkin. Agar bitta son  kiritilsa shu sonning natural logarifmini hisoblaydi, ikkita son kiritilsa ikkinchi son logarifmning yangi asosi bo’lib qoladi. Masalan, Math.Log(2,718281828459045) ifoda 1 ni qaytarsa, Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
 
 **Math.Log10** - sonning o’nli logarifmini hisoblaydi.  Math.Log(100) bizga 2 degan javobni qaytaradi. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
 
