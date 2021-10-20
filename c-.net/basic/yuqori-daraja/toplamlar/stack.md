@@ -78,3 +78,4 @@ Elementlar soni: 2
 ```
 
 Shuning bilan darsimiz nihoyasiga yetdi. Agar Stack to'plamini sizga yaxshi tushuntira olgan bo'lsam xursandman. E'tiboringiz uchun rahmat.
+
