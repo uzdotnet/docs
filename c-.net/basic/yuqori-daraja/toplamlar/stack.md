@@ -14,15 +14,15 @@ To’plamlar bilan tanishishda davom etamiz. Biz o’rganadigan yangi to’plam 
 Sharchalardan birorta olishimiz kerak bo’lsa faqat eng ustidan boshlab olish imkoniyatimiz bor(o’rtasidan yoki oxiridan emas). Yangi sharchani qo’ymoqchi bo’lsak ham eng ustiga qo’ya olamiz. 
 Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
 
-**Push()** – **Stack**ga yangi element qo’shadi. Element Stackga eng yuqorisidan qo’shiladi (huddi rasmdagidek) 
+**Push()** – **Stack**ga yangi element qo’shadi. Element Stackga eng yuqorisidan qo’shiladi (huddi quyidagi rasmdagidek);
 
-**Pop()** – **Stack**ga oxirgi qo’shilgan element qiymatini qaytarib, bu elementni Stackdan olib tashlaydi. Elementni olib tashlanayotganda oxiri qo’shilgani birinchi bo’lib chiqib ketadi. 
+**Pop()** – **Stack**ga oxirgi qo’shilgan element qiymatini qaytarib, bu elementni Stackdan olib tashlaydi. Elementni olib tashlanayotganda oxiri qo’shilgani birinchi bo’lib chiqib ketadi;
 
-**Peek()** – **Stack**ning eng yuqorisidagi (oxirgi qo’shilgan) element qiymatini qaytaradi, lekin Stackdan olib tashlamaydi.
+**Peek()** – **Stack**ning eng yuqorisidagi (oxirgi qo’shilgan) element qiymatini qaytaradi, lekin Stackdan olib tashlamaydi;
 
-**Count** – **Stack**dagi elementlar sonini qaytaradi. 
+**Count** – **Stack**dagi elementlar sonini qaytaradi;
 
-**Clear()** – **Stack**dagi barcha elementlarni o’chirib yuboradi. Bundan so’ng Stackdagi elementlar soni 0 ga teng bo’lib qoladi.
+**Clear()** – **Stack**dagi barcha elementlarni o’chirib yuboradi. Bundan so’ng Stackdagi elementlar soni 0 ga teng bo’lib qoladi;
 
 **Contains()** – **Stack**da biror element bor yoki yo’qligini tekshiradi. Bor bo’lsa *true*, yo’q bo’lsa *false* qiymat qaytaradi.
 
@@ -67,6 +67,14 @@ public class program
         Console.ReadKey();
     }
 }
+```
+
+output:
+```3
+b=7
+Elementlar soni: 2
+c=5
+Elementlar soni: 2
 ```
 
 Shuning bilan darsimiz nihoyasiga yetdi. Agar Stack to'plamini sizga yaxshi tushuntira olgan bo'lsam xursandman. E'tiboringiz uchun rahmat.
