@@ -8,7 +8,7 @@ To’plamlar bilan tanishishda davom etamiz. Biz o’rganadigan yangi to’plam 
 
 **Stack**ni yaxshiroq tasavvur qilishingiz uchun hayotiy misol sifatida rasmdagi idishga solingan sharlarni misol qilib keltirishimiz mumkin: 
 
-![shar](https://user-images.githubusercontent.com/91861166/138088109-0772ccdb-fd2f-48c8-9148-2268e6a8718f.jpg)
+![Stackga misol - idishdagi sharchalar](https://user-images.githubusercontent.com/91861166/138088109-0772ccdb-fd2f-48c8-9148-2268e6a8718f.jpg)
 
 
 Sharchalardan birorta olishimiz kerak bo’lsa faqat eng ustidan boshlab olish imkoniyatimiz bor(o’rtasidan yoki oxiridan emas). Yangi sharchani qo’ymoqchi bo’lsak ham eng ustiga qo’ya olamiz. 
@@ -26,7 +26,7 @@ Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
 
 **Contains()** – **Stack**da biror element bor yoki yo’qligini tekshiradi. Bor bo’lsa *true*, yo’q bo’lsa *false* qiymat qaytaradi.
 
-![push_pop](https://user-images.githubusercontent.com/91861166/138085847-b8285bf1-dc86-483e-9ab6-e42b91ad4d62.jpg)
+![Push va Pop amallari](https://user-images.githubusercontent.com/91861166/138085847-b8285bf1-dc86-483e-9ab6-e42b91ad4d62.jpg)
 
 
 Savol tug’ilishi mumkin: Shuncha cheklovlarga ega bo’lgan to’plam dasturlashda nima uchun kerak? Biror qulayligi bormi? Albatta. Masalan, siz ko’p marta ishlatadigan **Undo/Redo** (**Ctrl+Z/Ctrl+Y**) ni ishlatganingizda bajargan ishlaringizni Stackga yozib boradi. **Ctrl+Z** qilganingizda oxirgi qilgan amalingiz birinchi bo’lib orqaga qaytadi va boshqa bo’sh stackga joylanadi (ikkinchi stack **Ctrl+Y** qilganingizda kerak bo’ladi).  Yoki yana bir misol brauzeringizdagi avvalgi yoki keyingi ochilgan web-sahifalarga o'tish uchun ishlatiladigan **back/forward** tugmachalari ham **Stack** yordamida ishlaydi.
@@ -41,31 +41,31 @@ using System.Collections;
 using System.Collections.Generic;
 public class program
 {
-    public static void Main()
-    {
-        //yangi bo'sh Stackni e'lon qilish
-        var sonlar=new Stack <int>();
+  public static void Main()
+  {
+    //yangi bo'sh Stackni e'lon qilish
+    var sonlar=new Stack <int>();
         
-        //Stackga yangi elementlarni qo'shish
-        sonlar.Push(2);
-        sonlar.Push(5);
-        sonlar.Push(7);
+    //Stackga yangi elementlarni qo'shish
+    sonlar.Push(2);
+    sonlar.Push(5);
+    sonlar.Push(7);
         
-        //Stackdagi elementlar soni:
-        Console.WriteLine(sonlar.Count);  //3 
+    //Stackdagi elementlar soni:
+    Console.WriteLine(sonlar.Count);  //3 
         
-        //Stackdan oxirgi qo'shilgan element qiymatini pop() orqali olish
-        int b=sonlar.Pop();  //7 ga teng element Stackdan chiqib ketdi
-        Console.WriteLine("b="+b);
-        Console.WriteLine("Elementlar soni: "+sonlar.Count); //2
+    //Stackdan oxirgi qo'shilgan element qiymatini pop() orqali olish
+    int b=sonlar.Pop();  //7 ga teng element Stackdan chiqib ketdi
+    Console.WriteLine("b="+b);
+    Console.WriteLine("Elementlar soni: "+sonlar.Count); //2
         
-        //Stackdan oxirgi qo'shilgan element qiymatini peek() orqali olish
-        int c=sonlar.Peek();  //Stackdagi elementlar soni o’zgarmadi
-        Console.WriteLine("c="+c);
-        Console.WriteLine("Elementlar soni: "+sonlar.Count);
+    //Stackdan oxirgi qo'shilgan element qiymatini peek() orqali olish
+    int c=sonlar.Peek();  //Stackdagi elementlar soni o’zgarmadi
+    Console.WriteLine("c="+c);
+    Console.WriteLine("Elementlar soni: "+sonlar.Count);
         
-        Console.ReadKey();
-    }
+    Console.ReadKey();
+  }
 }
 ```
 
