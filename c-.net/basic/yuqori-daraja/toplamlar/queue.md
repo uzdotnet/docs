@@ -10,7 +10,7 @@ Assalomu alaykum. Bugun ham to’plamlar bilan tanishishda davom etamiz. **Queue
 
 
 {% hint style="info" %}
-**Queue** shunday to’plamki, unga elementni faqat oxiridan qo’shiladi, faqatgina boshidan chiqib keta oladi. **Queue**ga avvalroq qo’shilgan elementlar avvalroq tartib bilan chiqib ketadi. Shuning uchun **Queue**ni *First In First Out Collection* deb ham ataladi.
+**Queue** shunday to’plamki, unga elementni faqat oxiridan qo’shiladi, faqatgina boshidan chiqib keta oladi. **Queue**ga avvalroq qo’shilgan elementlar avvalroq tartib bilan chiqib ketadi. Shuning uchun **Queue**ni *FIFO* - *First In First Out Collection* deb ham ataladi.
 {% endhint %}
 
 Biz **Queue** to’plami ustida quyidagi amallarni bajara olamiz:
@@ -21,15 +21,15 @@ Biz **Queue** to’plami ustida quyidagi amallarni bajara olamiz:
 
 **Peek()** – **Queue** ning eng boshidagi element qiymatini qaytaradi, lekin Queue dan olib tashlamaydi;
 
-**Count** – **Queue** dagi elementlar sonini (int tipida) qaytaradi;
+**Count** – **Queue** dagi elementlar sonini (*int* tipida) qaytaradi;
 
 **Contains()** – **Queue** da berilgan element mavjudligini tekshiradi. Bor bo’lsa true, aks holda false qiymat qaytaradi.
 
-![ENQUEUE VA DEQUEUE](https://user-images.githubusercontent.com/91861166/138450045-526d462b-4ec6-4d58-ad22-356db490a746.png)
+![Enqueue() va Dequeue()](https://user-images.githubusercontent.com/91861166/138450045-526d462b-4ec6-4d58-ad22-356db490a746.png)
 
 **Queue** dasturlashda aynan qaysi holatda ishlatiladi? Bir qurilmaga bir nechta qurilmadan bir vaqtda murojaat qilinadigan holatda, masalan bir nechta kompyuter bitta printerga lokal tarmoq orqali ulanganda yoki internet serverlarda navbatni ta’minlash uchun **Queue**dan foydalaniladi. 
 
-**Queue** haqida nazariy tushunchaga ega bo’lgan bo’lsangiz endi kodda ham ko’rsak:
+ **Queue** haqida nazariy tushunchaga ega bo’lgan bo’lsangiz endi kodda ham ko’rsak bo'ladi. **Queue** to'plami `System.Collections.Generic` nomlar makoniga tegishli. Shuning uchun avval shu nomlar makonini ham chaqirishimiz kerak:
 
 ```csharp
 using System;
