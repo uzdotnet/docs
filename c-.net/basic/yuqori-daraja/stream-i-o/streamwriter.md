@@ -58,3 +58,4 @@ class Program
 Yangi faylga matn yozilishini o'zingiz ko'rish uchun yuqoridagi dastur kodini ishlatib ko'ring.
 
 Yana bir foydali ma'lumot: Faylli oqim(StreamWriter)dan foydalanib ma'lumotlarni chop etish matnli oqim(Console)dan ko'ra ancha tez ishlaydi. Bu sizga ko'p ma'lumotlar chop etish kerak bo'lgan masalalarda(berilgan oraliqdagi tub sonlarni topish kabi) ancha qo'l keladi.
+
