@@ -63,6 +63,7 @@ Yana bir foydali ma'lumot: Faylli oqim(StreamWriter)dan foydalanib ma'lumotlarni
 {% hint style="info" %}
 **StreamWriter**dan foydalanib nafaqat **txt** kengaytmali, yana **doc**, **docx**, **pdf**, **xls**, **xlsx**, **ppt** kengaytmali fayllarga ham yozish imkoniyati mavjud.
 {% endhint %}
+
 ```csharp
 using System;
 using System.IO;
@@ -77,6 +78,7 @@ class Program
   }
 }
 ```
+
 Boshqa kengaytmali fayllarga yozib ko'rish sizga vazifa bo'lib qoladi. 
 
 E'tiboringiz uchun rahmat.
