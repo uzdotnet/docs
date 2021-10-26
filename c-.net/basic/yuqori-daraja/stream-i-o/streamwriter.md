@@ -29,3 +29,11 @@ Agar to'liq nomi aynan bir xil fayl ko'rsatilsa dastur ishlaganda fayl ichidagi 
 Agar fayl mavjud bo'lmagan papka ichida ko'rsatilsa, dastur ishga tushmaydi. Bu holatda kompilyator `System.IO.DirectoryNotFoundException` nomli xatolik oynasini ekranga chiqaradi
 {% endhint %}
 
+Shuningdek, fayl manzilini ko'rsatishda faqatgina fayl nomini yozish ham mumkin:
+```csharp
+StreamWriter fayl1 = new StreamWriter("sonlar.txt");
+```
+Bu holatda dasturingiz fayllari joylashgan bin nomli papka ichida yangi fayl ochiladi.
+
+Yangi faylni ochdik, endi unga qanday yozamiz?
+Sizga eng oson va to'g'ri yo'nalish: Avvalgi dasturlaringizda Console oynasiga ma'lumotni chop etish uchun foydalanilgan  `Console.Write`va `Console.WriteLine` funksiyalaridagi `Console` so'zi o'rniga **StreamWriter** dan olingan obyekt nomini yozsangiz bas
