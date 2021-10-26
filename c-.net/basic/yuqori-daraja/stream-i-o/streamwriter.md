@@ -58,3 +58,24 @@ class Program
 Yangi faylga matn yozilishini o'zingiz ko'rish uchun yuqoridagi dastur kodini ishlatib ko'ring.
 
 Yana bir foydali ma'lumot: Faylli oqim(StreamWriter)dan foydalanib ma'lumotlarni chop etish matnli oqim(Console)dan ko'ra ancha tez ishlaydi. Bu sizga ko'p ma'lumotlar chop etish kerak bo'lgan masalalarda(berilgan oraliqdagi tub sonlarni topish kabi) ancha qo'l keladi.
+
+{% hint style="info" %}
+**StreamWriter**dan foydalanib nafaqat **txt** kengaytmali, yana **doc**, **docx**, **pdf**, **xls**, **xlsx**, **ppt** kengaytmali fayllarga ham yozish imkoniyati mavjud.
+{% endhint %}
+```csharp
+using System;
+using System.IO;
+class Program
+{
+  static void Main(string[] args)
+  {
+    StreamWriter file = new StreamWriter("c:/file.doc");
+    file.Write("Salom, Dunyo!");
+    file.Close();
+    Console.Write("file.doc fayliga matn yozildi");
+  }
+}
+```
+Boshqa kengaytmali fayllarga yozib ko'rish sizga vazifa bo'lib qoladi. 
+
+E'tiboringiz uchun rahmat.
