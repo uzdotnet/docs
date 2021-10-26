@@ -36,4 +36,25 @@ StreamWriter fayl1 = new StreamWriter("sonlar.txt");
 Bu holatda dasturingiz fayllari joylashgan bin nomli papka ichida yangi fayl ochiladi.
 
 Yangi faylni ochdik, endi unga qanday yozamiz?
-Sizga eng oson va to'g'ri yo'nalish: Avvalgi dasturlaringizda Console oynasiga ma'lumotni chop etish uchun foydalanilgan  `Console.Write`va `Console.WriteLine` funksiyalaridagi `Console` so'zi o'rniga **StreamWriter** dan olingan obyekt nomini yozsangiz bas
+Sizga eng oson va to'g'ri yo'nalish: Avvalgi dasturlaringizda Console oynasiga ma'lumotni chop etish uchun foydalanilgan  `Console.Write`va `Console.WriteLine` funksiyalaridagi `Console` so'zi o'rniga **StreamWriter**dan olingan obyekt nomini yozsangiz bas. Misol tariqasida c diskning o'zida yangi fayl ochib, unga 1 dan 10 gacha sonlarni yozib ko'ramiz: 
+```csharp
+using System;
+using System.IO;
+class Program
+{
+  static void Main(string[] args)
+  {
+    StreamWriter new_file = new StreamWriter("c:/new file.txt");
+    for (int i = 1; i < 11; i++)
+        new_file.WriteLine(i);
+    new_file.Close();
+    Console.WriteLine("Sonlar faylga yozildi");
+  }
+}
+```
+{% hint style="info" %}
+**BU MUHIM!** *StreamWriter* sinfi orqali ochilgan faylga yozib bo'lingach, albatta Close() funksiyasi orqali faylni yopish kerak. Aks holda fayldagi ma'lumotlar o'chib ketadi.
+{% endhint %}
+Yangi faylga matn yozilishini o'zingiz ko'rish uchun yuqoridagi dastur kodini ishlatib ko'ring.
+
+Yana bir foydali ma'lumot: Faylli oqim(StreamWriter)dan foydalanib ma'lumotlarni chop etish matnli oqim(Console)dan ko'ra ancha tez ishlaydi. Bu sizga ko'p ma'lumotlar chop etish kerak bo'lgan masalalarda(berilgan oraliqdagi tub sonlarni topish kabi) ancha qo'l keladi.
