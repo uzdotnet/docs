@@ -114,6 +114,6 @@ break;
 Console:
 `Medium level`
 
-**enum** nima uchun va qachon ishlatilinadi?
+**enum** nima uchun va qachon ishlatiladi?
 
 Oy kunlari, kunlar, ranglar, kartalar toʻplami va h.k. kabi oʻzgarmas qiymatlarga ega boʻlganingizda enum dan foydalaning.
