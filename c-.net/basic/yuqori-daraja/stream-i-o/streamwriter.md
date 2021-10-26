@@ -24,7 +24,8 @@ Yuqoridagi kodimizda fayl1 - obyekt nomi, endi sonlar.txt fayliga shu nom bilan 
 {% hint style="info" %}
 **ESLAB QOLING!** fayl nomi ko'rsatilayotganda mavjud bo'lmagan fayl ko'rsatilsa dastur o'zi ko'rsatilgan manzilda huddi shu nomda yangi fayl ochadi. 
 
-Agar to'liq nomi aynan bir xil fayl ko'rsatilsa dastur ishlagach fayl ichidagi yozuvlar to'la o'chirilib, yangitdan yozish boshlanadi. 
+Agar to'liq nomi aynan bir xil fayl ko'rsatilsa dastur ishlaganda fayl ichidagi yozuvlar to'la o'chirilib, yangitdan yozish boshlanadi. 
 
 Agar fayl mavjud bo'lmagan papka ichida ko'rsatilsa, dastur ishga tushmaydi. Bu holatda kompilyator `System.IO.DirectoryNotFoundException` nomli xatolik oynasini ekranga chiqaradi
 {% endhint %}
+
