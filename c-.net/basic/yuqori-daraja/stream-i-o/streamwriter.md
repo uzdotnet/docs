@@ -19,6 +19,7 @@ class Program
       }
   }
 ```
+
 Yuqoridagi kodimizda fayl1 - obyekt nomi, endi sonlar.txt fayliga shu nom bilan murojaat qilamiz. Qavs ichidagi nom esa sizga tanish, bu biz yozmoqchi bo'lgan faylning to'liq nomi. Bizning holatda fayl c diskda papka1 nomli papkada joylashgan.
 
 {% hint style="info" %}
