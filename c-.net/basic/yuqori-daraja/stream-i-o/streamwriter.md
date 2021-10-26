@@ -63,20 +63,8 @@ Yana bir foydali ma'lumot: Faylli oqim(StreamWriter)dan foydalanib ma'lumotlarni
 {% hint style="info" %}
 **StreamWriter**dan foydalanib nafaqat **txt** kengaytmali, yana **doc**, **docx**, **pdf**, **xls**, **xlsx**, **ppt** kengaytmali fayllarga ham yozish imkoniyati mavjud.
 {% endhint %}
-```csharp
-using System;
-using System.IO;
-class Program
-{
-  static void Main(string[] args)
-  {
-    StreamWriter file = new StreamWriter("c:/file.doc");
-    file.Write("Salom, Dunyo!");
-    file.Close();
-    Console.Write("file.doc fayliga matn yozildi");
-  }
-}
-```
+
+Demak, yuqorida keltirilgan misoldagi *new file.txt* nomi o'rniga *new file.doc*, *new file.ppt* kabi boshqa nomlar yozishimiz ham mumkin ekan. Natijada matn boshqa turdagi matnli faylga yoziladi.
 Boshqa kengaytmali fayllarga yozib ko'rish sizga vazifa bo'lib qoladi. 
 
 E'tiboringiz uchun rahmat.
