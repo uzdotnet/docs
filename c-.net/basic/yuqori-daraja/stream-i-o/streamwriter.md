@@ -33,7 +33,7 @@ Shuningdek, fayl manzilini ko'rsatishda faqatgina fayl nomini yozish ham mumkin:
 ```csharp
 StreamWriter fayl1 = new StreamWriter("sonlar.txt");
 ```
-Bu holatda dasturingiz fayllari joylashgan bin nomli papka ichida yangi fayl ochiladi.
+Bu holatda dasturingiz fayllari joylashgan **bin** nomli papka ichida yangi fayl ochiladi.
 
 Yangi faylni ochdik, endi unga qanday yozamiz?
 Sizga eng oson va to'g'ri yo'nalish: Avvalgi dasturlaringizda Console oynasiga ma'lumotni chop etish uchun foydalanilgan  `Console.Write`va `Console.WriteLine` funksiyalaridagi `Console` so'zi o'rniga **StreamWriter**dan olingan obyekt nomini yozsangiz bas. Misol tariqasida c diskning o'zida yangi fayl ochib, unga 1 dan 10 gacha sonlarni yozib ko'ramiz: 
