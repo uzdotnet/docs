@@ -47,7 +47,7 @@ Level myVar =Level.Medium;
 Console.WriteLine(myVar);
 }}
 ```
-Console: `Medium`
+Console:  `Medium`
 
 **enum** qiymatlari:
 Odatda, **enum** ning birinchi qiymati doim “0” dan boshlanadi va shu tariqa ikkinchisi “1” bo’lib davom etadi…
