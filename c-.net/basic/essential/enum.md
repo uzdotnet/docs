@@ -1,5 +1,5 @@
 ---
-description: Xakimbekov Doniyorbek
+description: Xakimbekov Doniyorbek, Hikmatullayev Saidrahmatulloh
 ---
 
 # Enum
@@ -117,3 +117,183 @@ Console:
 **enum** nima uchun va qachon ishlatiladi?
 
 Oy kunlari, kunlar, ranglar, kartalar toʻplami va h.k. kabi oʻzgarmas qiymatlarga ega boʻlganingizda enum dan foydalaning.
+
+
+**Enum** ni tushinish uchun quyidagi misolda ko'raylik
+Misol: Bizga hafta kunlari (1,2…7)gacha raqamlar bilan raqamlab berilgan 
+bo'lsin  bizga hafta raqami berilsa hafta kunini chiqaradigan dastur qilishimiz kerak. 
+Bu masalani  birinchi biz bilgan switch case da hal  qilib ko'raylik.
+
+```csharp
+using System;
+namespace switch_case
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hafta raqamini kiriting :");
+            int n=int.Parse(Console.ReadLine());
+            switch(n)
+            {
+                case 1:Console.WriteLine($"Dushanba");break;
+                case 2:Console.WriteLine($"Seshanba");break;
+                case 3:Console.WriteLine($"Chorshanba");break;
+                case 4:Console.WriteLine($"Payshanba");break;
+                case 5:Console.WriteLine($"Juma");break;
+                case 6:Console.WriteLine($"Shanba");break;
+                case 7:Console.WriteLine($"Yakshanba");break;
+            }
+        }
+    }
+}
+```
+
+Endi bu masalani **enum** bilan hal qilib ko'ramiz
+
+```csharp
+using System;
+namespace enum1
+{
+    class Program
+    {
+        public enum Kun
+        {
+            Dushanba=1, Seshanba=2, Chorshanba=3,Payshanba=4, Juma=5, Shanba=6, Yakshanba=7
+        };
+        static void Main()
+        {
+            Console.WriteLine("Kun raqamini kiriting =>");
+            
+            int n= int.Parse(Console.ReadLine());
+            
+            System.Console.WriteLine(Enum.GetName(typeof(Kun),n));
+            
+        }
+    }
+}
+```
+
+**Enum** orqali kodni uzunligi ancha qisqardi.
+
+Quyidagi hollarda **enum** elementlarga avtomatik qiymat beradi.
+
+```csharp
+using System;
+namespace _enum
+{
+    class Program
+    {
+        public enum ranglar
+        {
+            qizil,  //0
+            sariq,  //1
+            yashil = 4,
+            kok,    //5
+            qora    //6
+        };
+        static void Main(string[] args)
+        {
+            string[] rang = Enum.GetNames(typeof(ranglar));
+            foreach(var r in rang)  // bu yerda ranglar nomi chop etilmoqda
+            {
+                Console.WriteLine(r);
+            }
+            int[] values =(int[]) Enum.GetValues(typeof(ranglar));
+            foreach(var m in values) //bu yerda esa qiymati
+            {
+                Console.WriteLine(m);
+            }
+        }
+    }
+}
+```
+
+Qora oynada quyidagicha natija chiqadi.
+```
+qizil
+sariq
+yashil
+kok
+qora
+0
+1
+4
+5
+6
+```
+Biz **enum** dan foydalanib avtomobillar narxi chiqaruvchi dastur tuzib ko'rayik.
+
+```csharp
+using System;
+namespace car
+{
+    class Program
+    {
+        enum mashinalar
+        {
+            Nexia3 = 87000000,
+            Gentira = 100000000,
+            Cobalt = 97000000,
+            Spark=76000000,
+            Damas=66000000,
+            Malibu=275000000,
+            Kaptiva=260000000,
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(mashinalar.Malibu+"ning narxi");
+            int narxi = (int)mashinalar.Malibu;
+            Console.WriteLine(narxi + " so'm");
+        }
+    }
+}
+```
+Qora oynadagi natija:
+```
+Malibuning narxi
+275000000 so'm
+```
+
+**Enum** elementlarini qiymatiga qarab jop etish.
+```csharp
+using System;
+namespace dasturlash
+{
+    class Program
+    {
+        enum dasturlash_tillari
+        {
+            Csharp=1,
+            C,          //2
+            Cplasplas,  //3
+            Go,         //4
+            Python,     //5
+            Java,       //6
+            JavaScript, //7
+            Kotlin,      //8        
+        }
+        static void Main(string[] args)
+        {
+            int i = 1, j = 4, k = 5, f = 8;
+            dasturlash_tillari a1, b1, c1, d1;
+            a1 = (dasturlash_tillari)i;
+            b1 = (dasturlash_tillari)j;
+            c1 = (dasturlash_tillari)k;
+            d1 = (dasturlash_tillari)f;
+            Console.WriteLine(a1);
+            Console.WriteLine(b1);
+            Console.WriteLine(c1);
+            Console.WriteLine(d1);
+        }
+    }
+}
+```
+
+Qora oynadagi natija
+```
+Csharp
+Go
+Python
+Kotlin
+```
