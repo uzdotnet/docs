@@ -31,21 +31,22 @@ Console.WriteLine(myVar);
 *enum* so’zi bu “*enumerations*” qisqartmasi bo’lib “maxsus sanab o’tilgan” degan ma’noni anglatadi.
 {% endhint %}
 
-Siz **enum** sinfidan Class ichida ham foydalana olasiz:
+Siz **enum** kalit so'zidan Class ichida ham foydalana olasiz:
 Misol uchun:
 ```csharp
-classProgram{
-enumLevel
+classProgram
 {
-Low,
-Medium,
-High
+  enumLevel
+  {
+    Low,
+    Medium,
+    High
+  }
+static void Main(string[] args)
+{
+  Level myVar =Level.Medium;
+  Console.WriteLine(myVar);
 }
-staticvoidMain(string[] args)
-{
-Level myVar =Level.Medium;
-Console.WriteLine(myVar);
-}}
 ```
 Console:  `Medium`
 
@@ -55,18 +56,19 @@ Odatda, **enum** ning birinchi qiymati doim “0” dan boshlanadi va shu tariqa
 Elementdan butun qiymat olish uchun elementni *int* ga o’zgartirishimiz (convert) kerak:
 Misol uchun
 ```csharp
-enumMonths{
-January,// 0
-February,// 1
-March,// 2
-April,// 3
-May,// 4
-June,// 5
-July// 6}
-staticvoidMain(string[] args)
+enumMonths
 {
-int myNum =(int)Months.April;
-Console.WriteLine(myNum);
+  January,// 0
+  February,// 1
+  March,// 2
+  April,// 3
+  May,// 4
+  June,// 5
+  July// 6}
+static void Main(string[] args)
+{
+  int myNum =(int)Months.April;
+  Console.WriteLine(myNum);
 }
 ```
  Console: `3`
@@ -74,42 +76,45 @@ Console.WriteLine(myNum);
  
 Shuningdek, siz o’zingizni enum qiymatlaringizni belgilashingiz ham mumkin va keyingi elementlar raqamni mos ravishda yangilaydi. Misol uchun:
 ```csharp
-enumMonths{
-January,// 0
-February,// 1
-March=6,// 6
-April,// 7
-May,// 8
-June,// 9
-July// 10}
+enumMonths
+{
+  January,// 0
+  February,// 1
+  March=6,// 6
+  April,// 7
+  May,// 8
+  June,// 9
+  July// 10}
 staticvoidMain(string[] args)
 {
-int myNum =(int)Months.April;
-Console.WriteLine(myNum);
+  int myNum =(int)Months.April;
+  Console.WriteLine(myNum);
 }
 ```
 Console: `7`
 
 **enum** ko’pincha mos qiymatlarni tekshirish uchun switch ichida foydalaniladi. Misol uchun
 ```csharp
-enumLevel{
-Low,
-Medium,
-High}
-staticvoidMain(string[] args){
+enumLevel
+{
+  Low,
+  Medium,
+  High
+}
+static void Main(string[] args){
 Level myVar =Level.Medium;
 switch(myVar)
 {
-caseLevel.Low:
-Console.WriteLine("Low level");
-break;
-caseLevel.Medium:
-Console.WriteLine("Medium level");
-break;
-caseLevel.High:
-Console.WriteLine("High level");
-break;
-}}
+  caseLevel.Low:
+  Console.WriteLine("Low level");
+  break;
+  caseLevel.Medium:
+  Console.WriteLine("Medium level");
+  break;
+  caseLevel.High:
+  Console.WriteLine("High level");
+  break;
+}
 ```
 Console:
 `Medium level`
