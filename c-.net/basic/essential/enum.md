@@ -7,7 +7,7 @@ description: Xakimbekov Doniyorbek
 **enum** - bu o’zgarmaslarni ifodalovchi maxsus “sinf” (qiymati **o’zgarmaydigan** yoki bir so’z bilan aytganda **read-only** o’zgaruvchilar).
 **enum** ni yaratish uchun __enum__ kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va enum elementlari vergul bilan ajratib yoziladi: 
 
-## **Misol uchun:**
+**Misol uchun:**
 
 ```csharp
 using System;
