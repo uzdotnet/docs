@@ -5,14 +5,14 @@ description: Hikmatullayev Saidrahmatulloh
 
 C# da ArrayList hajmi dinamik ravishda oshib boruvchi umumiy obyektlar to'plamidir.
 
-Demak ArrayList ni  dinamik massiv yaratish uchun foydalaniladi, ya'ni massiv hajmi siznind dasturingiz talabiga ko'ra avtomatik kattalashadi yoki kichiklashadi.
-**ArrayList**da faqat *Object* tipidagi elementlarni saqlash mumkin, demak, siz **ArrayList**dan sonlarni ham, satrlarni ham, obyektlarni ham saqlashda foydalanishingiz mumkin
+Demak ArrayList ni  dinamik massiv yaratish uchun foydalaniladi, ya'ni massiv hajmi sizning dasturingiz talabiga ko'ra avtomatik kattalashadi yoki kichiklashadi.
+**ArrayList**da faqat *Object* tipidagi elementlarni saqlash mumkin, demak, siz **ArrayList**dan sonlar, satrlar va boshqa tipdagi ma'lumotlarni, obyektlarni ham saqlashda foydalanishingiz mumkin
 
 1-qadam.
 ArrayList dan foydalanish uchun  `System.Collections` nomlar fazosini qo'shish kerak.
 
 2- qadam.
-Endi ArrayList elon qilishni ko'rib chiqaylik: 
+Endi ArrayList e'lon qilishni ko'rib chiqaylik: 
 
 ```csharp
 ArrayList  list=new ArrayList();
@@ -38,7 +38,8 @@ ArrayList qulayliklari bilan tanishamiz:
   
 Umuman olganda bu funksiyalar `System.Collections` dagi barcha to'plamlar uchun ishlaydi.
 
-### **Add()** funksiyasini ishlatishni ko'rib chiqaylik.
+
+**Add()** funksiyasini ishlatishni ko'rib chiqaylik.
 
 Misol1:
 ```csharp
@@ -73,8 +74,7 @@ C# C++ C Go Python
 
 Misol2:
 
-Birinchi misolda biz bir turdagi elementlardan foydalandik. Umuman olganda ixtiyoriy turdagi elementlarni qo'shish mumkin.
-Uni quydagi misolda ko'ramiz.
+Birinchi misolda biz bir turdagi elementlardan foydalandik. Umuman olganda ixtiyoriy turdagi elementlarni qo'shish mumkin. Uni quydagi misolda ko'ramiz.
 
 ```csharp
 using System; 
@@ -105,7 +105,7 @@ namespace dotnetuz
 }
 ```
 Dastur natijasi:
-`
+```
 dotnetuz
 1.1
 Csharp
@@ -116,9 +116,9 @@ True
 13
 45
 C++
-`
+```
 
-### Sort() funksiyasi ishlatilishi.
+**Sort()** funksiyasining ishlatilishi:
 
 Keling tushunish oson bo'lishi uchun 1- misolda Sort() funksiyasini ko'ramiz.
 ```csharp
