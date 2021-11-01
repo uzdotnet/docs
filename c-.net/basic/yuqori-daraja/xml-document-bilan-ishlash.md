@@ -150,3 +150,22 @@ writer.Flush();
 ```
 
 ## 3. **XML** hujjat hosil qilish uchun C\# dasturlash tilida [**System.Xml.Linq**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq?view=net-5.0) nomlar fazosidagi [**XElement**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq.xelement?view=net-5.0) sinfidan ham foydalansak bo'ladi:
+
+Va nihoyat men yoqtirgan usulga ham yetib keldik 😄!
+
+{% hint style="success" %}
+**XElement** sinfi yordamida XML hujjat hosil qilish birmuncha oson va tushunarli. Har bir element va uning ichidagi elementlar shajaraga o'xshab joylashadi.
+{% endhint %}
+
+```csharp
+XElement talabalar =
+    new XElement("Talabalar",
+        new XElement("Talaba",
+            new XElement("Id", "1"),
+            new XElement("Ism", "Baxtiyor"),
+            new XElement("Familiya", "Murodov"),
+            new XElement("Tel_nomer", "+998901234567")));
+
+    talabalar.Save("Talabalar.xml");
+```
+
