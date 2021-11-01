@@ -24,6 +24,18 @@ description: Nodirbek Abdulaxadov
 
 ## Keling endi gapni cho'zmasdan amaliyotga o'tamiz. Quyida biz XML hujjat hosil qilishning bir nechta usullarini ko'rib chiqamiz.
 
+Jarayonda biz Talaba modelidan tuzilgan Talabalar jadvalidan foydalanamiz:
+
+``csharp
+public class Talaba
+    {
+        public int Id { get; set; }
+        public string Ism { get; set; }
+        public string Familiya { get; set; }
+        public string TelNomer { get; set; }
+    }
+``
+
 ## 1. [**XmlDocument**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument?view=net-5.0) va [**XmlNode**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlnode?view=net-5.0) sinflari yordamida:
 
 **XmlDocument** sinfidan yangi obyekt hosil qilamiz:
