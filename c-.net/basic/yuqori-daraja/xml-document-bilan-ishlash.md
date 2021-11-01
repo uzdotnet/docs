@@ -26,7 +26,7 @@ description: Nodirbek Abdulaxadov
 
 _Jarayonda biz Talaba modelidan tuzilgan Talabalar jadvalidan foydalanamiz:_
 
-``csharp
+```csharp
 public class Talaba
     {
         public int Id { get; set; }
@@ -34,35 +34,35 @@ public class Talaba
         public string Familiya { get; set; }
         public string TelNomer { get; set; }
     }
-``
+```
 
 ## 1. [**XmlDocument**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument?view=net-5.0) va [**XmlNode**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlnode?view=net-5.0) sinflari yordamida:
 
 **XmlDocument** sinfidan yangi obyekt hosil qilamiz:
 
-``csharp
+```csharp
 XmlDocument document = new XmlDocument();
-``
+```
 
 **XmlNode** sinfi orqali Xml hujjat parametrlarini hosil qilamiz va uni AppendChild metodi yordamida document ga qo'shamiz:
 
-``csharp
+```csharp
 XmlNode xnode = document.CreateXmlDeclaration("1.0", "UTF-8", null);
 document.AppendChild(xnode);
-``
+```
 
 {% hint style="info" %}Xml da yangi element hosil qilish **XmlNode** sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.{% endhint %}
 
 Talabalar nomli bosh elementni yaratamiz va uni documentga qo'shamiz:
 
-``csharp
+```csharp
 XmlNode talabalar = document.CreateElement("Talabar");
 document.AppendChild(talabalar);
-``
+```
 
 Endi Talaba modelining xususiyatlarini element shaklida tashkil qilgan Talaba nomli element hosil qilamiz:
 
-``csharp
+```csharp
 XmlNode talaba = document.CreateElement("Talaba");
 talabalar.AppendChild(talaba);
 
@@ -81,13 +81,13 @@ talaba.AppendChild(familiya);
 XmlNode nomer = document.CreateElement("TelNomer");
 nomer.AppendChild(document.CreateTextNode("+998901234567"));
 talaba.AppendChild(nomer);
-``
+```
 
 Yaratgan Xml hujjattimizni saqlaymiz:
 
-``csharp
+```csharp
 document.Save("Talabalar.xml");
-``
+```
 
 **Natijamiz:**
 
