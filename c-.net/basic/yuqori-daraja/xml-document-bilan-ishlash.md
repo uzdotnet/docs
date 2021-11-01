@@ -83,7 +83,7 @@ nomer.AppendChild(document.CreateTextNode("+998901234567"));
 talaba.AppendChild(nomer);
 ```
 
-Yaratgan Xml hujjattimizni saqlaymiz:
+Yaratgan Xml hujjatimizni saqlaymiz:
 
 ```csharp
 document.Save("Talabalar.xml");
@@ -169,7 +169,7 @@ XElement talabalar =
     talabalar.Save("Talabalar.xml");
 ```
 
-## 4. **XML** hujjatni JSON fayllar kabi [Serialize](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/) qilish orqali ham yaratishimiz mumkin. Buning uchun bizga [**System.Xml.Serialization**] nomlar fazosidagi sinflar kerak bo'ladi.
+## 4. **XML** hujjatni JSON fayllar kabi [Serialize](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/) qilish orqali ham yaratishimiz mumkin. Buning uchun bizga [**System.Xml.Serialization**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization?view=net-5.0) nomlar fazosidagi sinflar kerak bo'ladi.
 
 Dastlab Talaba modelimizga [Serializable] attributini qo'shishimiz kerak bo'ladi:
 
