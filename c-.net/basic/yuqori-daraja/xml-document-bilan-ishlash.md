@@ -51,7 +51,7 @@ XmlNode xnode = document.CreateXmlDeclaration("1.0", "UTF-8", null);
 document.AppendChild(xnode);
 ```
 
-{% hint style="info" %}Xml da yangi element hosil qilish **XmlNode** sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.{% endhint %}
+{% hint style="info" %}Xml da yangi element hosil qilish XmlNode sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.{% endhint %}
 
 Talabalar nomli bosh elementni yaratamiz va uni documentga qo'shamiz:
 
@@ -92,3 +92,61 @@ document.Save("Talabalar.xml");
 **Natijamiz:**
 
 ![](../../../.gitbook/assets/xml_1.png)
+
+## 2. [**XmlWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlwriter?view=net-5.0) sinfi yordamida:
+
+{% hint style="info" %}
+XmlWriter sinfining metodlari:
+* Create - Yangi hujjat obyektini yaratish
+* WriteStartDocument - Yangi hujjat yozishni boshlash
+* WriteStartElement - Yangi element ochish
+* WriteValue - Element qiymatini kiritish
+* WriteEndElement - elementni yopish
+* WriteEndDocument - hujjatni yopish
+* Flush - hujjatni saqlash
+{% endhint %}
+
+XmlWriter sinfining metodlaridan va yuqoridagi model va ketma-ketlikdan foydalanib yangi Talabalar.xml nomli hujjat hosil qilamiz.
+
+**XmlWriter** sinfidan yangi obyekt hosil qilish uchun dastlab uning sozlamalarini hosil qilish kerak bo'ladi:
+
+```csharp
+XmlWriterSettings settings = new XmlWriterSettings();
+settings.Indent = true;
+```
+
+XmlWriter obyektini Talabalar.xml fayli nomi va yuqoridagi settings bilan hosil qilamiz:
+
+```csharp
+XmlWriter writer = XmlWriter.Create("Talabalar.xml", settings);
+```
+
+Talaba modelining xususiyatlarini kiritib, hujjatimizni hosil qilamiz:
+
+```csharp
+writer.WriteStartDocument();
+writer.WriteStartElement("Talabalar");
+
+writer.WriteStartElement("Talaba");
+
+writer.WriteStartElement("Id");
+writer.WriteValue("1");
+writer.WriteEndElement();
+
+writer.WriteStartElement("Ism");
+writer.WriteValue("Baxtiyor");
+writer.WriteEndElement();
+
+writer.WriteStartElement("Familiya");
+writer.WriteValue("Murodov");
+writer.WriteEndElement();
+
+writer.WriteStartElement("TelNomer");
+writer.WriteValue("+998901234567");
+writer.WriteEndElement();
+
+writer.WriteEndDocument();
+writer.Flush();
+```
+
+## 3. **XML** hujjat hosil qilish uchun C\# dasturlash tilida [**System.Xml.Linq**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq?view=net-5.0) nomlar fazosidagi [**XElement**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq.xelement?view=net-5.0) sinfidan ham foydalansak bo'ladi:
