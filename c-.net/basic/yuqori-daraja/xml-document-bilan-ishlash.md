@@ -91,4 +91,4 @@ document.Save("Talabalar.xml");
 
 **Natijamiz:**
 
-![](../../../.gitbook/assets/xml1.png)
+![](../../../.gitbook/assets/xml_1.png)
