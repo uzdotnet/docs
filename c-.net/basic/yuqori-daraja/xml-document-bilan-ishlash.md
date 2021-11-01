@@ -169,3 +169,49 @@ XElement talabalar =
     talabalar.Save("Talabalar.xml");
 ```
 
+## 4. **XML** hujjatni JSON fayllar kabi [Serialize](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/) qilish orqali ham yaratishimiz mumkin. Buning uchun bizga [**System.Xml.Serialization**] nomlar fazosidagi sinflar kerak bo'ladi.
+
+Dastlab Talaba modelimizga [Serializable] attributini qo'shishimiz kerak bo'ladi:
+
+```csharp
+[Serializable]
+public class Talaba
+    {
+        public int Id { get; set; }
+        public string Ism { get; set; }
+        public string Familiya { get; set; }
+        public string TelNomer { get; set; }
+    }
+```
+
+Yangi Talaba obyektini xususiyatlari bilan yaratamiz va Talabalar listiga qo'shamiz:
+
+```csharp
+Talaba talaba = new Talaba
+        {
+            Id = 1,
+            Ism = "Baxtiyor",
+            Familiya = "Murodov",
+            TelNomer = "+998901234567"
+        };
+        
+List<Talaba> talabalar = new List<Talaba>();
+talabalar.Add(talaba);
+```
+
+Obyektimizni serialize qilamiz va TextWriter yordamida Talabalar.xml nomi bilan saqlaymiz:
+
+```csharp
+XmlSerializer serializer = new XmlSerializer(typeof(List<Talaba>));
+TextWriter twriter = new StreamWriter("Talabalar.xml");
+
+serializer.Serialize(twriter, talabalar);
+twriter.Close();
+
+```
+
+**Natijamiz:**
+
+![](../../../.gitbook/assets/xml_2.png)
+
+_Qachondir davomi bor yana ;)_
