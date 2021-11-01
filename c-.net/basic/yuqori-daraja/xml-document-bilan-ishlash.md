@@ -22,9 +22,9 @@ description: Nodirbek Abdulaxadov
 * [**XmlWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlwriter?view=net-5.0)
 * [**XmlTextWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmltextwriter?view=net-5.0)
 
-## Keling endi gapni cho'zmasdan amaliyotga o'tamiz. Quyida biz XML hujjat hosil qilishning bir nechta usullarini ko'rib chiqamiz.
+**Keling endi gapni cho'zmasdan amaliyotga o'tamiz. Quyida biz XML hujjat hosil qilishning bir nechta usullarini ko'rib chiqamiz.**
 
-Jarayonda biz Talaba modelidan tuzilgan Talabalar jadvalidan foydalanamiz:
+_Jarayonda biz Talaba modelidan tuzilgan Talabalar jadvalidan foydalanamiz:_
 
 ``csharp
 public class Talaba
@@ -51,4 +51,44 @@ XmlNode xnode = document.CreateXmlDeclaration("1.0", "UTF-8", null);
 document.AppendChild(xnode);
 ``
 
+{% hint style="info" %}Xml da yangi element hosil qilish **XmlNode** sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.{% endhint %}
 
+Talabalar nomli bosh elementni yaratamiz va uni documentga qo'shamiz:
+
+``csharp
+XmlNode talabalar = document.CreateElement("Talabar");
+document.AppendChild(talabalar);
+``
+
+Endi Talaba modelining xususiyatlarini element shaklida tashkil qilgan Talaba nomli element hosil qilamiz:
+
+``csharp
+XmlNode talaba = document.CreateElement("Talaba");
+talabalar.AppendChild(talaba);
+
+XmlNode id = document.CreateElement("Id");
+id.AppendChild(document.CreateTextNode("1"));
+talaba.AppendChild(id);
+
+XmlNode ism = document.CreateElement("Ism");
+ism.AppendChild(document.CreateTextNode("Nodirbek"));
+talaba.AppendChild(ism);
+
+XmlNode familiya = document.CreateElement("Familiya");
+familiya.AppendChild(document.CreateTextNode("Abdulaxadov"));
+talaba.AppendChild(familiya);
+
+XmlNode nomer = document.CreateElement("TelNomer");
+nomer.AppendChild(document.CreateTextNode("+998901234567"));
+talaba.AppendChild(nomer);
+``
+
+Yaratgan Xml hujjattimizni saqlaymiz:
+
+``csharp
+document.Save("Talabalar.xml");
+``
+
+**Natijamiz:**
+
+![](../../.gitbook/assets/xml1.png)
