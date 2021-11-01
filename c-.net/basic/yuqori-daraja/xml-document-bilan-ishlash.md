@@ -27,6 +27,16 @@ description: Nodirbek Abdulaxadov
 ## 1. [**XmlDocument**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument?view=net-5.0) va [**XmlNode**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlnode?view=net-5.0) sinflari yordamida:
 
 **XmlDocument** sinfidan yangi obyekt hosil qilamiz:
+
 ``csharp
 XmlDocument document = new XmlDocument();
 ``
+
+**XmlNode** sinfi orqali Xml hujjat parametrlarini hosil qilamiz va uni AppendChild metodi yordamida document ga qo'shamiz:
+
+``csharp
+XmlNode xnode = document.CreateXmlDeclaration("1.0", "UTF-8", null);
+document.AppendChild(xnode);
+``
+
+
