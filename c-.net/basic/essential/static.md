@@ -4,7 +4,7 @@ description: Sobirjonov O'tkirbek
 
 # static
 
-**Static Class va static funksiyalar **
+Static Class va static funksiyalar 
 
 Siz C# da dastur yozar ekansiz, **static** kalit so’ziga duch kelishingiz aniq. Ushbu darsda **static** kalit so’zi *class*lar yaratishda qanday ahamiyatga ega ekanligini ko’rib chiqamiz.  
 
