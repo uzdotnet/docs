@@ -6,7 +6,8 @@ description: Nodirbek Abdulaxadov
 
 **LINQ** \(Language-Integrated Query\) - bu ma'lumot manbasidan so’rov olish  uchun oddiy va qulay til. Ma'lumotlar manbayi sifatida - IEnumerable interfeysini \(masalan, standart to'plamlar, massivlar\) amalga oshiradigan obyekt, DataSet, XML hujjati bo'lishi mumkin. Ammo manba turidan qat'iy nazar, LINQ ma'lumotni olish uchun barchasi uchun bir xil usulni qo'llashga imkon beradi.
 
-**Qisqacha qilib aytganda** **LINQ** - _kodni ixchamlashtirish va oson o'qish imkoniyatini beradi va undan turli xil ma'lumot manbalari uchun so'rovlarda foydalanish mumkin._
+
+**Qisqacha qilib aytganda** **LINQ** - _kodni ixchamlashtirish va oson o'qish imkoniyatini beradi va undan turli xil ma'lumot manbalari uchun so'rovlarda foydalanish mumkin._
 
 **LINQ** ning bir nechta turi mavjud:
 
@@ -21,7 +22,8 @@ description: Nodirbek Abdulaxadov
 
 **LINQ** so'rovlari natijalarni obyekt sifatida qaytaradi. Bu sizga natijalar to'plamida obyektga yo'naltirilgan yondashuvni ishlatishga va natijalarning turli formatlarini obyektlarga aylantirish haqida tashvishlanmaslikka imkon beradi.
 
-**LINQ-ning afzalliklari**
+
+**LINQ-ning afzalliklari**
 
 * **Tanish til:** Ishlab chiquvchilar ma'lumotlar manbalarining har bir turi yoki ma'lumotlar formati uchun yangi so'rovlar tilini o'rganishlari shart emas.
 * **Kamroq kod yozish:** Bu an'anaviy yondoshuv bilan taqqoslaganda yoziladigan kod miqdorini ancha kamaytiradi.
@@ -33,9 +35,12 @@ description: Nodirbek Abdulaxadov
 
 ### **LINQ** dan foydalanish
 
-LINQ dan foydalanish uchun bizga .Net Framework 3.5 va C\# 3.0 kerak bo’ladi\(foydalanish uchun minimum versiyalar\).
 
-**System** kutubxonasiga qo’shimcha ravishda **System.Linq** kutubxonasidan foydalanamiz.****
+LINQ dan foydalanish uchun bizga .Net Framework 3.5 va C\# 3.0 kerak bo’ladi\(foydalanish uchun minimum versiyalar\).
+
+
+**System** kutubxonasiga qo’shimcha ravishda **System.Linq** kutubxonasidan foydalanamiz.
+****
 
 **Misol:**
 
@@ -72,41 +77,42 @@ namespace LINQ_operations
 
 * **Select** : tanlangan qiymatlarning proektsiyasini belgilaydi
 * **Where** : tanlov filtrini belgilaydi
-* **OrderBy** : buyurtma buyumlarini ortib boruvchi tartibda
-* **OrderByDescending** : buyumlarni kamayish tartibida buyurtma qiladi
-* **ThenBy** : o'sish tartibida buyumlarni buyurtma qilish uchun qo'shimcha mezonlarni belgilaydi
-* **ThenByDescending** : elementlarni kamayish tartibida buyurtma qilish uchun qo'shimcha mezonlarni belgilaydi
-* **Join** : ma'lum bir asosda ikkita to'plamga qo'shiladi
+* **OrderBy** : elementlarni o'sish tartibida tartiblaydi
+* **OrderByDescending** : elementlarni kamayish tartibida tartiblaydi
+* **ThenBy** : elementlarni o'sish tartibida tartiblash uchun qo'shimcha shartlarni belgilaydi
+* **ThenByDescending** : elementlarni kamayish tartibida tartiblash uchun qo'shimcha shartlarni belgilaydi
+* **Join** : ma'lum bir shart asosida ikkita to'plamni birlashtiradi
 * **GroupBy** : elementlarni kalitlarga ko'ra guruhlaydi
 * **ToLookup** : barcha elementlarni lug'atga qo'shgan holda elementlarni kalitlarga ko'ra guruhlaydi
 * **GroupJoin** : elementlarning ikkala to'plamini va kalitlarga ko'ra guruhlanishini amalga oshiradi
-* **Reverse** : elementlarni teskari tartibda joylashtiring
-* **All** : To'plamdagi barcha narsalarning ma'lum bir shartga javob berishini aniqlaydi
-* **Any** : To'plamdagi kamida bitta buyumning ma'lum bir shartga javob berishini aniqlaydi
-* **Contains** : To'plamda ma'lum bir element mavjudligini aniqlaydi
-* **Distinct** : to'plamdagi nusxalarni olib tashlaydi
-* **Except**: ikkita to'plamning farqini, ya'ni faqat bitta to'plamda yaratilgan elementlarni qaytaradi
+* **Reverse** : elementlarni teskari tartibda tartiblaydi
+* **All** : to'plamdagi barcha elementlarning ma'lum bir shartga javob berishini aniqlaydi
+* **Any** : to'plamdagi kamida bitta elementning ma'lum bir shartga javob berishini aniqlaydi
+* **Contains** : to'plamda ma'lum bir element mavjudligini aniqlaydi
+* **Distinct** : to'plamdagi nusxalarni(bir xil elementlarni) olib tashlaydi
+* **Except**: ikkita to'plamning farqini, ya'ni faqat bitta to'plamda mavjud elementlarni qaytaradi
 * **Union** : ikkita bir xil to'plamlarni birlashtiradi
-* **Intersect** : Ikki kolleksiyaning, ya'ni ikkala to'plamda ham bo'lgan narsalarning kesishishini qaytaradi
-* **Count** : To'plamdagi ma'lum bir shartga javob beradigan elementlar sonini hisoblaydi
-* **Sum** : yig'indagi raqamli qiymatlar yig'indisini hisoblaydi
-* **Average** : to'plamdagi raqamli qiymatlarning o'rtacha qiymatini hisoblab chiqadi
+* **Intersect** : ikki to'plamning kesishmasini, ya'ni ikkala to'plamda ham bo'lgan elementlarning kesishmasini qaytaradi
+* **Count** : to'plamdagi ma'lum bir shartga javob beradigan elementlar sonini hisoblaydi
+* **Sum** : to'plamdagi sonli qiymatlar yig'indisini hisoblaydi
+* **Average** : to'plamdagi sonli qiymatlarning o'rtacha qiymatini hisoblaydi
 * **Min** : minimal qiymatni topadi
 * **Max** : maksimal qiymatni topadi
-* **Take** : ma'lum miqdordagi narsalarni tanlaydi
-* **Skip** : ma'lum miqdordagi narsalarni o'tkazib yuboradi
-* **TakeWhile** : Agar shart to'g'ri bo'lsa, ketma-ketlik elementlari zanjirini qaytaradi
+* **Take** : ma'lum miqdordagi elementlarni tanlaydi
+* **Skip** : ma'lum miqdordagi elementlarni o'tkazib yuboradi
+* **TakeWhile** : agar shart to'g'ri bo'lsa, ketma-ketlik elementlari zanjirini qaytaradi
 * **SkipWhile** : ular berilgan shartni bajarishi sharti bilan elementlarni ketma-ketlikda o'tkazib yuboradi va keyin qolgan elementlarni qaytaradi
 * **Concat** : ikkita to'plamni birlashtiradi
 * **Zip** : ma'lum bir shartga muvofiq ikkita to'plamni birlashtiradi
 * **First** : to'plamdagi birinchi elementni tanlaydi
 * **FirstOrDefault** : to'plamdagi birinchi elementni tanlaydi yoki sukut bo'yicha qaytaradi
-* **Single** : to'plamning bitta elementini tanlaydi, agar to'plamda bir yoki bir nechta element bo'lsa, istisno qo'yiladi
-* **SingleOrDefault** : To'plamdagi birinchi elementni tanlaydi yoki sukut bo'yicha qaytaradi
+* **Single** : to'plamning bitta elementini tanlaydi, agar to'plamda bir yoki bir nechta element bo'lsa, istisno hosil bo'ladi
+* **SingleOrDefault** : to'plamdagi birinchi elementni tanlaydi yoki sukut bo'yicha qaytaradi
 * **ElementAt** : ma'lum bir indeksda ketma-ketlik elementini tanlaydi
-* **ElementAtOrDefault** : Muayyan indeksda yig'ish elementini tanlaydi yoki indeks doiradan tashqarida bo'lsa, standart qiymatni qaytaradi
+* **ElementAtOrDefault** : muayyan indeksda yig'ish elementini tanlaydi yoki indeks doiradan tashqarida bo'lsa, sukut bo'yicha qaytaradi
 * **Last** : to'plamdagi oxirgi elementni tanlaydi
 * **LastOrDefault** : to'plamdagi so'nggi elementni tanlaydi yoki sukut bo'yicha qaytaradi
 
-[LINQ metodlarining qo’llanishiga doir misollar**.**](https://github.com/Nodirbek-Abdulaxadov/LINQ-operations)\*\*\*\*
+
+[LINQ metodlarining qo’llanishiga doir misollar**.**](https://github.com/Nodirbek-Abdulaxadov/LINQ-operations)\*\*\*\*
 
