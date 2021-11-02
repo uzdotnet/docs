@@ -131,10 +131,10 @@ namespace dotnetuz
   
 ![](https://user-images.githubusercontent.com/91861166/139919188-62576945-59c8-44fa-9b13-52386bf257e3.png)
 
-![image_2021-11-02_22-51-14](https://user-images.githubusercontent.com/91861166/139919605-a4062425-824e-46a8-97ad-95cbb055b0a6.png)
+![](https://user-images.githubusercontent.com/91861166/139919605-a4062425-824e-46a8-97ad-95cbb055b0a6.png)
 
-![image_2021-11-02_22-51-22](https://user-images.githubusercontent.com/91861166/139919631-389eefec-49d6-4fb4-837a-9d62f4bc4c89.png)
+![](https://user-images.githubusercontent.com/91861166/139919631-389eefec-49d6-4fb4-837a-9d62f4bc4c89.png)
 
 
-![image_2021-11-02_22-51-26](https://user-images.githubusercontent.com/91861166/139919661-0cd0eddb-da5f-48b5-8d35-735bf400ed61.png)
+![](https://user-images.githubusercontent.com/91861166/139919661-0cd0eddb-da5f-48b5-8d35-735bf400ed61.png)
 
