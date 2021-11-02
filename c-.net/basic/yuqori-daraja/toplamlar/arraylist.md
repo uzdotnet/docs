@@ -1,5 +1,5 @@
 ---
-description: Hikmatullayev Saidrahmatulloh
+description: Hikmatullayev Sayidrahmatulloh
 ---
 # ArrayList
 
