@@ -1,7 +1,6 @@
 ---
 description: Hamroliyev Ahmadjon
 ---
-
 # try/catch
 
 C# da istisno holat sintaksisi.[try/catch]  
