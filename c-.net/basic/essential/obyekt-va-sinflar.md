@@ -26,10 +26,10 @@ Keling ushbu misolimizni dasturlashda ko’rib chiqamiz
 ```csharp
 public class BrikMold
 {
-  // O'lchovbirliklari mm larda
-  publicdouble width = 112.5;
-  publicdouble length = 225;
-  publicdouble height = 75;
+  // O'lchov birliklari mm larda
+  public double width = 112.5;
+  public double length = 225;
+  public double height = 75;
 }
 ```
 
@@ -38,9 +38,9 @@ Class so’zi doimo yozilishi kerak chunki biz class yaratayotganimizni bildirib
 BrikMold (inglizcha, G’ishtQolip) – class nomi, ya’ni biz G’ishtqolipi **class**ini yozayotganimizni bildiradi. Siz buni boshqa nom bilan ham yozishingiz mumkin.
 
 ```csharp
-publicdouble width = 112.5;
-publicdouble length = 225;
-publicdouble height = 75;
+public double width = 112.5;
+public double length = 225;
+public double height = 75;
 ```
 
 Yuqoridagilar esa g’ishtlarning o’lchamlari, ya’ni biz yasaydigan barcha g’ishtlar shu standard asosida yaratilsin degan ma’noni bildiradi.
@@ -99,9 +99,9 @@ namespace ConsoleApp1
   public class BrikMold
   {
     // O'lchovbirliklari mm larda
-    publicdouble width = 112.5;
-    publicdouble length = 225;
-    publicdouble height = 75;
+    public double width = 112.5;
+    public double length = 225;
+    public double height = 75;
   }
 }
 ```
