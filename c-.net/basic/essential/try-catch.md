@@ -19,7 +19,7 @@ Buning uchun C # da **try…catch…finally** konstruktsiyasi mo'ljallangan
 • **сatch** bloki – try blokidan so’ng kelib, xatolik yuz berganda bajariladigan kodni ishga tushiradi.  
 • **finally** bloki – doimo bajariluvchi kod, yani try blokidan keyin yoki catch blokidan keyin bajariladi. Ushbu blok  har doim bo’lishi shart emas. Undan  goto operatori orqali chiqish mumkin emas.   
 Quyida istisnolardan foydalanish uchun **try/catch/finally** bloklarni aniqlashning umumiy shakli keltirilgan: 
-```csahrp
+````csahrp
 try  
 {  
    // Bu yerda tekshiriluvchi kod turadi   
@@ -41,7 +41,7 @@ finally
        // Ushbu blokdagi kod yuqoridagi bloklar  
       // bajarilgandan so’ng bajariladi   
 }  
-```
+````
 
  1-Misol.   
 ```csharp
