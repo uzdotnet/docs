@@ -1,3 +1,6 @@
+---
+description: Sherkhon Holmuminov
+---
 # Kirish
 
 Dehqonchasiga tushintiraman hamma tushunadigan qilib. O'zim ham qishloq shariotida o'sganligim uchun tushinishiz yaxshi bo'ladi
