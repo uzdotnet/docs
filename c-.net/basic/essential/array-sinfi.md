@@ -41,14 +41,12 @@ namespace NewApplication
 ```
 
 output:
-
-a&gt;10
-
+```
+a>10
 Manfiy son yo'q
-
 Yes
-
 True
+```
 
 Yuqoridagi misolda ishlatilgan a, e, w o’zgaruvchilari massiv elementlarini lambda ifoda ichida ifodalash uchungina ishlatilib, kodning boshqa qismida foydalanilmagan bo’lishi kerak.
 
@@ -76,7 +74,7 @@ namespace NewApplication
 }
 ```
 
-output: 0 1 2 4 5 7 8
+output: `0 1 2 4 5 7 8`
 
 Nafaqat sonlarni, **string** tipidagi ma’lumotlarni ham tartiblashimiz mumkin. Bu holatda elementlar alifbo tartibida tartiblanadi:
 
@@ -99,7 +97,7 @@ namespace NewApplication
 }
 ```
 
-output: c\#; c++; delphi; go; java; paskal; python; ruby;
+output: `c#; c++; delphi; go; java; paskal; python; ruby;`
 
 Massivning faqat bir qismini o’sish tartibida tartiblab, qolgan elementlarni o’zgarishsiz qoldirish imkoniyati ham bor. Buning uchun uchta qiymat kiritiladi: massiv nomi, tartiblash boshlanadigan indeks, tartiblanadigan elementlar soni:
 
@@ -124,7 +122,7 @@ namespace NewApplication
 }
 ```
 
-output: 3 2 1 6 9
+output: `3 2 1 6 9`
 
 ## **Array.IndexOf\(\)**
 
@@ -151,7 +149,7 @@ namespace NewApplication
 }
 ```
 
-output: 3; -1; 4
+output: `3; -1; 4`
 
 ## **Array.BinarySearch\(\)**
 
@@ -185,7 +183,7 @@ namespace NewApplication
 }
 ```
 
-output: 2 -9 5
+output: `2 -9 5`
 
 ## **Array.Clear\(\)**
 
@@ -218,10 +216,10 @@ namespace NewApplication
 ```
 
 output:
-
+```
 0 4 0 0 0 0 8 9 11
-
 0 0 0 0 0 0 0 0 0
+```
 
 ## **Array.Reverse\(\)**
 
@@ -257,11 +255,10 @@ namespace NewApplication
 ```
 
 output:
-
+```
 29 23 19 17 13 11 7 5 3 2
-
 29 23 7 11 13 17 19 5 3 2
-
+```
 ## **Array.TrueForAll\(\)**
 
 Aytaylik, sizga biror massiv berilib, savol qo’yilgan: massivning barcha elementlari musbatmi? Barcha elementlar juftmi? Barcha elementlar uzunligi 5 dan kattami? .. va hokazo. Tinib-tinchimagan dasturchilar shu holat uchun ham tayyor standart metod yozib qo’yishibdi. Ko’rdingizmi, qanchalik qulay tilni o’rganyapsiz. Ha aytgancha, metodga qaytamiz. Array.TrueForAll\(\) metodiga kiruvchi parametr sifatida massiv nomi va lambda ifoda kiritiladi. Lambda ifoda elementlarni tekshirish uchun shart vazifasini bajaradi. Agar massivning barcha elementlari ushbu shartni qanoatlantirsa metod bizga true qiymat, aks holda, shartga mos kelmaydigan bir yoki bir nechta element mavjud bo’lsa false qiymatini qaytaradi. Yuqoridagilarni yaxshiroq tushunishingiz uchun bu funksiyaning dasturda yozilishi:
@@ -320,10 +317,9 @@ namespace NewApplication
 ```
 
 output:
-
+```
 3 2 6
-
 3 2 6 0 0 0 0
-
+```
 Bu mavzudan sizga foydali nimadir o’rgata olgan bo’lsam xursandman. E’tiboringiz uchun rahmat.
 
