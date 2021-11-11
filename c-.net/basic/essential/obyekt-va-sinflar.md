@@ -54,7 +54,7 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
-    BrikMoldbrik = newBrikMold();
+    BrikMold brik = new BrikMold();
     Console.WriteLine(brik.width);
     Console.WriteLine(brik.height);
     Console.WriteLine(brik.length);
@@ -63,7 +63,7 @@ namespace ConsoleApp1
   }
   public class BrikMold
    {
-    // O'lchovbirliklari mm larda
+    // O'lchov birliklari mm larda
     public double width = 112.5;
     public double length = 225;
     public double height = 75;
@@ -88,7 +88,7 @@ namespace ConsoleApp1
   {
     staticvoid Main(string[] args)
     {
-      BrikMoldbrik = newBrikMold();
+      BrikMold brik = new BrikMold();
       Console.WriteLine($"O'chamlari : " +
       $"{brik.width}mm , " +
       $"{brik.height}mm, " +
@@ -98,7 +98,7 @@ namespace ConsoleApp1
   }
   public class BrikMold
   {
-    // O'lchovbirliklari mm larda
+    // O'lchov birliklari mm larda
     public double width = 112.5;
     public double length = 225;
     public double height = 75;
@@ -118,7 +118,7 @@ namespace ConsoleApp1
   {
     staticvoid Main(string[] args)
     {
-      GreenBrikMoldbrik = newGreenBrikMold();
+      GreenBrikMol dbrik = new GreenBrikMold();
       Console.WriteLine($"O'chamlari : " +
       $"{brik.width}mm , " +
       $"{brik.height}mm, " +
