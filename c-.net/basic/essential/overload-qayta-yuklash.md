@@ -4,7 +4,7 @@ description: Sobirjonov O'tkirbek
 
 # Overload \(Qayta yuklash\)
  
-Siz OOP da methodlar bilan ishlayotganingizda sizga **Overloading** va **Overriding** degan so’zlarga duch kelishingiz mumkin. Bu ikki tushuncha odatda methodlar bilan o’z vazifasini amalga oshiradi. **Overloading** va **Overriding** polimorphizm ni amalga oshirishnining keng tarqalgan usuli hisoblanadi. Biz hozir **Overloading** (Qayta yuklash) haqida batafsil to’xtalib o’tamiz. 
+Siz OOP da methodlar bilan ishlayotganingizda sizga **Overloading** va **Overriding** degan so’zlarga duch kelishingiz mumkin. Bu ikki tushuncha odatda methodlar bilan o’z vazifasini amalga oshiradi. **Overloading** va **Overriding** polymorphismni amalga oshirishnining keng tarqalgan usuli hisoblanadi. Biz hozir **Overloading** (Qayta yuklash) haqida batafsil to’xtalib o’tamiz. 
    ### Overloading ishlatilmagandagi holat 
 Avvaliga bir xato yo’l bilan dastur yozaylik, chunki bu tushunchalar va qayta yuklash amali nimaga kerakligini tushunish uchun avval xato yo’lni ko’ribgina xulosa olishingiz mumkin. 
 Quyidagi dasturda 2-3-4 ta sonlardan eng kattasini topish dasturi yozilgan.
