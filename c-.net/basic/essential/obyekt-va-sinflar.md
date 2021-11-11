@@ -118,7 +118,7 @@ namespace ConsoleApp1
   {
     staticvoid Main(string[] args)
     {
-      GreenBrikMol dbrik = new GreenBrikMold();
+      GreenBrikMold brik = new GreenBrikMold();
       Console.WriteLine($"O'chamlari : " +
       $"{brik.width}mm , " +
       $"{brik.height}mm, " +
