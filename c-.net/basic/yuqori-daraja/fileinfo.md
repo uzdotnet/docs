@@ -4,9 +4,11 @@ description: Nodirbek Abdulaxadov
 
 # FileInfo
 
-FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun xususiyatlar va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
 
-**FileInfo xususiyatlari:**
+FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun xususiyatlar va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
+
+
+**FileInfo xususiyatlari:**
 
 | Directory | Fayl joylashgan katalog nomini qaytaradi |
 | :--- | :--- |
@@ -21,7 +23,8 @@ description: Nodirbek Abdulaxadov
 | Length | Fayl hajmini qaytaradi \(baytlarda\) |
 | Name | Fayl nomini qayatardi |
 
-**FileInfo metodlari:**
+
+**FileInfo metodlari:**
 
 | AppendText | FileInfo ushbu nusxasi tomonidan taqdim etilgan faylga matn qo'shadigan StreamWriter yaratadi. |
 | :--- | :--- |
@@ -132,9 +135,10 @@ namespace FileInfo_Examples
 
 ![](../../../.gitbook/assets/image%20%2883%29.png)
 
-**Izohlar:**
+
+**Izohlar:**
 
 Fayllarni ko'chirish, nomini o'zgartirish, yaratish, ochish, o'chirish va qo'shib qo'yish kabi odatiy operatsiyalar uchun FileInfo sinfidan foydalaning.
 
-Agar bitta faylda bir nechta operatsiyalarni bajarayotgan bo'lsangiz , [File](https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=net-5.0) sinfining tegishli statik metodlari o'rniga [FileInfo](https://docs.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-5.0) instansiya metodlaridan foydalanish samaraliroq bo'lishi mumkin , chunki xavfsizlikni tekshirish har doim ham talab qilinmaydi. [FileInfo xususiyatlari va metodlari qo’llanishiga doir misollar](https://github.com/Nodirbek-Abdulaxadov/FileInfo-examples)
+Agar bitta faylda bir nechta operatsiyalarni bajarayotgan bo'lsangiz , [File](https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=net-5.0) sinfining tegishli statik metodlari o'rniga [FileInfo](https://docs.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-5.0) instansiya metodlaridan foydalanish samaraliroq bo'lishi mumkin , chunki xavfsizlikni tekshirish har doim ham talab qilinmaydi. [FileInfo xususiyatlari va metodlari qo’llanishiga doir misollar](https://github.com/Nodirbek-Abdulaxadov/DOTNET.UZ/tree/main/FileInfo-examples-master)
 
