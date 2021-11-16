@@ -114,5 +114,5 @@ namespace LINQ_operations
 * **LastOrDefault** : to'plamdagi so'nggi elementni tanlaydi yoki sukut bo'yicha qaytaradi
 
 
-[LINQ metodlarining qo’llanishiga doir misollar**.**](https://github.com/Nodirbek-Abdulaxadov/LINQ-operations)\*\*\*\*
+[LINQ metodlarining qo’llanishiga doir misollar**.**](https://github.com/Nodirbek-Abdulaxadov/DOTNET.UZ/tree/main/LINQ-operations-master)\*\*\*\*
 
