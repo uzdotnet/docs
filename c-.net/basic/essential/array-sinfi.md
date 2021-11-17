@@ -173,10 +173,10 @@ namespace NewApplication
             Array.Sort(MyArray);  //massiv {0,1,2,3,4,6,8,9,11} ko'rinishida tartiblandi
             Console.Write(Array.BinarySearch(MyArray,2)+"  ");    // 2 ga teng element indeksini qaytaradi
 
-            Console.Write(Array.BinarySearch(MyArray,10)+"  ");   /*  10 ga teng elementni 3-indeksdan boshlab oxirigacha qidiradi */
+            Console.Write(Array.BinarySearch(MyArray,10)+"  ");   /*  10 ga teng elementni qidiradi, agar yo'q bo'lsa manfiy qiymat qaytaradi */
 
-            Console.Write(Array.BinarySearch(MyArray,0,8,6));   /* 6 ga teng bo'lgan elementni 1-indeksdan boshlab 4 ta elementgacha bo'lgan oraliqda qidiradi */
-
+            Console.Write(Array.BinarySearch(MyArray,0,8,6));   /*  0-indeksdan boshlab 8 ta elementgacha bo'lgan oraliqda 6 ga teng bo'lgan elementni qidiradi */
+            
             Console.ReadKey();
         }
     }
