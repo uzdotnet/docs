@@ -9,7 +9,8 @@ description: Microsoft .NET platformasi bo'yicha O'zbekistonda ilk dokumentatsiy
 Assalomu aleykum qadrli dasturchilar! Bilaszmi men o'z tajribam davomida shuni o'rgandimki, tafakkur degan tushunchaning o'rni dasturlashda ham juda katta ekan. Bu narsaning dasturchiga kerakli ekanini isbotlarini ham keltirishim mumkin. "Dasturlashda tafakkur" jumlasini nega ishlatdim? Bu o'z ichiga nimalarni oladi?  
 
 
-![Endi nima qilaman?](.gitbook/assets/image%20%2819%29%20%281%29.png)
+![Endi nima qilaman?](https://user-images.githubusercontent.com/91861166/143562458-fb22825f-da77-4ec8-9b5e-bc388ac9b868.jpg)
+
 
 Ko'p dasturchilarni bilaman\) Dasturlashdan boshqa narsani bilmedi!!! \(Shunaqasi ham bo'larkanmi? :\) Qisqa qilaman... Kompyuter strukturasini o'rganib chiqing. Chuqur emas, shunchaki tuzilishini o'rganishni maslahat beraman. Sababi Ma'lumotlar qanday borib keladi? Protsessor qanday ishlaydi? Ushbu dasturni ishga tushishi uchun mening kompyuterim talablari qanday? Pixelli va Vectorli grafika....? 
 
