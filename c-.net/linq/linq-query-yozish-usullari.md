@@ -65,7 +65,7 @@ class LINQQueryExample // dot-net.uz uchun
         var mixedSyntax = (from obj in list
                            select obj).Max();
 
-        Console.WriteLine("Max value: " + methodSyntax);
+        Console.WriteLine("Max value: " + mixedSyntax);
 
     }
 }
