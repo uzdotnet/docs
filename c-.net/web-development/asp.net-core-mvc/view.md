@@ -4,7 +4,7 @@ description: Temur G'aniyev
 
 # View
 
-**View** - MVC patternida malumotlarni foydalanuvchiga namoyish etuvchi va undan malumotlarni qabul qiluvchi qism hisoblanadi. View  HTML kod va Razor Markup dan tashkil topgan bo\'ladi. Razor Markup HTML kodlarni qayta ishlovchi kodlar bo\'lib C# dasturlash tilida yoziladi. ASP.NET Core MVC da View lar **.cshtml** kengaytmaga ega bo\'lgan fayllardan iborat bo\'ladi va Controller nomi bilan bir hil papkaga guruh qilib joylashtiriladi. O\'z navbatida bu guruhlangan papkalar esa **Views** papkasida bo\'ladi.
+**View** - MVC patternida malumotlarni foydalanuvchiga namoyish etuvchi va undan malumotlarni qabul qiluvchi qism hisoblanadi. View  HTML kod va Razor Markup dan tashkil topgan bo\'ladi. Razor Markup HTML kodlarni qayta ishlovchi kodlar bo\'lib C# dasturlash tilida yoziladi. ASP.NET Core MVC da View lar **.cshtml** kengaytmaga ega bo\'lgan fayllardan iborat bo\'ladi va Controller nomi bilan bir hil papkaga guruh qilib joylashtiriladi. O\'z navbatida bu guruhlangan papkalar esa **Views** papkasida bo\'ladi..
 
 Namunaviy Viewning ko\'rinishi quydagicha:
 
