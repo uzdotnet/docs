@@ -17,7 +17,7 @@ Math.Atan(1)=0,7853981633974483.
 
  **Math.BigMul()** –  ikki butun sonning ko’paytmasini hisoblaydi. *int* yoki *long* tipida ma'lumot qabul qiladi. *long* tipida qiymat qaytaradi. Masalan, Math.Bigmul(3,4)=12;
  
-**Math.Ceiling()**  – kiritilgan sondan katta yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi. Math.Ceiling(3.14)=4,     Math.Ceiling(6.0)=6;     Math.Ceiling(-4.3)=-4;
+**Math.Ceiling()**  – sonni ortig'i bilan yaxlitlaydi. Kiritilgan sondan katta yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi. Math.Ceiling(3.14)=4,     Math.Ceiling(6.0)=6;     Math.Ceiling(-4.3)=-4;
 
 **Math.Cos()** – burchakning kosinusini hisoblaydi. Burchak qiymati radianda kiritiladi.  Kiruvchi va qaytariluvchi parametrlar faqat *double* tipida bo'ladi. Math.Cos(3.141592653589793)=-1;
 
@@ -29,7 +29,7 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Floor()** - sonning butun qismi, kiritilgan sondan kichik yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi.       Math.Floor(1.5)=1;  Math.Floor(-1.5)=-2;  Math.Floor(1.0)=1.
 
-**Math.IEEERemainder()** - bir sonni boshqasiga bo'lgandagi qoldiqni hisoblaydi, faqat bu metodning ishlash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga IEEERemainder orqali bo'lsak qoldiq `IEEERemainder(a,b) = a - (b * Math.Round(a / b))` umumiy formula bilan hisoblanadi. Ya'ni agar a/b ning butun qismi 0.5 dan kichik bo'lsa IEEERemainder() ning qaytargan javobi oddiy qoldiq(a%b) bilan bir xil, aks holda a%b-b ga teng bo'ladi. Masalan, IEEERemainder(10,3)=-1; IEEERemainder(9,4)=1. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
+**Math.IEEERemainder()** - bir sonni boshqasiga bo'lgandagi qoldiqni hisoblaydi, faqat bu metodning ishlash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga IEEERemainder orqali bo'lsak qoldiq `IEEERemainder(a,b) = a - (b * Math.Round(a / b))` umumiy formula bilan hisoblanadi. Ya'ni agar a/b ning kasr qismi 0.5 dan kichik bo'lsa IEEERemainder() ning qaytargan javobi oddiy qoldiq(a%b) bilan bir xil, aks holda a%b-b ga teng bo'ladi. Masalan, IEEERemainder(10,3)=-1; IEEERemainder(9,4)=1. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
 
 **Math.Log()** - sonning logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi. Ikki xil usulda ishlatish mumkin. Agar bitta son  kiritilsa shu sonning natural logarifmini hisoblaydi, ikkita son kiritilsa ikkinchi son logarifmning yangi asosi bo’lib qoladi. Masalan, Math.Log(2,718281828459045) ifoda 1 ni qaytarsa, Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
 
