@@ -72,10 +72,9 @@ class User
 
 ```csharp
 OUTPUT:
-    Constructor Invoked
-    Constructor Invoked
-    Destructor Invoked
-    Destructor Invoked
+    inputdan so'ng
+    Created
+    Destroyed
 ```
 
 Bu misolda, destructor nima ekanligini va qanday ishlashini ko'rdik!
