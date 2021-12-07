@@ -40,24 +40,34 @@ class NimaGap
 
 ```csharp
 using System;
-   public class NimaGap
-    {
-        public Odam()
-        {
-            Console.WriteLine("Constructor Invoked");
-        }
-        ~NimaGap()
-        {
-            Console.WriteLine("Destructor Invoked");
-        }
-    }
-   class OdamniSina{
-       public static void Main(string[] args)
-        {
-            Odam e1 = new Odam();
-            Odam e2 = new Odam();
-        }
-    }
+class Program
+{
+     static void Main(string[] args)
+     {
+         int yil = int.Parse(Console.ReadLine());
+
+         Detailed();
+         GC.Collect();
+         Console.ReadLine();
+
+     }
+     public static void Detailed()
+     {
+         User user = new User();
+     }
+}
+
+class User
+{
+     public User()
+     {
+         Console.WriteLine("Created");
+     }
+     ~User()
+     {
+         Console.WriteLine("Destroyed");
+     }
+}
 ```
 
 ```csharp
