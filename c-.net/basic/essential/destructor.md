@@ -46,12 +46,12 @@ class Program
      {
          int yil = int.Parse(Console.ReadLine());
 
-         Detailed();
+         Details();
          GC.Collect();
          Console.ReadLine();
 
      }
-     public static void Detailed()
+     public static void Details()
      {
          User user = new User();
      }
