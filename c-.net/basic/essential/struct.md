@@ -70,12 +70,12 @@ talaba1.yosh = 17;
 Kiritilgan xususiyatlarni Consoleda chiqarish uchun quyidagi funksiyadan foydalanish kifoya.
 
 ```csharp
-Consol.WriteLine(talaba1.ism)
-Consol.WriteLine(talaba1.familya)
-Consol.WriteLine(talaba1.yosh)
+Console.WriteLine(talaba1.ism)
+Console.WriteLine(talaba1.familya)
+Console.WriteLine(talaba1.yosh)
 ```
 
-Bu Consolda quyidagi ko'rinishda bo'ladi:
+Bu Consoleda quyidagi ko'rinishda bo'ladi:
 
 ```
 Dave
@@ -169,7 +169,7 @@ namespace Struktura
 }
 ```
 
-Consolda natija quyidagicha bo'ladi:
+Consoleda natija quyidagicha bo'ladi:
 
 ```
 17
