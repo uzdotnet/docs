@@ -3,7 +3,7 @@ description: Niyozbek Mirzayev
 ---
 # Struct
 
-Dasturlashga endi kirib kelganlar orasida turli xil yangi atamalarga duch kelish oddiy holat. Shu atamalardan biri bu **Struktura** yoki ingliz tilda **Struct** dir.
+Dasturlashga endi kirib kelganlar orasida turli xil yangi atamalarga duch kelish oddiy holat. Shu atamalardan biri bu **Struktura** yoki ingliz tilda **Struct**dir.
 
 C# dasturlash tilida(**boshqa dasturlash tillarida ham**) turli tiplar mavjud va shu orada tiplar asosan ikkiga bo'linadi: **value type** va **reference type**. **Value type**ga *int*, *float* yoki *char* va shu kabilarni misol keltirishimiz mumkin, bu tiplar faqat bitta ma'lumotni qabul oladi. Lekin **reference type**  birdan oshiq ma'lumotlarni o'z ichiga sig'dira oladi.
 
@@ -21,7 +21,7 @@ int yosh2 = 23;
 
 Lekin bir muammo bor, foydalanuvchilar soni ko'paygani sari har bir foydalanuvchining ma'lumotlarini boshqalari bilan chalkashishini ko'rishimiz mumkin. Sababi ma'lumot ko'p va har bir foydalanuvchining ma'lumoti bir-biriga mantiqiy tomondan bog'lanmagan.
 
-Shu payt Struktura bizga yordamga keladi. U har bir foydalanuvchining ma'lumotlarini xotirada alohida saqlaydi va mantiq bog'lab beradi. Bu o'z o'rnida dasturchiga qulaylik yaratadi. 
+Shu payt Struktura bizga yordamga keladi. U har bir foydalanuvchining ma'lumotlarini xotirada alohida saqlaydi va mantiqan bog'lab beradi. Bu o'z o'rnida dasturchiga qulaylik yaratadi. 
 
 Misol uchun yuqoridagi kod Struktura yordamida quyidagi ko'rinishga keladi:
 
@@ -59,7 +59,7 @@ Talaba Strukturasini huddi qolip kabi tasavvur qiling. Lekin sezganingizdek biz 
 ```csharp
 Talaba talaba1 = new Talaba();
 ```
-operatorini asosan dasturning Main qismida e'lon qilamiz. Uni ma'lumotlar bilan to'ldirish uchun yaratilgan o'zgaruvchini chaqirish, shundan so'ng uni ma'lum xususiyatlar bilan to'ldirish lozim.
+ko'rinishida dasturning Main qismida e'lon qilamiz. Uni ma'lumotlar bilan to'ldirish uchun yaratilgan o'zgaruvchini chaqirish, shundan so'ng uni ma'lum xususiyatlar bilan to'ldirish lozim.
 Buni quyidagicha ko'rsangiz bo'ladi:
 ```csharp
 talaba1.ism = "Dave";
