@@ -11,11 +11,11 @@ Struktura ham **reference type**ga kiradi va u o'ziga har xil **value type**dagi
 
 ```csharp
 string ism = "Dave";
-string familya = "Thompson";
+string familiya = "Thompson";
 int yosh = 17;
 
 string ism2 = "Jef";
-string familya2 = "Harrison";
+string familiya2 = "Harrison";
 int yosh2 = 23;
 ```
 
@@ -29,14 +29,14 @@ Misol uchun yuqoridagi kod Struktura yordamida quyidagi ko'rinishga keladi:
 foydalanuvchi1
 {
    string ism = "Dave";
-   string familya = "Thompson";
+   string familiya = "Thompson";
    int yosh = 17;
 };
 
 foydalanuvchi2
 {
    string ism = "Jeff";
-   string familya = "Harrison";
+   string familiya = "Harrison";
    int yosh = 23;
 };
 ```
@@ -63,7 +63,7 @@ operatorini asosan dasturning Main qismida e'lon qilamiz. Uni ma'lumotlar bilan 
 Buni quyidagicha ko'rsangiz bo'ladi:
 ```csharp
 talaba1.ism = "Dave";
-talaba1.familya = "Thompson";
+talaba1.familiya = "Thompson";
 talaba1.yosh = 17;
 ```
 
@@ -71,7 +71,7 @@ Kiritilgan xususiyatlarni Consoleda chiqarish uchun quyidagi funksiyadan foydala
 
 ```csharp
 Console.WriteLine(talaba1.ism)
-Console.WriteLine(talaba1.familya)
+Console.WriteLine(talaba1.familiya)
 Console.WriteLine(talaba1.yosh)
 ```
 
@@ -84,7 +84,7 @@ Thompson
 
 ```
 
-Strukturada ochiq xususiyatlaridan tashqari yashirin xususiyatlarga ham ega bo'lishi mumkun. Buning uchun xususiyatlarni konstruktorda e'lon qilish davomida **public(ommaviy)** o'rnida **private(shaxsiy)** operatoridan foydalanamiz.
+Strukturada ochiq xususiyatlaridan tashqari yashirin xususiyatlarga ham ega bo'lishi mumkin. Buning uchun xususiyatlarni konstruktorda e'lon qilish davomida **public(ommaviy)** o'rnida **private(shaxsiy)** operatoridan foydalanamiz.
 Bu hodisani quyidagi kodda, **yosh** public xususiyatini private xususiyatga o'zgartishi orqali ko'rishimiz mumkin:
 ```csharp
 struct Talaba
