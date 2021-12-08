@@ -5,7 +5,7 @@ description: Niyozbek Mirzayev
 
 Dasturlashga endi kirib kelganlar orasida turli xil yangi atamalarga duch kelish oddiy holat. Shu atamalardan biri bu **Struktura** yoki ingliz tilda **Struct**dir.
 
-C# dasturlash tilida(**boshqa dasturlash tillarida ham**) turli tiplar mavjud va shu orada tiplar asosan ikkiga bo'linadi: **value type** va **reference type**. **Value type**ga *int*, *float* yoki *char* va shu kabilarni misol keltirishimiz mumkin, bu tiplar faqat bitta ma'lumotni qabul oladi. Lekin **reference type**  birdan oshiq ma'lumotlarni o'z ichiga sig'dira oladi.
+C# dasturlash tilida(boshqa dasturlash tillarida ham) turli tiplar mavjud va shu orada tiplar asosan ikkiga bo'linadi: **value type** va **reference type**. **Value type**ga *int*, *float* yoki *char* va shu kabilarni misol keltirishimiz mumkin, bu tiplar faqat bitta ma'lumotni qabul oladi. Lekin **reference type**  birdan oshiq ma'lumotlarni o'z ichiga sig'dira oladi.
 
 Struktura ham **reference type**ga kiradi va u o'ziga har xil **value type**dagi ma'lumotlarni qabul qiladi. Xo'sh, bu bizga nega kerak? Tasavvur qiling, siz o'z dasturingiz foydalanuvchilarining ma'lumotlarni saqlab qo'ymoqchisiz va har bir foydalanuvchining ma'lumotlari quyidagi ko'rinishda bo'ladi:
 
@@ -84,7 +84,7 @@ Thompson
 
 ```
 
-Strukturada ochiq xususiyatlaridan tashqari yashirin xususiyatlarga ham ega bo'lishi mumkin. Buning uchun xususiyatlarni konstruktorda e'lon qilish davomida **public(ommaviy)** o'rnida **private(shaxsiy)** operatoridan foydalanamiz.
+Strukturada ochiq xususiyatlaridan tashqari yashirin xususiyatlarga ham ega bo'lishi mumkin. Buning uchun xususiyatlarni konstruktorda e'lon qilish davomida **public (ommaviy)** o'rnida **private (shaxsiy)** operatoridan foydalanamiz.
 Bu hodisani quyidagi kodda, **yosh** public xususiyatini private xususiyatga o'zgartishi orqali ko'rishimiz mumkin:
 ```csharp
 struct Talaba
@@ -97,7 +97,7 @@ struct Talaba
 
 Hozirdan boshlab talabaning yoshini dasturda ishlata olmaymiz. Lekin, ma'lumotni ishlata olmasak nima keragi bor, to'g'rimi?
 
-Shu sababdan shu kabi yashirin xususiyatlarni namoyon qilish yoki ularga qiymat berish uchun maxsus funksiyalar - **Event**lar e'lon qilishimiz mumkun. Misol uchun talabaning faqatgina yoshini ko'rsata oladigan Event quyidagicha bo'ladi: 
+Shu sababdan shu kabi yashirin xususiyatlarni namoyon qilish yoki ularga qiymat berish uchun maxsus funksiyalar - **event**lar e'lon qilishimiz mumkun. Misol uchun talabaning faqatgina yoshini ko'rsata oladigan Event quyidagicha bo'ladi: 
 
 ```csharp
 struct Talaba
