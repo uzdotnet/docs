@@ -3,11 +3,11 @@ description: Mamataliyev Diyobek
 ---
 # Exception Handling
 
-Bugun siz bilan xatoliklar(exceptions) haqida gaplashamiz. Bu shunday xatoliklarki, xatolik sababini bartaraf etmaguningizgacha dasturni ishlata olmaysiz. Masalan, murojaat qilingan fayl ko'rsatilgan manzilda mavjud emasligi, nolga bo'lish, massiv elementlariga murojaat qilayotganda massiv chegarasidan chiqib ketish va hokazo. Bunday xatoliklarga duch kelganingizda dastur logikasini o'zgartirib, xatolik yuzaga keltirmaydigan kod yozishingiz yoki xatolik yuzaga kelganda bajariladigan amallarni belgilash uchun try/catch blokidan foydalanishingiz kerak bo'ladi. 
+Bugun siz bilan xatoliklar(exceptions) haqida gaplashamiz. Dasturda shunday xatolik bo'lsa, dastur ishga tushgunigacha kompilyator bu xatoliklarni aniqlay olmaydi. Masalan, murojaat qilingan fayl ko'rsatilgan manzilda mavjud emasligi, nolga bo'lish, massiv elementlariga murojaat qilayotganda massiv chegarasidan chiqib ketish va hokazo. Bunday xatoliklarga duch kelganingizda dastur logikasini o'zgartirib, xatolik yuzaga keltirmaydigan kod yozishingiz yoki xatolik yuzaga kelganda bajariladigan amallarni belgilash uchun try/catch blokidan foydalanishingiz kerak bo'ladi. 
 
 Xatolik(exception)lar yuzaga kelganda, kompilyator har bir xatolik uchun mos bo'lgan alohida xatolik oynasini ekranga chiqaradi:
 
-![](https://user-images.githubusercontent.com/91861166/139944019-846eb307-c9cd-4d75-a4fa-941804064cf7.png)
+![System.DivideByZeroException xatoligi](https://user-images.githubusercontent.com/91861166/139944019-846eb307-c9cd-4d75-a4fa-941804064cf7.png)
 
 Yuqoridagi rasmda 7 ni 0 ga bo'lishga urinish tufayli `System.DivideByZeroException` xatoligi yuzaga kelgan.
 
@@ -35,4 +35,4 @@ Massiv yoki biror to'plam elementiga indeks orqali murojaat qilinganda massiv ch
 ### System.OutOfMemoryException
 Operativ xotiraning juda ko'p qismidan foydalanilganda yuzaga keladi. 32 bitli sistema uchun tuzilgan dasturlarda xotiradan foydalanishning maksimum chegarasi **2 Gb**ga, 64 bit uchun tuzilganlarda **4 Gb** ga teng. Xotiradan foydalanish bundan ortib ketishi bilan  kompilyator dastur ishlashini to'xtatadi va ushbu xatolik oynasini ekranga chiqaradi.
 
-davomi bor..
+
