@@ -87,6 +87,8 @@ namespace Sealed_Class
 				return a + b;
 			}
 		}
+	}
+}
 ```
 
 Yuqoridagi kodda voris bo'lgan method polymorphism yordamida sealed qilindi, yani Voris2 classidagi Add methodini boshqa classda voris olib bo'lmasligi ta'minlandi. 
@@ -115,22 +117,21 @@ namespace Sealed_Class
 		//asosiy classdan voris olish
 		public class Voris1 : Asosiy
 		{
-				//voris bo'lgan methodni sealed qilish
-				public sealed override int Add(int a, int b)
-				{
-					return a + b;
-				}
+			//voris bo'lgan methodni sealed qilish
+			public sealed override int Add(int a, int b)
+			{
+				return a + b;
+			}
 		}
 		
 		public class Voris2 : Voris1
 		{
-				//sealed bo'lgan methoddan voris olishga urinish
-				public override int Add(int a, int b)
-				{
-					return a + b;
-				}
+			//sealed bo'lgan methoddan voris olishga urinish
+			public override int Add(int a, int b)
+			{
+				return a + b;
 			}
-
+		}
 	}
 }
 ```
