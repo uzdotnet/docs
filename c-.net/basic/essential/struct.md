@@ -6,9 +6,10 @@ description: Niyozbek Mirzayev
 Dasturlashga endi kirib kelganlar orasida turli xil yangi atamalarga duch kelish oddiy holat. Shu atamalardan biri bu **Struktura** yoki ingliz tilda **Struct**dir.
 
 C# dasturlash tilida (boshqa dasturlash tillarida ham) ma'lumotlar ikki xil bo'ladi: **value type** va **reference type**. 
-**Value type**  tipidagi ma'lumotlar xotirada o'zi ma'lum joy egallab, qiymati yozilgan holda saqlanadi. Bu tipga misol qilib oddiy tiplar: *int, double, char, string, boolean* kabilarni, bundan tashqari **struct**ni ham keltirishimiz mumkin. **Struktura** o'zi ham **value type** hisoblanadi va **value type** dagi ma'lumotlarni jamlangan holatda saqlash uchun ishlatiladi. **value type** turidagi ma'lumotlar **stack** xotirada saqlanadi.
 
-**Reference type**dagi ma'lumotlar esa xotirada saqlanganda o'zi bilan birga qiymatini olib yurmaydi, ular shunchaki xotirada  boshqa ma'lumot yozilgan manzilga ko'rsatkich (havola)ni  o'zida saqlaydi. **Reference type**ga *classlar, interfacelar, delegatlar, massivlar* misol bo'la oladi.  **Reference type** turidagi ma'lumotlar **heap** xotirada saqlanadi.
+**Value type**  tipidagi ma'lumotlar xotirada o'zi ma'lum joy egallab, qiymati yozilgan holda saqlanadi. Bu tipga misol qilib oddiy tiplar: *int, double, char, string, boolean* kabilarni, bundan tashqari **struct**ni ham keltirishimiz mumkin. **Struktura** o'zi ham value type hisoblanadi va value type dagi ma'lumotlarni jamlangan holatda saqlash uchun ishlatiladi. value type turidagi ma'lumotlar **stack** xotirada saqlanadi.
+
+**Reference type**dagi ma'lumotlar esa xotirada saqlanganda o'zi bilan birga qiymatini olib yurmaydi, ular shunchaki xotirada  boshqa ma'lumot yozilgan manzilga ko'rsatkich (havola)ni  o'zida saqlaydi. Reference typega *classlar, interfacelar, delegatlar, massivlar* misol bo'la oladi.  Reference type turidagi ma'lumotlar **heap** xotirada saqlanadi.
 
 Struktura bir nechta o'zaro bog'liq ma'lumotlarni ular orasidagi mantiqiy bog'liqlikni ta'minlagan holda saqlash imkoniyatini beradi. Strukturani tushunishdan avval, undan foydalanmagan holda talabalar haqidagi ma'lumotlarni saqlashga urinib ko'raylik. Bu holatda talabalarga tegishli har bitta ma'lumotni yangi o'zgaruvchiga yuklashimizga to'g'ri keladi:
 
