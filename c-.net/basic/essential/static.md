@@ -4,19 +4,19 @@ description: Sobirjonov O'tkirbek
 
 # static
 
-Static Class va static funksiyalar 
+Static Class va static funksiyalar
 
-Siz C# da dastur yozar ekansiz, **static** kalit so’ziga duch kelishingiz aniq. Ushbu darsda **static** kalit so’zi *class*lar yaratishda qanday ahamiyatga ega ekanligini ko’rib chiqamiz.  
+Siz C# da dastur yozar ekansiz, **static** kalit so’ziga duch kelishingiz aniq. Ushbu darsda **static** kalit so’zi _class_lar yaratishda qanday ahamiyatga ega ekanligini ko’rib chiqamiz.
 
-*Class*larning oldidan **static** so’zi yozilgan bo’lsa, demak bu *class* - **static** *class* degan ma’noni bildiradi. **Static** *class*lar bizga object olmasdan uning maydon, method va property laridan foydalanish imkoniyatini beradi.
+_Class_larning oldidan **static** so’zi yozilgan bo’lsa, demak bu _class_ - **static** _class_ degan ma’noni bildiradi. **Static** _class_lar bizga object olmasdan uning maydon, method va property laridan foydalanish imkoniyatini beradi.
 
-`Console.WriteLine(Math.PI); `
+`Console.WriteLine(Math.PI);`
 
-Ushbu code dagi **Math.PI**ga e’tibor bering. **Math** class – bu **static** qilib yozib chiqilgan *class*dir.  
-Static qilib siz birorta *class* yaratsangiz undan object olmasdan `ClassName.PropertyName` yoki  `ClassName.MethodName` ko’rinishida ishlatish imkoniyati bo’ladi (Class nomi “.” dan keyin ishlatmoqchi bo’lgan maydon va method nomini yozib ishlatib keta olasiz). 
+Ushbu code dagi **Math.PI**ga e’tibor bering. **Math** class – bu **static** qilib yozib chiqilgan _class_dir.\
+Static qilib siz birorta _class_ yaratsangiz undan object olmasdan `ClassName.PropertyName` yoki `ClassName.MethodName` ko’rinishida ishlatish imkoniyati bo’ladi (Class nomi “.” dan keyin ishlatmoqchi bo’lgan maydon va method nomini yozib ishlatib keta olasiz).
 
-**static** *class* lar qanday yoziladi? 
-Quyidagi namunada **Math** *class*idagi **PI** ni ishlatishni qo’lda yozib chiqsak qanday ko’rinishda bo’lishini ko’rib chiqamiz. 
+**static** _class_ lar qanday yoziladi? Quyidagi namunada **Math** _class_idagi **PI** ni ishlatishni qo’lda yozib chiqsak qanday ko’rinishda bo’lishini ko’rib chiqamiz.
+
 ```csharp
 using System;  
 namespace ConsoleApp1 
@@ -43,8 +43,9 @@ namespace ConsoleApp1
   } 
 } 
 ```
-Demak, **static** *class*larni yaratish uchun class nomi va method nomlari oldidan **static** kalit so’zini ishlatgan holatda yarata olar ekanmiz. 
-Static classlarda object olib bo’lmaydi, chunki bu xususiyat object olmasdan ishlatish uchun qo’shilgan. Static classlar va static methodlar haqida quyidagi namudan xulosa olishingiz mumkin. 
+
+Demak, **static** _class_larni yaratish uchun class nomi va method nomlari oldidan **static** kalit so’zini ishlatgan holatda yarata olar ekanmiz. Static classlarda object olib bo’lmaydi, chunki bu xususiyat object olmasdan ishlatish uchun qo’shilgan. Static classlar va static methodlar haqida quyidagi namudan xulosa olishingiz mumkin.
+
 ```csharp
 using System;  
 namespace ConsoleApp1 
@@ -84,7 +85,9 @@ namespace ConsoleApp1
   } 
 } 
 ```
-Natija :  
+
+Natija :
+
 ```
 True 
 True 

@@ -4,7 +4,7 @@ description: Abduxoshimov Xondamir
 
 # Ma'lumot turlari
 
-Ma’lumotlar toifasi – bu o’zgaruvchilarning turi va xotiradan qancha joy egallashini belgilab beruvchi kerakli omil. Foydalanilgan o’zgaruvchiga to’g’ri tipni belgilash muhim vazifalardan biridir. Sababi bu orqali biz, yaratayotgan dasturimizda yuzaga keladigan ba’zi bir muammolarni oldini olishimiz, eng asosiysi vaqt tejalishi va dasturning xotiradan kamroq joy egallanishiga erishishimiz mumkin. C\# dasturlash tili keng ko’lamdagi ma’lumotlar toifasini o’zida mujassamlashtirgan.  
+Ma’lumotlar toifasi – bu o’zgaruvchilarning turi va xotiradan qancha joy egallashini belgilab beruvchi kerakli omil. Foydalanilgan o’zgaruvchiga to’g’ri tipni belgilash muhim vazifalardan biridir. Sababi bu orqali biz, yaratayotgan dasturimizda yuzaga keladigan ba’zi bir muammolarni oldini olishimiz, eng asosiysi vaqt tejalishi va dasturning xotiradan kamroq joy egallanishiga erishishimiz mumkin. C# dasturlash tili keng ko’lamdagi ma’lumotlar toifasini o’zida mujassamlashtirgan.\
 Quyida bir nechta ma’lumotlar toifasiga birikkan holatda o’zgaruvchilarni hosil qilishni ko’rishimiz mumkin:
 
 ```csharp
@@ -15,15 +15,15 @@ char charVar = 'A';
 bool boolVar = true;
 ```
 
-C\# da ma’lumotlar toifasi asosan 2 turli bo’ladi: qiymatli\(value\) va ma’lumotli\(reference\). Value turdagi toifalarga – odatiy tiplar\(sonli\(int , float, double…\), mantiqiy\(bool\), belgili\(char\) va matnli\(string\)\) , enum turlari va strukturalar kabilar kiradi . Reference turdagi toifalar o’z ichiga – classlar, interfeys, delegatlar hamda massiv turlarini oladi.
+C# da ma’lumotlar toifasi asosan 2 turli bo’ladi: qiymatli(value) va ma’lumotli(reference). Value turdagi toifalarga – odatiy tiplar(sonli(int , float, double…), mantiqiy(bool), belgili(char) va matnli(string)) , enum turlari va strukturalar kabilar kiradi . Reference turdagi toifalar o’z ichiga – classlar, interfeys, delegatlar hamda massiv turlarini oladi.
 
-![Klassifikatsiya](../../../.gitbook/assets/image%20%2893%29.png)
+![Klassifikatsiya](<../../../.gitbook/assets/image (93).png>)
 
-C\# da oldindan tashkil qilingan bir qancha tiplar mavjud. Quyidagi jadvalda ulardan ba’zilarini ko’rishimiz mumkin.
+C# da oldindan tashkil qilingan bir qancha tiplar mavjud. Quyidagi jadvalda ulardan ba’zilarini ko’rishimiz mumkin.
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](<../../../.gitbook/assets/image (34).png>)
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](<../../../.gitbook/assets/image (33).png>)
 
 ```csharp
 // compile time error: Cannot implicitly convert type 'long' to 'int'.
@@ -32,13 +32,13 @@ int i = 21474836470
 
 ### Sonli tiplar
 
-Sonli tiplar o’z o’rnida ikki turga bo’linadi: butun\(integer\) va haqiqiy\(floating point\). Butun tiplar – barcha butun, musbat va manfiy \(52, -52, 0\) sonlarni o’zi ichiga oladi. Bularga misol tariqasida – byte, short , int , long , int32, int64 larni olishimiz mumkin. Haqiqiy tiplar – o’zlarida kasr\(1.2, -2.3, 10.5\) sonlarni aks ettiradi. Misol uchun : float, double, long double kabi tiplar. C\# dasturlash tilida sonli tiplar ko’p bo’lishiga qaramay, int\(butun\) va double\(haqiqiy\) tiplari ko’proq foydalaniladi. Quyidagi ko’rinishda sonli tiplarga doir toifalarni ko’rishimiz mumkin.
+Sonli tiplar o’z o’rnida ikki turga bo’linadi: butun(integer) va haqiqiy(floating point). Butun tiplar – barcha butun, musbat va manfiy (52, -52, 0) sonlarni o’zi ichiga oladi. Bularga misol tariqasida – byte, short , int , long , int32, int64 larni olishimiz mumkin. Haqiqiy tiplar – o’zlarida kasr(1.2, -2.3, 10.5) sonlarni aks ettiradi. Misol uchun : float, double, long double kabi tiplar. C# dasturlash tilida sonli tiplar ko’p bo’lishiga qaramay, int(butun) va double(haqiqiy) tiplari ko’proq foydalaniladi. Quyidagi ko’rinishda sonli tiplarga doir toifalarni ko’rishimiz mumkin.
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](<../../../.gitbook/assets/image (62).png>)
 
 ### Butun tiplar
 
-Butun tiplar – barcha musbat va mandiy butun sonlarni o’z ichiga oladi. C\# da butun tiplar oilasida 4 ta tip mavjud: _byte,_ _short_, _int_ , _long_. Byte byte tipi 0 dan 255 gacha bo’lgan sonlarni qabul qiladi, xotiradan 8 bitni egallaydi hamda Byte strukturasiga tegishlidur  
+Butun tiplar – barcha musbat va mandiy butun sonlarni o’z ichiga oladi. C# da butun tiplar oilasida 4 ta tip mavjud: _byte,_ _short_, _int_ , _long_. Byte byte tipi 0 dan 255 gacha bo’lgan sonlarni qabul qiladi, xotiradan 8 bitni egallaydi hamda Byte strukturasiga tegishlidur\
 sbyte tipi ham byte tipi bilan bir xil , lekin u -128 dan 127 gacha manfiy sonlarni ham o’zida saqlaydi. sbyte – _Sbyte_ strukturasidan o’rin olgan .
 
 ```csharp
@@ -54,7 +54,7 @@ Console.WriteLine(SByte.MinValue);//-128
 
 ```
 
-_**Short**_   
+_**Short**_ \
 short tipi -32,768 dan 32,767 gacha bo’lgan sonlarni o’zida jamlaydi, xotiradan egallanadigan joy 16 bit. Int16 stukturasini ichida joylashgan. short tipiga o’xshash ushort tipi ham mavjud. Bu tip 0 dan 65,535 gacha sonlarni qabul qiladi. UInt16 strukturasida joylashgan.
 
 ```csharp
@@ -71,7 +71,7 @@ Console.WriteLine(UInt16.MaxValue);//65535
 Console.WriteLine(UInt16.MinValue);//0
 ```
 
-_**Int**_   
+_**Int**_ \
 int tipi 32 bitlik butun toifadur. Butun sonlarni qabul qilish chegarasi -2,147,483,648 dan 2,147,483,647 gacha. Int32 strukturasida joylashgan. Bu tipga yaqin tip uint tipi. UInt32 strukturasiga tegishli bo’lib 0 dan 4,294,967,295 gacha sonlarni o’z ichiga oladi.
 
 ```csharp
@@ -98,7 +98,7 @@ Console.WriteLine(hex);
 Console.WriteLine(binary);
 ```
 
-_**Long**_  
+_**Long**_\
 long tipi o’zida -9,223,372,036,854,775,808 dan 9,223,372,036,854,775,807 gacha sonlarni saqlaydi. Xotiradan egallaydigan joyi 64 bitni tashkil etadi. Int64 strukturasida joylashgan. ulong tipi ham long tipi bilan o’xshash. U o’zida 0 dan 18,446,744,073,709,551,615 gacha sonlarni qabul qiladi. Int64 strukturasida joylashgan.
 
 ```csharp
@@ -116,10 +116,10 @@ Console.WriteLine(UInt64.MinValue);//0
 
 ### Haqiqiy tiplar
 
-Haqiqiy toifalar o’zida musbat va manfiy o’nli kasrlarni aks ettiradi. C\# da haqiqiy toifalar asosan 3 turli: float, double va decimal   
-  
-_**Float**_   
-float tipi xotiradan 4 baytni egallaydi. Single strukturasiga tegishli. float toifadagi tipni hosil qilish uchun f yoki F suffiksidan foydalaniladi.
+Haqiqiy toifalar o’zida musbat va manfiy o’nli kasrlarni aks ettiradi. C# da haqiqiy toifalar asosan 3 turli: float, double va decimal \
+\
+_**Float**_ \
+_****_float tipi xotiradan 4 baytni egallaydi. Single strukturasiga tegishli. float toifadagi tipni hosil qilish uchun f yoki F suffiksidan foydalaniladi.
 
 ```csharp
 float f1 = 123456.5F;
@@ -129,7 +129,7 @@ Console.WriteLine(f1);//123456.5
 Console.WriteLine(f2);//1.123456
 ```
 
-_**Double**_   
+_**Double**_ \
 double tipi float tipiga qaraganda imkoniyati kattaroq, lekin xotiradan 8 bayt egallaydi. Double strukturasida joylashgan. double toifadagi tipni hosil qilish uchun d yoki D suffiksidan foydalaniladi.
 
 ```csharp
@@ -140,7 +140,7 @@ Console.WriteLine(d1);//12345678912345.5
 Console.WriteLine(d2);//1.123456789123456
 ```
 
-_**Decimal**_   
+_**Decimal**_ \
 decimal tipi xotiradan boshqa tiplarga qaraganda balandroq joy egallaydi. Egallanadigan joy 16 bayt. Bu tip asosan moliya sohalaridagi dasturlarda ko’proq foydalaniladi. decimal toifadagi tipni hosil qilish uchun d yoki D suffiksidan foydalaniladi.
 
 ```csharp
@@ -150,4 +150,3 @@ decimal d2 = 1.1234567891345679123456789123m;
 Console.WriteLine(d1);
 Console.WriteLine(d2);
 ```
-

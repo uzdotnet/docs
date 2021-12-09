@@ -25,9 +25,9 @@ Avvalo oddiy misoldan boshlaymiz.
 
 ```
 
-![](../../../.gitbook/assets/image%20%28108%29.png)
+![](<../../../.gitbook/assets/image (108).png>)
 
-![](../../../.gitbook/assets/image%20%2869%29.png)
+![](<../../../.gitbook/assets/image (69).png>)
 
 Shu ko’rinishda bo’ladi.TextBox lardan juda ko’p xollarda foydalangansiz ‘foydalanuvchi’ sifatida. Masalan qayerda? Biror bir saytga tashrif buyurganingizda albatta login va parol yozishingiz kerak bo’ladi, shu xollarda loginni kiritish uchun TextBox lar ishlatilgan. Nomi HTML kodida boshqa nomad bo’lishi mumkin lekin ma’nosi bir, Foydalanuvchi tomonidan matn ko’rinishidagi ma’lumotni olish uchun xizmat qiladi.
 
@@ -39,16 +39,16 @@ Ya’ni:
 <TextBox Text="Salom!" Height="25" FontSize="15" Width="200"/>
 ```
 
-  
-Va oyna ochilganda TextBox elementida siz kiritgan matn hosil bo’ladi. TextBox-ga sichqonchaning o'ng tugmasini bosing. Sizga TextBox-dan Windows Clipboard-dan foydalanish imkoniyatini beradigan variantlar menyusi ochiladi. Va ushbu holatda siz tezkor tugmachalardan ham foydalanishingiz mumkin. \(Ctrl+X, Ctrl+C, Ctrl+V\) lar va hatto ortga qaytish \(Ctrl+Z\) ham ishlaydi
+\
+Va oyna ochilganda TextBox elementida siz kiritgan matn hosil bo’ladi. TextBox-ga sichqonchaning o'ng tugmasini bosing. Sizga TextBox-dan Windows Clipboard-dan foydalanish imkoniyatini beradigan variantlar menyusi ochiladi. Va ushbu holatda siz tezkor tugmachalardan ham foydalanishingiz mumkin. (Ctrl+X, Ctrl+C, Ctrl+V) lar va hatto ortga qaytish (Ctrl+Z) ham ishlaydi
 
-![](../../../.gitbook/assets/image%20%28103%29.png)
+![](<../../../.gitbook/assets/image (103).png>)
 
-Yuqorida ko’rgan TextBox elementimiz 1 qatorli TextBox edi, ya’ni ko’proq matn kiritilsa TextBox chapdan o’ngga ketma-ket kiritib boradi. Masalan:                                                                                            
+Yuqorida ko’rgan TextBox elementimiz 1 qatorli TextBox edi, ya’ni ko’proq matn kiritilsa TextBox chapdan o’ngga ketma-ket kiritib boradi. Masalan:                                                                                           &#x20;
 
 TextBox ga ‘Sobirjonov O'tkirbek Sodiqjon o'g'li’ Matnini kiritilsa Biz kiritgan chegaralarga ko’ra quyidagicha joylashadi
 
-![](../../../.gitbook/assets/image%20%2835%29.png)
+![](<../../../.gitbook/assets/image (35).png>)
 
 Endi esa keling shu TextBox imizni kattaroq matn kiritiladigan TextBoxga aylantiramiz.  Bu esa juda ham oson:
 
@@ -71,7 +71,7 @@ Endi esa keling shu TextBox imizni kattaroq matn kiritiladigan TextBoxga aylanti
 
 ```
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](<../../../.gitbook/assets/image (23).png>)
 
 Biz ushbu ko’rinishda matn kiritish imkoniyatiga ega bo’ldik.
 
@@ -80,4 +80,3 @@ _TextWrapping="Wrap"_ – Matnni qatorlar bo’yicha kiritilishini ta’milaydi.
 _AcceptsReturn="True"_- ‘Enter’ tugmasi boshqaruvi. MAtn kiritishda ‘Enter’ tugmasini bosganingizda keying qatorga tushishini ta’minlab beradi.
 
 TextBox elementiga kiritiladigan belgilar sonini cheklash ham mumkin. _MaxLength="20"_  kiritilsa ushbu TextBox faqatgina 20 ta belgini kiritishga ruxsat beradi holos.
-

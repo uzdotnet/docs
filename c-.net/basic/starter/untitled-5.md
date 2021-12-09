@@ -8,9 +8,9 @@ Siz tuynuklar haqida eshitganmisiz? Dasturlashda ham xuddi shunday tuynuklar bor
 
 Avval tuynukni qayerga olib borishi uchun uning chiqish joyini Aniqlab olishimiz kerak.
 
-![Aniqlab olamiz va kerakli joydan turib shu yerga hech qanday shartsiz o&#x2019;tish mumkin . Ya&#x2019;ni avvalgi belgilagan tuynuk uchida chiqib kelinadi.](../../../.gitbook/assets/photo_2020-11-14_22-02-55.jpg)
+![Aniqlab olamiz va kerakli joydan turib shu yerga hech qanday shartsiz o’tish mumkin . Ya’ni avvalgi belgilagan tuynuk uchida chiqib kelinadi.](../../../.gitbook/assets/photo\_2020-11-14\_22-02-55.jpg)
 
-![Demak tushuncha oldingizmi Dasturda shuni bir ko&#x2019;rmaymizni nima dedingiz?](../../../.gitbook/assets/photo_2020-11-14_22-02-57.jpg)
+![Demak tushuncha oldingizmi Dasturda shuni bir ko’rmaymizni nima dedingiz?](../../../.gitbook/assets/photo\_2020-11-14\_22-02-57.jpg)
 
 ## Demak boshladik. 1-misol
 
@@ -41,7 +41,7 @@ namespace ConsoleApp1
 }
 ```
 
-Bu dasturda biz avval “key” nomli kalitni belgilab oldik.va kalit so’zdan keyin ‘:’ qo’yamiz. Dasturda shu qismga o’tib olishimiz uchun. 
+Bu dasturda biz avval “key” nomli kalitni belgilab oldik.va kalit so’zdan keyin ‘:’ qo’yamiz. Dasturda shu qismga o’tib olishimiz uchun.&#x20;
 
 Bu qismda dasturda active false qiymat olgan va 1- if shart bajarilmaydi.
 
@@ -81,7 +81,7 @@ namespace GotoShartOperatori
 }
 ```
 
-  
+\
 Bu dasturda n==0 shart tekshiriladi va while sikliga tushib qoladi va n=10 bo’lganida bu sikladan chiqib ketadi va xatto undan keyin turgan
 
 ```csharp
@@ -96,4 +96,3 @@ Cheksiz Siklga tushib qolgan key: bilan boshlanuvchi qismga o’tib ketadi!
 Demak tushunganday bo’ldingizmi . Ya’ni siz dasturda ixtiyoriy Qismga o’tish uchun avval bir kalit so’z belgilab olasiz. Va dasturda ixtiyoriy qismda “goto”
 
 So’zidan keyin siz o’ziz belgilagan kalit so’zni yozib qoyasiz. Dastur sizni kodlaringizni o’qiyotganda. “Goto” kalit so’zni o’qiganda siz yozgan kalit qismga o’tib ketadi. Demak tushunarli “Avval qayerligini aniqlab olmiz va shu joyga kalit so’z yozib ketamiz, va dasturni ixtiyoriy joyidan shu yerga goto deb so’zidan keyin kalitni yozib o’tib olasiz”!!!
-

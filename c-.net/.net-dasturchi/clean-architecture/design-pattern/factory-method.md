@@ -12,21 +12,21 @@ description: Xondamir Abduxoshimov
 4. Prototype
 5. Singleton
 
-Demak, o'rganishni Factory Method patterni bilan tanishish orqali boshlaymiz. 
+Demak, o'rganishni Factory Method patterni bilan tanishish orqali boshlaymiz.&#x20;
 
-**Factory Method** dizayn patterni obyekt yaratilish jarayonini abstrakt\(mavhum\)lashtirib, run-time paytida qachonki extiyoj sezilganda obyektni yaratilishiga imkon yaratadi. Dasturchilar ushbu patterni odatda obyekt yaratishning standart usuli sifatida foydalanishadi. Keling berilgan **factory method** patterniga yanayam sinchikovlik bilan yondashamiz. 
+**Factory Method** dizayn patterni obyekt yaratilish jarayonini abstrakt(mavhum)lashtirib, run-time paytida qachonki extiyoj sezilganda obyektni yaratilishiga imkon yaratadi. Dasturchilar ushbu patterni odatda obyekt yaratishning standart usuli sifatida foydalanishadi. Keling berilgan **factory method** patterniga yanayam sinchikovlik bilan yondashamiz.&#x20;
 
 {% hint style="success" %}
 Factory Method = FM
 {% endhint %}
 
-Biz FMdan foydalangan holda obyektni uning yaratilish logikasini yashirgan holda hosil qilamiz. Ya'ni, obyekt yaratish uchun interfeysdan foydalaniladi, lekin voris class qaysi class obyekti yaratilishini belgilaydi. 
+Biz FMdan foydalangan holda obyektni uning yaratilish logikasini yashirgan holda hosil qilamiz. Ya'ni, obyekt yaratish uchun interfeysdan foydalaniladi, lekin voris class qaysi class obyekti yaratilishini belgilaydi.&#x20;
 
 Albatta sizga berilgan ma'lumotlar birdaniga tushunarsiz bo'lishi mumkin, men ham bir o'qishda o'rgana olmaganman. Lekin ko'proq misollar orqali ko'rsangiz buni tushunish osonroq kechadi.
 
 Quyidagi ko'rsatilgan UML diagramma, FMni qanday tashkil etilishini belgilaydi.
 
-![](../../../../.gitbook/assets/image%20%2813%29.png)
+![](<../../../../.gitbook/assets/image (13).png>)
 
 Yuqoridagi diagramma elementlari nimani anglatadi birma - bir tahlil qilib chiqamiz:
 
@@ -108,14 +108,13 @@ namespace Factory
 
 Natija:
 
-![](../../../../.gitbook/assets/image%20%287%29%20%281%29%20%281%29.png)
+![](<../../../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 ### FMni qachon foydalanamiz?
 
 Endi asosiy nuqtaga keldik. Ho'sh sizningcha ushbu pattern bizga qanday imkoniyatlar yaratib beradi.
 
-1. Ba'zi dasturlash tillarida konstruktorlarda istisnolardan foydalanish yomon oqibatlarga olib kelishi mumkin. Bu muammolarni keltirib chiqaradi. FM bo'lsa bunga chek qo'yadi. 
-2. Qachonki konstruktorga murojaat qilganingizda, yaratiladigan obyekt turini aniq bilishingiz kerak. Bu har doim ham o'rinlik emas. Tasavvur qiling kompyuterga telfonizni ulamoqchisiz, lekin oldindan u qaysi uslubda kompyuteringizga ulanishini bilmayabsiz\(Ethernetmi, COMmi yoki USBmi\). Bu holatda FMni qo'llash ancha qulaylik beradi. Ya'ni, siz run-time paytida tanlovga ko'ra qaysi uslub mos kelishini aniqlashingiz mumkin.
+1. Ba'zi dasturlash tillarida konstruktorlarda istisnolardan foydalanish yomon oqibatlarga olib kelishi mumkin. Bu muammolarni keltirib chiqaradi. FM bo'lsa bunga chek qo'yadi.&#x20;
+2. Qachonki konstruktorga murojaat qilganingizda, yaratiladigan obyekt turini aniq bilishingiz kerak. Bu har doim ham o'rinlik emas. Tasavvur qiling kompyuterga telfonizni ulamoqchisiz, lekin oldindan u qaysi uslubda kompyuteringizga ulanishini bilmayabsiz(Ethernetmi, COMmi yoki USBmi). Bu holatda FMni qo'llash ancha qulaylik beradi. Ya'ni, siz run-time paytida tanlovga ko'ra qaysi uslub mos kelishini aniqlashingiz mumkin.
 
 O'ylaymanki aytib o'tilgan fikrlar sizga tushunarlik bo'ldi. Sayohatimizni davom ettiramiz.
-

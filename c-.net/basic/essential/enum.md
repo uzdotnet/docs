@@ -1,13 +1,18 @@
 ---
-description: Xakimbekov Doniyorbek, Hikmatullayev Saidrahmatulloh
+description: Xakimbekov Doniyor
 ---
 
 # Enum
 
 **enum** - bu o’zgarmaslarni ifodalovchi maxsus “sinf” (qiymati **o’zgarmaydigan** yoki bir so’z bilan aytganda **read-only** o’zgaruvchilar).
-**enum** ni yaratish uchun __enum__ kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va enum elementlari vergul bilan ajratib yoziladi: 
+
+**enum** - bu o’zgarmaslarni ifodalovchi maxsus “sinf” (qiymati **o’zgarmaydigan** yoki bir so’z bilan aytganda **read-only** o’zgaruvchilar). **enum** ni yaratish uchun **enum** kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va enum elementlari vergul bilan ajratib yoziladi:
+
+**enum** ni yaratish uchun _**enum**_ kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va **enum** elementlari _vergul_ bilan ajratib yoziladi
 
 **Misol uchun:**
+
+1.
 
 ```csharp
 using System;
@@ -23,16 +28,18 @@ namespace NewApplication
 ```
 
 **enum** elementlariga nuqta sintaksisi bilan kirishingiz mumkin:
+
 ```csharp
 Level myVar = Level.Medium;
 Console.WriteLine(myVar);
 ```
+
 {% hint style="info" %}
-*enum* so’zi bu “*enumerations*” qisqartmasi bo’lib “maxsus sanab o’tilgan” degan ma’noni anglatadi.
+_enum_ so’zi bu “_enumerations_” qisqartmasi bo’lib “maxsus sanab o’tilgan” degan ma’noni anglatadi.
 {% endhint %}
 
-Siz **enum** kalit so'zidan Class ichida ham foydalana olasiz:
-Misol uchun:
+Siz **enum** kalit so'zidan Class ichida ham foydalana olasiz: Misol uchun:
+
 ```csharp
 classProgram
 {
@@ -48,13 +55,13 @@ static void Main(string[] args)
   Console.WriteLine(myVar);
 }
 ```
-Console:  `Medium`
 
-**enum** qiymatlari:
-Odatda, **enum** ning birinchi qiymati doim “0” dan boshlanadi va shu tariqa ikkinchisi “1” bo’lib davom etadi…
+Console: `Medium`
 
-Elementdan butun qiymat olish uchun elementni *int* ga o’zgartirishimiz (convert) kerak:
-Misol uchun
+**enum** qiymatlari: Odatda, **enum** ning birinchi qiymati doim “0” dan boshlanadi va shu tariqa ikkinchisi “1” bo’lib davom etadi…
+
+Elementdan butun qiymat olish uchun elementni _int_ ga o’zgartirishimiz (convert) kerak: Misol uchun
+
 ```csharp
 enumMonths
 {
@@ -71,10 +78,11 @@ static void Main(string[] args)
   Console.WriteLine(myNum);
 }
 ```
- Console: `3`
- 
- 
+
+Console: `3`
+
 Shuningdek, siz o’zingizni enum qiymatlaringizni belgilashingiz ham mumkin va keyingi elementlar raqamni mos ravishda yangilaydi. Misol uchun:
+
 ```csharp
 enumMonths
 {
@@ -91,9 +99,11 @@ staticvoidMain(string[] args)
   Console.WriteLine(myNum);
 }
 ```
+
 Console: `7`
 
 **enum** ko’pincha mos qiymatlarni tekshirish uchun switch ichida foydalaniladi. Misol uchun
+
 ```csharp
 enumLevel
 {
@@ -116,18 +126,14 @@ switch(myVar)
   break;
 }
 ```
-Console:
-`Medium level`
+
+Console: `Medium level`
 
 **enum** nima uchun va qachon ishlatiladi?
 
 Oy kunlari, kunlar, ranglar, kartalar toʻplami va h.k. kabi oʻzgarmas qiymatlarga ega boʻlganingizda enum dan foydalaning.
 
-
-**Enum** ni tushinish uchun quyidagi misolda ko'raylik
-Misol: Bizga hafta kunlari (1,2…7)gacha raqamlar bilan raqamlab berilgan 
-bo'lsin  bizga hafta raqami berilsa hafta kunini chiqaradigan dastur qilishimiz kerak. 
-Bu masalani  birinchi biz bilgan switch case da hal  qilib ko'raylik.
+**Enum** ni tushinish uchun quyidagi misolda ko'raylik Misol: Bizga hafta kunlari (1,2…7)gacha raqamlar bilan raqamlab berilgan bo'lsin bizga hafta raqami berilsa hafta kunini chiqaradigan dastur qilishimiz kerak. Bu masalani birinchi biz bilgan switch case da hal qilib ko'raylik.
 
 ```csharp
 using System;
@@ -215,6 +221,7 @@ namespace _enum
 ```
 
 Qora oynada quyidagicha natija chiqadi.
+
 ```
 qizil
 sariq
@@ -227,6 +234,7 @@ qora
 5
 6
 ```
+
 Biz **enum** dan foydalanib avtomobillar narxi chiqaruvchi dastur tuzib ko'rayik.
 
 ```csharp
@@ -254,13 +262,16 @@ namespace car
     }
 }
 ```
+
 Qora oynadagi natija:
+
 ```
 Malibuning narxi
 275000000 so'm
 ```
 
 **Enum** elementlarini qiymatiga qarab jop etish.
+
 ```csharp
 using System;
 namespace dasturlash
@@ -296,6 +307,7 @@ namespace dasturlash
 ```
 
 Qora oynadagi natija
+
 ```
 Csharp
 Go

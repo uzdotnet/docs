@@ -4,7 +4,7 @@ description: Xondamir Abduxoshimov
 
 # Matnli xabarlar bilan ishlash
 
-Matnli xabar - bu bot strukturasi uchun yaxshi interfeys va odatda ko'p foydalaniladi. Matnli xabarlarni yuborish oson, shuningdek internet tezligi pastroq bo'lgan qurilmalarda tez namoyish qilinadi. 
+Matnli xabar - bu bot strukturasi uchun yaxshi interfeys va odatda ko'p foydalaniladi. Matnli xabarlarni yuborish oson, shuningdek internet tezligi pastroq bo'lgan qurilmalarda tez namoyish qilinadi.&#x20;
 
 Birinchi foydalanuvchidan kelgan xabarlarni qaysi turga mansubligini, so'ngra xabarlar ketma-ketligiga xos holda matnlarni yuborishni ko'rib chiqamiz.
 
@@ -22,7 +22,7 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 }
 ```
 
-Kelgan xabar turi matn ko'rinishida bo'lsa vazifalarni belgilashimiz mumkin. 
+Kelgan xabar turi matn ko'rinishida bo'lsa vazifalarni belgilashimiz mumkin.&#x20;
 
 Yana bir e'tiborga olishimiz kerak bo'lgan jihat bor. U shundan iboratki, yuqoridagi holatda istalgan matnli xabar kelganda berilgan shart o'rinli bo'ladi. Demak, biz nafaqat kelgan xabar turi, balkim unda kelgan matnni ham tekshirishimiz zarur.
 
@@ -51,7 +51,7 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 }
 ```
 
-Kelgan xabarni tekshirishni ko'rdik, navbat endi ularga mos holatda matnlarni yuborish. Matnli xabarlarni yuborish uchun **SendTextMessageAsync\(\)** asinxron funksiyasidan foydalaniladi. Ushbu finksiyada quyidagicha parametrlar mavjud:
+Kelgan xabarni tekshirishni ko'rdik, navbat endi ularga mos holatda matnlarni yuborish. Matnli xabarlarni yuborish uchun **SendTextMessageAsync()** asinxron funksiyasidan foydalaniladi. Ushbu finksiyada quyidagicha parametrlar mavjud:
 
 * chatId - foydalanuvchi ID si
 * text - yubormoqchi bo'lgan xabar
@@ -80,12 +80,11 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](../../../../.gitbook/assets/image%20%287%29%20%284%29%20%284%29%20%282%29.png)
+![](<../../../../.gitbook/assets/image (7) (4) (4) (3).png>)
 
-Matnli xabarlarni doimo bir xil usulda taqdim etish bu foydalanuvchini zeriktiradi. Bu holatda matnni formatlangan ko'rinishlarda tadim etish, samarali yo'l hisoblanadi. Odatda 2 xil formatlash usuli mavjud: 
+Matnli xabarlarni doimo bir xil usulda taqdim etish bu foydalanuvchini zeriktiradi. Bu holatda matnni formatlangan ko'rinishlarda tadim etish, samarali yo'l hisoblanadi. Odatda 2 xil formatlash usuli mavjud:&#x20;
 
 1. Markdown
 2. HTML
 
-Yuqorida keltirilgan misolda Markdown usulidan foydalanilgan. Formatlash usullarini [shu yerdan](https://sourceforge.net/p/telegram-bot/wiki/markdown_syntax/) olishingiz mumkin
-
+Yuqorida keltirilgan misolda Markdown usulidan foydalanilgan. Formatlash usullarini [shu yerdan](https://sourceforge.net/p/telegram-bot/wiki/markdown\_syntax/) olishingiz mumkin

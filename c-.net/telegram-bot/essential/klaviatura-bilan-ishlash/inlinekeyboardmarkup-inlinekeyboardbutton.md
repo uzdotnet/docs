@@ -6,7 +6,7 @@ description: Xondamir Abduxoshimov
 
 **InlineKeyboardMarkup** - biroz boshqacharoq tushuncha. Uning yordami bilan biz murakkab amallarni bajarishimiz mumkin bo'ladi.
 
-Bu turdagi klaviaturani hosil qilishda **InlineKeyboardButton** sinfiga mansub obyektlardan foydalaniladi. **InlineKeyboardButton** bir vaqtning o'zida ham tugma matnini, hamda ****unga biriktirilgan datani olib yuradi. Ya'ni, bu data orqali, botimizni keyingi vazifalarini belgilashimiz mumkin.
+Bu turdagi klaviaturani hosil qilishda **InlineKeyboardButton** sinfiga mansub obyektlardan foydalaniladi. **InlineKeyboardButton** bir vaqtning o'zida ham tugma matnini, hamda **** unga biriktirilgan datani olib yuradi. Ya'ni, bu data orqali, botimizni keyingi vazifalarini belgilashimiz mumkin.
 
 ```csharp
 public string Index()
@@ -69,11 +69,11 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](../../../../.gitbook/assets/image%20%2867%29.png)
+![](<../../../../.gitbook/assets/image (67).png>)
 
-**OnCallBackQuery** - InlineKeyboardButton bosilganda hosil bo'ladigan xodisa hisoblanadi. Ko'rib turganingizdek biz ham bu xodisa ishlagan paytda, **CallBack\(\)** deb nomlangan event\_handler funksiyaga murojaat qilishni ko'rsatib qo'ydik.
+**OnCallBackQuery** - InlineKeyboardButton bosilganda hosil bo'ladigan xodisa hisoblanadi. Ko'rib turganingizdek biz ham bu xodisa ishlagan paytda, **CallBack()** deb nomlangan event\_handler funksiyaga murojaat qilishni ko'rsatib qo'ydik.
 
-InlineKeyboardButton sinfiga mansub bir nechta metodlar mavjud, yuqoridagi misolda **WithCallbackData\(\)** ko'rinishidan foydalanildi. Ushbu metoddan joy olgan **callbackData** maydoni orqali keyingi vazifani belgilashga muvaffaq bo'ldik.
+InlineKeyboardButton sinfiga mansub bir nechta metodlar mavjud, yuqoridagi misolda **WithCallbackData()** ko'rinishidan foydalanildi. Ushbu metoddan joy olgan **callbackData** maydoni orqali keyingi vazifani belgilashga muvaffaq bo'ldik.
 
 {% hint style="info" %}
 E'tiborli bo'ling, callbackdata maydoni - 1 - 64 baytgacha bo'lgan oraliqni qabul qila oladi.
@@ -121,7 +121,7 @@ if (e.Message.Text == "tugmalar")
 
 **Natija:**
 
-![](../../../../.gitbook/assets/image%20%2887%29.png)
+![](<../../../../.gitbook/assets/image (87).png>)
 
 Tugmalarni 2 ta ustunda ham hosil qilishimiz mumkin. Endi, boshqacharoq yo'l bilan hosil qilib ko'ramiz
 
@@ -162,5 +162,4 @@ if (e.Message.Text == "tugmalar")
 
 **Natija:**
 
-![](../../../../.gitbook/assets/image%20%2859%29.png)
-
+![](<../../../../.gitbook/assets/image (59).png>)

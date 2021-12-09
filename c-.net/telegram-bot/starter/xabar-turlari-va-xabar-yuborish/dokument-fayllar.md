@@ -4,7 +4,7 @@ description: Xondamir Abduxoshimov
 
 # Dokument fayllar
 
-Bundan oldingi mavzularda sanab o'tilgan fayl formatlaridan tashqari fayllarni **SendDocumentAsync\(\)** asinxron funksiyasidan foydalangan holda amalga oshirish mumkin.
+Bundan oldingi mavzularda sanab o'tilgan fayl formatlaridan tashqari fayllarni **SendDocumentAsync()** asinxron funksiyasidan foydalangan holda amalga oshirish mumkin.
 
 ```csharp
 private async void Xabar_Kelganda(object sender, MessageEventArgs e)
@@ -27,5 +27,4 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](../../../../.gitbook/assets/image%20%28107%29%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
-
+![](<../../../../.gitbook/assets/image (107) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (2).png>)

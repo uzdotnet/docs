@@ -21,7 +21,7 @@ Qisqacha qilib aytganda metodlarni nima deb nomlashni bilmasdan nom qidirgan pay
 
 * **Delegat e'lon qilish**
 * **Delegatdan obyekt hosil qilish**
-* _**delegate**_ **kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**
+* _**delegate**_** kalit so'zi yordamida hosil qilingan obyektga mos nomsiz metod yozish**
 * **delegatdan foydalanish**
 {% endhint %}
 
@@ -57,7 +57,7 @@ namespace Delegates
 //  Hello DOT-NET.UZ
 ```
 
-**Anonim metod**lar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan\(anonim metod ichida 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan\):
+**Anonim metod**lar ichida global o'zgaruvchilardan ham foydalanish mumkin. Quyidagi misolda biror sonning ko'rsatilgan darajasini hisoblovchi dastur ko'rsatilgan(anonim metod ichida 'a' global holatda, 'n' esa 'N' nomi bilan parametr sifatida ishlatilgan):
 
 ```csharp
 using System;
@@ -113,7 +113,7 @@ Action<int, double, bool, string> introduce = delegate { Console.WriteLine("This
     introduce(42, 2.7, 2>4, "Hello");
 ```
 
-C\# 9.0 dan boshlab siz **Anonim metod**larni static holatda e'lon qilishingiz mumkin:
+C# 9.0 dan boshlab siz **Anonim metod**larni static holatda e'lon qilishingiz mumkin:
 
 ```csharp
 Func<int, int, double> degree = static delegate (int a, int b)
@@ -132,4 +132,3 @@ saveButton.Click += delegate(Object o, EventArgs e)
     System.Windows.Forms.MessageBox.Show("Save Successfully!"); 
 };
 ```
-
