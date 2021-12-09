@@ -49,7 +49,7 @@
       * [Override (Qayta yozish)](c-.net/basic/essential/override-qayta-yozish.md)
       * [Base](c-.net/basic/essential/base.md)
       * [Polimorfizm](c-.net/basic/essential/polimorfizm.md)
-      * [Sealed](c-.net/basic/essential/seal.md)
+      * [Sealed](c-.net/basic/essential/sealed.md)
       * [Interface](c-.net/basic/essential/interface.md)
       * [Modifikatorlarga ruxsat berish](c-.net/basic/essential/modifikatorlarga-ruxsat-berish.md)
       * [Inkapsulatsiya](c-.net/basic/essential/inkapsulatsiya.md)
