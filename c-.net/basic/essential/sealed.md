@@ -91,7 +91,7 @@ namespace Sealed_Class
 }
 ```
 
-Yuqoridagi kodda voris bo'lgan method polymorphism yordamida sealed qilindi, yani Voris2 classidagi Add methodini boshqa classda voris olib bo'lmasligi ta'minlandi. 
+Yuqoridagi kodda voris bo'lgan method polymorphism yordamida sealed qilindi, yani Voris1 classidagi Add methodini boshqa classda voris olib bo'lmasligi ta'minlandi. 
 
 Quyidagi kodda, esa yuqoridagi kodning sealed qilingan methodidan voris olishga harakat qilingan:
 
