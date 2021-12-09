@@ -5,9 +5,12 @@ description: Niyozbek Mirzayev
 
 Dasturlashga endi kirib kelganlar orasida turli xil yangi atamalarga duch kelish oddiy holat. Shu atamalardan biri bu **Struktura** yoki ingliz tilda **Struct**dir.
 
-C# dasturlash tilida(boshqa dasturlash tillarida ham) turli tiplar mavjud va shu orada tiplar asosan ikkiga bo'linadi: **value type** va **reference type**. **Value type**ga *int*, *float* yoki *char* va shu kabilarni misol keltirishimiz mumkin, bu tiplar faqat bitta ma'lumotni qabul oladi. Lekin **reference type**  birdan oshiq ma'lumotlarni o'z ichiga sig'dira oladi.
+C# dasturlash tilida (boshqa dasturlash tillarida ham) ma'lumotlar ikki xil bo'ladi: **value type** va **reference type**. 
+**Value type**  tipidagi ma'lumotlar xotirada o'zi ma'lum joy egallab, qiymati yozilgan holda saqlanadi. Bu tipga misol qilib oddiy tiplar: *int, double, char, string, boolean* kabilarni, bundan tashqari **struct**ni ham keltirishimiz mumkin. **Struktura** o'zi ham **value type** hisoblanadi va **value type** dagi ma'lumotlarni jamlangan holatda saqlash uchun ishlatiladi. **value type** turidagi ma'lumotlar **stack** xotirada saqlanadi.
 
-Struktura ham **reference type**ga kiradi va u o'ziga har xil **value type**dagi ma'lumotlarni qabul qiladi. Xo'sh, bu bizga nega kerak? Tasavvur qiling, siz o'z dasturingiz foydalanuvchilarining ma'lumotlarni saqlab qo'ymoqchisiz va har bir foydalanuvchining ma'lumotlari quyidagi ko'rinishda bo'ladi:
+**Reference type**dagi ma'lumotlar esa xotirada saqlanganda o'zi bilan birga qiymatini olib yurmaydi, ular shunchaki xotirada  boshqa ma'lumot yozilgan manzilga ko'rsatkich (havola)ni  o'zida saqlaydi. **Reference type**ga *classlar, interfacelar, delegatlar, massivlar* misol bo'la oladi.  **Reference type** turidagi ma'lumotlar **heap** xotirada saqlanadi.
+
+Struktura bir nechta o'zaro bog'liq ma'lumotlarni ular orasidagi mantiqiy bog'liqlikni ta'minlagan holda saqlash imkoniyatini beradi. Strukturani tushunishdan avval, undan foydalanmagan holda talabalar haqidagi ma'lumotlarni saqlashga urinib ko'raylik. Bu holatda talabalarga tegishli har bitta ma'lumotni yangi o'zgaruvchiga yuklashimizga to'g'ri keladi:
 
 ```csharp
 string ism = "Dave";
@@ -59,8 +62,7 @@ Talaba Strukturasini huddi qolip kabi tasavvur qiling. Lekin sezganingizdek biz 
 ```csharp
 Talaba talaba1 = new Talaba();
 ```
-ko'rinishida dasturning Main qismida e'lon qilamiz. Uni ma'lumotlar bilan to'ldirish uchun yaratilgan o'zgaruvchini chaqirish, shundan so'ng uni ma'lum xususiyatlar bilan to'ldirish lozim.
-Buni quyidagicha ko'rsangiz bo'ladi:
+ko'rinishida dasturning Main qismida e'lon qilamiz. Uni ma'lumotlar bilan to'ldirish uchun yaratilgan o'zgaruvchini chaqirish, shundan so'ng uni ma'lum xususiyatlar bilan to'ldirish lozim. Buni quyidagicha ko'rsangiz bo'ladi:
 ```csharp
 talaba1.ism = "Dave";
 talaba1.familiya = "Thompson";
@@ -75,8 +77,7 @@ Console.WriteLine(talaba1.familiya)
 Console.WriteLine(talaba1.yosh)
 ```
 
-Bu Consoleda quyidagi ko'rinishda bo'ladi:
-
+Natija quyidagi ko'rinishda bo'ladi:
 ```
 Dave
 Thompson
@@ -97,7 +98,7 @@ struct Talaba
 
 Hozirdan boshlab talabaning yoshini dasturda ishlata olmaymiz. Lekin, ma'lumotni ishlata olmasak nima keragi bor, to'g'rimi?
 
-Shu sababdan shu kabi yashirin xususiyatlarni namoyon qilish yoki ularga qiymat berish uchun maxsus funksiyalar - **event**lar e'lon qilishimiz mumkun. Misol uchun talabaning faqatgina yoshini ko'rsata oladigan Event quyidagicha bo'ladi: 
+Shu sababdan shu kabi yashirin xususiyatlarni namoyon qilish yoki ularga qiymat berish uchun maxsus funksiyalar - **event**lar e'lon qilishimiz mumkin. Shunday qilsak, dasturning Main qismida talabaning bu xususiyatiga faqatgina shu **event** orqali murojaat qilish mumkin bo'ladi. Bunday usulda ulanish ma'lumotlar bexosdan o'zgarib ketishini oldini oladi. Misol uchun talabaning faqatgina yoshini ko'rsata oladigan Event quyidagicha bo'ladi: 
 
 ```csharp
 struct Talaba
@@ -174,3 +175,56 @@ Consoleda natija quyidagicha bo'ladi:
 ```
 17
 ```
+
+Bundan tashqari, **event**lar yordamida o'zgaruvchiga qiymat berishda ma'lum shartlar qo'yish, qo'shimcha amallar bajarish mumkin. Masalan, odatda talabaning yoshi eng kamida 17 yosh bo'ladi deb hisoblasak, yosh o'zgaruvchisiga bundan kichik qiymat berish mumkin bo'lmasin:
+```csharp
+using System;
+
+namespace Struktura
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			
+			Talaba talaba1 = new Talaba();			
+			talaba1.ism = "Dave";
+			talaba1.familiya = "Thompson";		
+			talaba1.PutAge(3);  
+			//talabaning yoshi 3 ga teng bo'lolmagani uchun, bu talabaning yoshi 17 deb belgilanadi
+			
+			talaba1.GetAge();
+			
+			Talaba talaba2 = new Talaba();			
+			talaba2.ism = "Jeff";
+			talaba2.familiya = "Harrison";		
+			talaba2.PutAge(23);			
+			talaba2.GetAge();
+
+		}
+	}
+
+	//Struktura
+	struct Talaba
+	{		
+		public string ism;
+		public string familiya;		
+		private int yosh;		
+		public void GetAge()
+		{
+			Console.WriteLine(yosh);
+		}
+		public void PutAge(int age)
+		{
+			if (age>16) yosh = age;
+			else yosh=17;
+		}
+	}
+}
+```
+Natija:
+```
+17
+23
+```
+Ko'rib turganingizdek, **event**lar ma'lumotlar ustidan nazorat qilib turishimizni osonlashtiradi.
