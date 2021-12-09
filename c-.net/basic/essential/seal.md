@@ -137,8 +137,5 @@ namespace Sealed_Class
 
 Natija quydagicha bo'ladi:
 ```
-<aside>
 💡 error CS0239: 'Program.Voris2.Add(int, int)': cannot override inherited member 'Program.Voris1.Add(int, int)' because it is sealed.
-
-</aside>
 ```
