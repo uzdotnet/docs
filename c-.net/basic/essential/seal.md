@@ -1,7 +1,7 @@
 ---
 description: Niyozbek Mirzayev
 ---
-# Seal
+# Sealed
 
 C# dasturlash tilida **Sealed class** tushunchasi mavjud. 
 {% hint style="info" %}
