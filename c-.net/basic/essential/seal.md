@@ -39,14 +39,14 @@ namespace Sealed_Class
 
 		//seled klassdan voris olishga harakat qilish
 		public class Class_nomi2 : Class_nomi1
-    {
+    		{
 			//...
 		}
 	}
 }
 ```
 
- Agar kod yurg'izilsa natija quyidagicha bo'ladi:
+ Agar kod ishga tushirilsa natija quyidagicha bo'ladi:
 
 ```
 💡 error CS0509: 'Class_nomi2': cannot derive from sealed type 'Class_nomi1'
@@ -80,7 +80,7 @@ namespace Sealed_Class
 
 		//asosiy classdan voris olish
 		public class Voris1 : Asosiy
-    {
+    		{
 			//voris bo'lgan methodni sealed qilish
 			public sealed override int Add(int a, int b)
 			{
@@ -89,11 +89,11 @@ namespace Sealed_Class
 		}
 ```
 
-Yuqoridagi kodda voris bo'lgan method polymorphism yordamida sealed qilindi, yani Voris2 classidagi Add methodini boshqa classda voris olib bo'lmasligi taminlandi. 
+Yuqoridagi kodda voris bo'lgan method polymorphism yordamida sealed qilindi, yani Voris2 classidagi Add methodini boshqa classda voris olib bo'lmasligi ta'minlandi. 
 
 Quyidagi kodda, esa yuqoridagi kodning sealed qilingan methodidan voris olishga harakat qilingan:
 
-```
+```csharp
 namespace Sealed_Class
 {
 	internal class Program
@@ -124,7 +124,7 @@ namespace Sealed_Class
 		
 		public class Voris2 : Voris1
 		{
-				//sealed bo'lgan methoddan voris olishga urunish
+				//sealed bo'lgan methoddan voris olishga urinish
 				public override int Add(int a, int b)
 				{
 					return a + b;
@@ -136,8 +136,9 @@ namespace Sealed_Class
 ```
 
 Natija quydagicha bo'ladi:
-
+```
 <aside>
 💡 error CS0239: 'Program.Voris2.Add(int, int)': cannot override inherited member 'Program.Voris1.Add(int, int)' because it is sealed.
 
 </aside>
+```
