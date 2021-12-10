@@ -3,17 +3,16 @@ description: Sohib Jaynarov
 ---
 # CREATE Database
 
-Ma'lumotlar bazasi bilan ishlaganda har doim birinchi qilinadigan ish bu ma'lumotlar bazashini yaratishdir. Hozir biz PostgerSqlda yangi ma'lumotlar bazasini yaratishni o'rganamiz, demak uning ikki xil usuli bor ekan.
+Ma'lumotlar bazasi bilan ishlaganda har doim birinchi qilinadigan ish bu ma'lumotlar bazasini yaratishdir. Hozir biz PostgerSqlda yangi ma'lumotlar bazasini yaratishni o'rganamiz, demak uning ikki xil usuli bor ekan.
 
 1. CREATE DATABASE, SQL buyrug'idan foydalanish.
 2. createdb buyrug'idan foydalanish.
 
 ## CREATE DATABASEdan foydalanish
 
-**CREATE DATABASE** burug'i yordamida **cmd**(terminal)da ma'lumotlar bazsini yaratamiz.
+**CREATE DATABASE** burug'i yordamida **cmd**(terminal)da ma'lumotlar bazasini yaratamiz.
 
-Buni quyidagicha ishlatamiz.
-
+Buni quyidagicha ishlatamiz:
 ```cmd
 CREATE DATABASE dbname;
 ```
@@ -46,7 +45,7 @@ Quyida "createdb" qabul qiladigan buyruq qatori argumentlari ko'rsatilgan.
 
 1. **-D tablespace** - Ma'lumotlar bazasi uchun standart jadval maydonini belgilaydi.
 
-2. **-e** - "createdb" yaratadigan va serverga yuboradigan buyruqlarni aks ettiring.
+2. **-e** - "createdb" yaratadigan va serverga yuboradigan buyruqlarni aks ettiradi.
 
 3. **-E encoding** - Ushbu ma'lumotlar bazasida ishlatiladigan belgilarni kodlash sxemasini belgilaydi.
 
@@ -60,7 +59,7 @@ Quyida "createdb" qabul qiladigan buyruq qatori argumentlari ko'rsatilgan.
 
 8. **-p port** - Server ulanishlarni tinglayotgan TCP portini yoki local Unix domen socket file kengaytmasini belgilaydi.
 
-9. **-U username** - Connect qilis ya'ni ulash uchun foydalanuvchi nomi.
+9. **-U username** - Connect qilish ya'ni ulash uchun foydalanuvchi nomi.
 
 10. **-w** - Hech qachon parol so'rovini bermang.
 
