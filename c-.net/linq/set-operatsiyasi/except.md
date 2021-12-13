@@ -1,5 +1,5 @@
 ---
-decription: Ravshan
+decription: Ravshan Sodiqov
 ---
 # Except
 
