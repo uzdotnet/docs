@@ -1,5 +1,5 @@
 ---
-decription: Sirojiddinov Ahmadjon
+description: Sirojiddinov Ahmadjon
 ---
 # Single va SingleOrDefault
 
