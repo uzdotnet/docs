@@ -108,7 +108,7 @@ struct Talaba
 	public string familiya;
 	private int yosh;
 
-	public void GetAge()
+	public int GetAge()
 	{
 		return yosh;
 	}
@@ -157,7 +157,7 @@ namespace Struktura
 		private int yosh;
 
 		//yashirin xususiyatni(yosh) ko'rsatuvchi Event
-		public void GetAge()
+		public int GetAge()
 		{
 			Console.WriteLine(yosh);
 		}
