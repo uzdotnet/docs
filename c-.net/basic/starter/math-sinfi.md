@@ -17,6 +17,8 @@ Math.Atan(1)=0,7853981633974483.
 
  **Math.BigMul()** –  ikki butun sonning ko’paytmasini hisoblaydi. *int* yoki *long* tipida ma'lumot qabul qiladi. *long* tipida qiymat qaytaradi. Masalan, Math.Bigmul(3,4)=12;
  
+ **Math.Cbrt()** - kiritilgan sonning kub ildizini hisoblaydi. Math.Cbrt(27) ifoda bizga 3 ni qaytaradi.
+ 
 **Math.Ceiling()**  – sonni ortig'i bilan yaxlitlaydi. Kiritilgan sondan katta yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi. Math.Ceiling(3.14)=4,     Math.Ceiling(6.0)=6;     Math.Ceiling(-4.3)=-4;
 
 **Math.Cos()** – burchakning kosinusini hisoblaydi. Burchak qiymati radianda kiritiladi.  Kiruvchi va qaytariluvchi parametrlar faqat *double* tipida bo'ladi. Math.Cos(3.141592653589793)=-1;
@@ -25,15 +27,19 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.E** – konstanta, hech qanday amal bajarmaydi. O'zgarmas e sonini *double* tipida qaytaradi. e=2,718281828459045. 
 
-**Math.Exp()** - o'zgarmas e sonini kiritilgan darajaga ko'tarilgandagi qiymatini qaytaradi. Kiruvchi va chiquvchi qiymatlar *double* tipida bo'ladi. Masalan, Math.Exp(1)=2,718281828459045;   Math.Exp(2)=4,4816890703380645. 
+**Math.Exp()** - o'zgarmas e sonini kiritilgan darajaga ko'taradi va hosil bo'lgan qiymatni qaytaradi. Kiruvchi va chiquvchi qiymatlar *double* tipida bo'ladi. Masalan, Math.Exp(1)=2,718281828459045;   Math.Exp(2)=4,4816890703380645. 
 
 **Math.Floor()** - sonning butun qismi, kiritilgan sondan kichik yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi.       Math.Floor(1.5)=1;  Math.Floor(-1.5)=-2;  Math.Floor(1.0)=1.
 
 **Math.IEEERemainder()** - bir sonni boshqasiga bo'lgandagi qoldiqni hisoblaydi, faqat bu metodning ishlash algoritmi oddiy qoldiqnikidan boshqacharoq. a sonni b ga IEEERemainder orqali bo'lsak qoldiq `IEEERemainder(a,b) = a - (b * Math.Round(a / b))` umumiy formula bilan hisoblanadi. Ya'ni agar a/b ning kasr qismi 0.5 dan kichik bo'lsa IEEERemainder() ning qaytargan javobi oddiy qoldiq(a%b) bilan bir xil, aks holda a%b-b ga teng bo'ladi. Masalan, IEEERemainder(10,3)=-1; IEEERemainder(9,4)=1. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
 
-**Math.Log()** - sonning logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi. Ikki xil usulda ishlatish mumkin. Agar bitta son  kiritilsa shu sonning natural logarifmini hisoblaydi, ikkita son kiritilsa ikkinchi son logarifmning yangi asosi bo’lib qoladi. Masalan, Math.Log(2,718281828459045) ifoda 1 ni qaytarsa, Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
+**Math.Log()** - sonning logarifmini hisoblaydi. *double* tipida ma'lumot qabul qiladi va qaytaradi. Ikki xil usulda ishlatish mumkin:
+1. Agar bitta son  kiritilsa shu sonning natural logarifmini hisoblaydi.  Masalan, Math.Log(2,718281828459045) ifoda 1 ni qaytaradi.
+2. Ikkita son Math.Log(a,b) ko'rinishida b asosga ko'ra a sonining logarifmini hisoblaydi. Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
 
-**Math.Log10** - sonning o’nli logarifmini hisoblaydi.  Math.Log(100) bizga 2 degan javobni qaytaradi. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
+**Math.Log10()** - sonning o’nli logarifmini hisoblaydi.  Math.Log(100) bizga 2 degan javobni qaytaradi. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
+
+**Math.Log2()** - sonning 2 asosga ko'ra logarifmini hisoblaydi. *double* tipida qiymat qabul qiladi va qaytaradi.
 
 **Math.Max()** - ikki sondan kattasini aniqlab beradi. Kiruvchi parametr sifatida ixtiyoriy sonli tipdagi ikkita son kiritiladi, bizga ulardan kattasining qiymatini qaytaradi.
 
@@ -41,9 +47,13 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.PI** - konstanta. Pi sonining qiymati 3,14159265358979 ni *double* tipida qaytaradi.
 
-**Math.Pow()** - sonni darajaga ko’taradi. Kiruvchi parametrda ikkita son asos va daraja *double* tipida kiritiladi, bizga hisoblangan qiymatni qaytaradi. Masalan, Math.Pow(3,2) 9 ni qaytaradi.
+**Math.Pow(a,b)** - a sonini b-darajaga ko’taradi. Kiruvchi parametrda ikkita son asos va daraja *double* tipida kiritiladi, bizga hisoblangan qiymatni qaytaradi. Masalan, Math.Pow(3,2) 9 ni qaytaradi.
 
-**Math.Round** - sonni yaxlitlaydi. Agar kiruvchi parametrda bitta son Math.Round(a) ko’rinishida kiritilsa, a ni butun songacha yaxlitlangan qiymatini, ikkita son Math.Round(a,b) ko’rinishida kiritilsa, a sonni verguldan keyin b ta xonagacha yaxlitlangan qiymatini qaytaradi. Faqat haqiqiy (*double*,*decimal*) tipda qiymat qabul qiladi va qaytaradi.
+**Math.Round()** - sonni yaxlitlaydi. 
+1. Agar kiruvchi parametrda bitta son Math.Round(a) ko’rinishida kiritilsa, a ni butun songacha yaxlitlangan qiymatini qaytaradi.
+2. Agar ikkita son Math.Round(a,b) ko’rinishida kiritilsa, a sonni verguldan keyin b ta xonagacha yaxlitlangan qiymatini qaytaradi. Faqat haqiqiy (*double*,*decimal*) tipda qiymat qabul qiladi va qaytaradi.
+
+**Math.ScaleB(x,n)** - `x*2^n` ifodaning qiymatini effektiv ravishda, yuqori tezlikda hisoblaydi. x soni *double* tipida, n soni *int* tipida bo'lishi kerak. Masalan, Math.ScaleB(3,4)=48.
 
 **Math.Sign()** - sonning ishorasini aniqlab beradi. Agar son musbat bo’lsa 1 ni, manfiy bo’lsa -1 ni, nolga teng bo’lsa 0 ni qaytaradi. Kiruvchi parametr  ixtiyoriy sonli tipda bo'lishi mumkin, lekin faqat int tipida qiymat qaytaradi.
 
