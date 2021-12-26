@@ -17,7 +17,7 @@ Math.Atan(1)=0,7853981633974483.
 
  **Math.BigMul()** –  ikki butun sonning ko’paytmasini hisoblaydi. *int* yoki *long* tipida ma'lumot qabul qiladi. *long* tipida qiymat qaytaradi. Masalan, Math.Bigmul(3,4)=12;
  
- **Math.Cbrt()** - kiritilgan sonning kub ildizini hisoblaydi. Math.Cbrt(27) ifoda bizga 3 ni qaytaradi.
+ **Math.Cbrt()** - kiritilgan sonning kub ildizini hisoblaydi. *double* tipida qiymat qabul qiladi va qaytaradi. Masalan, Math.Cbrt(27) ifoda bizga 3 ni qaytaradi.
  
 **Math.Ceiling()**  – sonni ortig'i bilan yaxlitlaydi. Kiritilgan sondan katta yoki unga teng bo'lgan eng yaqin butun sonni qaytaradi. *double* yoki *decimal* tipida ma'lumot qabul qiladi va qaytaradi. Math.Ceiling(3.14)=4,     Math.Ceiling(6.0)=6;     Math.Ceiling(-4.3)=-4;
 
