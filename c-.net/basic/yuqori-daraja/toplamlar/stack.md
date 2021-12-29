@@ -31,7 +31,8 @@ Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
 
 Savol tug’ilishi mumkin: Shuncha cheklovlarga ega bo’lgan to’plam dasturlashda nima uchun kerak? Biror qulayligi bormi? Albatta. Masalan, siz ko’p marta ishlatadigan **Undo/Redo** (**Ctrl+Z/Ctrl+Y**) ni ishlatganingizda bajargan ishlaringizni Stackga yozib boradi. **Ctrl+Z** qilganingizda oxirgi qilgan amalingiz birinchi bo’lib orqaga qaytadi va boshqa bo’sh stackga joylanadi (ikkinchi stack **Ctrl+Y** qilganingizda kerak bo’ladi).  Yoki yana bir misol brauzeringizdagi avvalgi yoki keyingi ochilgan web-sahifalarga o'tish uchun ishlatiladigan **back/forward** tugmachalari ham **Stack** yordamida ishlaydi.
 
-![back va forward tugmachalari](https://user-images.githubusercontent.com/91861166/138086962-278ee084-abfa-4e72-8bbd-444e8c57d8a6.png)
+![back va forward tugmachalari](https://user-images.githubusercontent.com/91861166/147650547-33ad91b4-d58b-4f47-825d-37b0bcd04f21.png)
+
 
 **Stack** haqida tushunchaga ega bo’lgan bo’lsangiz endi uni kodda ishlashini ham ko’raylik. **Stack** to’plami `System.Collections.Generic` nomlar makonida joylashgani uchun avval shu nomlar makonini chaqirishimiz kerak bo’ladi:
 
