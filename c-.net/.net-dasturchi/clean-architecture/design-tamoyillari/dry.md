@@ -10,6 +10,7 @@ Dasturiy ta’minotni loyihalashtirish bir necha tamoyillarga asoslanadi:
 1.	**DRY** – **D**on’t **R**epeat **Y**ourself
 2.	**KISS** – **K**eep **i**t **S**imple **S**tupid
 3.	**YAGNI** – **Y**ou **a**ren’t **g**onna **n**eed  **i**t  
+
  ![](https://user-images.githubusercontent.com/91861166/147697616-07948c51-87d2-4af7-82da-b875bce07708.png)
 
 **DRY** – ushbu tamoyilga amal qilishni o’zlari uchun muhim qoidaga aylantiradigan dasturchilar vaqt va sifatdan yuqori samaradorlikka erishishlari aniq. Bu qoida sizga kodingizda bir xil vazifani bajaruvchi dastur tanalarini yagona dastur tanasiga birlashtirishni anglatadi.  Bir so’z bilan aytganda bir xillliklardan xalos bo’lish demakdir. DRY so’zi bir o’qishda qaysidir dasturlash tilidagi biror kalit so’z bo’lsa kerak, degan fikr uyg’otishi mumkin, yo’q aksincha, bu so’z siz kod yozayotganingizda unutmaslik kerak bo’lgan qoidaning qisqartma shakli xolos. Endi ushbu qoidaga amal qilmay yozilgan dasturni ko’rib chiqamiz:  
