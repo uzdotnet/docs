@@ -8,7 +8,7 @@ description: Ravshan Sodiqov
 {% hint style="info" %}
   **finally** bloki har qanday istisno holati (catch) yoki try bloki bajarilishidan qat’iy nazar bajariladi.
 {% endhint %}
-*“Sizlar nima qilsangiz ham men baribir so’ngida o’z so’zimni aytaman_”* shiori ostida ish ko’ruvchi blokni amaliy misollarda qaraymiz:
+“ *Sizlar nima qilsangiz ham men baribir so’ngida o’z so’zimni aytaman* ” shiori ostida ish ko’ruvchi blokni amaliy misollarda qaraymiz:
 
 ```csharp
 try
