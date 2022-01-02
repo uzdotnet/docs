@@ -13,7 +13,7 @@ Ushbu atama foydalanuvchi interfeysini ishlab chiquvchi dizaynerlar, mahsulot di
 
 ![**K.I.S.S** ni bilmaydigan Anvar:](https://user-images.githubusercontent.com/91861166/147854235-4a306fc8-3baa-40e8-95d7-5c3403afc047.png)
  
-Anvar  sinfda eng a’lochi  va barcha mavzuni eng yaxshi o’zlashtirgan oʻquvchi. Anvar oʻz sohasidagi muammolarni hal qila oladi, lekin uning bir kamchiligi **K.I.I.S** haqida umuman xabari yoʻq. Agar u ushbu tamoyildan ustamonlik bilan foydalanishni oʻrgansa shubhasizki, eng yaxshilardan biriga aylanadi :)
+Anvar  sinfda eng a’lochi  va barcha mavzuni eng yaxshi o’zlashtirgan oʻquvchi. Anvar oʻz sohasidagi muammolarni hal qila oladi, lekin uning bir kamchiligi **K.I.S.S** haqida umuman xabari yoʻq. Agar u ushbu tamoyildan ustamonlik bilan foydalanishni oʻrgansa shubhasizki, eng yaxshilardan biriga aylanadi :)
 
 (Axir juda oddiy hal qilish mumkinku !) 
      
