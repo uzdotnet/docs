@@ -230,6 +230,7 @@ namespace PolymorphismDemoApp
 ```
 {% hint style="info" %}
 OOP ni amalda yaxshi qo’llashni istasangiz quyidagi 3 qoidani doimo yodda tuting:
+
   **1 – qoida:** Abstract metodlarni yaratishda metod nomi oldiga abstract so’zini qo’shish kerak va abstract metodlarning tanasi bo’lmaydi.  
   **2 – qoida:**  Hech bo’lmaganda bitta bo’lsa ham abstract metodni o’z ichiga olgan sinf o’z – o’zidan abstract sinfga aylanadi va sinf nomi oldiga abstract so’zi qo’shib qo’yiladi.  
   **3 – qoida:** Abstract sinflar umumiylikni saqlab turish uchun yaratiladi va ularning kostruktori e’loni ham mavjud bo’lmaydi.
@@ -239,5 +240,6 @@ Yuqoridagi dasturda hayotdagi haqiqiy voqeani aks ettirdik deyishimiz mumkin. �
 Yakunda yana bir muhim qoidani bilishingizni ta’kidlab, shu bilan mavzuni o’z nihoyasiga yetkazamiz:
 {% hint style="info" %}
 **Yodda tuting:** 
-Agar ajdod sinfdagi metod _virtual_ bo’lsa, bu sinfdan voris olganimizda bu metodni qayta aniqlashimiz majburiy emas, ya’ni agar ehtiyoj bo’lsagina qayta aniqlaymiz.   Agar ajdod sinfdagi metod _abstract_ bo’lsa bu sinfdan voris olganimizda bu metodni qayta aniqlashga majburmiz. 
+  Agar ajdod sinfdagi metod _virtual_ bo’lsa, bu sinfdan voris olganimizda bu metodni qayta aniqlashimiz majburiy emas, ya’ni agar ehtiyoj bo’lsagina qayta aniqlaymiz. 
+  Agar ajdod sinfdagi metod _abstract_ bo’lsa bu sinfdan voris olganimizda bu metodni qayta aniqlashga majburmiz. 
 {% endhint %}
