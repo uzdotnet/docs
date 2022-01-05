@@ -62,7 +62,6 @@ Bunda sizga wi-fi ni parolini o’zgartirish va IP bilan bog’liq qiziqarli ma�
 3.	**Ipconfig**  -  bu buyruqda siz o’z IP parolingizni ko’rishingiz va IP tarmoq sozlamalaringizni ham ko’rsatadi
 
 ![Manashu rasmda joylashgan ip sizning “IP” ingiz bo’ladi](https://user-images.githubusercontent.com/91861166/148176678-c3282855-5132-4e9e-80fe-a5b52c9870a7.png)
-
                          
 4.	**Ping**  -  tarmoqga ping yuboradi ya’ni biron bir saytga so’rov yuborishingiz mumkin yoki uning ishlayotgan tarzini ko’rishingiz mumkin va yana ba'zan, paketlar ma'lum bir tarmoqqa ulangan qurilmaga ulanadimi yoki yo'qligini bilishingiz kerak. Bu yerda bizga ping yordam beradi.
 
