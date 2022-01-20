@@ -47,7 +47,7 @@ int x = 5, y = 10, result;
   // To display the result  
   Console.WriteLine("Result: " + result); 
            
-  // To find which value is greater 
+  // To find which value is smaller 
   // Using Conditional Operator 
   result = x < y ? x : y;  
               
