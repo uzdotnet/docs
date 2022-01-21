@@ -25,7 +25,7 @@ class Program
 **Yodda tuting!** **StreamReader**da ko'rsatilgan fayl avvaldan ko'rsatilgan manzilda aynan shu nomda mavjud bo'lishi kerak. Aks holda, dastur ishga tushmaydi. Mavjud bo'lmagan faylga murojaat qilinganda kompilyator `System.IO.FileNotFoundExeption` nomli xatolik oynasini ekranga chiqaradi.
 Agar fayl biror papka ichida ko'rsatilgan bo'lsayu, bunday nomda papka mavjud bo'lmasa, `System.IO.DirectoryNotFoundExeption` xatoligi yuz beradi.
 {% endhint %}
-Agar disk nomini yozmay fayl nomining o'zini yozish orqali murojaat qilinsa, kompilyator bu faylni dastur joylashgan **bin** papkasi ichidan qidiradi.
+Agar disk nomini yozmay fayl nomining o'zini yozish orqali murojaat qilinsa, kompilyator bu faylni dastur joylashgan ***bin*** papkasi ichidan qidiradi.
 
 Keling, endi kichik bir dastur tuzib ko'ramiz. Bizning dasturimiz fayldagi birinchi qatordagi ma'lumotlarni o'qib, Console oynasiga chiqarib bersin:
 ```csharp
