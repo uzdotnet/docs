@@ -97,7 +97,7 @@ namespace AsynAwaitDemo
 }
 ```
   
-Ushbu holatda Main metodi ichida **ContentToConsole** jarayonini boshlash uchun Task obyektidan foydalandik va parametr sifatida ushbu nom berildi. **ContentToConsole** o’z navbatida asinxron tarzda ishlovchi **ReadFileAsync()** metodini o’z ichiga olgan va ushbu metod qaytargan qiymatni Console ga chiqarishi bilan jarayon yakunlanadi. Biz asosiy dastur qismini bloklamagan holda nisbatan katta hajmdagi fayllardan ma’lumotlarni o’qish jarayoniga erishdik va bu dastur foydalanuvchisiga ham noqulaylik keltirib chiqarmaydi. 
+Ushbu holatda Main metodi ichida **ContentToConsole()** jarayonini boshlash uchun Task obyektidan foydalandik va parametr sifatida ushbu nom berildi. **ContentToConsole()** o’z navbatida asinxron tarzda ishlovchi **ReadFileAsync()** metodini o’z ichiga olgan va ushbu metod qaytargan qiymatni Console ga chiqarishi bilan jarayon yakunlanadi. Biz asosiy dastur qismini bloklamagan holda nisbatan katta hajmdagi fayllardan ma’lumotlarni o’qish jarayoniga erishdik va bu dastur foydalanuvchisiga ham noqulaylik keltirib chiqarmaydi. 
   
   Asinxron dasturlashga bir hayotiy misol: siz yaxshi biladigan Telegram ilovasida ham asinxron dasturlashdan foydalanilgan. Shuning uchun Telegramga hajmi nisbatan kattaroq faylni yuklayotgan paytingizda bir vaqtning o'zida boshqa chatlardagi xabarlarni o'qish, yoki telegramda boshqa jarayonlarni amalga oshirish imkoni bor. Bu bir nechta jarayonlar asinxron tarzda ishlayveradi. Agar telegram dasturida asinxron emas, sinxron dasturlashdan foydalanilganida toki faylni to'la yuklab bo'lgunicha interfeys bloklanib, boshqa hech qanday amal bajarishning imkoni bo'lmasdi.
   
