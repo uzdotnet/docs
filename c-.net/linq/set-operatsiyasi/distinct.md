@@ -62,6 +62,8 @@ output:
 1 2 45 3 4 32 5
 ```
 
+Yuqoridagi misolda 50 dan kichik sonlar ichida 1, 2, 45 sonlari bir necha marta kelgan bo'lsa ham, **Distinct()** operatori qo'llangani uchun *newSonlar* to'plamiga *sonlar* to'plamidagi barcha elementlardan faqat bittadan olindi.
+
 Endi biror class tipidagi obyektlar ustida **Distinct()** operatorini qo'llashni ko'raylik. Buning uchun classga `IEquatable` interfeysidan meros olib, ushbu interfeysga tegishli **Equals()** va **GetHashCode()** metodlarini qayta yozib olamiz:
 
 ```csharp
