@@ -62,7 +62,7 @@ output:
 1 2 45 3 4 32 5
 ```
 
-Endi biror class tipidagi obyektlar ustida Distinct operatorini qo'llashni ko'raylik. Buning uchun classga IEquatable interfeysidan meros olib, ushbu interfeysga tegishli **Equals()** va **GetHashCode()** metodlarini qayta yozib olamiz:
+Endi biror class tipidagi obyektlar ustida **Distinct()** operatorini qo'llashni ko'raylik. Buning uchun classga `IEquatable` interfeysidan meros olib, ushbu interfeysga tegishli **Equals()** va **GetHashCode()** metodlarini qayta yozib olamiz:
 
 ```csharp
 public class Talaba : IEquatable<Talaba>
@@ -70,17 +70,17 @@ public class Talaba : IEquatable<Talaba>
     public string Name { get; set; }
     public int Weight { get; set; }
 
-    public bool Equals(Talaba other)
+    public bool Equals(Talaba talaba)
     {
 
         // Taqqoslanayotgan obyektlarni null yoki null emasligini tekshirish
-        if (Object.ReferenceEquals(other, null)) return false;
+        if (Object.ReferenceEquals(talaba, null)) return false;
 
         // Taqqoslanayotgan obyektlar aynan bitta ma'lumotning havolasimi yoki yo'qligini tekshirish
-        if (Object.ReferenceEquals(this, other)) return true;
+        if (Object.ReferenceEquals(this, talaba)) return true;
 
         // Taqqoslanayotgan obyektlarning barcha xususiyat (property)lari bir xil ekanligini tekshirish
-        return Weight.Equals(other.Weight) && Name.Equals(other.Name);
+        return Weight.Equals(talaba.Weight) && Name.Equals(talaba.Name);
     }
 
     /* Agar Equals() metodi biror tekshirilayotgan juftlik true qiymat qaytarsa, 
@@ -160,3 +160,5 @@ Vali 61
 Salim 53
 Vali 58
 ```
+
+Yuqorida obyektlarni taqqoslash uchun **Equals()** va **GetHashCode()** metodlarini Talaba classi ichida qayta yozib qo'yaqoldik. Istasangiz bu metodlar bilan taqqoslash uchun yana boshqa class ochib, Talaba classiga bu sinfdan meros olib qo'yishingiz ham mumkin. (Odatda Comparer so'zi bilan tugaydigan nomdagi classlardan foydalanilardi). Qaysi usuldan foydalanish ixtiyoringiz.
