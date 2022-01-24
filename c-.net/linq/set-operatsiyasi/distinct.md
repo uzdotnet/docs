@@ -3,7 +3,7 @@ description: Mamataliyev Diyorbek
 ---
 # Distinct
 
-Distinct operatori berilgan to’plamdan elementlari takrorlanmaydigan yangi to’plam hosil qilish uchun ishlatiladi. Yangi hosil qilingan to’plam elementlari tartiblanmagan holda bo’ladi. 
+Distinct operatori berilgan to’plamdan elementlari takrorlanmaydigan yangi to’plam hosil qilish uchun ishlatiladi. Yangi hosil qilingan to’plamda ikkita bir xil element bo'lmaydi, to'plam elementlari tartiblanmagan holda bo’ladi.
 
 Masalan, berilgan sonlar to’plamidan 50 dan kichik bo’lgan sonlarni olaylik. 
 
@@ -136,11 +136,11 @@ public class program
         public string Name { get; set; }
         public int Weight { get; set; }
 
-        public bool Equals(Talaba other)
+        public bool Equals(Talaba talaba)
         {            
-            if (Object.ReferenceEquals(other, null)) return false;
-            if (Object.ReferenceEquals(this, other)) return true;
-            return Weight.Equals(other.Weight) && Name.Equals(other.Name);
+            if (Object.ReferenceEquals(talaba, null)) return false;
+            if (Object.ReferenceEquals(this, talaba)) return true;
+            return Weight.Equals(talaba.Weight) && Name.Equals(talaba.Name);
         }
 
         public override int GetHashCode()
@@ -151,4 +151,12 @@ public class program
         }
     }
 }
+```
+
+output: 
+```
+Ali 50
+Vali 61
+Salim 53
+Vali 58
 ```
