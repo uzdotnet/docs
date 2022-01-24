@@ -61,3 +61,94 @@ output:
 ```
 1 2 45 3 4 32 5
 ```
+
+Endi biror class tipidagi obyektlar ustida Distinct operatorini qo'llashni ko'raylik. Buning uchun classga IEquatable interfeysidan meros olib, ushbu interfeysga tegishli **Equals()** va **GetHashCode()** metodlarini qayta yozib olamiz:
+
+```csharp
+public class Talaba : IEquatable<Talaba>
+{
+    public string Name { get; set; }
+    public int Weight { get; set; }
+
+    public bool Equals(Talaba other)
+    {
+
+        // Taqqoslanayotgan obyektlarni null yoki null emasligini tekshirish
+        if (Object.ReferenceEquals(other, null)) return false;
+
+        // Taqqoslanayotgan obyektlar aynan bitta ma'lumotning havolasimi yoki yo'qligini tekshirish
+        if (Object.ReferenceEquals(this, other)) return true;
+
+        // Taqqoslanayotgan obyektlarning barcha xususiyat (property)lari bir xil ekanligini tekshirish
+        return Weight.Equals(other.Weight) && Name.Equals(other.Name);
+    }
+
+    /* Agar Equals() metodi biror tekshirilayotgan juftlik true qiymat qaytarsa, 
+    GetHashCode() metodi ham  bu juftlik uchun bir xil Code qaytarishi kerak: */
+
+    public override int GetHashCode()
+    {
+
+        // Name xususiyatining qiymati null bo'lmasa, uning hesh-kodini olish
+        int hashProductName = Name == null ? 0 : Name.GetHashCode();
+
+        // Weight xususiyatining Hesh-kodini olish
+        int hashProductCode = Weight.GetHashCode();
+
+        // Talabaning hesh-kodini hisoblash
+        return hashProductName ^ hashProductCode;
+    }
+}
+```
+
+Endi Talaba classi tipida massiv olib, uning ustida Distinct() operatorini qo'llashimiz mumkin. To'liq kod quyidagi ko'rinishda bo'ladi:
+
+```csharp
+using System;
+using System.Linq;
+
+public class program
+{
+    public static void Main()
+    {
+        Talaba[] talabalar = { new Talaba { Name = "Ali", Weight = 50 },
+                       new Talaba { Name = "Vali", Weight = 61 },
+                       new Talaba { Name = "Salim", Weight = 53 },
+                       new Talaba { Name = "Ali", Weight = 50 },
+                       new Talaba { Name = "Vali", Weight = 58 } };
+
+
+        // Endi elementlari takrorlanmas to'plam hosil qilamiz
+
+        //IEnumerable<Talaba> 
+        var takrorlanmasToplam =
+            talabalar.Distinct();
+
+        foreach (var talaba in takrorlanmasToplam)
+            Console.WriteLine(talaba.Name + " " + talaba.Weight);
+
+       
+        Console.ReadKey();
+
+    }
+    public class Talaba : IEquatable<Talaba>
+    {
+        public string Name { get; set; }
+        public int Weight { get; set; }
+
+        public bool Equals(Talaba other)
+        {            
+            if (Object.ReferenceEquals(other, null)) return false;
+            if (Object.ReferenceEquals(this, other)) return true;
+            return Weight.Equals(other.Weight) && Name.Equals(other.Name);
+        }
+
+        public override int GetHashCode()
+        {
+            int hashProductName = Name == null ? 0 : Name.GetHashCode();
+            int hashProductCode = Weight.GetHashCode();
+            return hashProductName ^ hashProductCode;
+        }
+    }
+}
+```
