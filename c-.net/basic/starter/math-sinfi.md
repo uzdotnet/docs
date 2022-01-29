@@ -86,8 +86,9 @@ class Program
 
 **Math.Truncate()** - bu metod ham sonning butun qismini hisoblaydi. Haqiqiy (*double*, *decimal*) tiplarda ishlaydi. Musbat sonlarda Math.Floor() bilan bir xil ishlaydi. Lekin ularning farqi manfiy sonlarda namoyon bo’ladi. -3.14 ning butun qismini olib ko’radigan bo’lsak, Math.Truncate(-3.14) ifoda -3 ni,  Math.Floor(-3.14) ifoda esa -4 ni qaytaradi. Matematik tomondan butun qism olish uchun Math.Floor() to’la mos keladi, lekin shuni unutmangki, Math.Truncate() ni ham o’z o’rni bor.
 
-Keling, yuqoridagi metodlarni qanday ishlashini kodda ham ko'rish uchun biror ifodani kodda yozib ko'ramiz. Aytaylik, a soni kiritilganda quyidagi ifodaning qiymatini hisoblashimiz kerak:
-![misol1](https://user-images.githubusercontent.com/91861166/137533450-80fcc47b-d82b-4a02-b152-4cac8bab370a.jpg)
+Keling, yuqoridagi metodlarni qanday ishlashini kodda yana bir bor ko'rish uchun biror ifodani kodda yozib ko'ramiz. Aytaylik, a soni kiritilganda quyidagi ifodaning qiymatini hisoblashimiz kerak:
+
+![ifoda](https://user-images.githubusercontent.com/91861166/137533450-80fcc47b-d82b-4a02-b152-4cac8bab370a.jpg)
 
 Yechim quyidagicha bo'ladi:
 ```csharp
