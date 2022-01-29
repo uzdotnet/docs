@@ -25,7 +25,7 @@ int value = myText.Length;
 
 ## String sinfining metodlari:
 
-**CompareTo** – berilgan satrni boshqa bir satr bilan solishtiradi va bizga **bool** ya’ni **True/False** qiymatda javob qaytaradi
+**CompareTo()** – berilgan satrni boshqa bir satr bilan solishtiradi va bizga **bool** ya’ni **True/False** qiymatda javob qaytaradi
 
 ```csharp
 string str1 = "Hello";
@@ -34,7 +34,7 @@ bool IsSame = str1.CompareTo(str2) == 0;
 //output: IsSame = False
 ```
 
-**ToLower** – berilgan satrdagi barcha harflarni kichik harflarga o’zgartiradi
+**ToLower()** – berilgan satrdagi barcha harflarni kichik harflarga o’zgartiradi
 
 ```csharp
 string str1 = "Hello, WORLD !";
@@ -43,7 +43,7 @@ Console.Write(str2);
  //output: hello, world !
 ```
 
-**ToUpper** – berilgan satrdagi barcha harflarni katta harflarga o’zgartiradi
+**ToUpper()** – berilgan satrdagi barcha harflarni katta harflarga o’zgartiradi
 
 ```csharp
 string str1 = "Hello, World !";
@@ -52,23 +52,31 @@ Console.Write(str2);
  //output: HELLO, WORLD !
 ```
 
-**Split** – berilgan satrdagi so’zlarni ustun shaklida ajratadi va to’plam qaytaradi
-
+**Split()** – berilgan satrni biz kiritgan belgi ajratib turgan qismlarga bo'ladi va yangi massivga yuklaydi:
 ```csharp
-string str = "Hello! how are you?";
+string satr="satr,ustun,katakcha";
+string [] massiv=satr.Split(',');
+foreach (string a in massiv)
+    Console.WriteLine(a);
+
+/* output: 
+satr
+ustun
+katakcha
+*/
+```
+Yuqoridagi misolda vergul satr qismlarini ajratuvchi belgi bo'lib xizmat qildi. Gapda so'zlar ko'pincha probel bilan ajratilgani uchun, vergul o'rniga probel ham yozishimiz mumkin. Yoki qavs ichiga hech narsa yozilmasa, Split() metodi bu belgini probel deb tushunadi:
+```csharp
+string str = "Hello! How are you?";
 string[] myString = str.Split();
 //output: 
 myString[0] = "Hello!"
-myString[1] = "how"
+myString[1] = "How"
 myString[2] = "are"
 myString[3] = "you?"
 ```
 
-{% hint style="info" %}
-**NOTE!** _Split kalit so’zi ishlashi uchun matnda probel\(" "\) bo’lishi kerak_
-{% endhint %}
-
-**StartsWith** – berilgan satrni boshidan boshlab ko’rsatilgan satr bilan tekshiradi
+**StartsWith()** – berilgan satr biz kiritgan satr bilan boshlanganmi yoki yo'qligini tekshiradi. bool tipida qiymat qaytaradi.
 
 ```csharp
 string str1 = "Hello World";
@@ -77,7 +85,7 @@ bool result = str1.StartsWith(str2);
 //output: result = True
 ```
 
-**Contains** – berilgan satr tarkibida ko’rsatilgan satr yoki belgi bor yoki yo’qligini tekshiradi. Agar bor bo'lsa *true*, aks holda *false* qiymat qaytaradi.
+**Contains()** – berilgan satr tarkibida ko’rsatilgan satr yoki belgi bor yoki yo’qligini tekshiradi. Agar bor bo'lsa *true*, aks holda *false* qiymat qaytaradi.
 
 ```csharp
 string str1 = "Hello World";
@@ -90,7 +98,7 @@ Console.Write(str1.Contains("rld"));  // output: True
 Console.Write(str1.Contains('a')); // output: False
 ```
 
-**IndexOf** – berilgan satr tarkibida kor’rsatilgan satrni indeksini topib beradi
+**IndexOf()** – berilgan satr tarkibida kor’rsatilgan satrni indeksini topib, bizga int tipida qaytarib beradi. Agar berilgan satr tarkibida biz ko'rsatgan satr mavjud bo'lmasa, -1 ni qaytaradi.
 
 ```csharp
 string str1 = "Hello World";
@@ -99,7 +107,7 @@ int result = str1.IndexOf(str2);
 //output: result = 3
 ```
 
-**Substring** – berilgan satrning ko’rsatilgan diapazondagi qismini qaytaradi
+**Substring()** – berilgan satrning ko’rsatilgan diapazondagi qismini qirqib olib, bizga qaytaradi
 
 ```csharp
 string str1 = "Hello World";
@@ -107,7 +115,7 @@ string str2 = str1.Substring(1, 4);
 //output: str2 = "ello"
 ```
 
-**IsNullOrEmpty** – berilgan satrni bo’sh yoki null ekanligini tekshiradi
+**IsNullOrEmpty()** – berilgan satrni bo’sh yoki null ekanligini tekshiradi. Agar satr bo'sh bo'lsa yoki qiymati null ga teng bo'lsa true, aks holda false qiymat qaytaradi.
 
 ```csharp
 string name = "";
@@ -115,7 +123,7 @@ bool IsEmpty = String.IsNullOrEmpty(name);
 //output: True
 ```
 
-**Concat** – berilgan ikki satrnni birlashtiruvchi funksiya
+**Concat()** – berilgan ikki satrnni birlashtiruvchi funksiya
 
 ```csharp
 string FirstName = "Farrukh";
