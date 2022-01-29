@@ -23,6 +23,23 @@ Math.Atan(1)=0,7853981633974483.
 
 **Math.Cos()** – burchakning kosinusini hisoblaydi. Burchak qiymati radianda kiritiladi.  Kiruvchi va qaytariluvchi parametrlar faqat *double* tipida bo'ladi. Math.Cos(3.141592653589793)=-1;
 
+Keling, bu metodlarning qanday ishlashini ko'rish uchun kiritilgan sonning sinusini va kosinusini hisoblaydigan dastur yozib ko'ramiz:
+```csharp
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Burchakni radianda kiriting: ");
+        double a = double.Parse(Console.ReadLine());
+        Console.WriteLine("Sinus: "+Math.Sin(a));
+        Console.WriteLine("Kosinus: "+Math.Cos(a));
+
+        Console.ReadKey();
+    }
+}
+```
+
 **Math.Cosh()** – burchakning giperbolik kosinusini hisoblaydi. Faqat *double* tipida ishlaydi. 
 
 **Math.E** – konstanta, hech qanday amal bajarmaydi. O'zgarmas e sonini *double* tipida qaytaradi. e=2,718281828459045. 
@@ -72,6 +89,7 @@ Math.Atan(1)=0,7853981633974483.
 Keling, yuqoridagi metodlarni qanday ishlashini kodda ham ko'rish uchun biror ifodani kodda yozib ko'ramiz. Aytaylik, a soni kiritilganda quyidagi ifodaning qiymatini hisoblashimiz kerak:
 ![misol1](https://user-images.githubusercontent.com/91861166/137533450-80fcc47b-d82b-4a02-b152-4cac8bab370a.jpg)
 
+Yechim quyidagicha bo'ladi:
 ```csharp
 using System;
 namespace ifoda
