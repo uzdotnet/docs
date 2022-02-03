@@ -3,7 +3,7 @@ description: Ravshan Sodiqov
 ---
 # Except
 
-Algebra kursining to’plamlar mavzusidan shunisi ma’lumki, bizga quyidagicha  A = {2,  3 , 5, 6, 8}  va  B={2, 3, 4, 7, 8} to’plamlar berilgan bo’lsa, A/B to’plam A to’plamdan  ikki to’plamning kesishmasidagi sonlarning olib tashlanganiga teng bo’ladi, ya’ni  A/B = {5, 6}. 
+Algebra kursining to’plamlar mavzusidan shunisi ma’lumki, bizga quyidagicha  A = {2,  3 , 5, 6, 8}  va  B={2, 3, 4, 7, 8} to’plamlar berilgan bo’lsa, A\B to’plam A to’plamdan  ikki to’plamning kesishmasidagi sonlarning olib tashlanganiga teng bo’ladi, ya’ni  A\B = {5, 6}. 
 
 LINQ metodlari ichida **Except** bizga xuddi mana shu imkoniyatni taqdim etadi. Demak, **Except()** metodi birinchi to’plamdagi ikkinchi to’plamda mavjud bo’lmagan yangi to’plamni qaytaradi.
 
