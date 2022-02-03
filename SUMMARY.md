@@ -165,6 +165,7 @@
     * [Entity Framework Core](c-.net/entity-framework/entity-framework-core.md)
   * [Qo'shimcha sinflar](c-.net/qoshimcha-sinflar/README.md)
     * [System](c-.net/qoshimcha-sinflar/system/README.md)
+      * [Int32](c-.net/qoshimcha-sinflar/system/int32.md)
       * [Random](c-.net/qoshimcha-sinflar/system/random.md)
       * [DateTime](c-.net/qoshimcha-sinflar/system/datetime.md)
       * [TimeSpan](c-.net/qoshimcha-sinflar/system/timespan.md)
