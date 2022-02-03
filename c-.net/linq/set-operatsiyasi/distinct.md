@@ -163,4 +163,4 @@ Salim 53
 Vali 58
 ```
 
-Yuqorida obyektlarni taqqoslash uchun **Equals()** va **GetHashCode()** metodlarini Talaba classi ichida qayta yozib qo'yaqoldik. Istasangiz bu metodlar bilan taqqoslash uchun yana boshqa class ochib, Talaba classiga bu classdan meros olib qo'yishingiz ham mumkin. (Odatda Comparer so'zi bilan tugaydigan nomdagi classlardan foydalanilardi). Qaysi usuldan foydalanish ixtiyoringiz.
+Yuqorida obyektlarni taqqoslash uchun **Equals()** va **GetHashCode()** metodlarini Talaba classi ichida qayta yozib qo'yaqoldik. Istasangiz bu metodlar bilan taqqoslash uchun yana boshqa class ochib, Talaba classiga bu classdan meros olib qo'yishingiz ham mumkin. (Odatda Comparer so'zi bilan tugaydigan nomdagi classlardan foydalanilardi). Qaysi usuldan foydalanish ixtiyoringiz. Mendan so'rasangiz, ikkinchi usulni maslahat beraman. Keyingi mavzularni shu usulda o'rganamiz.
