@@ -4,8 +4,6 @@ description: Xakimbekov Doniyor
 
 # Enum
 
-**enum** - bu o’zgarmaslarni ifodalovchi maxsus “sinf” (qiymati **o’zgarmaydigan** yoki bir so’z bilan aytganda **read-only** o’zgaruvchilar).
-
 **enum** - bu o’zgarmaslarni ifodalovchi maxsus “sinf” (qiymati **o’zgarmaydigan** yoki bir so’z bilan aytganda **read-only** o’zgaruvchilar). **enum** ni yaratish uchun **enum** kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va enum elementlari vergul bilan ajratib yoziladi:
 
 **enum** ni yaratish uchun _**enum**_ kalit so’zidan foydalanamiz (interfeys yoki sinf o’rniga) va **enum** elementlari _vergul_ bilan ajratib yoziladi
