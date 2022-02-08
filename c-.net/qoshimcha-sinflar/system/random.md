@@ -113,7 +113,7 @@ byte tipidagi 10 ta tasodifiy sonlar:
 5,39333248994934 2,85994078398679 9,05856904995561 6,59124690647761 11,7725050923287
 ```
 
-Dastur kodini ishlatib ko’rganingizda sizdagi natija yuqoridagidan farq qilishi tabiiy, dasturni qayta-qayta ishlatganingizda har safar avvalgisidan farqli natijalar olasiz.
+Dastur kodini ishlatib ko’rganingizda sizdagi natija yuqoridagidan farq qilishi tabiiy, dasturni qayta-qayta ishlatganingizda har safar avvalgisidan farqli natijalar olasiz. Bu konstruktorning o'ziga xos xususiyatlaridan biridir.
 
 Mavzuyimiz hali tugamadi, chunki **Random** sinfining yana bitta konstruktori bor. Sinfdan quyidagicha obyekt olishimiz ham mumkin:
 ```csharp
@@ -147,4 +147,4 @@ Menda natija quyidagicha bo’ldi:
 ```
 113 147 198 149 36 185 227 111 124 56
 ```
-Shubhasiz, sizda ham shunday natija hosil bo’ladi va dasturni qayta-qayta ishlatsangiz ham natija o’zgarmaydi. Konstruktorda kiritilgan n soni ketma-ketlikning boshlang’ich nuqtasi bo’lib, uning turli qiymatlarida ketma-ketlik turlicha bo’ladi. Xulosa qilib aytadigan bo’lsak, ikkinchi konstruktordan foydalanganingizda ***Tasodiflar  tasodifan bo’lmaydi  ).***
+Shubhasiz, sizda ham shunday natija hosil bo’ladi va dasturni qayta-qayta ishlatsangiz ham natija o’zgarmaydi. Bu holat **Random** sinfining barcha metodlarida kuzatiladi. Konstruktorda kiritilgan n soni ketma-ketlikning boshlang’ich nuqtasi bo’lib, uning turli qiymatlarida ketma-ketlik turlicha bo’ladi. Xulosa qilib aytadigan bo’lsak, ikkinchi konstruktordan foydalanganingizda ***Tasodiflar  tasodifan bo’lmaydi  ).***
