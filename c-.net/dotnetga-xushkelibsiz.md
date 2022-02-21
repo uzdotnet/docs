@@ -66,7 +66,7 @@ Shunday savollarni ko'pini o'quvchilarimdan eshitganman. Ushbu gap so'zlardan ke
 
 ### .NET SDK ni o'rnatamiz.
 
-Avvalo .NET SDK ni yuklab olishimiz kerak bo'ladi [bu yerdan](https://www.youtube.com/watch?v=trW0gihZ78E\&list=PL\_WK6W0Gn1I4jcUIwAUkcLM76k08Bqi2K).
+Avvalo .NET SDK ni yuklab olishimiz kerak bo'ladi [bu yerdan](https://dotnet.microsoft.com/en-us/download).
 
 Visual Studio esa siz va .NET SDK o'rtasidagi vositachi xolos. Keling Visual Studioni ishini o'zimiz ham qilib ko'ramiz, vaziyatni baholash uchun. Hullas SDK ni yukladik, endi uni install qilamiz. Menimcha qiyinchilik tug'diymaydi. Agar xatolik bersa, demak avval .NET ning boshqa versiyasi ustanovka qilingan bo'ladi, o'shani o'chirib tashlab keyn buni install qlish kerak, agar lozim topsangiz. Menimcha boshqa xatolik yuz bermaydi. SDK o'rnaganini tekshirish uchun CMD ni ochamiz. buning uchun WIN+R klavishlari bosiladi va CMD deb yoziladi.
 
