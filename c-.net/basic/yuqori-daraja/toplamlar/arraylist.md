@@ -24,13 +24,13 @@ ArrayList qulayliklari bilan tanishamiz:
   
   **AddRange()**      orqali ArrayList ga to'plam ham qo'shish mumkin.
   
-  **Count()**      ArrayList elementlari sonini aniqlab beradi.
+  **Count**      ArrayList elementlari sonini aniqlab beradi.
   
   **Remove()**       ArrayList dan biror elementni o'chirish uchun ishlatiladi.
   
   **RemoveAt()**      ArrayListdan biror indexdagi elementni o'chirish uchun ishlatiladi.
   
-  **RemveRange()**      ArrayListning ikkita indeksi orasidagi elementlarini o'chirishda foydalaniladi.
+  **RemveRange(n,k)**      ArrayListning n-indeksdan boshlab k ta elementlarini o'chirishda foydalaniladi.
   
   **Clear()**      ArrayListning barcha elementlarini o'chirish uchin ishlatiladi.
   
