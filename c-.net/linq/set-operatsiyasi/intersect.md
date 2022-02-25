@@ -46,6 +46,9 @@ Natija:
 Ko'rib turganimizdek, dastur ishlashi natijasida to'plamlarning har ikkalasida mavjud bo'lgan elementlargina ekranga chiqarildi.
 
 
+
+
+
 Endi bu metodni bitta classga tegishli obyektlar ustida ishlatib ko’raylik. 
 
 Keling, bitta hayotiy masala qo’yamiz: Aytaylik,  o’quv markazida ikki xil kurs bor. Bu kurslarga qatnashayotgan o’quvchilarning alohida ikkita ro’yxati berilgan va har ikkala kursga ham qatnashuvchi o’quvchilarni ajratib berishimiz so’ralgan bo’lsin. Bu masalani LINQdan foydalanib hal qilib ko’ramiz.
