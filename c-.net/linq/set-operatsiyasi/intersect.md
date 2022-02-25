@@ -1,4 +1,6 @@
-# Intersect
+---
+description: Mamataliyev Diyorbek
+---
 
 # Intersect
 
