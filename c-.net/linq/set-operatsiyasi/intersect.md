@@ -113,6 +113,7 @@ namespace comparer
                             new Pupil {Name="Anvar", SurName="Aliyev"},
                             new Pupil {Name="Abduolim", SurName="Ahmadjonov"},
                             new Pupil {Name="Sarvar", SurName="Valijonov"},
+                            new Pupil {Name="Diyorbek", SurName="Mamataliyev"},
                             new Pupil {Name="Ali", SurName="Salimov"},
                             new Pupil {Name="Ali", SurName="Ganiyev"}
                           };
@@ -120,6 +121,7 @@ namespace comparer
            Pupil[] Physics ={                                
                                 new Pupil {Name="Sarvar", SurName="Valijonov"},
                                 new Pupil {Name="Abduolim", SurName="Ahmadjonov"},
+                                new Pupil {Name="Diyorbek", SurName="Mamataliyev"},
                                 new Pupil {Name="Ali", SurName="Hakimov"},
                                 new Pupil {Name="Ali", SurName="Salimov"}
                             };
@@ -180,5 +182,6 @@ Natija:
 ```
 Sarvar Valijonov
 Abduolim Ahmadjonov
+Diyorbek Mamataliyev
 Ali Salimov
 ```
