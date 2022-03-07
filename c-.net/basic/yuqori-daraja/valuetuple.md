@@ -13,7 +13,7 @@ description: Hikmatullayev Sayidrahmatulloh
 
 {% hint style="info" %}
 
-* 1.**Tuple** malum biror son elementlar ketma-ketligi  ifodalanadi , **ValueTuple** esa elementlar qiymatlarini ifodalsh mumkin turi.
+* 1.**Tuple** malum biror son elementlar ketma-ketligi  ifodalanadi , **ValueTuple** esa elementlar qiymatlari turini ifodalash mumkin turi.
 
 * 2.**Tuple** larda nol kompanentali kortej yaratishga ruxsat berilmagan , **ValueTuple** da bunday kartej yaratish mumkin.
 
@@ -21,7 +21,7 @@ description: Hikmatullayev Sayidrahmatulloh
 
 {% endhint %}
 
-**ValueTuple** yaratish strukturasi.
+**ValueTuple** yaratish strukturasi:
 
 {% hint style="info" %}
 
@@ -44,7 +44,7 @@ description: Hikmatullayev Sayidrahmatulloh
 `ValueTuple<T1,T2,T3,T4.T5,T6,T7,T8>( T1,T2,T3,T4.T5,T6,T7,T8)`
 {% endhint %}
 
-**ValueTuple** ga ham **Tuple** kabi 8 ta element kiritish mumkin halos.
+**ValueTuple** ga ham **Tuple** kabi 8 ta element kiritish mumkin xolos.
 
 Lekin bu muammoni **ValueTuple** ichida **ValueTuple** yaratish orqali hal qilish mumkin.
 
@@ -85,9 +85,9 @@ namespace dotnetuz
     }
 }
 ``` 
-**ValueTuple** da har bir kortej o'z nomiga hususiyatiga ega bo'lish imkoni bor.
+**ValueTuple** da har bir kortej o'z nomiga xususiyatiga ega bo'lish imkoni bor.
 
-Buni quyadagi misolda koramiz.
+Buni quyadagi misolda ko'ramiz.
 
 ```csharp
 using System;
@@ -134,7 +134,7 @@ Qora oynadagi natija.
 
 `Yil :2021`
 
-**ValueTuple** ham **Tuple** kabi elementlariga aftomatik nom beradi .
+**ValueTuple** ham **Tuple** kabi elementlariga avtomatik nom beradi .
 
 Lekin elementlarni o'zmiz nomlasak biz uchun ancha qulay bo'ladi.
 
@@ -156,7 +156,7 @@ namespace dotnetuz
     }
 }
 ``` 
-Qora oynadagi natija.
+Qora oynadagi natija:
 
 `Ismi : Sayidrahmatulloh`
 
@@ -222,7 +222,7 @@ namespace dotnetuz
     }
 }
 ```
-Qora oynadagi natija .
+Qora oynadagi natija:
 
 `Alibaba Group Holding Limited - Alibaba Group va Alibaba.com sifatida tanilgan, Xitoyning elektron tijorat, chakana savdo,`
  `Internet va texnologiyalarga ixtisoslashgan transmilliy texnologik kompaniyasi.`
