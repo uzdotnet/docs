@@ -1,0 +1,2 @@
+# XAML da nomlar fazosi
+

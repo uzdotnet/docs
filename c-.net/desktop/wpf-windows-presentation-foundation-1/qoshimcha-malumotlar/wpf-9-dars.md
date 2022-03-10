@@ -10,7 +10,7 @@ Buyruq satrining parametrlari siz ishlashini ma'lum tarzda o'zgartirish (belgila
 
 > > _**notepad.exe c:\Windows\win.ini**_
 
-![Buyruqlar satri](../../../.gitbook/assets/wpf10.png)
+![Buyruqlar satri](../../../../.gitbook/assets/wpf10.png)
 
 &#x20;Ushbu buyruq **win.ini** faylini tahrirlovchi(**notepad.exe**)da ochadi (agar u boshqa joyda joylashgan bo'lsa, **win.ini** ga yo'lni o'zgartirishingiz kerak bo'ladi). Bloknot unga o'tkazilgan parametrlarni ko'rib chiqadi (ushbu holatda bitta parametr berilyapdi) va ulardan foydalanadi. Yani biz **notepad.exe** dasturini ishga tushuryapmiz va unga parametr sifatida **win.ini** beryapmiz, shunda **notepad.exe** dasturi "_**c:\Windows"**_ manzilida joylashgan **win.ini** faylini ochadi.
 
@@ -71,18 +71,18 @@ namespace WpfTutorialSamples
 
 &#x20;Yuqoridagi menyuda **\[Проект]** ni tanlaymiz, keyin **Свойства: \[Dastur nomi]** bo'limiga kiramiz. Ochilgan oynadan  **Отладка** bo'limini tanlaymiz:
 
-![\[Свойства\] bo'limi](../../../.gitbook/assets/wpf11.png)
+![\[Свойства\] bo'limi](../../../../.gitbook/assets/wpf11.png)
 
 &#x20;**Buyruqlar satri qiymatlari** uchun ajratilgan(qizil chiziqda belgilangan) hududga kerakli buyruqni yozamiz. Yozilgan buyruq matn sifatida qabul qilinadi va xabar sifatida ekranga chiqadi:\
 
 
-![MessageBox ](../../../.gitbook/assets/wpf12.png)
+![MessageBox ](../../../../.gitbook/assets/wpf12.png)
 
 &#x20;Endi dasturimizni **Buyruqlar satri** dan ishga tushiramiz va unga **Parametr** sifatida "SalomWPF" matnini beramiz:\
 &#x20;**Buyruqlar satri** ga dasturimizni joylashgan joyi va nomini ko'rsatamiz va bitta bo'sh joy qoldiramiz. Chunki **Buyruqlar satri** Parametrlarni sonini aynan shu bo'sh joylarga qarab aniqlaydi.
 
 > > D:\WpfTutorialSamples.exe SalomWPF
 
-![CMD](../../../.gitbook/assets/wpf13.png)
+![CMD](../../../../.gitbook/assets/wpf13.png)
 
-![Natija](../../../.gitbook/assets/wpf14.png)
+![Natija](../../../../.gitbook/assets/wpf14.png)

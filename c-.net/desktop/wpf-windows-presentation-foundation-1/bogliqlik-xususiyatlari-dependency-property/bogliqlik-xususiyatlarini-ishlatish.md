@@ -1,0 +1,2 @@
+# Bog'liqlik xususiyatlarini ishlatish
+

@@ -6,7 +6,7 @@ description: Sobirjonov O'tkirbek
 
 TextBlock elementi bilan ishlashni avvalgi darsda o’rganib chiqdik, ushbu darsda esa Inline formatlash va Textblock elementiga qo’llanilishini o’rganamiz.
 
-Siz [wikipedia ](https://www.wikipedia.org/)yoki shunga o’xshash saytlardan foydalangan bo’lsangiz unda ba’zi so’zlarni rangi boshqa rangda ajratib ko’rsatilgan, yoki yozuvga tag chizig’ qo’yilgan, yoki Giperhavolalar qo’yilgan holatlarga ko’p ko’zingiz tushgani aniq. Huddi shundek yozuvlar formatlarini Textblock elementida qo’llanilishini ko’rib chiqamiz.
+Siz [wikipedia ](https://www.wikipedia.org)yoki shunga o’xshash saytlardan foydalangan bo’lsangiz unda ba’zi so’zlarni rangi boshqa rangda ajratib ko’rsatilgan, yoki yozuvga tag chizig’ qo’yilgan, yoki Giperhavolalar qo’yilgan holatlarga ko’p ko’zingiz tushgani aniq. Huddi shundek yozuvlar formatlarini Textblock elementida qo’llanilishini ko’rib chiqamiz.
 
 ```aspnet
 <Window x:Class="WpfApp1.MainWindow"
@@ -29,15 +29,15 @@ Siz [wikipedia ](https://www.wikipedia.org/)yoki shunga o’xshash saytlardan fo
 
 ```
 
-![](../../../.gitbook/assets/image%20%2894%29.png)
+![](<../../../../.gitbook/assets/image (94).png>)
 
 Ko’rib turganingizdek
 
-**&lt;Bold&gt; &lt;/Bold&gt;**  teglari orasida yozilgan so’zlar qalin holatga o’tadi.                                                                           **&lt;Italic&gt; &lt;/Italic&gt;**  teglari orasida yozilgan so’zlar yotiqroq va qo’l yozmaga o’xshaganroq yozuvga  o’tadi.**&lt;Underline&gt; &lt;/Underline&gt;**  teglari orasida yozilgan so’zlar tag chiziqqa ega bo’ladi. Xuddi HTML kabi, siz qanday matn olishni hohlasangiz, matn yorlig'i bilan o'rab olasiz va hokazo.  Bu sizning ilovalaringizda turli xil matnlarni yaratishni va ko'rsatishni juda osonlashtiradi.
+**\<Bold> \</Bold>**  teglari orasida yozilgan so’zlar qalin holatga o’tadi.                                                                           **\<Italic> \</Italic>**  teglari orasida yozilgan so’zlar yotiqroq va qo’l yozmaga o’xshaganroq yozuvga  o’tadi.**\<Underline> \</Underline>**  teglari orasida yozilgan so’zlar tag chiziqqa ega bo’ladi. Xuddi HTML kabi, siz qanday matn olishni hohlasangiz, matn yorlig'i bilan o'rab olasiz va hokazo.  Bu sizning ilovalaringizda turli xil matnlarni yaratishni va ko'rsatishni juda osonlashtiradi.
 
 Ushbu uchta teg ham Span elementining oddiy sinflari bo'lib, ularning har biri kerakli effekt yaratish uchun Span elementida o'ziga xos xususiyatni o'rnatadi. Masalan, Bold yorlig'i faqat asosiy Span elementida FontWeight xususiyatini o'rnatadi, Italic elementi FontStyle-ni o'rnatadi va hokazo.
 
-Ya’ngi satrga o’tish uchun esa  **&lt;LineBreak/&gt;**  tegidan foydalaniladi. Siz dasturlash bilan avval shug’ullangan bo’lsangiz **‘\n’** bilan ko’p ishlagan bo’lishingiz kerak. LineBreak ham huddi shunga o’xshaydi.
+Ya’ngi satrga o’tish uchun esa  **\<LineBreak/>**  tegidan foydalaniladi. Siz dasturlash bilan avval shug’ullangan bo’lsangiz **‘\n’** bilan ko’p ishlagan bo’lishingiz kerak. LineBreak ham huddi shunga o’xshaydi.
 
 ### Giperhavolalar
 
@@ -66,7 +66,7 @@ Matn bilan ishlash davomida siz giperhavolalar bilan ishlashingiz ham mumkin.Mis
 
 ```
 
-Va C\# faylida ushbu havola bosilganda nima bo’lishini yozib ketishimiz kerak bo’ladi.
+Va C# faylida ushbu havola bosilganda nima bo’lishini yozib ketishimiz kerak bo’ladi.
 
 ```csharp
 using System.Windows;
@@ -95,7 +95,6 @@ namespace WpfApp1
 
 Natija esa :
 
-![](../../../.gitbook/assets/image%20%2889%29.png)
+![](<../../../../.gitbook/assets/image (89).png>)
 
 Ushbu link giperhavolasi bosilganda, kompyuteringizga o’rnatilgan asosiy brauzer siz kiritgan manzilga olib boradi.
-

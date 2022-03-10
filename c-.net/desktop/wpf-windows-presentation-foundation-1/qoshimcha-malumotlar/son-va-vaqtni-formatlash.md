@@ -78,11 +78,10 @@ namespace WpfApp1
 
 ```
 
- Natijani ko’rishingiz mumkin:                                       
+&#x20;Natijani ko’rishingiz mumkin:                                      &#x20;
 
-![default holatida](../../../.gitbook/assets/image%20%2853%29.png)
+![default holatida](<../../../../.gitbook/assets/image (53).png>)
 
-![USA tugmachasini bosilganda](../../../.gitbook/assets/image%20%2814%29.png)
+![USA tugmachasini bosilganda](<../../../../.gitbook/assets/image (14).png>)
 
 Ko’rib turganingizdek sonlar formati o’zgardi. Ya’ni davlatda ishlatiladigan formatga qarab o’zgaradi. Odatda bunday usul dasturni o’rnatayotgan vaqtda sistemada tanlangan davlatga qarab son va vaqtni formatlash amalga oshiriladi
-

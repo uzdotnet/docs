@@ -25,7 +25,7 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (99).png>)
+![](<../../../../.gitbook/assets/image (99).png>)
 
 ### TextBlock vs Label orasidagi farqlar    &#x20;
 
@@ -56,7 +56,7 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (25).png>)
+![](<../../../../.gitbook/assets/image (25).png>)
 
 ```aspnet
 <Window x:Class="WpfApp1.MainWindow"
@@ -76,7 +76,7 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../../.gitbook/assets/image (1).png>)
 
 2\. Label elementi Content Property siga matn berilgan holda Label Textblock yaratadi va ko’rsatadi, ya’ni matnlar bilan ishlashda Label elementi Textblock elementidan foydalanadi.
 
@@ -100,7 +100,7 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (71).png>)
+![](<../../../../.gitbook/assets/image (71).png>)
 
 4\. Label elementi o’z ichida boshqa elementlarni ham saqlay oladi.Masalan : Image, TextBlock, StackPanel, Grid, ….
 
@@ -134,7 +134,7 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (90).png>)
+![](<../../../../.gitbook/assets/image (90).png>)
 
 Label elementiga qayta Template yozishingiz mumkin.Odatda yorliqlar ko’p ishlatiladi va ular turli xil Style da bo’lishi va turli dizaynda bo’lishi va ko’p dizaynlar bir xil bo’lishi mumkin. Ya’ni bir xil yozliqlar ko’p marta qo’llanilishi va har qo’llanilganda unga ko’p xususiyatlarni qayta o’rnatish ortiqcha ish albatta. Shu hollarda Style yozishingiz ham qo’l kelmasligi mumkin bunday hollarda Template yoziladi. TextBlock elementiga Style yozish mumkin lekin Template yozish mumkin emas, Label elementida esa bu imkoniyat mavjud.
 
@@ -175,4 +175,4 @@ Buni oddiy misolda ko’rib o’tsak:
 
 ```
 
-![](<../../../.gitbook/assets/image (40).png>)
+![](<../../../../.gitbook/assets/image (40).png>)

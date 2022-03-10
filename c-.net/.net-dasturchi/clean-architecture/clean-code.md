@@ -2,13 +2,11 @@
 description: Nodirbek Abdulaxadov
 ---
 
-# .NET da Clean Code 
+# Clean Kod
 
 ## Nomlash
 
-<details>
-  <summary><b>Qisqa nom ishlatishdan saqlaning</b></summary>
-Yaxshi nom kodni ko'plab dasturchilar tomonidan ishlatishga imkon beradi. Nom nima qilayotganini aks ettirishi va kontekst berishi kerak.
+**Qisqa nom ishlatishdan saqlaning**Yaxshi nom kodni ko'plab dasturchilar tomonidan ishlatishga imkon beradi. Nom nima qilayotganini aks ettirishi va kontekst berishi kerak.
 
 **Yomon:**
 
@@ -21,10 +19,8 @@ int n;
 ```csharp
 int numberOfMembers;
 ```
-</details>
 
-<details>
-  <summary><b>Adashtiruvchi nomlardan saqlaning</b></summary>
+**Adashtiruvchi nomlardan saqlaning**
 
 O'zgaruvchini nima uchun ishlatilishini ko'rsatish uchun unga nom bering.
 
@@ -39,14 +35,10 @@ var dataFromDb = db.GetFromService().ToList();
 ```csharp
 var listOfEmployee = _employeeService.GetEmployees().ToList();
 ```
-</details>
 
-<details>
-  <summary><b>Nomlashda izchillikka e'tibor bering</b></summary>
+**Nomlashda izchillikka e'tibor bering**
 
-Katta harflar sizga o'zgaruvchilar, funksiyalar va boshqalar haqida ko'p ma'lumot beradi.
-Siz qanday nom tanlashingizdan qat'iy nazar, nomlarning izchilligiga (bir xil qoida asosida) e'tibor bering.
-Xullas, bittasini katta harflarda, boshqasini kichkinada nomlab yurmang.
+Katta harflar sizga o'zgaruvchilar, funksiyalar va boshqalar haqida ko'p ma'lumot beradi. Siz qanday nom tanlashingizdan qat'iy nazar, nomlarning izchilligiga (bir xil qoida asosida) e'tibor bering. Xullas, bittasini katta harflarda, boshqasini kichkinada nomlab yurmang.
 
 **Yomon:**
 
@@ -79,10 +71,8 @@ bool RestoreDatabase() {}
 class Animal {}
 class Alpaca {}
 ```
-</details>
-  
-<details>
-  <summary><b>Tushunarli nomlardan foydalaning</b></summary>
+
+**Tushunarli nomlardan foydalaning**
 
 G'alati nomlarni vaqti kelsa o'zingiz ham tushunmay qolasiz.
 
@@ -105,12 +95,10 @@ public class Employee
     public Datetime ModificationTime { get; set; }
 }
 ```
-</details>
 
-<details>
-  <summary><b>Camelcase dan foydalaning</b></summary>
+**Camelcase dan foydalaning**
 
-O'zgaruvchilar va metod parametrlari uchun [Camelcase Notation](https://en.wikipedia.org/wiki/Camel_case) nomlashdan foydalaning.
+O'zgaruvchilar va metod parametrlari uchun [Camelcase Notation](https://en.wikipedia.org/wiki/Camel\_case) nomlashdan foydalaning.
 
 **Yomon:**
 
@@ -133,12 +121,10 @@ public double CalculateSalary(int workingDays, int workingHours)
     // qandaydir kod
 }
 ```
-</details>
-  
 
 ## O'zgaruvchilar
-<details>
-  <summary><b>Juda chuqurlashib ketmang</b></summary>
+
+**Juda chuqurlashib ketmang**
 
 Masalaga jiddiy qarab, if-else zanjirini ko'paytirib, chuqurlashtirib tashlamang. Oddiyroq kod bilan ham hal qilsa bo'ladi :)
 
@@ -243,10 +229,8 @@ public long Fibonacci(int n)
     return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 ```
-</details>
-  
-<details>
-  <summary><b>Ortiqcha logikadan foydalanmang</b></summary>
+
+**Ortiqcha logikadan foydalanmang**
 
 Kimdir kodingizni o'qishi uchun o'rtada tarjimon bo'lib turishingiz kerak emas ;)
 
@@ -285,10 +269,8 @@ foreach (var location in locations)
     Dispatch(location);
 }
 ```
-</details>
-  
-<details>
-  <summary><b>"Sehrli" satrlardan foydalanmang</b></summary>
+
+**"Sehrli" satrlardan foydalanmang**
 
 "Sehrli" satrlar - bu dasturning ishlashiga ta'sir ko'rsatadigan, to'g'ridan-to'g'ri dastur kodida ko'rsatilgan satr qiymatlari. Ko'pincha, bunday satrlar kodda takrorlanadi va ularni avtomatik ravishda refaktoring asboblari yordamida yangilab bo'lmagani uchun, ba'zi satrlarga o'zgartirishlar kiritilganda, boshqalari o'zgarishsiz qoladi. Bu esa xatolarning keng tarqalgan manbaiga aylanadi.
 
@@ -310,11 +292,10 @@ if (userRole == ADMIN_ROLE)
     // logic in here
 }
 ```
-  _Bundan keyin bir o'q bilan bir nechta quyonni urish mumkin bo'ladi_  :)
-  </details>
- 
-<details>
-  <summary><b>Keraksiz qo'shimchalarni qo'shmang</b></summary>
+
+_Bundan keyin bir o'q bilan bir nechta quyonni urish mumkin bo'ladi_ :)
+
+**Keraksiz qo'shimchalarni qo'shmang**
 
 Sinf yoki obyekt nomlarini o'zgaruvchilar nomlarida takrorlamang.
 
@@ -343,15 +324,12 @@ public class Car
     //...
 }
 ```
-</details>
-  
- 
-<details>
-  <summary><b>Qidirsa bo'ladigan nomdan foydalaning (1-qism)</b></summary>
+
+**Qidirsa bo'ladigan nomdan foydalaning (1-qism)**
 
 Biz 5 minut yozgan kodimizni yillar davomida qayta-qayta o'qishimizga to'g'ri kelishi mumkin. Biz yozgan kod oson o'qilishi va qidirilishi juda muhim. Dasturimizni tushunish uchun ahamiyatli bo'lgan o'zgaruvchilarni nomlamasdan, biz kodni o'quvchilarni xunob qilamiz.
 
-  **Yomon:**
+**Yomon:**
 
 ```csharp
 // Betta data - qanaqa data o'zi???
@@ -386,10 +364,8 @@ var sr2 = new StreamReader(stream2);
 Console.Write("JSON form of Data object: ");
 Console.WriteLine(sr2.ReadToEnd());
 ```
-</details>
-  
-<details>
-  <summary><b>Qidirsa bo'ladigan nomdan foydalaning (2-qism)</b></summary>
+
+**Qidirsa bo'ladigan nomdan foydalaning (2-qism)**
 
 **Yomon:**
 
@@ -426,8 +402,3 @@ if (person.PersonAccess == PersonAccess.ACCESS_UPDATE)
     // qandaydir kod ...
 }
 ```
-</details>
-  
-
-  
-  

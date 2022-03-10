@@ -44,7 +44,7 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](<../../../../.gitbook/assets/image (28) (6) (1).png>)
+![](<../../../../.gitbook/assets/image (28) (6) (1) (10).png>)
 
 {% hint style="info" %}
 Biz xabarlarni yuborishda foydalanayotgan funksiyalar ishni yakunlagandan so'ng, **Message** sinfiga mansub obyekt qaytaradi.

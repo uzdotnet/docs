@@ -4,7 +4,7 @@ description: CSharp N1 jamoasi
 
 # XAML nima?
 
-![](../../../.gitbook/assets/osha3.jpg)
+![](../../../../.gitbook/assets/osha3.jpg)
 
 XAML kengaytmasi **Extensible Application Markup Language** bo'lib, Microsoftning grafik interfeysni qo'llovchi XML varianti. WinForms kabi avvalgi GUI framework larda, grafik interfeys uchun yozayotgan kod Visual Studioning dizayner qismida boshqarilgan, lekin XAML bilan Microsoft boshqacha yo'lni tutdi. Huddi HTML kabi grafik interfeysni loyihalashingiz va o'zgartirishingiz mumkin.
 
@@ -30,7 +30,7 @@ HTML katta kichik harflarni farqlamaydi lekin XAML da farq qiladi, chunki boshqa
 <Button FontWeight="Bold" Content="A button" />
 ```
 
-Biz **FontWeight** xususiyatini o'rnatdik, unga qalin matnni qo'ydik, va keyin matnni boshlash va tugatish tegi orasida yozish bilan bir xil bo'lgan **Content** xususiyatini o'rnatdik. Biroq, boshqarishning barcha atributlari quyidagicha belgilanishi mumkin, bunda ular Control-Dot-Property \(&lt; Boshqaruv&gt;.&lt;Xususiyat &gt;\) yozuvidan foydalanib, asosiy boshqaruvning farzand teglari ko'rinishida paydo bo'ladi: \(Farzand tegi degani boshqaruv elementi ichida yangi &lt;boshqaruv&gt;.&lt;xususyat&gt; e'lon qilish\)
+Biz **FontWeight** xususiyatini o'rnatdik, unga qalin matnni qo'ydik, va keyin matnni boshlash va tugatish tegi orasida yozish bilan bir xil bo'lgan **Content** xususiyatini o'rnatdik. Biroq, boshqarishning barcha atributlari quyidagicha belgilanishi mumkin, bunda ular Control-Dot-Property (< Boshqaruv>.\<Xususiyat >) yozuvidan foydalanib, asosiy boshqaruvning farzand teglari ko'rinishida paydo bo'ladi: (Farzand tegi degani boshqaruv elementi ichida yangi \<boshqaruv>.\<xususyat> e'lon qilish)
 
 ```markup
 <Button>
@@ -70,7 +70,7 @@ Content xossasi faqat bitta farzand elementiga ruxsat beradi, shuning uchun biz 
 
 ## **Code vs XAML**
 
-Umid qilamanki, yuqoridagi misollarda siz XAMLni yozish juda oson ekanligini ko'rdingiz, lekin buni amalga oshirishning turli xil usullari mavjudligini va agar siz yuqoridagi misolda turli rangdagi matnli tugmachani olish uchun ko'p sonli markirovka deb o'ylasangiz, unda harakat qilib ko'ring. uni C\# tilida xuddi shu narsani bajarish bilan taqqoslang:
+Umid qilamanki, yuqoridagi misollarda siz XAMLni yozish juda oson ekanligini ko'rdingiz, lekin buni amalga oshirishning turli xil usullari mavjudligini va agar siz yuqoridagi misolda turli rangdagi matnli tugmachani olish uchun ko'p sonli markirovka deb o'ylasangiz, unda harakat qilib ko'ring. uni C# tilida xuddi shu narsani bajarish bilan taqqoslang:
 
 ```csharp
 Button btn = new Button();
@@ -98,7 +98,6 @@ pnlMain.Children.Add(btn)
 
 > Vazifa:Ushbu Button larni uziz mustaqil bajaring
 
-![1 - vazifa](../../../.gitbook/assets/wpf3.png)
+![1 - vazifa](../../../../.gitbook/assets/wpf3.png)
 
-![2 - vazifa](../../../.gitbook/assets/wpf4.png)
-
+![2 - vazifa](../../../../.gitbook/assets/wpf4.png)

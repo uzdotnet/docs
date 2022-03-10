@@ -1,0 +1,2 @@
+# Umumiy o'lchamli guruhlar
+
