@@ -285,7 +285,7 @@
       * [Swagger nima?](c-.net/web-development/asp.net-core-web-api/swagger-nima.md)
       * [Dependency Injection](c-.net/web-development/asp.net-core-web-api/web-api-uchun-qaysi-til-afzalroq.md)
       * [Http metodlar](c-.net/web-development/asp.net-core-web-api/rest-va-restful-api-nima.md)
-      * [ActionResult](c-.net/web-development/asp.net-core-web-api/untitled-1.md)
+      * [ActionResult](c-.net/web-development/asp.net-core-web-api/actionresult.md)
       * [CORs](c-.net/web-development/asp.net-core-web-api/untitled.md)
       * [Security (JWT)](c-.net/web-development/asp.net-core-web-api/security-jwt.md)
       * [Swagger ni sozlash](c-.net/web-development/asp.net-core-web-api/swagger-ni-sozlash.md)
