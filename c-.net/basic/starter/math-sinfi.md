@@ -54,7 +54,7 @@ class Program
 1. Agar bitta son  kiritilsa shu sonning natural logarifmini hisoblaydi.  Masalan, Math.Log(2,718281828459045) ifoda 1 ni qaytaradi.
 2. Ikkita son Math.Log(a,b) ko'rinishida b asosga ko'ra a sonining logarifmini hisoblaydi. Math.Log(32,2) deb yozsak 2 asosga ko’ra 32 ning logarifmini hisoblab, bizga 5 ni qaytaradi.
 
-**Math.Log10()** - sonning o’nli logarifmini hisoblaydi.  Math.Log(100) bizga 2 degan javobni qaytaradi. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
+**Math.Log10()** - sonning o’nli logarifmini hisoblaydi.  Math.Log10(100) bizga 2 degan javobni qaytaradi. Qiymat qabul qilish va qaytarish *double* tipida bo'ladi.
 
 **Math.Log2()** - sonning 2 asosga ko'ra logarifmini hisoblaydi. *double* tipida qiymat qabul qiladi va qaytaradi.
 
