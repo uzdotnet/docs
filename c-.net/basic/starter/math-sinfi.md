@@ -42,7 +42,7 @@ class Program
 
 **Math.Cosh()** – burchakning giperbolik kosinusini hisoblaydi. Faqat *double* tipida ishlaydi. 
 
-**Math.E** – konstanta, hech qanday amal bajarmaydi. O'zgarmas e sonini *double* tipida qaytaradi. e=2,718281828459045. 
+**Math.E** – Math sinfining maydon (field)laridan biri. Fieldlar amal bajarish uchun emas, avvaldan belgilab qo'yilgan biror qiymatni qaytarish uchun ishlatiladi. Masalan, Math.E e sonining qiymatini *double* tipida qaytaradi. e=2,718281828459045. 
 
 **Math.Exp()** - o'zgarmas e sonini kiritilgan darajaga ko'taradi va hosil bo'lgan qiymatni qaytaradi. Kiruvchi va chiquvchi qiymatlar *double* tipida bo'ladi. Masalan, Math.Exp(1)=2,718281828459045;   Math.Exp(2)=4,4816890703380645. 
 
@@ -62,7 +62,7 @@ class Program
 
 **Math.Min()** - ikki sondan kichigini topadi. Kiruvchi parametr sifatida ixtiyoriy sonli tipdagi ikkita son kiritiladi, bizga ulardan kichigining qiymatini qaytaradi.
 
-**Math.PI** - konstanta. Pi sonining qiymati 3,14159265358979 ni *double* tipida qaytaradi.
+**Math.PI** - bu Math sinfining yana bir maydon(field)i hisoblanadi. Pi sonining qiymati 3,14159265358979 ni *double* tipida qaytaradi.
 
 **Math.Pow(a,b)** - a sonini b-darajaga ko’taradi. Kiruvchi parametrda ikkita son asos va daraja *double* tipida kiritiladi, bizga hisoblangan qiymatni qaytaradi. Masalan, Math.Pow(3,2) 9 ni qaytaradi.
 
@@ -82,7 +82,7 @@ class Program
 
 **Math.Tanh()** - burchakning giperbolik tangensini hisoblaydi.
 
-**Math.Tau** - konstanta, o'zgarmas __tau__ sonining qiymati 6,283185307179586 ni qaytaradi.
+**Math.Tau** - Math sinfiga tegishli uchinchi field, o'zgarmas __tau__ sonining qiymati 6,283185307179586 ni qaytaradi.
 
 **Math.Truncate()** - bu metod ham sonning butun qismini hisoblaydi. Haqiqiy (*double*, *decimal*) tiplarda ishlaydi. Musbat sonlarda Math.Floor() bilan bir xil ishlaydi. Lekin ularning farqi manfiy sonlarda namoyon bo’ladi. -3.14 ning butun qismini olib ko’radigan bo’lsak, Math.Truncate(-3.14) ifoda -3 ni,  Math.Floor(-3.14) ifoda esa -4 ni qaytaradi. Matematik tomondan butun qism olish uchun Math.Floor() to’la mos keladi, lekin shuni unutmangki, Math.Truncate() ni ham o’z o’rni bor.
 
