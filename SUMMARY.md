@@ -170,6 +170,8 @@
         * [Native SQL](c-.net/orm/entity-framework/query-yozish-usullari-entity-framework/native-sql.md)
       * [Entity Framework Core](c-.net/orm/entity-framework/entity-framework-core.md)
   * [Qo'shimcha sinflar](c-.net/qoshimcha-sinflar/README.md)
+    * [System.Text](c-.net/qoshimcha-sinflar/system.text/README.md)
+      * [Encoding](c-.net/qoshimcha-sinflar/system.text/encoding.md)
     * [System](c-.net/qoshimcha-sinflar/system/README.md)
       * [Int32](c-.net/qoshimcha-sinflar/system/int32.md)
       * [Random](c-.net/qoshimcha-sinflar/system/random.md)
