@@ -63,6 +63,8 @@ namespace LINQ_operations
             foreach (var name in myLinqQuery)
                 Console.WriteLine(name + " ");
             Console.ReadKey();
+            
+            //some comment
         }
     }
 }
