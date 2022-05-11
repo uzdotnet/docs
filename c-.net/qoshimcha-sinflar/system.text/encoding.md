@@ -32,16 +32,16 @@ Bu usul xotiradan yanada ko’proq yutishga harakat qiladi. Agar jadvaldagi belg
 
 Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib ketaversak, bitta belgi qayerda boshlanib, qayerda tugaganini bilmasak, keyin ularni qanday o’qiymiz?  Belgi necha bayt xotiraga yozilganini bildirish uchun UTF-8 da quyidagicha shablon yordamida yoziladi:
 
-| Bayt |	Ko’rinishi |	Maksimal | uzunligi |
----------------------------------------------
-| 1 |	0XXXXXXX |	7 |
----------------------
-| 2 |	110XXXXX | 10XXXXXX |	11|
---------------------------------
-| 3 |	1110XXXX | 10XXXXXX | 10XXXXXX |	16 |
-----------------------------------------------
-| 4 |	11110XXX | 10XXXXXX | 10XXXXXX | 10XXXXXX	| 21 |
--------------------------------------------------------
+| Bayt |	Ko’rinishi                       | Maksimal uzunligi |
+------------------------------------------------------------------
+| 1    | 0XXXXXXX                            | 7                 |
+------------------------------------------------------------------
+| 2    | 110XXXXX 10XXXXXX                   | 11                |
+------------------------------------------------------------------
+| 3    | 1110XXXX 10XXXXXX 10XXXXXX          | 16                |
+------------------------------------------------------------------
+| 4    | 11110XXX 10XXXXXX 10XXXXXX 10XXXXXX | 21                |
+------------------------------------------------------------------
 
 Masalan, 1101 soni 00001101 kabi, 11110011 soni esa 11000011 10110011 kabi yoziladi. Hozirda juda ko’p hollarda belgilarni kodlash uchun UTF-8 ishlatiladi.
 
