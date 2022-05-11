@@ -10,21 +10,29 @@ Yaxshi bilasizki, kompyuter xotirasida barcha ma’lumotlar 0 va 1 orqali ifodal
 Masalan, 13 sonining ikkilikdagi ko’rinishi 1101 ni saqlash uchun 4 bit yetarli bo’ladi. (0 yoki 1 ni qabul qiladigan bitta xonaning hajmi 1 bit hisoblanadi). Agar bu sonni 16 bit kattalikdagi butun son (int16) sifatida saqlamoqchi bo’lsak, 0000000000001101 ko’rinishida nollar bilan to’ldiriladi. 
 
 Agar sonni emas, biror belgini yoki belgilardan tashkil topgan satrni saqlamoqchi bo’lsakchi?
+
 ### ASCII
-Dastlab bu muammoni hal qilish uchun 1963-yilda  ASCII (American Standart Code Information Interchange) jadvali ishlab chiqildi. Bu jadvalga 128 ta belgi kiritilgan bo’lib, ular 0 dan 127 gacha raqamlangan. Jadvaldan foydalangan holda xotiraga yozish uchun har bir belgiga mos keladigan raqam ikkilik sanoq sistemasiga o’tkazib xotiraga yozilgan. 0 dan 127 gacha bo’lgan sonlarning ikkilikdagi ko’rinishi maksimum 1 xonali bo’ladi. Demak, bu sonlarni ifodalash uchun xotiradan 7 bit xotira ajratiladi. Bundan tashqari, kengaytirilgan ASCII jadvallari ham mavjud bo’lib, bunday jadvallarda belgilar 0 dan 255 gacha raqamlarga mos qo’yilgan. Ularning barchasida dastlabki 128 ta belgi ketma-ketligi bir xil, keyingi 128 ta joyga boshqa tillardagi harflarni joylashga harakat qilishgan. Ko’pgina kompaniyalar o’zi uchun alohida kengaytirilgan jadvalni hosil qilishgani uchun, keyingi 128 ta belgining turlicha talqinlari paydo bo’lib, bu ham muammolarga sabab bo’lgan.  Kengaytirilgan ASCII jadvallarida belgi xotiradan 8 bit = 1 bayt joy egallaydi.
+Dastlab bu muammoni hal qilish uchun 1963-yilda  ASCII (American Standart Code Information Interchange) jadvali ishlab chiqildi. Bu jadvalga 128 ta belgi kiritilgan bo’lib, ular 0 dan 127 gacha raqamlangan. Jadvaldan foydalangan holda xotiraga yozish uchun har bir belgiga mos keladigan raqam ikkilik sanoq sistemasiga o’tkazib xotiraga yozilgan. 0 dan 127 gacha bo’lgan sonlarning ikkilikdagi ko’rinishi maksimum 7 xonali bo’ladi. Demak, bu sonlarni ifodalash uchun xotiradan 7 bit xotira ajratiladi. Bundan tashqari, kengaytirilgan ASCII jadvallari ham mavjud bo’lib, bunday jadvallarda belgilar 0 dan 255 gacha raqamlarga mos qo’yilgan. Ularning barchasida dastlabki 128 ta belgi ketma-ketligi bir xil, keyingi 128 ta joyga boshqa tillardagi harflarni joylashga harakat qilishgan. Ko’pgina kompaniyalar o’zi uchun alohida kengaytirilgan jadvalni hosil qilishgani uchun, keyingi 128 ta belgining turlicha talqinlari paydo bo’lib, bu ham muammolarga sabab bo’lgan.  Kengaytirilgan ASCII jadvallarida belgi xotiradan 8 bit = 1 bayt joy egallaydi.
 
 Xulosa:
-•	ASCIIda belgilar 0-127 (yoki 0-255) oralig’idagi mos raqamlar orqali kodlanadi
-•	Bu tizimda har qanday belgini kodlash uchun o’zgarmas uzunlikdagi 7 bit (kengaytirilganida 8 bit) xotira ajratiladi
+
+•	ASCIIda belgilar 0-127 (yoki 0-255) oralig’idagi mos raqamlar orqali kodlanadi;
+
+•	Bu tizimda har qanday belgini kodlash uchun o’zgarmas uzunlikdagi 7 bit (kengaytirilganida 8 bit) xotira ajratiladi;
+
 •	ASCII orqali ko’pi bilan 256 xil belgini ifodalash mumkin xolos.
 
 
 ### UTF-32
-ASCII dan foydalanib belgilarni kodlash imkoniyati paydo bo’lgan bo’lsada, hali jadvalga kiritilmagan minglab belgilar bor edi: matematik formulalarda ishlatiladigan grek harflari (α, β …), yapon, xitoy va boshqa tillardagi harflar, smayliklar, … . Shuning uchun avvalgi jadvalni kengaytirish zarurati paydo bo’ldi va UTF (Unicode Transformation Format) yaratildi. UTF-32 da har bitta harf 32 bit = 4 bayt xotiraga yoziladi. Avvalgi muammo hal etildi, insonlar ishlatadigan barcha belgilar jadvalga kiritildi. Biroq, har bitta belgini 4 bayt joy band qilishi biroz qimmatga tushardi: bu usul avvalgi holga nisbatan 4 barobar ko’proq xotirani band qilardi. Xotiradan foydalanishni kamaytirish maqsadida o’zgaruvchan usulda kodlash tizimlari – UTF-16, keyinroq UTF-8 ishlab chiqildi.
+ASCII dan foydalanib belgilarni kodlash imkoniyati paydo bo’lgan bo’lsada, hali jadvalga kiritilmagan minglab belgilar bor edi: matematik formulalarda ishlatiladigan grek harflari (α, β …), yapon, xitoy va boshqa tillardagi harflar, smayliklar, … . Shuning uchun avvalgi jadvalni kengaytirish zarurati paydo bo’ldi va UTF (Unicode Transformation Format) yaratildi. UTF-32 da har bitta harf 32 bit = 4 bayt xotiraga yoziladi.
+
+Avvalgi muammo hal etildi, insonlar ishlatadigan barcha belgilar jadvalga kiritildi. Biroq, har bitta belgini 4 bayt joy band qilishi biroz qimmatga tushardi: bu usul avvalgi holga nisbatan 4 barobar ko’proq xotirani band qilardi. Xotiradan foydalanishni kamaytirish maqsadida o’zgaruvchan usulda kodlash tizimlari – UTF-16, keyinroq UTF-8 ishlab chiqildi.
 
 ### UTF-16
 UTF-32 da 32 bit xotiraga yozilayotgan harflarning ba’zilarini aslida 16 bit joyga yozish ham mumkin. Masalan, 1110111011 sonini UTF-32 da 00000000000000000000001110111011 ko’rinishida yoziladi, holbuki u 16 bitga ham sig’adi: 0000001110111011. UTF-16 tizimida belgi tartib raqamining ikkilikdagi ko’rinishi uzunligi 16 dan kichik bo’lsa 16 bit xotiraga, aks holda 32 bit xotiraga yoziladi. Bu usul xotiradan yutishga imkon bersada, hozirda u ham UTF-32 kabi deyarli ishlatilmaydi. Chunki, bundan ham optimalroq UTF-8 tizimi bor.
+
 Xulosa:
+
 •	UTF-16 da belgilar o’zgaruvchan uzunlikda, 2 yoki 4 bayt xotiraga kodlanadi. Agar sonni 2 baytga sig’dirish imkoni bo’lsa 2 baytga, aks holda 4 bayt joyga yoziladi.
 
 ### UTF-8
