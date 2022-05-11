@@ -40,16 +40,13 @@ Bu usul xotiradan yanada ko’proq yutishga harakat qiladi. Agar jadvaldagi belg
 
 Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib ketaversak, bitta belgi qayerda boshlanib, qayerda tugaganini bilmasak, keyin ularni qanday o’qiymiz?  Belgi necha bayt xotiraga yozilganini bildirish uchun UTF-8 da quyidagicha shablon yordamida yoziladi:
 
+
 | Bayt |	Ko’rinishi                       | Maksimal uzunligi |
-------------------------------------------------------------------
+|------|-------------------------------------|-------------------|
 | 1    | 0XXXXXXX                            | 7                 |
-------------------------------------------------------------------
 | 2    | 110XXXXX 10XXXXXX                   | 11                |
-------------------------------------------------------------------
 | 3    | 1110XXXX 10XXXXXX 10XXXXXX          | 16                |
-------------------------------------------------------------------
 | 4    | 11110XXX 10XXXXXX 10XXXXXX 10XXXXXX | 21                |
-------------------------------------------------------------------
 
 Masalan, 1101 soni 00001101 kabi, 11110011 soni esa 11000011 10110011 kabi yoziladi. Hozirda juda ko’p hollarda belgilarni kodlash uchun UTF-8 ishlatiladi.
 
@@ -59,9 +56,13 @@ Endi esa dasturda turlicha kodlash turlarini ishlatishga yordam beruvchi Encodin
 ### Sinfning xususiyatlari (properties)
 
 **Encoding.ASCII** – kodlash turi sifatida ASCII ni o’rnatish uchun ishlatiladi.
+
 **Encoding.UTF32** – kodlash turi sifatida UTF32 tizimini o’rnatish uchun ishlatiladi.
+
 **Encoding.Unicode** – kodlash turi sifatida UTF16 ni o’rnatish uchun foydalanamiz.
+
 **Encoding.UTF8** – kodlash turi sifatida UTF8 ni o’rnatadi.
+
 **Encoding.UTF7** – kodlash turi sifatida UTF7 ni o’rnatadi. (UTF7 UTF8ning kichraytirilgan versiyasi bo’lib, xavfsizlik bilan bog’liq muammolar sabab bu kodlash turidan foydalanish tavsiya etilmaydi)
 
 
