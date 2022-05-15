@@ -6,7 +6,7 @@ description: Sobirjonov O'tkirbek
 
 TextBlock elementi bilan ishlashni avvalgi darsda o’rganib chiqdik, ushbu darsda esa Inline formatlash va Textblock elementiga qo’llanilishini o’rganamiz.
 
-Siz [wikipedia ](https://www.wikipedia.org)yoki shunga o’xshash saytlardan foydalangan bo’lsangiz unda ba’zi so’zlarni rangi boshqa rangda ajratib ko’rsatilgan, yoki yozuvga tag chizig’ qo’yilgan, yoki Giperhavolalar qo’yilgan holatlarga ko’p ko’zingiz tushgani aniq. Huddi shundek yozuvlar formatlarini Textblock elementida qo’llanilishini ko’rib chiqamiz.
+Siz [wikipedia ](https://www.wikipedia.org/)yoki shunga o’xshash saytlardan foydalangan bo’lsangiz unda ba’zi so’zlarni rangi boshqa rangda ajratib ko’rsatilgan, yoki yozuvga tag chizig’ qo’yilgan, yoki Giperhavolalar qo’yilgan holatlarga ko’p ko’zingiz tushgani aniq. Huddi shundek yozuvlar formatlarini Textblock elementida qo’llanilishini ko’rib chiqamiz.
 
 ```aspnet
 <Window x:Class="WpfApp1.MainWindow"
