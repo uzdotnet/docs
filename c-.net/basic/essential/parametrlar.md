@@ -44,7 +44,7 @@ namespace dot_net_uz
         static void Main(string[] args)
         {
             //Sum metodini chaqiramiz.
-            int yigindi = Sum(19, 9, 7, 17, 39, 47);
+            int [] yigindi = Sum(19, 9, 7, 17, 39, 47);
             Console.WriteLine($"yigindi : {yigindi}");
             Console.ReadKey();
         }        
@@ -72,7 +72,7 @@ namespace dot_net_uz
         }
         static void Main(string[] args)
         {
-            int a={19, 9, 7, 17, 39, 47};
+            int [] a={19, 9, 7, 17, 39, 47};
             int yigindi = Sum(a);     // params ishlatmasdan ham metodni bu usulda chaqirish mumkin edi
             Console.WriteLine($"yigindi : {yigindi}");
             
