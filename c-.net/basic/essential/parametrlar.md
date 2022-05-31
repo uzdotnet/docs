@@ -51,7 +51,12 @@ namespace dot_net_uz
     }
 }
 ```
-Output:  **yigindi : 138**
+Output:  
+```
+yigindi : 138
+yigindi : 138
+0
+```
 
 Sizda "**params** kalit so'zidan foydalanmasdan ham metodlarda massivdan foydalanish mumkinku, **params** ni nima keragi bor?" degan savol tug'ilishi mumkin. Javob shunday: **params** kalit so'zi metoddan foydalanishni ancha qulaylashtiradi:
 ```csharp
@@ -132,11 +137,13 @@ hamroliyev
 a
 19
 9
-12,8
+12.8
 
 2-usul:
 19
 dot-net
 20
 Hamroliyev
+3-usul:
+ 
 ```
