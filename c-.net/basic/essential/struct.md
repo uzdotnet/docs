@@ -157,7 +157,7 @@ namespace Struktura
 		private int yosh;
 
 		//yashirin xususiyatni(yosh) ko'rsatuvchi Event
-		public int GetAge()
+		public void GetAge()
 		{
 			Console.WriteLine(yosh);
 		}
