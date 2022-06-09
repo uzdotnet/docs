@@ -105,8 +105,9 @@ Yuqorida ko'rib turganingizdek, ikkala bola sinf(child class) ham TelegramUser s
 
 {% hint style="info" %}
 Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
-    * Ota-sinfda faqat umumiy xususiyatlar va metodlarni belgilang, har qanday o'ziga xoslikni bolalar sinflariga qoldiring.
-    * Ota-sinfni bola sinflari o'ziga xosliklarini to'g'ri taqsimlaydigan bir nechta interfeyslarda  ajrating.
+
+* Ota-sinfda faqat umumiy xususiyatlar va metodlarni belgilang, har qanday o'ziga xoslikni bolalar sinflariga qoldiring.
+* Ota-sinfni bola sinflari o'ziga xosliklarini to'g'ri taqsimlaydigan bir nechta interfeyslarda  ajrating.
 {% endhint %}
 
 **1-usul - o'ziga xos bo'lgan xususiyatlar va metodlar o'sha sinfning o'zida e'lon qilinadi:**
@@ -212,10 +213,8 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
     }
 ```
 
-{% hint style="success" %}
-    Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, 
-    sizda ko'p afzalliklar mavjud. Bularga quyidagilar kiradi: kodni qayta ishlatish, 
-    qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
+{% hint style="info" %}
+    Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, sizda ko'p afzalliklar mavjud. Bularga quyidagilar kiradi: kodni qayta ishlatish, qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
 {% endhint %}
 
 [Foydalanilgan maqola](https://medium.com/@alexandre.malavasi/liskov-substitution-principle-in-c-1f4bdff2b92f)
