@@ -142,6 +142,16 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
         {
             Console.WriteLine("Guruh ma'lumotlarini o'zgartirish uchun ruxsat berilgan");
         }
+        
+        public override void AccessToReadMessages()
+        {
+            base.AccessToReadMessages();
+        }
+
+        public override void AccessToRemoveMessages()
+        {
+            base.AccessToRemoveMessages();
+        }
     }
 ```
 
