@@ -16,7 +16,7 @@ Yuqoridagi ta'riflar tushunish uchun ozgina qiyin bo'lishi mumkin. Shuning uchun
 
 Tasavvur qiling biz telegram guruhidagi a'zolar va adminlar uchun berilgan ruxsatlarni muhokama qilaylik. Bizda telegram foydalanuvchisi - TelegramUser, guruh a'zosi - GroupSubscriber va guruh admini - GroupAdmin sinflari bor.
 
-## TelegramUser sinfi:
+**TelegramUser sinfi:**
 
 ```csharp
     public class TelegramUser
@@ -46,7 +46,7 @@ Tasavvur qiling biz telegram guruhidagi a'zolar va adminlar uchun berilgan ruxsa
     }
 ```
 
-## GroupSubscriber sinfi:
+**GroupSubscriber sinfi:**
 
 ```csharp
     public class GroupSubscriber : TelegramUser
@@ -73,7 +73,7 @@ Tasavvur qiling biz telegram guruhidagi a'zolar va adminlar uchun berilgan ruxsa
     }
 ```
 
-## GroupAdmin sinfi:
+**GroupAdmin sinfi:**
 
 ```csharp
     public class GroupAdmin : TelegramUser
@@ -109,7 +109,7 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
     2. Ota-sinfni bola sinflari o'ziga xosliklarini to'g'ri taqsimlaydigan bir nechta interfeyslarda  ajrating.
 {% endhint %}
 
-## 1-usul - o'ziga xos bo'lgan xususiyatlar va metodlar o'sha sinfning o'zida e'lon qilinadi:
+**1-usul - o'ziga xos bo'lgan xususiyatlar va metodlar o'sha sinfning o'zida e'lon qilinadi:**
 
 ```csharp
     public class TelegramUser
@@ -155,7 +155,7 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
     }
 ```
 
-## 2-usul - quyida ko'rsatilganidek, har bir holat uchun maxsus interfeyslarni yaratishdir:
+**2-usul - quyida ko'rsatilganidek, har bir holat uchun maxsus interfeyslarni yaratishdir:**
 
 ```csharp
     public interface IGroupUser
@@ -215,3 +215,5 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
 {% hint style="success" %}
     Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, sizda ko'p afzalliklar mavjud. Bularga quyidagilar kiradi: kodni qayta ishlatish, qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
 {% endhint %}
+
+[Foydalanilgan maqola](https://medium.com/@alexandre.malavasi/liskov-substitution-principle-in-c-1f4bdff2b92f)
