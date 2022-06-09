@@ -105,7 +105,9 @@ Yuqorida ko'rib turganingizdek, ikkala bola sinf(child class) ham TelegramUser s
 
 {% hint style="info" %}
 Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
+
     1. Ota-sinfda faqat umumiy xususiyatlar va metodlarni belgilang, har qanday o'ziga xoslikni bolalar sinflariga qoldiring.
+    
     2. Ota-sinfni bola sinflari o'ziga xosliklarini to'g'ri taqsimlaydigan bir nechta interfeyslarda  ajrating.
 {% endhint %}
 
