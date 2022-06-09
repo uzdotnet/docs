@@ -143,14 +143,14 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
             Console.WriteLine("Guruh ma'lumotlarini o'zgartirish uchun ruxsat berilgan");
         }
         
-        public override void AccessToReadMessages()
+        public virtual void AccessToReadMessages()
         {
-            base.AccessToReadMessages();
+            Console.WriteLine("Xabarlarni o'qish uchun ruxsat berilgan");
         }
-
-        public override void AccessToRemoveMessages()
+        
+        public virtual void AccessToRemoveMessages()
         {
-            base.AccessToRemoveMessages();
+            Console.WriteLine("Xabarlarni o'chirish uchun ruxsat berilgan");
         }
     }
 ```
