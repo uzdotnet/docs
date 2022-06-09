@@ -213,8 +213,6 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
     }
 ```
 
-{% hint style="info" %}
     Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, sizda ko'p afzalliklar mavjud. Bularga quyidagilar kiradi: kodni qayta ishlatish, qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
-{% endhint %}
 
 [Foydalanilgan maqola](https://medium.com/@alexandre.malavasi/liskov-substitution-principle-in-c-1f4bdff2b92f)
