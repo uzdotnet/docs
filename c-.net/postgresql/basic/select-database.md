@@ -10,7 +10,7 @@ PostgreSQL'da database'ga ulanishni 2 xil usuli mavjud:
 * pgAdmin yordamida ulanish
 * SQL terminali yordamida ulanish
 
-#### Keling birinchi pgAdmin orqali bizda mavjud bo'lgan database'ga ulanishni ko'rib chiqamiz:
+#### Keling, birinchi pgAdmin orqali bizda mavjud bo'lgan database'ga ulanishni ko'rib chiqamiz:
 
 ![](https://user-images.githubusercontent.com/91861166/175083286-aad2f3e4-2c80-4636-909d-708ab25f3e88.png)
 
