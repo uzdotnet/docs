@@ -14,16 +14,16 @@ PostgreSQL'da database'ga ulanishni 2 xil usuli mavjud:
 
 ![](https://user-images.githubusercontent.com/91861166/175083286-aad2f3e4-2c80-4636-909d-708ab25f3e88.png)
 
-
 Yuqoridagi ketma-ketlikni bajarganingizdan so'ng, siz o'zingiz tanlagan database'ga ulanasiz.
 
 Ulanishingiz bilan sizga yangi oyna paydo bo'ladi va bu yerda siz SQL querylarini yozishingiz mumkin.
 
-![image](https://user-images.githubusercontent.com/91861166/175180978-09b6b79e-3ade-48cf-bef3-fed131e25620.png)
+![](https://user-images.githubusercontent.com/91861166/175180978-09b6b79e-3ade-48cf-bef3-fed131e25620.png)
+
 
 #### Endi esa ikkinchi yo'l, SQL terminali orqali database'ga ulanishni ko'rib chiqamiz:
 
-SQL terminalini ochamiz va unga '\l' buyrug'ini kiritish orqali bizda mavjud database'lar ro'yxati ko'rishimiz mumkin:
+SQL terminalini ochamiz va unga **'\l'** buyrug'ini kiritish orqali bizda mavjud database'lar ro'yxati ko'rishimiz mumkin:
 
 ![](https://user-images.githubusercontent.com/91861166/175084272-9b09d493-3212-43af-b52d-552066c3bc0b.png)
 
