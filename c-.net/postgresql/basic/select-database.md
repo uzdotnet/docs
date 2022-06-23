@@ -19,7 +19,7 @@ Yuqoridagi ketma-ketlikni bajarganingizdan so'ng, siz o'zingiz tanlagan database
 
 Ulanishingiz bilan sizga yangi oyna paydo bo'ladi va bu yerda siz SQL querylarini yozishingiz mumkin.
 
-![](https://user-images.githubusercontent.com/91861166/175083756-6aba18b6-6ef8-4071-80e0-98143a525979.png)
+![image](https://user-images.githubusercontent.com/91861166/175180978-09b6b79e-3ade-48cf-bef3-fed131e25620.png)
 
 #### Endi esa ikkinchi yo'l, SQL terminali orqali database'ga ulanishni ko'rib chiqamiz:
 
@@ -31,6 +31,8 @@ Database'ga ulanish uchun '\c' buyrug'idan foydalanamiz:
 
 Quyida biz 'dotnetuz' database'ga ulanamiz.
 
+```
 postgres=# \c dotnetuz
+```
 
 ![](https://user-images.githubusercontent.com/91861166/175084511-094d930b-afc1-45f6-998b-0182165410bb.png)
