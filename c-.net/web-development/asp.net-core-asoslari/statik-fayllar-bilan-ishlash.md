@@ -1,0 +1,2 @@
+# Statik fayllar bilan ishlash
+

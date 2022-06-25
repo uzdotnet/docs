@@ -24,7 +24,7 @@ Uni bu yerdan topasiz:\
 Windows: [https://visualstudio.microsoft.com/vs/preview/](https://visualstudio.microsoft.com/vs/preview/)\
 Mac:[https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2019-mac-relnotes)
 
-![](<../../../.gitbook/assets/image (29) (1) (1) (1) (1) (2) (2) (2) (2) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (29) (1) (1) (1) (1) (2) (2) (2) (2) (1) (1) (1) (1) (1).png>)
 
 Qizil chiziq ichidagi knopkani bosasiz. So’ngra fayllar orasidan installation (o’rnatuvchi dasturini) topib **Run as administrator** ni bosib, ishga tushirasiz.
 

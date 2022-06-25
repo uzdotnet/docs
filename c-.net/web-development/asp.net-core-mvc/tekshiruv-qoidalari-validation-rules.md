@@ -1,0 +1,2 @@
+# Tekshiruv qoidalari (Validation rules)
+
