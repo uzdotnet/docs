@@ -1,0 +1,2 @@
+# Obyektni ishga tushiruvchilar
+

@@ -41,6 +41,7 @@
       * [CMD argumentlari](c-.net/basic/essential/cmd-argumentlari.md)
       * [Obyekt va Class lar](c-.net/basic/essential/obyekt-va-sinflar.md)
       * [Konstruktor](c-.net/basic/essential/konstruktor.md)
+      * [Obyektni ishga tushiruvchilar](c-.net/basic/essential/obyektni-ishga-tushiruvchilar.md)
       * [Destructor](c-.net/basic/essential/destructor.md)
       * [this](c-.net/basic/essential/this.md)
       * [static](c-.net/basic/essential/static.md)
