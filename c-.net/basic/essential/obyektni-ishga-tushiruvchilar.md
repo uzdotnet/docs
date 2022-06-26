@@ -4,7 +4,6 @@ description: Zohidbek Mengliboyev
 
 # Obyektni ishga tushiruvchilar
 
-Obyektni ishga tushiruvchilar(Object Initializers)
 Yaxshi! Bundan avvalgi mavzuda biz konstruktorlar haqida bilib oldik. Bilasizki, biz obyektni ishga tushirish va uni C# da dastlabki holatga keltirish uchun konstruktordan foydalanamiz. Obyektni initsializatsiya qilishning yana bir yo'li mavjud va u obyektni ishga tushiruvchilar(object initializers) vositasidan foydalanadi. Bu ficha C# 3.0 yoki undan yuqori versiyalarida kiritilgan. Obyektni ishga tushiruvchi(object initializer) - bu oddiy sintaksis yoki obyektni uning konstruktorlaridan birini chaqirmasdan tezda ishga tushirish. Xo’sh, bu bizga bir nechta yoki undan ko’p konstruktorlarni tuzishdan qochish uchun kerak. Keling, bir misol keltiraman. Tasavvur qiling-a, bizda bu inson sinfi ko'p maydonlarga ega. Endi bu juda oddiy misol. Bu yerda faqat to‘rtta maydonimiz bor. Haqiqiy yirik loyihalarda sizda yana bir nechta maydonlar bo'lishi mumkin:
 
 ```csharp
