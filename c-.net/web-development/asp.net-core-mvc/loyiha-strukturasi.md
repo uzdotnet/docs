@@ -27,6 +27,7 @@ Umuman olganda, loyihani ikki xil yo'l bilan yaratish mumkin:
 {% endhint %}
 
 Loyihamiz quyidagi papkalardan tashkil topadi:
+
 ![](../../../.gitbook/assets/structure_of_mvc.png)
 
 * /Controllers papkasi- Controller sinfdan voris olgan barcha controllerlarni saqlaydi.
