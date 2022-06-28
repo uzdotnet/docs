@@ -1,8 +1,14 @@
 ---
-description: Temur G'aniyev
+description: Temur G'aniyev, Ravshan Sodiqov
 ---
 
 # Loyiha struktruasi
+
+ASP.NET Core .NET ning dinamik veb saytlarni qurishda mo’ljallangan frameworki hisoblansa, ASP.NET Core MVC esa mana shu dinamik veb saytlarning arxitekturasi hisoblanadi. Ushbu MVC arxitekturasi veb saytni asosiy uch qismga ajratgan holda qurish imkonini beradi:
+
+*	 Models
+*	 Views
+*	 Controllers
 
 Loyiha yaratish uchun dastlab D: diskda **dotnetuz** nomli papka yaratamiz so\'ng va bu papkani vs code dasturi orqali kiramiz. MVC turidagi loyiha yaratish uchun terminalga kirib \( ctrl + ` \) ushbu kommandalarni kiritamiz:
 
@@ -25,3 +31,8 @@ Natijada ushbu loyiha shabloni dotnet tomonidan yaratilib beriladi.
 * Program.cs- Dastlabki ishga tushuvchi fayl.
 * Startup.cs- MVC loyihaning service larni, middleware larni va asosiy sozlamalarni o'zida jamlovchi Program.cs fayl tomonidan chaqiriluvchi fayli.
 
+
+
+{% hint style="info" %}
+DIQQAT !  .NET 5 muhitida yaratiladigan ASP.NET Core MVC loyihalarida loyiha uchun talab qilinadigan xizmatlar sozlamalari Startup.cs faylida, dasturni ishga tushirish kodi esa Program.cs faylida saqlanardi. .NET 6 da esa ushbu ikki fayl yagona Program.cs faylida saqlanadi.
+{% endhint %}
