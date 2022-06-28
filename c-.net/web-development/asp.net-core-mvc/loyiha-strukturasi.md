@@ -18,6 +18,13 @@ Loyiha yaratish uchun dastlab D: diskda **dotnetuz** nomli papka yaratamiz so\'n
 
 Natijada ushbu loyiha shabloni dotnet tomonidan yaratilib beriladi.
 
+{% hint style="info" %}
+Umuman olganda, loyihani ikki xil yo'l bilan yaratish mumkin:
+  **dotnet new mvc** - da loyiha joylashgan papka nomi bilan ataladi
+  **dotnet new mvc -o <loyiha_nomi>** - da papka ichida boshqa nom ostida loyiha yaratish mumkin
+{% endhint %}
+
+Loyihamiz quyidagi papkalardan tashkil topadi:
 ![](../../../.gitbook/assets/structure_of_mvc.png)
 
 * /Controllers papkasi- Controller sinfdan voris olgan barcha controllerlarni saqlaydi.
