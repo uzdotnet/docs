@@ -4,7 +4,7 @@ description: Ravshan Sodiqov
 
 # View
 
-**Views** - Frontend dasturchilar tomonidan ishlab chiqiladigan veb sahifalar uchun foydalanuvchi interfeyslari, ya’ni ma`lumotlarni foydalanuvchilar uchun qulay dizayn asosida taqdim etish. ASP.NET Core frameworkida ko’rinishlar asosan Razor sahifalar sifatida tasvirlanadi. Razor sahifalar - HTML sahifalarning C#, F# va VBA dasturlash tillariga mansub kodlar bilan integrallashgan shaklidir (.cshtml kengaytma ostida). Ushbu Razor sahifalarni HTML shabloniga ega dinamik veb sahifalar deb ham atash mumkin. 
+**Views**  Frontend dasturchilar tomonidan ishlab chiqiladigan veb sahifalar uchun foydalanuvchi interfeyslari, ya’ni ma`lumotlarni foydalanuvchilar uchun qulay dizayn asosida taqdim etadi. ASP.NET Core frameworkida ko’rinishlar asosan Razor sahifalar sifatida tasvirlanadi. Razor sahifalar - HTML sahifalarning C#, F# va VBA dasturlash tillariga mansub kodlar bilan integrallashgan shaklidir (.cshtml kengaytma ostida). Ushbu Razor sahifalarni HTML shabloniga ega dinamik veb sahifalar deb ham atash mumkin. 
 
 ASP.NET Core MVC asosida quriladigan loyihalarning veb sahifalari «Views» papkasida saqlanadi. Namunaviy holda taqdim etiladigan «Views» papkasi quyidagicha tuzilishga ega bo’ladi:
 *	«Home» papkasi
