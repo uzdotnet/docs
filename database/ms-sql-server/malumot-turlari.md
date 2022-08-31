@@ -8,7 +8,8 @@ SQL Server kelajakdagi versiyasida ntext , text , va image ma'lumotlar turlarini
 {% endhint %}
 
 SQL tilida quyidagi ma'lumot turlari bor: 
-1. Exact numerics:
+
+**Exact numerics**:
 * smallint
 * int
 * bigint
@@ -19,29 +20,35 @@ SQL tilida quyidagi ma'lumot turlari bor:
 * numeric
 * smallmoney
 * tinyint
-2. Approximate numerics:
+
+**Approximate numerics**:
 * float
 * real
-3. Date and Time:
+
+**Date and Time**:
 * date
 * dateTime
 * dateTime2
 * dateTimeOffSet
 * smallDateTime
 * time
-4. Character strings:
+
+**Character strings**:
 * char
 * varchar
 * text
-5. Unicode Character strings:
+
+**Unicode Character strings**:
 * nchar
 * nvarchar
 * ntext
-6. Binary strings:
+
+**Binary strings**:
 * binary
 * varbinary
 * image
-7. Other data types:
+
+**Other data types**:
 * cursor
 * rowversion
 * hierarchyid
