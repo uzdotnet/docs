@@ -54,12 +54,11 @@ Saqlash mexanizmi disklar va SAN kabi saqlash tizimlaridan ma'lumotlarni saqlash
 
 ### SQLOS
 Relyatsion vosita va saqlash mexanizmi ostida SQL Server operatsion tizimi yoki SQLOS mavjud.
-
 SQLOS xotira va kiritish-chiqarish boshqaruvi kabi ko'plab operatsion tizim xizmatlarini taqdim etadi. Boshqa xizmatlarga istisnolarni qayta ishlash va sinxronizatsiya xizmatlari kiradi.
-
 SQL Server Arxitekturasi haqida yana alohida to'xtalamiz.
 Microsoft SQL Server bilan qo'shimcha Business Intelligence ni ham taqdim etgan.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 Ikki xil atama bor. SQL Server va SSMS. Ikkisi ham ikki xil narsa.
 
 **SQL Server** bu ma'lumotlar bazasi, **SQL Server Management Studio (SSMS)** foydalanuvchi tomonidan SQL Server ma'lumotlar bazasiga  SQL so'rovlarini yozish va bajarish uchun ishlatilishi mumkin bo'lgan vosita.
