@@ -19,11 +19,9 @@ SQL tilida quyidagi ma'lumot turlari bor:
 * numeric
 * smallmoney
 * tinyint
-
 2. Approximate numerics:
 * float
 * real
-
 3. Date and Time:
 * date
 * dateTime
@@ -31,22 +29,18 @@ SQL tilida quyidagi ma'lumot turlari bor:
 * dateTimeOffSet
 * smallDateTime
 * time
-
 4. Character strings:
 * char
 * varchar
 * text
-
 5. Unicode Character strings:
 * nchar
 * nvarchar
 * ntext
-
 6. Binary strings:
 * binary
 * varbinary
 * image
-
 7. Other data types:
 * cursor
 * rowversion
@@ -106,6 +100,7 @@ Standart string YYYY-MM-DD hs:dd:ss[.nnnnnnn] [{+|-}ss:mm].
 26 belgidan max 34 tagacha.
 
 Xotira:
+
 ![](https://user-images.githubusercontent.com/91861166/187734226-9d083c6e-b278-4409-b9ef-ddd4d5ee004a.png)
 
 * smalldatetime - Kunning vaqti bilan birlashtirilgan sanani belgilaydi. Vaqt 24 soatlik kunga asoslanadi, soniyalar har doim nolga (:00) va kasr soniyalarsiz. Max belgi 19. Standart string yo'q. default 1900-01-01 00:00:00. Size: 4bite.
@@ -113,6 +108,7 @@ Xotira:
 
 ## Character strings
 * Character strings typelari (char, varchar,text) Unicode bo'lmagan tarzda saqlaydigan datatype hisoblanadi. Ya'ni 1 belgi uchun 1 bayt ajratadi. VAR - VARYING - o'zgaruvchi ma'nosida.
+
 ![Character strings](https://user-images.githubusercontent.com/91861166/187733851-6bc7258a-b16d-496f-b973-3dd50698ffab.png)
 
 * CHAR - max uzunligi 1 dan 8000 baytgacha. E'lon qilinishi char(n). Default 1.
