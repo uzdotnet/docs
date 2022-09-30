@@ -3,6 +3,7 @@
 * [.NET Uzbekistan](README.md)
 * [C# / .NET](c-.net/README.md)
   * [.NET ga xush kelibsiz](c-.net/dotnetga-xushkelibsiz.md)
+  * [.NET bilan bog'liq mavhumliklardan qochish](c-.net/.net-bilan-bogliq-mavhumliklardan-qochish.md)
   * [.NET asoslari](c-.net/.net-asoslari/README.md)
     * [MSIL](c-.net/.net-asoslari/msil.md)
     * [CLR](c-.net/.net-asoslari/clr.md)
