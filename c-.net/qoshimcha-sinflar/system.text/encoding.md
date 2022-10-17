@@ -27,7 +27,7 @@ Xulosa:
 
 ### UTF-32
 
-ASCII dan foydalanib belgilarni kodlash imkoniyati paydo bo’lgan bo’lsada, hali jadvalga kiritilmagan minglab belgilar bor edi: matematik formulalarda ishlatiladigan grek harflari (α, β …), yapon, xitoy va boshqa tillardagi harflar, smayliklar, … . Shuning uchun avvalgi jadvalni kengaytirish zarurati paydo bo’ldi va UTF (Unicode Transformation Format) yaratildi. UTF-32 da har bitta harf 32 bit = 4 bayt xotiraga yoziladi.
+ASCII dan foydalanib belgilarni kodlash imkoniyati paydo bo’lgan bo’lsada, hali jadvalga kiritilmagan minglab belgilar bor edi: matematik formulalarda ishlatiladigan grek harflari (α, β …), yapon, xitoy va boshqa tillardagi harflar, smayliklar, … . Shuning uchun avvalgi jadvalni kengaytirish zarurati paydo bo’ldi va UTF (Unicode Transformation Format) yaratildi. UTF-32 da har bitta harf 32 bit = 4 bayt xotiraga yoziladi. Unicode yordamida 100 000 ga yaqin belgilarni kodlash mumkin.
 
 Avvalgi muammo hal etildi, insonlar ishlatadigan barcha belgilar jadvalga kiritildi. Biroq, har bitta belgini 4 bayt joy band qilishi biroz qimmatga tushardi: bu usul avvalgi holga nisbatan 4 barobar ko’proq xotirani band qilardi. Xotiradan foydalanishni kamaytirish maqsadida o’zgaruvchan usulda kodlash tizimlari – UTF-16, keyinroq UTF-8 ishlab chiqildi.
 
