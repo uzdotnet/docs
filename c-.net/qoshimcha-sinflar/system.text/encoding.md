@@ -13,6 +13,7 @@ Masalan, 13 sonining ikkilikdagi ko’rinishi 1101 ni saqlash uchun 4 bit yetarl
 Agar sonni emas, biror belgini yoki belgilardan tashkil topgan satrni saqlamoqchi bo’lsakchi?
 
 ### ASCII
+![ASCII jadvali](https://user-images.githubusercontent.com/91861166/196095625-c8a04828-7a6f-41a5-836b-b0ebd380f1b9.png)
 
 Dastlab bu muammoni hal qilish uchun 1963-yilda ASCII (American Standart Code Information Interchange) jadvali ishlab chiqildi. Bu jadvalga 128 ta belgi kiritilgan bo’lib, ular 0 dan 127 gacha raqamlangan. Jadvaldan foydalangan holda xotiraga yozish uchun har bir belgiga mos keladigan raqam ikkilik sanoq sistemasiga o’tkazib xotiraga yozilgan. 0 dan 127 gacha bo’lgan sonlarning ikkilikdagi ko’rinishi maksimum 7 xonali bo’ladi. Demak, bu sonlarni ifodalash uchun xotiradan 7 bit xotira ajratiladi. Bundan tashqari, kengaytirilgan ASCII jadvallari ham mavjud bo’lib, bunday jadvallarda belgilar 0 dan 255 gacha raqamlarga mos qo’yilgan. Ularning barchasida dastlabki 128 ta belgi ketma-ketligi bir xil, keyingi 128 ta joyga boshqa tillardagi harflarni joylashga harakat qilishgan. Ko’pgina kompaniyalar o’zi uchun alohida kengaytirilgan jadvalni hosil qilishgani uchun, keyingi 128 ta belgining turlicha talqinlari paydo bo’lib, bu ham muammolarga sabab bo’lgan. Kengaytirilgan ASCII jadvallarida belgi xotiradan 8 bit = 1 bayt joy egallaydi.
 
@@ -42,7 +43,7 @@ Xulosa:
 
 Bu usul xotiradan yanada ko’proq yutishga harakat qiladi. Agar jadvaldagi belgining tartib raqami ikkilikdagi uzunligi 8 dan kichik bo’lsa 1 bayt joyga, aks holda uzunligiga qarab 2, 3 yoki 4 bayt xotiraga yoziladi. Bundan tashqari, UTF-8 jadvalidagi dastlabki 256 ta belgi ASCII bilan aynan mos keladi. Demak, ko’proq ASCII jadvalida mavjud belgilar ishlatilgan matnni kodlashda UTF-8 xotira bo’yicha katta ustunlikka ega bo’ladi, chunki bu belgilar 1 bayt joy egallaydi xolos (UTF-32 4 baytni band qilardi).
 
-Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib ketaversak, bitta belgi qayerda boshlanib, qayerda tugaganini bilmasak, keyin ularni qanday o’qiymiz? Belgi necha bayt xotiraga yozilganini bildirish uchun UTF-8 da quyidagicha shablon yordamida yoziladi:
+Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib ketaversak, bitta belgi qayerda boshlanib, qayerda tugaganini bilmasak, keyin ularni qanday o’qiymiz? Belgi necha bayt xotiraga yozilganini bildirish uchun UTF-8 da quyidagicha shablon ko'rinishida yoziladi:
 
 | Bayt | Ko’rinishi                          | Maksimal uzunligi |
 | ---- | ----------------------------------- | ----------------- |
@@ -52,6 +53,8 @@ Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib
 | 4    | 11110XXX 10XXXXXX 10XXXXXX 10XXXXXX | 21                |
 
 Masalan, 1101 soni 00001101 kabi, 11110011 soni esa 11000011 10110011 kabi yoziladi. Hozirda juda ko’p hollarda belgilarni kodlash uchun UTF-8 ishlatiladi.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Endi esa dasturda turlicha kodlash turlarini ishlatishga yordam beruvchi Encoding sinfi haqida gaplashamiz. Bu sinf `System.Text` nomlar makoniga tegishli abstrakt sinf bo’lib, `IClonable` interfeysidan meros olgan.
 
