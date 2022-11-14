@@ -34,7 +34,7 @@ app.UseEndpoints(endpoints =>
 });
 ```
 
-Model binding
+## Model binding
 
-editing....
+**Model binding** - ASP.NET Core MVC da **Http so'rovdan kelayotgan malumotlarni ajratib olib** ularni **Controller ning Action parametrlariga** avtomatik tarzda bog'lovchi xususiyatdir. Ushbu holda Action parametrlari oddiy turlar int,bool,char,... dan tortib compex murakab turlar ham bo'lishi mumkin: Student,People,... 
 
