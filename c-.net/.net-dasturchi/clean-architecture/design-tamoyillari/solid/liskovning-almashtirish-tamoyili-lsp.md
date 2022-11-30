@@ -4,12 +4,12 @@ description: Nodirbek Abdulaxadov
 
 # Liskovning Almashtirish Tamoyili\(LSP\)
 
-Obyektga yo'naltirilgan dasturlashdagi vorislik - bu tizim bo'ylab ota-sinfdan(base class) amalga oshirishni bolalar sinflari(child class) ichida qayta ishlatishga imkon beruvchi xususiyat bo'lib, bu vorislikning asosiy afzalliklaridan birini ifodalaydi. Ammo, biz hal qilmoqchi bo'lgan yoki mavhumlashtirmoqchi bo'lgan ma'lum bir domen(model) uchun sinflarni loyihalashda, ba'zi yaxshi amaliyotlar (yoki yomonlari) uzoq muddatda dasturiy ta'minotning umumiy barqarorligiga ta'sir qilishi mumkin.
+Obyektga yo'naltirilgan dasturlashdagi vorislik - bu tizim bo'ylab ota-sinfdagi(base class) xususiyatlarni bola sinflari(child class) ichida qayta ishlatishga imkon beruvchi xususiyat bo'lib, bu vorislikning asosiy afzalliklaridan biridir. Ammo, biz hal qilmoqchi bo'lgan yoki mavhumlashtirmoqchi bo'lgan ma'lum bir domen(model) uchun sinflarni loyihalashda, ba'zi yaxshi amaliyotlar (yoki yomonlari) uzoq muddatda dasturiy ta'minotning umumiy barqarorligiga ta'sir qilishi mumkin.
 
-Asosan, meros ushbu manbadan foydalanishni oqlash uchun etarlicha o'xshashliklarga ega bo'lgan sinflar o'rtasida foydalanish uchun mo'ljallangan. Agar bolalar sinflari(child class) ular uchun mantiqiy bo'lmagan xususiyat va metodlarga ega bo'lishni boshlasa, hatto ular ota-ona sinfidan(base class) bo'lsa ham, meros haqida yana bir bor o'ylab ko'rish vaqti keldi.
+Asosan, meros ushbu manbadan foydalanishni oqlash uchun yetarlicha o'xshashliklarga ega bo'lgan sinflar o'rtasida foydalanish uchun mo'ljallangan. Agar bola sinflari(child class) ular uchun mantiqiy bo'lmagan xususiyat va metodlarga ega bo'lishni boshlasa, hatto ular ota-ona sinfidan(base class) bo'lsa ham, meros haqida yana bir bor o'ylab ko'rish vaqti keladi.
 
 {% hint style="info" %}
-**Liskov almashtirish printsipi (Liskov Substitution Principle)** - _yuqori sinf obyektlari dasturni buzmasdan uning kichik sinflari obyektlari bilan almashtirilishi kerak. Bu sizning pastki sinflaringiz obyektlari sizning yuqori sinfingiz obyektlari kabi harakat qilishini talab qiladi._
+**Liskovning almashtirish printsipi (Liskov Substitution Principle)** - _yuqori sinf obyektlari dasturni buzmasdan uning kichik sinflari obyektlari bilan almashtirilishi kerak. Bunda sizning pastki sinflaringiz obyektlari sizning yuqori sinfingiz obyektlari xususiyatlarini o'z ichiga olishi talab qiladi._
 {% endhint %}
 
 Yuqoridagi ta'riflar tushunish uchun ozgina qiyin bo'lishi mumkin. Shuning uchun keling bularni amalda qo'llab tushinishga harakat qilamiz.
@@ -213,6 +213,7 @@ Liskov printsipini qo'llash uchun ikkita yondashuv mavjud:
     }
 ```
 
-    Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, sizda ko'p afzalliklar mavjud. Bularga quyidagilar kiradi: kodni qayta ishlatish, qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
+    Agar sizning kodingiz Liskov almashtirish printsipiga rioya qilsa, sizda ko'p afzalliklar mavjud: 
+kodni qayta ishlatish, qisqartirilgan ulanish va oson texnik xizmat ko'rsatish.
 
 [Foydalanilgan maqola](https://medium.com/@alexandre.malavasi/liskov-substitution-principle-in-c-1f4bdff2b92f)
