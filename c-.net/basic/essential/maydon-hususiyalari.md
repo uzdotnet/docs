@@ -4,14 +4,13 @@ description: Asronov Abdullo
 
 # Field and Properties
 
-Field- Bu so'zni o'zbekchaga tarjima qilsak "MAYDON" degan ma'noni beradi. Lekin bizda  C# Field nima, uni qayerda ishlatishiz mumkin kabi savol tug'ilishi mumkin.  
+Field- Bu so'zni o'zbekchaga tarjima qilsak **MAYDON** degan ma'noni beradi. Lekin bizda  C# Field nima, uni qayerda ishlatishiz mumkin, kabi savollar tug'ilishi mumkin.  
 
-C# dasturlash tilida  Field  bu  to'g'ridan-to'g'ri "Class" yoki "Strukturada" e'lon qilingan har qanday turdagi o'zgaruvchidir;  Yana Classning ichidagi har qanday tipdagi o'zgaruvchi; 
+C# dasturlash tilida  Field  bu  to'g'ridan-to'g'ri "Class" yoki "Strukturada" e'lon qilingan har qanday turdagi o'zgaruvchidir;  Ya'ni Classning ichidagi har qanday tipdagi o'zgaruvchi.
 
-Fieldning Asosiy Vazifasi - U asosan ma'lumot saqlashga ishlatiladi. Ko'p hollarda fieldni private(yani Classning shaxsiy o'zgaruvchisi) holda ochiladi va bu fieldni biz faqat "Class" ni ichida foydalana olamiz . Aniqrogi shu classdan obyekt olinganda unga to'gridan to'gri murojat qila olmaymiz. Lekin boshqa tiplarda ham ochish mumkin; bu haqda keyingi Modifikatorlarga ruxsat berish mavzusida aniqroq tushunib olasiz.
+Field asosan ma'lumot saqlashga ishlatiladi. Ko'p hollarda fieldni private(yani Classning shaxsiy o'zgaruvchisi) holda ochiladi va bu fielddan biz faqat "Class" ning ichida foydalana olamiz . Aniqrogi shu classdan obyekt olinganda unga to'gridan to'gri murojat qila olmaymiz. Lekin boshqa tiplarda ham ochish mumkin; bu haqda keyingi Modifikatorlarga ruxsat berish mavzusida aniqroq tushunib olasiz.
 
-Keling sizlar bilan Field ga oid bir misol kurib chiqamiz.
-
+Keling sizlar bilan Field ga oid bir misol kurib chiqamiz:
 ```csharp
 using System;
 
@@ -43,7 +42,7 @@ namespace Field
 }
 ```
 
-Property ga keladigan bulsak u Hususiyat degan manoni bildiradi.
+Property ga keladigan bulsak u **Xususiyat** degan ma'noni bildiradi.
 
 Uning Asosiy vazifasi malumot tashishdan iborat.
 
