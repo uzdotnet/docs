@@ -4,13 +4,13 @@ description: Nodirbek Abdulaxadov
 
 # XML Document bilan ishlash
 
-**XML** \(e**X**tensible **M**arkup **L**anguage\) - kengaytirilgan markerlash tili degan ma'noni anglatadi va SGML \(**S**tandard **G**eneralized **M**arkup **L**anguage\) standart umumlashtirilgan markerlash tilidan olingan matnga asoslangan markerlash tilidir.
+**XML** (e**X**tensible **M**arkup **L**anguage) - kengaytirilgan markerlash tili degan ma'noni anglatadi va SGML (**S**tandard **G**eneralized **M**arkup **L**anguage) standart umumlashtirilgan markerlash tilidan olingan matnga asoslangan markerlash tilidir.
 
 {% hint style="success" %}
 **XML** teglari HTML teglari kabi ma'lumotlarni ko'rsatish uchun ishlatilmaydi. Aksincha, **XML** - ma'lumotlarni saqlash va tartibga solish uchun ishlatiladi. Yaqin kelajakda **XML** HTML o'rnini bosmaydi, lekin u HTML ning ko'plab muvaffaqiyatli xususiyatlarini qo'llash orqali yangi imkoniyatlarni ochib beradi.
 {% endhint %}
 
-**XML** hujjatlar bilan ishlash uchun C\# dasturlash tilida [**System.Xml**](https://docs.microsoft.com/en-us/dotnet/api/system.xml?view=net-5.0) nomlar fazosidagi asosan quyidagi sinflardan foydalaniladi:
+**XML** hujjatlar bilan ishlash uchun C# dasturlash tilida [**System.Xml**](https://docs.microsoft.com/en-us/dotnet/api/system.xml?view=net-5.0) nomlar fazosidagi asosan quyidagi sinflardan foydalaniladi:
 
 * [**XmlDocument**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument?view=net-5.0)
 * [**XmlConvert**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlconvert?view=net-5.0)
@@ -51,7 +51,9 @@ XmlNode xnode = document.CreateXmlDeclaration("1.0", "UTF-8", null);
 document.AppendChild(xnode);
 ```
 
-{% hint style="info" %}Xml da yangi element hosil qilish XmlNode sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.{% endhint %}
+{% hint style="info" %}
+Xml da yangi element hosil qilish XmlNode sinfining CreateElement metodi, elementga qiymat berish uchun esa CreateTextNode metodidan foydalanamiz.
+{% endhint %}
 
 Talabalar nomli bosh elementni yaratamiz va uni documentga qo'shamiz:
 
@@ -91,12 +93,13 @@ document.Save("Talabalar.xml");
 
 **Natijamiz:**
 
-![](../../../.gitbook/assets/xml_1.png)
+![](../../../.gitbook/assets/xml\_1.png)
 
 ## 2. [**XmlWriter**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmlwriter?view=net-5.0) sinfi yordamida:
 
 {% hint style="info" %}
 XmlWriter sinfining metodlari:
+
 * Create - Yangi hujjat obyektini yaratish
 * WriteStartDocument - Yangi hujjat yozishni boshlash
 * WriteStartElement - Yangi element ochish
@@ -149,7 +152,7 @@ writer.WriteEndDocument();
 writer.Flush();
 ```
 
-## 3. **XML** hujjat hosil qilish uchun C\# dasturlash tilida [**System.Xml.Linq**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq?view=net-5.0) nomlar fazosidagi [**XElement**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq.xelement?view=net-5.0) sinfidan ham foydalansak bo'ladi:
+## 3. **XML** hujjat hosil qilish uchun C# dasturlash tilida [**System.Xml.Linq**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq?view=net-5.0) nomlar fazosidagi [**XElement**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq.xelement?view=net-5.0) sinfidan ham foydalansak bo'ladi:
 
 Va nihoyat men yoqtirgan usulga ham yetib keldik 😄!
 
@@ -171,7 +174,7 @@ XElement talabalar =
 
 ## 4. **XML** hujjatni JSON fayllar kabi [Serialize](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/) qilish orqali ham yaratishimiz mumkin. Buning uchun bizga [**System.Xml.Serialization**](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization?view=net-5.0) nomlar fazosidagi sinflar kerak bo'ladi.
 
-Dastlab Talaba modelimizga [Serializable] attributini qo'shishimiz kerak bo'ladi:
+Dastlab Talaba modelimizga \[Serializable] attributini qo'shishimiz kerak bo'ladi:
 
 ```csharp
 [Serializable]
@@ -207,11 +210,10 @@ TextWriter twriter = new StreamWriter("Talabalar.xml");
 
 serializer.Serialize(twriter, talabalar);
 twriter.Close();
-
 ```
 
 **Natijamiz:**
 
-![](../../../.gitbook/assets/xml_2.png)
+![](../../../.gitbook/assets/xml\_2.png)
 
 _Qachondir davomi bor yana ;)_

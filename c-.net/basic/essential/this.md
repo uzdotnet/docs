@@ -24,7 +24,6 @@ class p
 }
 ```
 
-
 \
 Bu dasturda nima jarayon ketayotganini bilsangiz kerak agar bilmasangiz qisqacha yana tushuntirib o’tib ketaman. Demak diqqat qilamiz!.
 
@@ -54,9 +53,7 @@ class p
         y = y;
     }
 }
-
 ```
-
 
 \
 Bu yerda avvalgi classdan farqi 2-konstruktorga 2 ta argument nomlari class xossalarining nomlari bilan bir xil bo'lib qoldi. **this** xuddi shu holatda kerak. Ya'ni, agar biz konstruktorda xossaning nomlaridan argument sifatida foydalansak shu kalit so’zdan foydalanmiz. Ammo, sizda “nega unday qilayabmiz” degan savol tug’ilgan bulishi mumkin albatta. Agar, **this** dan foydalanmasak konstruktorda xossaga qiymat berishda nizolar kelib chiqishi mumkin (ya'ni xatoliklar) . Bu yerda huddiki xossaga o'ziga-o'zini ta'minlaganday bo'lib qoladi. this dan foydalanishni quyidagi misolda ko'rishingiz mumkin.
@@ -77,12 +74,10 @@ class p
         this.y = y;
     }
 }
-
 ```
 
+\\
 
-\
+Endi hech qanday xatoliklar bo'lmaydi this.x bu o'sha classdagi xossa deb hisoblanadi x ni uzi esa konstruktordagi argument sifatida qabul qilinadi. Keyingi qatorda ham xuddi shu xolat bajariladi. Konstruktorda classning xossa nomlaridan foydalanish yaxshiroq. Chunki ba'zi xossalar **private** (yani faqat shu classni ichida foydalanish mumkin) bo'lsa, o'sha classni obyektini yaratgan paytimiz unga konstruktor orqali qiymat bera olamiz.
 
-Endi hech qanday xatoliklar bo'lmaydi this.x bu o'sha classdagi xossa deb hisoblanadi x ni uzi esa konstruktordagi argument sifatida qabul qilinadi. Keyingi qatorda ham xuddi shu xolat bajariladi. Konstruktorda classning xossa nomlaridan foydalanish yaxshiroq. Chunki ba'zi xossalar **private** (yani faqat shu classni ichida foydalanish mumkin)  bo'lsa, o'sha classni obyektini yaratgan paytimiz unga konstruktor orqali qiymat bera olamiz.&#x20;
-
-Xulosa qilib aytganda, agar biz konstruktorda argumentlarni nomlashda xossa nomlaridan foydalansak,  **this** dan foydalanar ekanmiz xolos. this haqida ma'lumotga ega bo'ldingiz degan umiddaman. Bu kodlarni albatta o’zingiz ham sinab kuring.
+Xulosa qilib aytganda, agar biz konstruktorda argumentlarni nomlashda xossa nomlaridan foydalansak, **this** dan foydalanar ekanmiz xolos. this haqida ma'lumotga ega bo'ldingiz degan umiddaman. Bu kodlarni albatta o’zingiz ham sinab kuring.

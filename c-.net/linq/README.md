@@ -4,8 +4,7 @@ description: Nodirbek Abdulaxadov
 
 # LINQ asoslari
 
-**LINQ** \(Language-Integrated Query\) - bu ma'lumot manbasidan so’rov olish  uchun oddiy va qulay til. Ma'lumotlar manbayi sifatida - IEnumerable interfeysini \(masalan, standart to'plamlar, massivlar\) amalga oshiradigan obyekt, DataSet, XML hujjati bo'lishi mumkin. Ammo manba turidan qat'iy nazar, LINQ ma'lumotni olish uchun barchasi uchun bir xil usulni qo'llashga imkon beradi.
-
+**LINQ** (Language-Integrated Query) - bu ma'lumot manbasidan so’rov olish uchun oddiy va qulay til. Ma'lumotlar manbayi sifatida - IEnumerable interfeysini (masalan, standart to'plamlar, massivlar) amalga oshiradigan obyekt, DataSet, XML hujjati bo'lishi mumkin. Ammo manba turidan qat'iy nazar, LINQ ma'lumotni olish uchun barchasi uchun bir xil usulni qo'llashga imkon beradi.
 
 **Qisqacha qilib aytganda** **LINQ** - _kodni ixchamlashtirish va oson o'qish imkoniyatini beradi va undan turli xil ma'lumot manbalari uchun so'rovlarda foydalanish mumkin._
 
@@ -16,12 +15,11 @@ description: Nodirbek Abdulaxadov
 * **LINQ dan Sql** : MS SQL Server-da ma'lumotlarga kirish texnologiyasi
 * **LINQ to XML** : XML fayllari bilan ishlashda ishlatiladi
 * **LINQ to DataSet** : DataSet obyekti bilan ishlashda foydalaniladi
-* **Parallel LINQ \(PLINQ\)** : parallel so'rovlarni bajarish uchun ishlatiladi
+* **Parallel LINQ (PLINQ)** : parallel so'rovlarni bajarish uchun ishlatiladi
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](<../../.gitbook/assets/image (4).png>)
 
 **LINQ** so'rovlari natijalarni obyekt sifatida qaytaradi. Bu sizga natijalar to'plamida obyektga yo'naltirilgan yondashuvni ishlatishga va natijalarning turli formatlarini obyektlarga aylantirish haqida tashvishlanmaslikka imkon beradi.
-
 
 **LINQ-ning afzalliklari**
 
@@ -35,12 +33,11 @@ description: Nodirbek Abdulaxadov
 
 ### **LINQ** dan foydalanish
 
-
-LINQ dan foydalanish uchun bizga .Net Framework 3.5 va C\# 3.0 kerak bo’ladi\(foydalanish uchun minimum versiyalar\).
-
+LINQ dan foydalanish uchun bizga .Net Framework 3.5 va C# 3.0 kerak bo’ladi(foydalanish uchun minimum versiyalar).
 
 **System** kutubxonasiga qo’shimcha ravishda **System.Linq** kutubxonasidan foydalanamiz.
-****
+
+***
 
 **Misol:**
 
@@ -68,12 +65,11 @@ namespace LINQ_operations
         }
     }
 }
-
 ```
 
 **Natija:**
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](<../../.gitbook/assets/image (36).png>)
 
 **Amaldagi LINQ metodlari ro'yxati**
 
@@ -115,6 +111,4 @@ namespace LINQ_operations
 * [**Last**](https://docs.dot-net.uz/c-.net/linq/element-operatsiyalari/last-va-lastordefault) : to'plamdagi oxirgi elementni tanlaydi
 * [**LastOrDefault**](https://docs.dot-net.uz/c-.net/linq/element-operatsiyalari/last-va-lastordefault) : to'plamdagi so'nggi elementni tanlaydi yoki sukut bo'yicha qaytaradi
 
-
-[LINQ metodlarining qo’llanishiga doir misollar**.**](https://github.com/Nodirbek-Abdulaxadov/DOTNET.UZ/tree/main/LINQ-operations-master)\*\*\*\*
-
+[LINQ metodlarining qo’llanishiga doir misollar\*\*.\*\*](https://github.com/Nodirbek-Abdulaxadov/DOTNET.UZ/tree/main/LINQ-operations-master)\*\*\*\*

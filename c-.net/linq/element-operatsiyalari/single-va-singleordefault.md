@@ -1,14 +1,15 @@
 ---
 description: Sirojiddinov Ahmadjon
 ---
+
 # Single va SingleOrDefault
 
-Element Operatorlarimizdan Keyingisi **Single()** va **SingleOrDefault()**. Bu methodlar ham avvalroq o'rganganlarimiz First va FirstOrDefault , Last va LastOrDefault
-methodlari kabi ishlaydi, agarda siz ularni yaxshi o'zlashtirgan bo'lsangiz bu methodlar ham siz uchun kofe ichishdek gap :)
+Element Operatorlarimizdan Keyingisi **Single()** va **SingleOrDefault()**. Bu methodlar ham avvalroq o'rganganlarimiz First va FirstOrDefault , Last va LastOrDefault methodlari kabi ishlaydi, agarda siz ularni yaxshi o'zlashtirgan bo'lsangiz bu methodlar ham siz uchun kofe ichishdek gap :)
 
-**Single()** methodinig vazifasi to'plamdagi yagona elementni qaytarish. Agar biz **Single()** methodga *lambda expression* orqali shart bersak shartga mos keladigan yagona elementni qaytaradi. 
+**Single()** methodinig vazifasi to'plamdagi yagona elementni qaytarish. Agar biz **Single()** methodga _lambda expression_ orqali shart bersak shartga mos keladigan yagona elementni qaytaradi.
 
 Yodda tuting! Quyidagi holatlarda Single() methodini ishlatganimizda dasturimiz `System.InvalidOperationException` xatoligiga uchraydi:
+
 1. To'plamda birdan ortiq element bo'lsa
 2. To'plam bo'sh bo'lsa.
 3. To'plamda Single() methodiga berilgan shartni qoniqtiradigan birdan ortiq element bo'lsa yoki birorta ham bo'lmasa.
@@ -53,11 +54,9 @@ namespace SingleMethod
 }
 ```
 
-**SingleOrDefault()** methodi **Single()** methodi  bilan bir xil ishni bajaradi.
+**SingleOrDefault()** methodi **Single()** methodi bilan bir xil ishni bajaradi.
 
-Ularning yagon farqi: 
-**Single()** ishlatilganda to'plam bo'sh bo'lsa yoki berilgan shartga mos tushadigan element bo'lmasa `System.InvalidOperationException` xatoligi yuz beradi.
-**SingleOrDefault()** esa yuqoridagi holatlarda *null* (yoki 0) qiymatini qaytaradi.
+Ularning yagon farqi: **Single()** ishlatilganda to'plam bo'sh bo'lsa yoki berilgan shartga mos tushadigan element bo'lmasa `System.InvalidOperationException` xatoligi yuz beradi. **SingleOrDefault()** esa yuqoridagi holatlarda _null_ (yoki 0) qiymatini qaytaradi.
 
 ```csharp
 using System;
@@ -96,10 +95,9 @@ namespace SingleMethod
         }
     }
 }
-
 ```
 
-Yuqorida ko'rib turganimizdek biz **Single()** va **SingleOrDefault()** funksiyalariga *lambda expression* methodi orqali shart berishimiz ham mumkin. Bu holatda **Single()** va **SingleOrDefault()**  to'plamdan shartga mos tushadigan yagona elementni qaytaradi. Agar shartni qoniqtiruvchi elementlar bir nechta bo'lsa bu ikkala method ishlatilganda ham "System.InvalidOperationException" xatoligi yuz beradi.
+Yuqorida ko'rib turganimizdek biz **Single()** va **SingleOrDefault()** funksiyalariga _lambda expression_ methodi orqali shart berishimiz ham mumkin. Bu holatda **Single()** va **SingleOrDefault()** to'plamdan shartga mos tushadigan yagona elementni qaytaradi. Agar shartni qoniqtiruvchi elementlar bir nechta bo'lsa bu ikkala method ishlatilganda ham "System.InvalidOperationException" xatoligi yuz beradi.
 
 ```csharp
 using System;
@@ -135,19 +133,13 @@ namespace SingleMethod
 }
 ```
 
-
 !!! Esda tutish kerak bo'lgan fikrlar:
+
 1. **Single()** to'plamdan yagona qiymatni olishda ishlatiladi.
-2. **Single()** methodini ishlatganimizda quyidagi holatlarda System.InvalidOperationException qaytaradi:
-	a. Agar To'plamda birorta element bo'lmasa ya'ni to'plam bo'sh bo'lsa.
-	b. To'plam bir nechta elementdan tashkil topgan bo'lsa.
+2. **Single()** methodini ishlatganimizda quyidagi holatlarda System.InvalidOperationException qaytaradi: a. Agar To'plamda birorta element bo'lmasa ya'ni to'plam bo'sh bo'lsa. b. To'plam bir nechta elementdan tashkil topgan bo'lsa.
+3. SingleOrDefault() methodi quyidagi holatlarda Default value qaytaradi a. Agar To'plam bo'sh bo'lsa ya'ni birorta ham element bo'lmasa. b. Shart berilgan holda shartni qoniqtiradigan birorta element bo'lmasa.
+4. Qachonki biz **Single()** yoki **SingleOrDefault()** methodiga _lambda expression_ orqali shart berganimizda bunday elementlar bir nechta bo'lsa `System.InvalidOperationException` qaytaradi
 
-3. SingleOrDefault() methodi quyidagi holatlarda Default value qaytaradi
-	a. Agar To'plam bo'sh bo'lsa ya'ni birorta ham element bo'lmasa.
-	b. Shart berilgan holda shartni qoniqtiradigan birorta element bo'lmasa.
-
-4. Qachonki biz **Single()** yoki **SingleOrDefault()** methodiga *lambda expression* orqali shart berganimizda bunday elementlar bir nechta bo'lsa `System.InvalidOperationException` qaytaradi
- 
 Yuqorida ishlatilgan Default value deganda odatda biz null yoki 0 qiymatni nazarda tutyapmiz.
 
 E'tiboringiz uchun Rahmat. O'rganishda davom eting bo'lajak Software Engineerlar :)

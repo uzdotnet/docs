@@ -48,7 +48,7 @@
       * [static](c-.net/basic/essential/static.md)
       * [Struct](c-.net/basic/essential/struct.md)
       * [Enum](c-.net/basic/essential/enum.md)
-      * [Maydon hususiyalari](c-.net/basic/essential/maydon-hususiyalari.md)
+      * [Property va Field lar](c-.net/basic/essential/maydon-hususiyalari.md)
       * [Vorislik](c-.net/basic/essential/vorislik.md)
       * [Overload (Qayta yuklash)](c-.net/basic/essential/overload-qayta-yuklash.md)
       * [Override (Qayta yozish)](c-.net/basic/essential/override-qayta-yozish.md)
