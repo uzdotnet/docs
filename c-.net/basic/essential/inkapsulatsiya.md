@@ -57,4 +57,4 @@ public string ValueString
 
 ```
 
-Bu erda valueDouble va valueString o'zgaruvchilariga faqat ValueDouble va ValueString property (xususiyat)lari orqali kirish mumkin. Agar biz ValueString xususiyatiga yaroqsiz qatorni belgilashga harakat qilsak va konversiya vaqtida istisno yuzaga kelsa, u holda ichki o'zgaruvchilar bir xil, izchil holatda qoladi, chunki istisno protseduradan chiqishga sabab bo'ladi.
+Bu yerda valueDouble va valueString o'zgaruvchilariga faqat ValueDouble va ValueString property (xususiyat)lari orqali kirish mumkin. Agar biz ValueString xususiyatiga yaroqsiz qatorni belgilashga harakat qilsak va konversiya vaqtida istisno yuzaga kelsa, u holda ichki o'zgaruvchilar bir xil, izchil holatda qoladi, chunki istisno protseduradan chiqishga sabab bo'ladi.
