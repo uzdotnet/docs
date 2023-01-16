@@ -16,10 +16,10 @@ Inkapsulyatsiyaning maqsadi - ob'ektning ichki holatini izchil bo'lishini ta'min
 
 ```csharp
 class NoEncapsulation
-    {
-        public double ValueDouble;
-        public string ValueString;
-    }
+{
+    public double ValueDouble;
+    public string ValueString;
+}
 ```
 
 Bu holatda biz Valuening o'zini ham, uning satr tasvirini ham alohida o'zgartirishimiz mumkin va ular qandaydir istisno holatida mos kelmay qolishligi mumkin. 
@@ -27,33 +27,34 @@ Bu holatda biz Valuening o'zini ham, uning satr tasvirini ham alohida o'zgartiri
 Endi huddi shu narsani Inkapsulyatsiya yordamida amalga oshirib ko'raylik, u holda:
 ```csharp
 class EncapsulationExample
-    {
-        private double valueDouble;
-        private string valueString;
+{
+    private double valueDouble;
+    private string valueString;
 
-        public double ValueDouble
+    public double ValueDouble
+    {
+        get { return valueDouble; }
+        set 
         {
-            get { return valueDouble; }
-            set 
-            {
-                valueDouble = value;
-                valueString = value.ToString();
-            }
+            valueDouble = value;
+            valueString = value.ToString();
         }
+    }
+}
 ```
 
 ```csharp
-        public string ValueString
-        {
-            get { return valueString; }
-            set 
-            {
-                double tmp_value = Convert.ToDouble(value);
-                valueDouble = tmp_value;
-                valueString = value;
-            }
-        }
+public string ValueString
+{
+    get { return valueString; }
+    set 
+    {
+        double tmp_value = Convert.ToDouble(value);
+        valueDouble = tmp_value;
+        valueString = value;
     }
+}
+
 ```
 
 Bu erda valueDouble va valueString o'zgaruvchilariga faqat ValueDouble va ValueString property (xususiyat)lari orqali kirish mumkin. Agar biz ValueString xususiyatiga yaroqsiz qatorni belgilashga harakat qilsak va konversiya vaqtida istisno yuzaga kelsa, u holda ichki o'zgaruvchilar bir xil, izchil holatda qoladi, chunki istisno protseduradan chiqishga sabab bo'ladi.
