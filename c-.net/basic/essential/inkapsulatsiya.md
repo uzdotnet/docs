@@ -7,7 +7,7 @@ description: (AlJavhar) Javohirbek Boyaliyev
 
 ![](https://user-images.githubusercontent.com/91861166/212597878-c7ed3fd7-5a4e-4436-9da4-64983745bb9d.png)
 
-Bu terminni saaaal dasturlashga bog'lab jaydaricha tushuntiradigan bo'lsak, o'zi inkapsulyatsiya dasturchilar o'z code larini boshqa dasturchilar tomonidan hurmat qilinishi va muhim qismlarini bilmasdan KATTA BUG gacham olib keladigan qilib o'zgartirib yubormasliklari uchun o'ylab topilgan QUROL!!!
+Bu terminni saaaal dasturlashga bog'lab jaydaricha tushuntiradigan bo'lsak, o'zi inkapsulyatsiya dasturchilar o'z code larini boshqa dasturchilar tomonidan hurmat qilinishi va muhim qismlarini bilmasdan KATTA BUG gacha olib keladigan qilib o'zgartirib yubormasliklari uchun o'ylab topilgan QUROL!!!
 
 ![](https://user-images.githubusercontent.com/91861166/212598146-3da30f17-2f6d-47d7-a153-14ee396e88e4.png)
 
@@ -48,7 +48,7 @@ class EncapsulationExample
             get { return valueString; }
             set 
             {
-                double tmp_value = Convert.ToDouble(value); //здесь может возникнуть исключение
+                double tmp_value = Convert.ToDouble(value);
                 valueDouble = tmp_value;
                 valueString = value;
             }
