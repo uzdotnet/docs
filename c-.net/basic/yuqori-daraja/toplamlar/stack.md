@@ -4,15 +4,13 @@ description: Mamataliyev Diyorbek
 
 # Stack
 
-To’plamlar bilan tanishishda davom etamiz. Biz o’rganadigan yangi to’plam – **Stack** avvalgilaridan boshqacharoq xossalarga ega. Stack shunday to’plamki, unga yangi elementni faqat ustidan qo’shish  mumkin, elementni undagi elementni olib tashlash ham uning ustidan bajariladi. Shuning uchun Stack ni *LIFO* (*Last In First Out*) collection deb ham aytiladi. Ya’ni, **Stack**ga eng oxiri qo’shilgan element undan eng birinchi bo’lib chiqib ketadi.
+To’plamlar bilan tanishishda davom etamiz. Biz o’rganadigan yangi to’plam – **Stack** avvalgilaridan boshqacharoq xossalarga ega. Stack shunday to’plamki, unga yangi elementni faqat ustidan qo’shish mumkin, elementni undagi elementni olib tashlash ham uning ustidan bajariladi. Shuning uchun Stack ni _LIFO_ (_Last In First Out_) collection deb ham aytiladi. Ya’ni, **Stack**ga eng oxiri qo’shilgan element undan eng birinchi bo’lib chiqib ketadi.
 
-**Stack**ni yaxshiroq tasavvur qilishingiz uchun hayotiy misol sifatida rasmdagi idishga solingan sharlarni misol qilib keltirishimiz mumkin: 
+**Stack**ni yaxshiroq tasavvur qilishingiz uchun hayotiy misol sifatida rasmdagi idishga solingan sharlarni misol qilib keltirishimiz mumkin:
 
 ![Stackga misol - idishdagi sharchalar](https://user-images.githubusercontent.com/91861166/138088109-0772ccdb-fd2f-48c8-9148-2268e6a8718f.jpg)
 
-
-Sharchalardan birorta olishimiz kerak bo’lsa faqat eng ustidan boshlab olish imkoniyatimiz bor(o’rtasidan yoki oxiridan emas). Yangi sharchani qo’ymoqchi bo’lsak ham eng ustiga qo’ya olamiz. 
-Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
+Sharchalardan birorta olishimiz kerak bo’lsa faqat eng ustidan boshlab olish imkoniyatimiz bor(o’rtasidan yoki oxiridan emas). Yangi sharchani qo’ymoqchi bo’lsak ham eng ustiga qo’ya olamiz. Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
 
 **Push()** – **Stack**ga yangi element qo’shadi. Element Stackga eng yuqorisidan qo’shiladi (huddi quyidagi rasmdagidek);
 
@@ -24,15 +22,13 @@ Demak biz **Stack** to’plami ustida quyidagi amallarni bajara olamiz:
 
 **Clear()** – **Stack**dagi barcha elementlarni o’chirib yuboradi. Bundan so’ng Stackdagi elementlar soni 0 ga teng bo’lib qoladi;
 
-**Contains()** – **Stack**da biror element bor yoki yo’qligini tekshiradi. Bor bo’lsa *true*, yo’q bo’lsa *false* qiymat qaytaradi.
+**Contains()** – **Stack**da biror element bor yoki yo’qligini tekshiradi. Bor bo’lsa _true_, yo’q bo’lsa _false_ qiymat qaytaradi.
 
 ![Push va Pop amallari](https://user-images.githubusercontent.com/91861166/138085847-b8285bf1-dc86-483e-9ab6-e42b91ad4d62.jpg)
 
-
-Savol tug’ilishi mumkin: Shuncha cheklovlarga ega bo’lgan to’plam dasturlashda nima uchun kerak? Biror qulayligi bormi? Albatta. Masalan, siz ko’p marta ishlatadigan **Undo/Redo** (**Ctrl+Z/Ctrl+Y**) ni ishlatganingizda bajargan ishlaringizni Stackga yozib boradi. **Ctrl+Z** qilganingizda oxirgi qilgan amalingiz birinchi bo’lib orqaga qaytadi va boshqa bo’sh stackga joylanadi (ikkinchi stack **Ctrl+Y** qilganingizda kerak bo’ladi).  Yoki yana bir misol brauzeringizdagi avvalgi yoki keyingi ochilgan web-sahifalarga o'tish uchun ishlatiladigan **back/forward** tugmachalari ham **Stack** yordamida ishlaydi.
+Savol tug’ilishi mumkin: Shuncha cheklovlarga ega bo’lgan to’plam dasturlashda nima uchun kerak? Biror qulayligi bormi? Albatta. Masalan, siz ko’p marta ishlatadigan **Undo/Redo** (**Ctrl+Z/Ctrl+Y**) ni ishlatganingizda bajargan ishlaringizni Stackga yozib boradi. **Ctrl+Z** qilganingizda oxirgi qilgan amalingiz birinchi bo’lib orqaga qaytadi va boshqa bo’sh stackga joylanadi (ikkinchi stack **Ctrl+Y** qilganingizda kerak bo’ladi). Yoki yana bir misol brauzeringizdagi avvalgi yoki keyingi ochilgan web-sahifalarga o'tish uchun ishlatiladigan **back/forward** tugmachalari ham **Stack** yordamida ishlaydi.
 
 ![back va forward tugmachalari](https://user-images.githubusercontent.com/91861166/147650547-33ad91b4-d58b-4f47-825d-37b0bcd04f21.png)
-
 
 **Stack** haqida tushunchaga ega bo’lgan bo’lsangiz endi uni kodda ishlashini ham ko’raylik. **Stack** to’plami `System.Collections.Generic` nomlar makonida joylashgani uchun avval shu nomlar makonini chaqirishimiz kerak bo’ladi:
 
@@ -71,7 +67,8 @@ public class program
 ```
 
 output:
-```3
+
+```
 b=7
 Elementlar soni: 2
 c=5

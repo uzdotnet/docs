@@ -8,7 +8,7 @@ description: >-
 
 Assalomu alaykum mening qadrdonlarim! Sizlarga .NET bo'yicha bilim berishni bugundan niyat qildim. Agar sizlarni Microsoft kompaniyasi tomonidan yaratilgan maxsulotlar qiziqtirsa va o'sha maxsulotlar orqali o'z maxsulotingizni ishlab chiqmoqchi bo'lsangiz, siz hozir yo'nalish tanlashda adashmadingiz! .NET GA XUSH KELIBSIZ.
 
-![Qaysi yo'nalishdan ketmoqchisiz?](<../.gitbook/assets/image (27) (1).png>)
+![Qaysi yo'nalishdan ketmoqchisiz?](<../.gitbook/assets/image (27).png>)
 
 ### .NET tillari
 

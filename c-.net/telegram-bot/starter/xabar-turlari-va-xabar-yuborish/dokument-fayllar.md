@@ -27,4 +27,4 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](<../../../../.gitbook/assets/image (107) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (107) (1) (1) (1) (1) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
