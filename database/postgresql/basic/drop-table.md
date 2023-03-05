@@ -1,3 +1,7 @@
+---
+description: Yo'ldoshxo'jayev Saidnabi
+---
+
 # Drop Table
 
 PostgreSQL DROP TABLE buyrug'i berilgan ma'lumotlar bazasining istalgan jadvalini o’chirish uchun ishlatiladi. Bundan ehtiyot bo’lib foydalanish kerak, chunki o’chirilgan TABLE ni qayta tiklab bo’lmaydi.
