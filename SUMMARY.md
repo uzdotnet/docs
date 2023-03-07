@@ -369,6 +369,7 @@
       * [Distinct](database/postgresql/basic/distinct.md)
     * [Advance](database/postgresql/advance/README.md)
       * [Constraint (cheklov) lar](database/postgresql/advance/constraint-cheklov-lar.md)
+      * [Union](database/postgresql/advance/union.md)
 * [C++](c++/README.md)
   * [C++ ga xush kelibsiz](c++/c++-ga-xush-kelibsiz.md)
   * [Basic](c++/basic.md)
