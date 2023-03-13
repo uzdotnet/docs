@@ -1,5 +1,5 @@
 ---
-description: Sariboyev Jasur
+description: Sariboyev Jasurbek
 ---
 
 # MemoryStream
