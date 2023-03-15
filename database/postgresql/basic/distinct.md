@@ -26,8 +26,9 @@ id | name   | salary
 5  | Jack   | 70000
 
 "Xodimlar" jadvalidan  (distinct) nomlar ro'yxatini olish uchun biz quyidagi so'rovdan foydalanishimiz mumkin:
-
+```sql
 SELECT DISTINCT name FROM employees;
+```
 
 Natija:
 ```
