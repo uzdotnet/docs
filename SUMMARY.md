@@ -111,6 +111,8 @@
       * [All](c-.net/linq/miqdor-operatorlari/all.md)
       * [Any](c-.net/linq/miqdor-operatorlari/any.md)
       * [Contains](c-.net/linq/miqdor-operatorlari/contains.md)
+      * [Min](c-.net/linq/miqdor-operatorlari/min.md)
+      * [Max](c-.net/linq/miqdor-operatorlari/max.md)
     * [Set operatsiyasi](c-.net/linq/set-operatsiyasi/README.md)
       * [Distinct](c-.net/linq/set-operatsiyasi/distinct.md)
       * [Except](c-.net/linq/set-operatsiyasi/except.md)
