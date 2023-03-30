@@ -1,3 +1,7 @@
+---
+description: Wahid Abduhakimov
+---
+
 # Unit Test
 
 Unit testlar yuqori sifatli .NET dasturlar yaratishning ajralmas qismi. Unit Test bu dasturni eng kichik komponentlarini ajratib olgan olda ularni to’g’ri ishlashini tekshirish. Bu komponentchalar odatda juda kichik va mustaqil bo’ladi. Ular birgalikda katta dasturni tashkil qiladi. Ushbu kichik komponent va qismlarni ajratib olib test qilish orqali ulardagi hatoliklar juda erta aniqlanadi va bu o’z navbatida katta vaqt va pul tejalishiga olib keladi.
