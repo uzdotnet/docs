@@ -1,5 +1,5 @@
 ---
-description: Muhammadkarim To'xtaboyev
+description: Jaloliddin
 ---
 
 # Swagger nima?
