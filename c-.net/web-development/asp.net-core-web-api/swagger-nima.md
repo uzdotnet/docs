@@ -1,10 +1,11 @@
 ---
-description: Jaloliddin
+description: Jaloliddin Axmedov
 ---
 
 # Swagger nima?
 
 Swagger loyihasi 2015-yilda OpenAPI tashabbusiga sovg‘a qilingan va shu vaqtdan boshlab OpenAPI deb nomlanadi. Ikkala ism ham bir-birining o'rnida ishlatiladi. Biroq, "OpenAPI" spetsifikatsiyaga ishora qiladi. "Swagger" SmartBear kompaniyasining OpenAPI spetsifikatsiyasi bilan ishlaydigan ochiq manbali va tijorat mahsulotlari oilasiga ishora qiladi. Keyingi ochiq manbali mahsulotlar, masalan, OpenAPIGenerator , SmartBear tomonidan chiqarilmaganiga qaramay, Swagger familiyasiga ham tegishli.
+
 
 
 Qisqasi:
