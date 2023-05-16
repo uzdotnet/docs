@@ -119,7 +119,7 @@ Console.WriteLine(UInt64.MinValue);//0
 Haqiqiy toifalar o’zida musbat va manfiy o’nli kasrlarni aks ettiradi. C# da haqiqiy toifalar asosan 3 turli: float, double va decimal \
 \
 _**Float**_ \
-_****_float tipi xotiradan 4 baytni egallaydi. Single strukturasiga tegishli. float toifadagi tipni hosil qilish uchun f yoki F suffiksidan foydalaniladi.
+float tipi xotiradan 4 baytni egallaydi. Single strukturasiga tegishli. float toifadagi tipni hosil qilish uchun f yoki F suffiksidan foydalaniladi.
 
 ```csharp
 float f1 = 123456.5F;

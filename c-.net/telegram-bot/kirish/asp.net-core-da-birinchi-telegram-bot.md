@@ -6,8 +6,8 @@ description: Xondamir Abduxoshimov
 
 Demak, ASP.NET Core da telegram bot bilan ishlashni boshlaymiz. Bot vazifalarini belgilash uchun bizga 2 ta asosiy narsa kerak bo'ladi:
 
-1. Telegram Bot API bilan bog'lanish uchun **kalit\(token\)**
-2. Editor \(kod yozishda bizga yordam beruvchi qurol\)
+1. Telegram Bot API bilan bog'lanish uchun **kalit(token)**
+2. Editor (kod yozishda bizga yordam beruvchi qurol)
 
 ## Botfatherdan token olish
 
@@ -17,15 +17,27 @@ Tokenni olish uchun quyidagi qadamlarni bosib o'tishingiz kerak bo'ladi:
 
 * Telegram dasturiga kirib, qidiruv sistemasiga **"botfather"** ko'rinishida murojaat qiling va quyida berilgan manzilga tashrif buyuring.
 
-![](../../../.gitbook/assets/searchbot.png)
+<div align="left">
 
-*  Berilgan komandalar orasidan, **/newbot** buyrug'ini tanlang.
+<img src="../../../.gitbook/assets/searchbot.png" alt="">
 
-![](../../../.gitbook/assets/commandbot.png)
+</div>
+
+* &#x20;Berilgan komandalar orasidan, **/newbot** buyrug'ini tanlang.
+
+<div align="left">
+
+<img src="../../../.gitbook/assets/commandbot.png" alt="">
+
+</div>
 
 * So'ralgan savol tartibiga mos holda amallarni bajaring.
 
-![](../../../.gitbook/assets/tokenbot.png)
+<div align="center">
+
+<img src="../../../.gitbook/assets/tokenbot.png" alt="">
+
+</div>
 
 Tokenni qabul qilib oldik, endigi navbatda, bizga editor kerak bo'ladi. Ishlarimizni tartibli va qulay tarzda amalga oshirish uchun **Visual Studio** dasturidan foydalanamiz. Visual Studio dasturiga ASP.NET Core ni qanday o'rnatilinishi, hamda ASP.NET Core haqida foydali ma'lumotlarni ushbu [video](https://youtu.be/xj7aYUOw78w) orqali bilib olishingiz mumkin bo'ladi.
 
@@ -35,7 +47,11 @@ Agarda aytilgan barcha narsalarni o'rnatib olgan bo'lsangiz, unda botni tuzishga
 
 * Create a new project
 
-![](../../../.gitbook/assets/firstproject.png)
+<div align="center">
+
+<img src="../../../.gitbook/assets/firstproject.png" alt="">
+
+</div>
 
 * ASP.NET Core Web Application
 
@@ -160,13 +176,15 @@ namespace FIrstBotASP
 
 Bizning ASP.NET Core da yaratgan birinchi dasturimiz tayyor bo'ldi, endi uni yurgazsak ham bo'ladi.
 
-![](../../../.gitbook/assets/localbot.png)
+<div align="left">
+
+<img src="../../../.gitbook/assets/localbot.png" alt="">
+
+</div>
 
 Dasturimiz localhostda muvaqqiyatli ishga tushdi. Endi yaratgan botimizga o'tib. **/start** komandasini yuboramiz.
 
 ![](../../../.gitbook/assets/workbot.png)
 
 Suxbatni shu yerda to'xtamiz va Starter bo'limiga sayohatni boshlaymiz.
-
-
 

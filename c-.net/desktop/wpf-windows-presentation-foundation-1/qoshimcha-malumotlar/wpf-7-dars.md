@@ -63,7 +63,7 @@ Siz ushbu dastur sinfini qanday maqsadda foydalanasiz , Masalan, siz boshlang'ic
 </Application>
 ```
 
-****
+
 
 **XAML** da **StartupUri** o'rniga **Startup** orqali yangi oyna qanday qilib bog'lanishga e'tibor bering Code-Backend da siz quyidagi hodisadan foydalanishingiz mumkin:
 

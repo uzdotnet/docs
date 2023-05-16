@@ -25,7 +25,11 @@ Avvalo oddiy misoldan boshlaymiz.
 
 ```
 
-![](<../../../../.gitbook/assets/image (108).png>)
+<div align="center">
+
+<img src="../../../../.gitbook/assets/image (108).png" alt="">
+
+</div>
 
 ![](<../../../../.gitbook/assets/image (69).png>)
 

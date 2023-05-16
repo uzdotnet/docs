@@ -18,7 +18,7 @@ Tashlab olgan komponentlarimizni ikki xil usulda joylashtirishimiz mumkin:
 1. **Properties** bo\`limidan joylashuv(_location_) va o\`lcham(_size_)ni o\`zgartirish orqali
 2. **Form Designer** qismidan komponentni surish yoki hajmini o\`zgartisih mumkin&#x20;
 
-**Properties** **** bo\`limi orqali sozlashni ko\`rib o\`tamiz:
+**Properties**  bo\`limi orqali sozlashni ko\`rib o\`tamiz:
 
 | **Komponent** | &#xD;**Sozlanmasi** | Qiymati          |
 | ------------- | ------------------- | ---------------- |

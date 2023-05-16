@@ -26,7 +26,7 @@ Kelinglar bir boshdan boshlaymiz. Avvalgi darsda aytilganide bizga Visual Studio
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-6\. **** Configure your new Project menyusi ochiladi va biz endi yaratmoqshi bo\`lgan dasturimiz nomini Project name bandiga yozamiz. Tayyor endi _Create_ tugmasini bosamiz .
+6\. Configure your new Project menyusi ochiladi va biz endi yaratmoqshi bo\`lgan dasturimiz nomini Project name bandiga yozamiz. Tayyor endi _Create_ tugmasini bosamiz .
 
 Bundan tashqari siz ushbu bo\`limda dastur qayerda saqlanishi kerakligini ham kiritib ketishingiz mumkin. Buning uchun _Location_ qismidagi ... (uch nuqta) ustiga bosib hotiradagi kerakli joyni tanlab qo\`yasi TAMOM 😉.
 

@@ -5,9 +5,9 @@ description: Suxrob Xayitmurodov
 # Java vs C\#
 
 **Siz bilishingiz kerak bo’lgan eng muhim faktlar!** \
-****
 
-![techempower.com orqali solishtirilgan](<../../../.gitbook/assets/image (13) (1).png>)
+
+![techempower.com orqali solishtirilgan](<../../../.gitbook/assets/image (13) (1) (1).png>)
 
 {% hint style="info" %}
 Techempower linki:

@@ -4,7 +4,7 @@ description: Jasurbek Xasanboyev
 
 # 5-dars. Dasturni ishga tushurish
 
-Oldingi darslarimizda siz bilan WinForm da dastur yaratib oldik endi esa uni ishga tushirib ko\`ramiz. Buning uchun klaviaturadan F5 tugmasini bosish yoki menu satridan **Debug** > **Start Debugging** **** ketma-ketligini bajarish kifoya. &#x20;
+Oldingi darslarimizda siz bilan WinForm da dastur yaratib oldik endi esa uni ishga tushirib ko\`ramiz. Buning uchun klaviaturadan F5 tugmasini bosish yoki menu satridan **Debug** > **Start Debugging**  ketma-ketligini bajarish kifoya. &#x20;
 
 Dastur ishga tushgandan so\`ng textbox ga ismlarni yozib button ni bosganimizda listbox da paydo bo\`lishini ko\`rishimiz mumkin.
 

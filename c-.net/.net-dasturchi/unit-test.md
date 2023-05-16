@@ -12,19 +12,19 @@ Ushbu maqolada .NET dasturlar uchun unit testing asoslarini, unit testlarni qand
 
 Unit test juda ham muhim chunki ular defetlarni development siklining erta boshqichlarida aniqlashga yordam beradi. Unit test yozish orqali komponentdagi xatolarni bu komponentlar sistemani boshqa qismlariga ulanishidan oldin aniqlash mumkin. Bu juda ham katta vaqt va mablag’ tejaydi, sababi xatolarni komponentlar sistemaning boshqa qismlariga integratsiya qilinishdan avval aniqlash va tuzatish ancha osonroq.
 
-Bundan tashqari unit testlar kodni modular bo’lishini ta’minlaydi. Kodni kichik komponentlarda mustaqil shaklda yozish uni keyinchalik kengaytirish va yangi featurelar osonlikcha qo’shish imkonini beradi. 
+Bundan tashqari unit testlar kodni modular bo’lishini ta’minlaydi. Kodni kichik komponentlarda mustaqil shaklda yozish uni keyinchalik kengaytirish va yangi featurelar osonlikcha qo’shish imkonini beradi.
 
 ## `Unit Test`lar qanday yoziladi?
 
-**.NET**da unit testlar **MSTest**, **NUnit** yoki **xUnit** kabi test freymvorklar orqali yoziladi tushiriladi. Ushbu freymvorklar unit testlar yozish va ishga tushirish uchun kerakli **tool**lar bilan ta’minlaydi. 
+**.NET**da unit testlar **MSTest**, **NUnit** yoki **xUnit** kabi test freymvorklar orqali yoziladi tushiriladi. Ushbu freymvorklar unit testlar yozish va ishga tushirish uchun kerakli **tool**lar bilan ta’minlaydi.
 
 **Unit Test** yozish quyidagi qadamlardan iborat:
 
-1. Test qilayotgan kodingiz mohiyatini tushinish: Unit Test yozishdan avval siz testlayotgan *method*, *funksiya* yoki *klas* aynan qanday ishlashi kerakligini avval bilishingiz kerak. Kod qanday ishlashi, *input* va *output*lar haqida to’liq ma’lumotga ega bo’lishingiz kerak.
-2. Testni yozish: Nimani testlashni aniqlashtirib olgandan keyin test yozishni boshlasangiz bo’ladi. Unit Test odatda 3 qismdan iborat bo’ladi: **Tartiblash**, **Harakat**, **Tasdiqlash** *(Arrange, Act, Assert).*
-    1. Tartiblash qismida test uchun kerak bo’ladigan obyekt va ma’lumotlar tayyorlanadi. 
-    2. Harakat qismida esa test qilinayotgan funksiya yoki method chaqiriladi. Ya’ni test qilinayotgan kod ishga tushiriladi.
-    3. Tekshirish qismida olingan natija kutilgan natijaga to’g’ri kelish kelmasligi tekshiriladi.
+1. Test qilayotgan kodingiz mohiyatini tushinish: Unit Test yozishdan avval siz testlayotgan _method_, _funksiya_ yoki _klas_ aynan qanday ishlashi kerakligini avval bilishingiz kerak. Kod qanday ishlashi, _input_ va _output_lar haqida to’liq ma’lumotga ega bo’lishingiz kerak.
+2. Testni yozish: Nimani testlashni aniqlashtirib olgandan keyin test yozishni boshlasangiz bo’ladi. Unit Test odatda 3 qismdan iborat bo’ladi: **Tartiblash**, **Harakat**, **Tasdiqlash** _(Arrange, Act, Assert)._
+   1. Tartiblash qismida test uchun kerak bo’ladigan obyekt va ma’lumotlar tayyorlanadi.
+   2. Harakat qismida esa test qilinayotgan funksiya yoki method chaqiriladi. Ya’ni test qilinayotgan kod ishga tushiriladi.
+   3. Tekshirish qismida olingan natija kutilgan natijaga to’g’ri kelish kelmasligi tekshiriladi.
 
 Quyidagi xUnit freymvork orqali kichik unit test misoli keltirilgan:
 
@@ -62,10 +62,7 @@ Yuqoridagi `Caculator` klasining bitta `Add` methodi bor. U ikkita son qabul qil
 
 `Add_WithPositiveNumbers_ReturnsCorrectSum` degan methodga ega `CalculatorTests` klasini yaratamiz. **Arrange** qismida `Calculator` klasidan obyekt yaratib olamiz. Keyin esa `a` va `b` inputlarni tayyorlaymiz. **Act** qismida `Add` methodini chaqirimiz. Natijani **Assert** qismida biz kutganday **5** ga teng ekanini tekshiramiz.
 
-<aside>
-💡 Test method ekanini anglatib turuvchi `[Fact]` atribyutiga e’tibor bering.
-
-</aside>
+💡 Test method ekanini anglatib turuvchi \`\[Fact]\` atribyutiga e’tibor bering.
 
 ## `Best Practice`lar
 
@@ -83,11 +80,11 @@ Unit Testlar yozish va ularni ishga tushirish uchun MSTest, xUnit va NUnit kabi 
 
 ### 4. Mock va Stub’lar ishlatish
 
-Stub va mocklar orqali testlanayotgan kodni izolatsiya qilish va boshqa dependency larni simulatsiya qilish mumkin. Buning yordamida faqatgina testlanayotgan qism haqida qayg’urib boshqa dependencylarni shunchaki simulatsiya qilinadi. 
+Stub va mocklar orqali testlanayotgan kodni izolatsiya qilish va boshqa dependency larni simulatsiya qilish mumkin. Buning yordamida faqatgina testlanayotgan qism haqida qayg’urib boshqa dependencylarni shunchaki simulatsiya qilinadi.
 
 ### 5. Hamma holatlarni testlash
 
-Kodning har yo’lini testlashga harakat qiling. Bunga xato chiqishi mumkin bo’lgan barcha holatlar, edge case’lar va inputning barcha possible variantlari kiradi. 
+Kodning har yo’lini testlashga harakat qiling. Bunga xato chiqishi mumkin bo’lgan barcha holatlar, edge case’lar va inputning barcha possible variantlari kiradi.
 
 ### 6. Readable test yozish
 

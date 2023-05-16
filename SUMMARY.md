@@ -94,6 +94,7 @@
       * [Asinxron dasturlash](c-.net/basic/yuqori-daraja/asinxron-dasturlash.md)
       * [XML Document bilan ishlash](c-.net/basic/yuqori-daraja/xml-document-bilan-ishlash.md)
   * [LINQ asoslari](c-.net/linq/README.md)
+    * [Average](c-.net/linq/average.md)
     * [LINQ qanday ishlaydi?](c-.net/linq/linq-qanday-ishlaydi.md)
     * [LINQ query yozish usullari](c-.net/linq/linq-query-yozish-usullari.md)
     * [IEnumerable va IQuerable](c-.net/linq/ienumerable-va-iquerable.md)

@@ -80,7 +80,11 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 **Natija:**
 
-![](<../../../../.gitbook/assets/image (7) (4) (4) (1) (1) (1) (1) (1) (1) (1) (2) (1) (2).png>)
+<div align="left">
+
+<img src="../../../../.gitbook/assets/image (7) (4) (4) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="">
+
+</div>
 
 Matnli xabarlarni doimo bir xil usulda taqdim etish bu foydalanuvchini zeriktiradi. Bu holatda matnni formatlangan ko'rinishlarda tadim etish, samarali yo'l hisoblanadi. Odatda 2 xil formatlash usuli mavjud:&#x20;
 

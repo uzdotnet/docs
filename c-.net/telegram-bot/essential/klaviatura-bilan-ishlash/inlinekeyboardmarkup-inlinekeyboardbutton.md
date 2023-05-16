@@ -6,7 +6,7 @@ description: Xondamir Abduxoshimov
 
 **InlineKeyboardMarkup** - biroz boshqacharoq tushuncha. Uning yordami bilan biz murakkab amallarni bajarishimiz mumkin bo'ladi.
 
-Bu turdagi klaviaturani hosil qilishda **InlineKeyboardButton** sinfiga mansub obyektlardan foydalaniladi. **InlineKeyboardButton** bir vaqtning o'zida ham tugma matnini, hamda **** unga biriktirilgan datani olib yuradi. Ya'ni, bu data orqali, botimizni keyingi vazifalarini belgilashimiz mumkin.
+Bu turdagi klaviaturani hosil qilishda **InlineKeyboardButton** sinfiga mansub obyektlardan foydalaniladi. **InlineKeyboardButton** bir vaqtning o'zida ham tugma matnini, hamda unga biriktirilgan datani olib yuradi. Ya'ni, bu data orqali, botimizni keyingi vazifalarini belgilashimiz mumkin.
 
 ```csharp
 public string Index()
