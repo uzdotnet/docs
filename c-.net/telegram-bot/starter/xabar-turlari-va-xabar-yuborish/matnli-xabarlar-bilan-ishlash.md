@@ -82,7 +82,7 @@ private async void Xabar_Kelganda(object sender, MessageEventArgs e)
 
 <div align="left">
 
-<img src="../../../../.gitbook/assets/image (7) (4) (4) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="">
+<img src="../../../../.gitbook/assets/image (7) (4) (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="">
 
 </div>
 
