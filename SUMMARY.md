@@ -379,3 +379,6 @@
         * [Right join](database/postgresql/advance/join-lar/right-join.md)
         * [Full join](database/postgresql/advance/join-lar/full-join.md)
       * [Union](database/postgresql/advance/union.md)
+* [Roadmap](roadmap/README.md)
+  * [Roadmap for .NET developers](roadmap/roadmap-for-.net-developers.md)
+  * [Roadmap for Azure developers](roadmap/roadmap-for-azure-developers.md)
