@@ -13,6 +13,7 @@ Masalan, 13 sonining ikkilikdagi ko’rinishi 1101 ni saqlash uchun 4 bit yetarl
 Agar sonni emas, biror belgini yoki belgilardan tashkil topgan satrni saqlamoqchi bo’lsakchi?
 
 ### ASCII
+
 ![ASCII jadvali](https://user-images.githubusercontent.com/91861166/196095625-c8a04828-7a6f-41a5-836b-b0ebd380f1b9.png)
 
 Dastlab bu muammoni hal qilish uchun 1963-yilda ASCII (American Standart Code Information Interchange) jadvali ishlab chiqildi. Bu jadvalga 128 ta belgi kiritilgan bo’lib, ular 0 dan 127 gacha raqamlangan. Jadvaldan foydalangan holda xotiraga yozish uchun har bir belgiga mos keladigan raqam ikkilik sanoq sistemasiga o’tkazib xotiraga yozilgan. 0 dan 127 gacha bo’lgan sonlarning ikkilikdagi ko’rinishi maksimum 7 xonali bo’ladi. Demak, bu sonlarni ifodalash uchun xotiradan 7 bit xotira ajratiladi. Bundan tashqari, kengaytirilgan ASCII jadvallari ham mavjud bo’lib, bunday jadvallarda belgilar 0 dan 255 gacha raqamlarga mos qo’yilgan. Ularning barchasida dastlabki 128 ta belgi ketma-ketligi bir xil, keyingi 128 ta joyga boshqa tillardagi harflarni joylashga harakat qilishgan. Ko’pgina kompaniyalar o’zi uchun alohida kengaytirilgan jadvalni hosil qilishgani uchun, keyingi 128 ta belgining turlicha talqinlari paydo bo’lib, bu ham muammolarga sabab bo’lgan. Kengaytirilgan ASCII jadvallarida belgi xotiradan 8 bit = 1 bayt joy egallaydi.
@@ -54,7 +55,7 @@ Savol tug’ilishi mumkin, biz o’zgaruvchan belgilarni har xil uzunlikda yozib
 
 Masalan, 1101 soni 00001101 kabi, 11110011 soni esa 11000011 10110011 kabi yoziladi. Hozirda juda ko’p hollarda belgilarni kodlash uchun UTF-8 ishlatiladi.
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Endi esa dasturda turlicha kodlash turlarini ishlatishga yordam beruvchi Encoding sinfi haqida gaplashamiz. Bu sinf `System.Text` nomlar makoniga tegishli abstrakt sinf bo’lib, `IClonable` interfeysidan meros olgan.
 
@@ -187,7 +188,7 @@ Natija:
 0
 ```
 
-**GetString()** – **GetBytes()** ga teskari ishni bajaradi. Ya’ni **GetBytes()** _string_dan _byte\[]_ ga o’girgan bo’lsa, **GetString()** o’ziga berilgan _byte_ tipidagi massivga ko’ra ko’rsatilgan kodlash turida satrni qaytaradi.
+**GetString()** – **GetBytes()** ga teskari ishni bajaradi. Ya’ni **GetBytes()** \_string\_dan _byte\[]_ ga o’girgan bo’lsa, **GetString()** o’ziga berilgan _byte_ tipidagi massivga ko’ra ko’rsatilgan kodlash turida satrni qaytaradi.
 
 ```csharp
 using System;

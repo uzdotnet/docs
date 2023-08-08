@@ -37,7 +37,7 @@ LINQ dan foydalanish uchun bizga .Net Framework 3.5 va C# 3.0 kerak bo’ladi(fo
 
 **System** kutubxonasiga qo’shimcha ravishda **System.Linq** kutubxonasidan foydalanamiz.
 
-***
+
 
 **Misol:**
 

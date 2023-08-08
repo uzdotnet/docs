@@ -4,9 +4,9 @@ description: Ro'zimurod Abdunazarov
 
 # Dapper
 
-Dapper - bu SQL so'rovlari natijalarini C# sinflari bilan taqqoslaydigan almashinuv vositasi. Ishlash tizimi EntityFreamwork ga ham o’xshaydi,ammo undan tezroq ishlaydi. Hammamiz biladigan https://stackoverflow.com/ saytining qidiruv tizimi ham Dapper yordamida tuzilgan. 
+Dapper - bu SQL so'rovlari natijalarini C# sinflari bilan taqqoslaydigan almashinuv vositasi. Ishlash tizimi EntityFreamwork ga ham o’xshaydi,ammo undan tezroq ishlaydi. Hammamiz biladigan https://stackoverflow.com/ saytining qidiruv tizimi ham Dapper yordamida tuzilgan.
 
-Shuningdek Dapper oldingi Ado.Net ning avlodi hisoblanadi.Shuning uchun ham tuzilma Ado.Net bilan juda o'xshash. 
+Shuningdek Dapper oldingi Ado.Net ning avlodi hisoblanadi.Shuning uchun ham tuzilma Ado.Net bilan juda o'xshash.
 
 Endi amaliyot bilan shug’ullansak, Man Dapper bilan ishlash ko’nikmasini shakllantirish uchun,kompyuterni uncha qiynamaydigan bir nechta dasturlarni o’rnatib olaman.VsCode, MsSqlLocalDb, Dotnet lar bo’lsa bo’ldi.
 
@@ -19,17 +19,20 @@ dotnet new mvc –o DapperApp
 ![](https://user-images.githubusercontent.com/91861166/204103002-6872f186-1705-4db0-a2e9-58a153ae544a.png)
 
 Loyihaga yangi kutubxonalarni qo’shamiz:
+
 ```
 dotnet add package Microsoft.Data.SqlClient
 dotnet add package Dapper
 ```
 
 Yangi ma'lumotlar bazasi qurib olamiz:
+
 ```sql
 CREATE DATABASE Users
 ```
 
 Yangi jadval quramiz. (Bu kodlar faqat MsSql uchun)
+
 ```sql
 CREATE TABLE People (
     Id INT PRIMARY KEY,
@@ -40,6 +43,7 @@ CREATE TABLE People (
 ```
 
 Jadvalni to’ldiramiz. (Bu kodlar faqat MsSql uchun)
+
 ```sql
 INSERT INTO People VALUES 
    (1,'Ruzimurod Abdunazarov',19,'ruzimurodabdunazarov2003@mail.ru');
@@ -68,6 +72,7 @@ Keyin umumiy malumotlar ombori quyidagicha bo’ladi:
 ![](https://user-images.githubusercontent.com/91861166/204103131-24069c1b-3c5a-494b-aae3-8f30b1e7d183.png)
 
 Bu malumotlar asosida yangi model tuzib olamiz.
+
 ```csharp
 public class User
 {
@@ -83,6 +88,7 @@ public class User
 ```
 
 Keyingi bosqichda malumotlar bazasidan malumot olib kelish uchun Dapper ORM(Object Relation Mapper) dan foydalanamiz.
+
 ```csharp
 public interface IUserRepository
 {
@@ -96,10 +102,10 @@ public interface IUserRepository
 }
 ```
 
-Birinchi _IUserRepository_ interfeysini qurib olamiz. 
-Endi _UserRepository_ ni yozamiz. Kodlar asosan SQL ni o’zidagi Query da yoziladi, shuning uchun ham `Dapper EfCore` ga qaraganda tezroq ishlaydi.
+Birinchi _IUserRepository_ interfeysini qurib olamiz. Endi _UserRepository_ ni yozamiz. Kodlar asosan SQL ni o’zidagi Query da yoziladi, shuning uchun ham `Dapper EfCore` ga qaraganda tezroq ishlaydi.
 
 1] Umumiy barcha User larni olib kelish uchun quyidagicha qilamiz.
+
 ```csharp
 public List<User> GetAll()
 {
@@ -110,10 +116,10 @@ public List<User> GetAll()
 }
 ```
 
-Shu yerda bir narsaga e’tibor bering: 
-```SELECT * FROM People``` umumiy malumotlarni olib keldi. **Query()** buyrug'i buni object ga aylantirayapti.
+Shu yerda bir narsaga e’tibor bering: `SELECT * FROM People` umumiy malumotlarni olib keldi. **Query()** buyrug'i buni object ga aylantirayapti.
 
 2] Aynan qaysidir Userni olib kelish uchun (SQL da SELECT buyruqi yordamida)
+
 ```csharp
 public User Get(int id)
 {
@@ -123,9 +129,11 @@ public User Get(int id)
     }
 }
 ```
+
 Bu yerda **QuerySingleOrDefault()** metodi bitta id parametrini Id ga tenglayapti.
 
 3] Yangi User qo’shish uchun (SQL da INSERT buyruqi yordamida)
+
 ```csharp
 public void Create(User user)
 {
@@ -138,6 +146,7 @@ public void Create(User user)
 ```
 
 4] Malum bir Userni o’zgartirish uchun (SQL da UPDATE buyruqi yordamida)
+
 ```csharp
 public void Update(User user)
 {
@@ -150,6 +159,7 @@ public void Update(User user)
 ```
 
 5] Malum bir Userni o’chirish uchun (SQL da DELETE buyruqi yordamida)
+
 ```csharp
 public void Delete(int id)
 {
@@ -161,8 +171,8 @@ public void Delete(int id)
 }
 ```
 
-6] Ma’lum bir prodsedureni chaqirish uchun (SQL da EXEC buyruqi yordamida)
-Eng avvalo string DateTime ni Full qilib beradigan bitta prodsedura yaratib olaman:
+6] Ma’lum bir prodsedureni chaqirish uchun (SQL da EXEC buyruqi yordamida) Eng avvalo string DateTime ni Full qilib beradigan bitta prodsedura yaratib olaman:
+
 ```sql
 CREATE PROCEDURE ToFullDateTime @dateTime nvarchar(30)
 AS
@@ -183,7 +193,9 @@ AS
     DATENAME(NANOSECOND, @date)  AS 'NanoSecond',  
     DATENAME(ISO_WEEK, @date)    AS 'ISO_WEEK'
 ```
+
 a] CommandType.Text bilan
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -194,6 +206,7 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 ```
 
 b] CommandType.StoredProcedure bilan
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -204,10 +217,12 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 }
 ```
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Demak yana bitta takrorlash qilib olamiz, boshi esingizdan chiqib ketgan bo’lsa:
 
 a) Sql bilan bog’lanish hosil qilish
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -216,11 +231,13 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 ```
 
 b) Sql kodlarini shunchaki yozish
+
 ```sql
 SELECT * FROM People
 ```
 
 c) Yangi model tuzish (biz qaytarayotgan malumot obyekt ko’rinishida chiroyli bo’lishi uchun)
+
 ```csharp
 public class Class_Nomi
 {
@@ -229,6 +246,7 @@ public class Class_Nomi
 ```
 
 d) Dapper bilan ko’nikma: Agar nimanidir bazada yangilamoqchi bo’lsangiz **Execute()**
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -238,6 +256,7 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 ```
 
 e) Dapper bilan ko’nikma: Agar nimanidir bazadan olmoqchi bo’lsangiz Query()
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -246,6 +265,7 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 ```
 
 f) Dapper bilan ko’nikma: Agar bazadan kelayotgan malumot bir qator bo’lsa **QuerySingleOrDefault()**
+
 ```csharp
 using (IDbConnection db = new SqlConnection(_connectionString))
 {
@@ -253,11 +273,7 @@ using (IDbConnection db = new SqlConnection(_connectionString))
 }
 ```
 
-g) Dapper bilan ko’nikma: Agar bazadan bitta prodsedureni ishlamoqchi bo’lsangiz  
+g) Dapper bilan ko’nikma: Agar bazadan bitta prodsedureni ishlamoqchi bo’lsangiz\
 **CommandType.StoredProcedure** yoki **CommandType.Text** bilan qilamiz.
 
-
-
-Proyektning github dagi kodlarini [https://github.com/Ruzimurod2003/dapper-mvc](https://github.com/Ruzimurod2003/dapper-mvc) ga joylab qo’ydim.
-Agar nimanidir o’rgangan bo’lsangiz bundan juda ham xursandman.
-
+Proyektning github dagi kodlarini [https://github.com/Ruzimurod2003/dapper-mvc](https://github.com/Ruzimurod2003/dapper-mvc) ga joylab qo’ydim. Agar nimanidir o’rgangan bo’lsangiz bundan juda ham xursandman.

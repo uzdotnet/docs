@@ -1,2 +1,0 @@
-# Fikr va mulohazalar
-
