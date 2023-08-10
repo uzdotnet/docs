@@ -143,25 +143,30 @@ description: Mukhammadkarim Tukhtaboev
 * Role-based authorization and policies
 * REST API development and resource naming
 * REST vs GraphQL vs gRPC vs SOAP
-* GraphQL API development
-  1. Introduction to GraphQL and Hot Chocolate
-  2. Defining GraphQL Schemas and Types
-  3. Building queries and resolvers
-  4. Mutations and Data modification
-  5. Fragments and reusability
-  6. Filtering and pagination
-  7. Authentication and authorization
-  8. Real-time communitcation with subscriptions
-  9. Error handling and resilience
-  10. Introspection and scheme stitching
 
-### Module 10: Testing and debugging
+### Module 10: Software Design Principles
+
+* Introduction to design principles
+* SOLID: Single Responsibility Principle
+* SOLID: Open Closed Principle
+* SOLID: Liskov Subsitition Principle
+* SOLID: Interface Segregation Principle
+* SOLID: Dependency Inversion Principle
+* DRY, KISS, YAGNI principles
+
+### Module 11: Software architecture and non-GoF Design Patterns
+
+* Introduction to Software architecture
+* N-Tier Architecture
+* Unit of Work and Generic Repository Patterns
+* Implementing N-tier architecture
+
+### Module 12: Testing and debugging
 
 * Introduction to Unit Testing
 * Testing basics and testing frameworks
 * Anatomy of a Unit Test
 * Unit Testing REST APIs
-* Unit Testing GraphQL Resolvers
 * Testing Data Access Layer
 * Parameterized tests and test data
 * Test doubles and Mocking
@@ -169,7 +174,7 @@ description: Mukhammadkarim Tukhtaboev
 * Test coverage and code analysis
 * Advanced testing techniques
 
-### Module 11: Deployment and Continuous Integration
+### Module 13: Deployment and Continuous Integration
 
 * Publishing ASP.NET Core applications
 * Introduction to Deployment and CI/CD
@@ -184,7 +189,30 @@ description: Mukhammadkarim Tukhtaboev
 * Monitoring and alerts
 * Integration testing and quality checks
 
-### Module 12: Building a real-world projects
+### Module 14: Advanced technologies and architecture in .NET
+
+* Introduction to advanced .NET technologies
+* RabbitMQ and Messaging
+* Microservices Architecture
+* Clean Architecture
+* Docker and Containerization
+* Kubernetes and Container Orchestration
+* Event Sourcing and CQRS
+* GraphQL and API Design
+  1. Introduction to GraphQL and Hot Chocolate
+  2. Defining GraphQL Schemas and Types
+  3. Building queries and resolvers
+  4. Mutations and Data modification
+  5. Fragments and reusability
+  6. Filtering and pagination
+  7. Authentication and authorization
+  8. Real-time communitcation with subscriptions
+  9. Error handling and resilience
+  10. Introspection and scheme stitching
+* Real-time communication with SignalR
+* Design Patterns
+
+### Module 15: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
