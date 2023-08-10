@@ -231,8 +231,32 @@ description: Mukhammadkarim Tukhtaboev
   10. Achieving separation of concerns
   11. Real-world applications and case studies
 * Docker and Containerization
-* Kubernetes and Container Orchestration
+  1. Introduction to Docker and Containers
+  2. Docker fundamentals and concepts
+  3. Containerizing ASP.NET Core applications
+  4. Managing application dependencies
+  5. Configuration and environment variables
+  6. Networking and communication
+  7. Persistent Storage and data volumes
+  8. Docker compose for multi-container applications
+  9. Orchestration with Kubernetes
+  10. Docker and CI/CD
+  11. Security and best practices
+  12. Debugging and troubleshooting
+  13. Real-world use cases and case studies
 * Event Sourcing and CQRS
+  1. Introduction to Event Sourcing and CQRS
+  2. Event Sourcing fundamentals
+  3. Implementing Event Sourcing in ASP.NET Core
+  4. CQRS overview
+  5. Implementing CQRS in ASP.NET Core
+  6. Building the write side of CQRS
+  7. Building the read side of CQRS
+  8. Event store and data storage
+  9. Scaling and eventual consistency
+  10. Applying Event Sourcing and CQRS in real-world scenarios
+  11. Pitfalls, challenges and best practices
+  12. Event sourcing and CQRS with Advanced technologies
 * GraphQL and API Design
   1. Introduction to GraphQL and Hot Chocolate
   2. Defining GraphQL Schemas and Types
@@ -245,6 +269,19 @@ description: Mukhammadkarim Tukhtaboev
   9. Error handling and resilience
   10. Introspection and scheme stitching
 * Real-time communication with SignalR
+  1. Introduction to real-time communication and SignalR
+  2. SingalR fundamentals and concepts
+  3. Building real-time applications with SignalR
+  4. SignalR hubs and communications
+  5. Real-time data visualization with SignalR
+  6. Handling connection state and reconnection
+  7. Scaling SignalR applications
+  8. Authentication and authorization with SignalR
+  9. Handling offline clients and state persistence
+  10. Extending SignalR for advanced scenarios
+  11. Real-world use cases and case studies
+  12. Pitfalls, challenges and best practices
+  13. Integrating SignalR with other technologies
 
 ### Module: 15: Design Patterns
 
