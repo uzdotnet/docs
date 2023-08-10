@@ -193,6 +193,18 @@ description: Mukhammadkarim Tukhtaboev
 
 * Introduction to advanced .NET technologies
 * RabbitMQ and Messaging
+  1. Introduction to messaging and RabbitMQ
+  2. RabbitMQ architecture and components
+  3. Publish-subscribe model with RabbitMQ
+  4. Direct messaging and Rrouting
+  5. Topics and routing patterns
+  6. Request-reply communication
+  7. Message Acknowledgment and delivery guarantees
+  8. Dead letter exchanges and message handling
+  9. Message Serialization and best practices
+  10. Managing RabbitMQ instances
+  11. Monitoring and troubleshooting
+  12. Real-world use cases and examples
 * Microservices Architecture
 * Clean Architecture
 * Docker and Containerization
