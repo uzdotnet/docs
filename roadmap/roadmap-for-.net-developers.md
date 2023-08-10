@@ -63,7 +63,20 @@ description: Mukhammadkarim Tukhtaboev
 * Asynchronoues programming
 * Reflection and attributes
 
-### Module 5: Database
+### Module 5: Version Control
+
+* Introduction to Version Control
+* Setting up git and github
+* Basic git commands
+* Working with branches
+* Remote repositories and Github
+* Collaborative development with Pull Requests
+* Resolving conflicts
+* Advanced git commands
+* Git Worklofw strategies
+* Git hooks and customization
+
+### Module 6: Database
 
 * What is MS SQL Server?
 * Difference editions of SQL Server: Express, Standart, Enterprise
@@ -88,37 +101,94 @@ description: Mukhammadkarim Tukhtaboev
 * Backup, Restore and Security
 * Users, roles and permissions&#x20;
 
-### Module 6: ORM
+### Module 7: ORM
 
+* Introduction to ORMs
 * Dapper
+  1. Introduction to Dapper
+  2. Basic CRUD operations
+  3. Mapping Data to Objects
+  4. Handling Transactions and Stored Procedure
+  5. Asynchronous Data Access
+  6. Advanced Features and Performance
 * Entity Framework Core
+  1. Introduction to Entity Framework Core
+  2. Setting up data context and entities
+  3. Basic CRUD operations with EF Core
+  4. Querying data with LINQ and Projections
+  5. Relationships and navigation properties
+  6. Working with Migrations
+  7. Seeding data and data annotations
+  8. Advanced querying and filtering
+  9. Working with transactions
+  10. Performance optimization and caching&#x20;
+  11. Code First and Database First approaches
 
-### Module 7: Introduction to ASP.NET Core
+### Module 8: Introduction to ASP.NET Core
 
 * Basic of web development, client-server architecture (HTTP, HTTPS)
 * Setting up an ASP.NET Core project
+* Building endpoints and handling requests
+* Returning data from APIs
+* Handling errors and status codes
+* Versioning and documentation
+* Content negotition and serialization
 
-### Module 8: Advanced ASP.NET Core Concepts
+### Module 9: Advanced ASP.NET Core Concepts
 
-* Authentication and authorization
 * Middlewares
 * Dependency injection
-* REST API development
+* Introduction to authentication and authorization
+* Implement token based authentication using JWT
+* Role-based authorization and policies
+* REST API development and resource naming
+* REST vs GraphQL vs gRPC vs SOAP
 * GraphQL API development
+  1. Introduction to GraphQL and Hot Chocolate
+  2. Defining GraphQL Schemas and Types
+  3. Building queries and resolvers
+  4. Mutations and Data modification
+  5. Fragments and reusability
+  6. Filtering and pagination
+  7. Authentication and authorization
+  8. Real-time communitcation with subscriptions
+  9. Error handling and resilience
+  10. Introspection and scheme stitching
 
-### Module 9: Testing and debugging
+### Module 10: Testing and debugging
 
-* Writing unit tests
+* Introduction to Unit Testing
+* Testing basics and testing frameworks
+* Anatomy of a Unit Test
+* Unit Testing REST APIs
+* Unit Testing GraphQL Resolvers
+* Testing Data Access Layer
+* Parameterized tests and test data
+* Test doubles and Mocking
+* Test suites and test organization
+* Test coverage and code analysis
+* Advanced testing techniques
 
-### Module 10: Deployment and Continuous Integration
+### Module 11: Deployment and Continuous Integration
 
 * Publishing ASP.NET Core applications
-* Dockerizing .NET applications
+* Introduction to Deployment and CI/CD
+* Setting up windows server for deployment
+* Introduction to github actions
+* Building and testing with github actions
+* Deploying to windows server with github actions
+* Handling environment-specific configurations
+* Automanted versioning and release management
+* Deployment strategies and rollbacks
+* Docker and containerization in deployment
+* Monitoring and alerts
+* Integration testing and quality checks
 
-### Module 11: Building a real-world project
+### Module 12: Building a real-world projects
 
-* Open-source contribution
-* Delivering system
+* Delivering system (BARQ, Talabat)
+* Producing real-world package for Nuget
+* Contribution in real-world exist open-source projects
 
 
 
