@@ -50,16 +50,46 @@ description: Mukhammadkarim Tukhtaboev
 
 ### Module 4: Advanced topics in .NET
 
+* Collections: IEnumerable, ICollection, IReadonlyList
+* Collections: List, Stack, Queue, LinkedList, Dictionary, HashSet, ArrayList
+* KeyValuePair, Tuple and ValueTuple
 * Delegates
+* Events
+* Extension methods
+* Stream I/O (StreamWriter, StreamReader)
+* Stream I/O 2 (FileStream, MemoryStream)
+* Using statement
 * File and directories
+* Asynchronoues programming
+* Reflection and attributes
 
 ### Module 5: Database
 
-* MS SQL Server
+* What is MS SQL Server?
+* Difference editions of SQL Server: Express, Standart, Enterprise
+* Installing and setting up MS SQL Server
+* Introduction to SQL
+* Creating database and tables
+* Data types in SQL
+* Basic SQL queries: SELECT, INSERT, UPDATE, DELETE
+* SELECT statement: Filtering and sorting data
+* Working with NULL values
+* Aggregation and grouping
+* Joins
+* Transactions
+* Stored Procedure
+* Understanding indexes, Clustered, non-clustered and filtered indexes
+* Performance tuing: Identifying and improving slow queries
+* Working with Views
+* Working with Triggers
+* Constraints
+* Primary and foreign keys
+* JSON support in SQL Server
+* Backup, Restore and Security
+* Users, roles and permissions&#x20;
 
 ### Module 6: ORM
 
-* ADO.NET
 * Dapper
 * Entity Framework Core
 
