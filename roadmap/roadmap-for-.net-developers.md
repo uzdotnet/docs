@@ -210,9 +210,37 @@ description: Mukhammadkarim Tukhtaboev
   9. Error handling and resilience
   10. Introspection and scheme stitching
 * Real-time communication with SignalR
-* Design Patterns
 
-### Module 15: Building a real-world projects
+### Module: 15: Design Patterns
+
+* Introduction to Design Patterns
+* Creational Patterns
+  1. Singleton Pattern
+  2. Factory Method Pattern
+  3. Abstract Factory Pattern
+  4. Builder Pattern
+  5. Prototype Pattern
+* Structural Patterns
+  1. Adapter Pattern
+  2. Bridge Pattern
+  3. Composite Pattern
+  4. Decorator Pattern
+  5. Facade Pattern
+  6. Flyweight Pattern
+  7. Proxy Pattern
+* Behavioral Patterns
+  1. Chain of Responsibility Pattern
+  2. Command Pattern
+  3. Interpreter Pattern
+  4. Iterator Pattern
+  5. Mediator Pattern
+  6. Memento Pattern
+  7. Observer Pattern
+  8. State Pattern
+  9. Template Method Pattern
+  10. Visitor Pattern
+
+### Module 16: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
