@@ -219,6 +219,17 @@ description: Mukhammadkarim Tukhtaboev
   11. Scaling microservices
   12. Real-world use cases and case studies
 * Clean Architecture
+  1. Introduction to Clean Architecture
+  2. Implementing the presentation layer
+  3. Application services and use cases
+  4. The Domain Layer and Domain entities
+  5. Repository pattern and data persistence
+  6. Dependency injection and infrastructure
+  7. Decoupling with interfaces and Adapters
+  8. Handling cross-cutting concerns
+  9. Testing in Clean Architecture
+  10. Achieving separation of concerns
+  11. Real-world applications and case studies
 * Docker and Containerization
 * Kubernetes and Container Orchestration
 * Event Sourcing and CQRS
