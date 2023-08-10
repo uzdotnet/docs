@@ -206,6 +206,18 @@ description: Mukhammadkarim Tukhtaboev
   11. Monitoring and troubleshooting
   12. Real-world use cases and examples
 * Microservices Architecture
+  1. Introduction to Microservices architecture
+  2. Design principles for microservices
+  3. Decomposing monolitcs into microservices
+  4. Service communication and API gateways
+  5. Service discovery and load balancing
+  6. Data management in microservices
+  7. Event-Driven microservices
+  8. Microservices security and authentication
+  9. Testing and deployment strategies
+  10. Monitoring and observability
+  11. Scaling microservices
+  12. Real-world use cases and case studies
 * Clean Architecture
 * Docker and Containerization
 * Kubernetes and Container Orchestration
