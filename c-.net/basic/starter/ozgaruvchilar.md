@@ -27,12 +27,11 @@ Albatta bu hazil 😊 Quyida bir necha toifaga mansub bo’lgan o’zgaruvchilar
 using System;
 namespace MyProgram
 {
-		static void Main(string[] args)
-{
-		string project = “Mening Dasturim”;		
-Console.WriteLine(project);	
-}
-
+    static void Main(string[] args)
+    {
+        string project = “Mening Dasturim”;		
+        Console.WriteLine(project);	
+    }
 }
 ```
 
@@ -44,11 +43,11 @@ int tipiga oid x o’zgaruvchisini e’lon qilish va unga 5 qiymatini o’zlasht
 using System;
 namespace MyProgram
 {
-		static void Main(string[] args)
-			{
-						int x = 5;
-						Console.WriteLine(x);
-			}
+    static void Main(string[] args)
+    {
+        int x = 5;
+	Console.WriteLine(x);
+    }
 }
 ```
 
@@ -56,17 +55,15 @@ Natija: 5
 
 Eslatma: Agarda o’zgaruvchiga yangi qiymat o’zlashtirilsa, uning eski qiymati yo’qolib o’rniga yangi qiymat saqlanadi.
 
-
-
 ```csharp
 namespace MyProgram
 {
-		static void Main(string[] args)
-		{
-				int x= 5;
-				x = 20; // x dagi qiymat endi 20
-				Console.WriteLine(x);
-		}
+    static void Main(string[] args)
+    {
+	int x= 5;
+        x = 20; // x dagi qiymat endi 20
+	Console.WriteLine(x);
+    }
 }
 ```
 
