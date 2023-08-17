@@ -21,6 +21,7 @@ Asosan 6 xil turi mavjud:
 
 ### Ular haqida qisman ma'lumot beraman degan edingiz!?
 
+
 1. Arifmetik operatorlar bizga arifmetik amallar qilish imkonini beradi. Ya’ni biz bunda 5 arifmetik amallarni bajara olamiz.
 
 ```csharp
