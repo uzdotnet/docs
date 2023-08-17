@@ -10,13 +10,14 @@ Operatorlar odatda harakat yoki jarayonni (harakat va jarayonni ham bo’lishi m
 
 ### C# dasturlash tilida operatorlar nechta?
 
-Asosan 5 xil turi mavjud:
+Asosan 6 xil turi mavjud:
 
 * Arifmetik operatorlar
 * Mantiqiy operatorlar
-* Shart operatorlar
-* Tanlash operatorlar
-* Takrorlash operatorlar
+* Shart operatorlari
+* Tanlash operatorlari
+* Takrorlash operatorlari
+* O'tish operatorlari
 
 ### Ular haqida qisman ma'lumot beraman degan edingiz!?
 
