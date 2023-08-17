@@ -141,7 +141,7 @@ Console.WriteLine(d2);//1.123456789123456
 ```
 
 _**Decimal**_ \
-decimal tipi xotiradan boshqa tiplarga qaraganda balandroq joy egallaydi. Egallanadigan joy 16 bayt. Bu tip asosan moliya sohalaridagi dasturlarda ko’proq foydalaniladi. decimal toifadagi tipni hosil qilish uchun d yoki D suffiksidan foydalaniladi.
+decimal tipi xotiradan boshqa tiplarga qaraganda balandroq joy egallaydi. Egallanadigan joy 16 bayt. Bu tip asosan moliya sohalaridagi dasturlarda ko’proq foydalaniladi. decimal toifadagi tipni hosil qilish uchun m yoki M suffiksidan foydalaniladi.
 
 ```csharp
 decimal d1 = 123456789123456789123456789.5m;
