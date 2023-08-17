@@ -17,10 +17,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string Ism;
+            string ism;
             Console.WriteLine("Ismingizni kiriting: ");
             //string tipida qiymat qaytadi
-            Ism = Console.ReadLine();
+            ism = Console.ReadLine();
         }
     }
 }
@@ -37,17 +37,17 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string Ism;
-            int Yosh;
+            string ism;
+            int yosh;
             Console.Write("Ismingizni kiriting: ");
             //string tipidagi qiymat qaytadi
-            Ism = Console.ReadLine();
+            ism = Console.ReadLine();
 
             Console.Write("Yoshingizni kiriting: ");
             //string turidan int turiga aylantiriladi 
-            Yosh = Convert.ToInt32(Console.ReadLine());
+            yosh = Convert.ToInt32(Console.ReadLine());
             //int.Parse yordamida convertatasiya qilamiz
-            //Yosh = int.Parse(Console.ReadLine());   
+            //yosh = int.Parse(Console.ReadLine());   
         }
     }
 }
