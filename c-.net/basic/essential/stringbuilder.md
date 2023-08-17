@@ -4,7 +4,8 @@ description: Niyozbek Mirzayev
 
 # StringBuilder
 
-C# dastrlash tilida Stringga o'xshash StringBuilder tipi mavjud. Ular bir-biriga yaqin, lekin ma'lum farqlar ularni ajratib turadi.
+C# dasturlash tilida Stringga o'xshash StringBuilder tipi mavjud. Ular bir-biriga yaqin, lekin ma'lum farqlar ularni ajratib turadi.
+
 
 Keling, StringBuilder qanday yaratilishi haqida bilib olaylik. Avallo, **System.Text** kutubxonasini chaqirishimiz lozim, shundan so'ng quyidagicha kod yoradamida StringBuilder e'lon qilinadi:
 
