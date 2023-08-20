@@ -6,6 +6,12 @@ description: Mukhammadkarim Tukhtaboev
 
 
 
+### Module 0: Introduction to course?
+
+* Who is author?
+* About course
+* About programming and programming languages
+
 ### Module 1: Introduction to .NET and C\#
 
 * What is .NET?
@@ -143,6 +149,10 @@ description: Mukhammadkarim Tukhtaboev
 * Role-based authorization and policies
 * REST API development and resource naming
 * REST vs GraphQL vs gRPC vs SOAP
+* Logging
+* Introduction to caching
+* In-memory caching
+* Distributed caching
 
 ### Module 10: Software Design Principles
 
