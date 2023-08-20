@@ -16,6 +16,7 @@ description: Mukhammadkarim Tukhtaboev
 
 * What is .NET?
 * History of .NET
+* Versions of .NET
 * Why .NET?
 * Major components of .NET
 * Installing .NET
