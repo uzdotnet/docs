@@ -380,8 +380,56 @@ description: Mukhammadkarim Tukhtaboev
   1. Overview of Windows Presentation Foundation.
   2. XAML (eXtensible Application Markup Language) basics.
   3. Key differences between WPF and Windows Forms.
+* XAML and UI layout
+  1. Understanding XAML syntax and structure.
+  2. Creating UI layouts with panels (StackPanel, Grid, DockPanel).
+  3. Styling and theming using XAML.
+* Data binding in WPF
+  1. Implementing data binding using XAML.
+  2. Two-way data binding and updates.
+  3. Data templates for visualizing data.
+* WPF controls and user interface
+  1. Exploring built-in controls (TextBox, Button, ListBox, etc.).
+  2. Customizing control appearance using styles and templates.
+  3. Creating responsive and adaptive user interfaces.
+* Command binding and MVVM pattern
+  1. Implementing command binding for user interactions.
+  2. Introduction to the MVVM (Model-View-ViewModel) architectural pattern.
+  3. Separation of concerns with data binding and view-models.
+* Animations and visual effects
+  1. Adding animations to elements (transitions, storyboards).
+  2. Using Visual States for complex UI behaviors.
+  3. Enhancing user experience with visual effects.
+* Navigation and page management
+  1. Navigating between different views or pages.
+  2. Passing data between views during navigation.
+  3. Implementing a navigation framework.
+* Advanced styling and control templates
+  1. Creating custom control templates.
+  2. Styling controls using triggers and setters.
+  3. Incorporating vector graphics and icons.
+* Data validation and error handling
+  1. Implementing data validation using validation rules.
+  2. Displaying validation errors to users.
+  3. Handling exceptions gracefully.
+* Localization and globalization
+  1. Designing applications for internationalization.
+  2. Localizing user interface elements.
+  3. Handling different cultures and languages.
+* Printing and reporting
+  1. Generating and printing reports in WPF.
+  2. Configuring print settings and page layout.
+  3. Exporting content to various formats.
+* Advanced topics in WPF
+  1. Working with 3D graphics and animations.
+  2. Integrating multimedia (audio, video) into applications.
+  3. Data visualization using charts and graphs.
+* Deployment and distribution
+  1. Packaging WPF applications for deployment.
+  2. Creating installer packages.
+  3. Ensuring updates and maintenance.
 
-### Module 17: Building a real-world projects
+### Module 18: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
