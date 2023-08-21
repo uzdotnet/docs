@@ -74,18 +74,51 @@ description: Mukhammadkarim Tukhtaboev
 ### Module 5: LINQ
 
 * Introduction to LINQ
-* LINQ query sytax
+  1. What is LINQ and why is it important?
+  2. Benefits of using LINQ for data querying.
+* LINQ query syntax
+  1. Basic LINQ query structure.
+  2. Using `from`, `where`, `select`, `orderby`, and `groupby` clauses.
+  3. Filtering data using `where` clause.
 * Projection and transformation
+  1. Projecting data using `select` clause.
+  2. Working with anonymous types in projections.
+  3. Transforming data into different shapes.
 * Sorting and grouping
+  1. Sorting data using the `orderby` clause.
+  2. Grouping data using the `groupby` clause.
+  3. Aggregating data within groups.
 * Aggregation and aggregation methods
+  1. Understanding aggregation functions like `Sum`, `Average`, `Min`, and `Max`.
+  2. Using aggregation methods with LINQ queries.
+  3. Applying aggregations on grouped data.
 * Additional data manipulation methods
+  1. Using methods like `All`, `Any`, `Contains`, `Distinct`, `Except`, `Intersect`, `Union`.
+  2. Applying these methods in LINQ queries for specific scenarios.
 * Paging and filtering methods
+  1. Using methods like `Take`, `TakeWhile`, `Skip`, `SkipWhile`.
+  2. Applying paging and filtering techniques to query subsets of data.
 * Joining data
+  1. Using the `Join` method to combine data from multiple sources.
+  2. Understanding different types of joins.
 * Accessing specific elements
+  1. Using methods like `ElementAt`, `FirstOrDefault`, `Last`, `LastOrDefault`, `Single`, `SingleOrDefault`.
+  2. Retrieving specific elements from a sequence.
 * LINQ method syntax
+  1. Introduction to LINQ method chaining.
+  2. Using methods like `Where`, `Select`, `OrderBy`, `GroupBy`.
+  3. Utilizing aggregation and other data manipulation methods.
 * LINQ to objects
+  1. Querying in-memory collections using LINQ.
+  2. Performing various data manipulations using LINQ.
+  3. Practicing LINQ with arrays, lists, dictionaries, etc.
 * LINQ to XML and JSON
+  1. Querying XML and JSON data using LINQ.
+  2. Loading and transforming XML/JSON data with LINQ queries.
 * Advanced LINQ concepts
+  1. Understanding expression trees in LINQ.
+  2. Writing custom LINQ extension methods.
+  3. Utilizing LINQ for functional-style programming.
 
 ### Module 6: Version Control
 
