@@ -431,6 +431,9 @@ description: Mukhammadkarim Tukhtaboev
 
 ### Module 18: Mobile development in .NET MAUI
 
+* Introduction to .NET MAUI
+  1. Introduction to .NET MAUI and cross-platform development.
+  2. Advantages and use cases of .NET MAUI.
 * Setting up the development environment
   1. Installing .NET MAUI workload and tools.
   2. Creating a new .NET MAUI project.
@@ -483,7 +486,72 @@ description: Mukhammadkarim Tukhtaboev
   1. Preparing apps for deployment.
   2. Deploying to app stores: iOS, Android, Windows.
 
-### Module 18: Building a real-world projects
+### Module 19: Frontend development in Blazor
+
+* Introduction to Blazor
+  1. What is Blazor and its core concepts.
+  2. Advantages of using Blazor for frontend development.
+  3. Comparison between server-side Blazor and WebAssembly Blazor.
+* Setting up the development environment
+  1. Installing .NET SDK and Blazor tools.
+  2. Creating a new Blazor project.
+* Blazor components and pages
+  1. Understanding Blazor components and Razor syntax.
+  2. Creating and structuring Blazor pages.
+  3. Layouts, partial views, and reusable components.
+* Data binding and events
+  1. Two-way data binding using `@bind` directive.
+  2. Handling user interactions with events.
+  3. Using form controls and input validation.
+* Routing and navigation
+  1. Configuring routing in Blazor applications.
+  2. Navigating between different pages and views.
+  3. Passing parameters in routes.
+* State management
+  1. Managing component state with `@state`.
+  2. Sharing state between components.
+  3. Using Cascading Parameters.
+* Forms and validation
+  1. Building forms with Blazor components.
+  2. Client-side and server-side form validation.
+  3. Displaying validation errors to users.
+* Layouts and UI styling
+  1. Creating consistent layouts using shared components
+  2. Styling components with CSS and Bootstrap.
+  3. Customizing UI using themes and templates.
+* Dependency injection in Blazor
+  1. Understanding DI in Blazor applications.
+  2. Registering services and injecting dependencies.
+  3. Implementing services for data access.
+* Working with APIs and HTTP requests
+  1. Making HTTP requests using HttpClient.
+  2. Consuming RESTful APIs and handling responses.
+  3. Authentication and authorization with APIs.
+* Client-side interactivity
+  1. Adding JavaScript interop for client-side functionality.
+  2. Incorporating third-party JavaScript libraries.
+* Component lifecycle and hooks
+  1. Understanding the lifecycle of a Blazor component.
+  2. Using lifecycle methods (`OnInitialized`, `OnParametersSet`, etc.).
+  3. Performing actions during component lifecycle.
+* WebAssembly Blazor (Experimental)
+  1. Introduction to WebAssembly Blazor.
+  2. Setting up and building WebAssembly applications.
+  3. Comparing WebAssembly and server-side Blazor.
+* Testing and debugging
+  1. Writing unit tests for Blazor components and logic.
+  2. Debugging Blazor applications in the browser.
+* Deployment and hosting
+  1. Publishing Blazor applications for deployment.
+  2. Hosting options (Azure, AWS, GitHub Pages, etc.).
+* Advanced topics and best practices
+  1. Advanced state management with Flux/Redux patterns.
+  2. Using Blazor with Progressive Web Apps (PWAs).
+  3. Real-time communication with SignalR and Blazor.
+  4. Performance optimization and lazy loading.
+  5. Integrating Blazor with authentication providers.
+
+### Module 19: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
