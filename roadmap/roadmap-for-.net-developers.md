@@ -429,6 +429,60 @@ description: Mukhammadkarim Tukhtaboev
   2. Creating installer packages.
   3. Ensuring updates and maintenance.
 
+### Module 18: Mobile development in .NET MAUI
+
+* Setting up the development environment
+  1. Installing .NET MAUI workload and tools.
+  2. Creating a new .NET MAUI project.
+* Introduction XAML for .NET MAUI
+  1. XAML basics: UI elements, attributes, namespaces.
+  2. Building user interfaces using XAML.
+* UI components and controls
+  1. Using common controls: Button, Label, Entry, etc.
+  2. Layouts and containers: StackLayout, Grid, FlexLayout.
+* Component-based development
+  1. Adding and styling toggle buttons.
+  2. Implementing checkboxes and radio buttons.
+  3. Creating and customizing switches.
+* Data binding in .NET MAUI
+  1. Data binding basics using XAML.
+  2. Binding to properties in view models.
+  3. Handling data updates and synchronization.
+* Navigation and routing
+  1. Implementing navigation between pages/views.
+  2. Passing parameters between pages.
+  3. Handling navigation events and patterns.
+* Platform-specific customization
+  1. Leveraging platform-specific APIs and features.
+  2. Using Dependency Injection for platform-specific code.
+* Styling and theming
+  1. Applying styles using XAML resources.
+  2. Theming for consistent UI across platforms.
+* Handling device features
+  1. Accessing device capabilities through APIs.
+  2. Using Essentials library for common device features.
+* MVVM pattern with .NET MAUI
+  1. Understanding MVVM architecture.
+  2. Binding view models to views.
+  3. Commands and view model interactions.
+* Localization and globalization
+  1. Designing apps for multiple languages.
+  2. Localizing user interface elements.
+  3. Handling date, time, and number formats.
+* Working with media and multimedia
+  1. Displaying images and icons.
+  2. Integrating audio and video content.
+* Advanced .NET MAUI concepts
+  1. Adaptive UI for different screen sizes and orientations.
+  2. Custom controls and renderers.
+  3. Integrating third-party libraries using NuGet.
+* Debugging and testing
+  1. Debugging .NET MAUI applications.
+  2. Writing unit tests for view models and logic.
+* Deployment and distribution
+  1. Preparing apps for deployment.
+  2. Deploying to app stores: iOS, Android, Windows.
+
 ### Module 18: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
