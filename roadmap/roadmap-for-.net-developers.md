@@ -374,6 +374,13 @@ description: Mukhammadkarim Tukhtaboev
   9. Template Method Pattern
   10. Visitor Pattern
 
+### Module 17: Desktop development in WPF
+
+* Introduction to WPF
+  1. Overview of Windows Presentation Foundation.
+  2. XAML (eXtensible Application Markup Language) basics.
+  3. Key differences between WPF and Windows Forms.
+
 ### Module 17: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
