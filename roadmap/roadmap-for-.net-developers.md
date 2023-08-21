@@ -67,10 +67,27 @@ description: Mukhammadkarim Tukhtaboev
 * Stream I/O 2 (FileStream, MemoryStream)
 * Using statement
 * File and directories
+* Multithreading
 * Asynchronoues programming
 * Reflection and attributes
 
-### Module 5: Version Control
+### Module 5: LINQ
+
+* Introduction to LINQ
+* LINQ query sytax
+* Projection and transformation
+* Sorting and grouping
+* Aggregation and aggregation methods
+* Additional data manipulation methods
+* Paging and filtering methods
+* Joining data
+* Accessing specific elements
+* LINQ method syntax
+* LINQ to objects
+* LINQ to XML and JSON
+* Advanced LINQ concepts
+
+### Module 6: Version Control
 
 * Introduction to Version Control
 * Setting up git and github
@@ -83,7 +100,7 @@ description: Mukhammadkarim Tukhtaboev
 * Git Worklofw strategies
 * Git hooks and customization
 
-### Module 6: Database
+### Module 7: Database
 
 * What is MS SQL Server?
 * Difference editions of SQL Server: Express, Standart, Enterprise
@@ -108,7 +125,7 @@ description: Mukhammadkarim Tukhtaboev
 * Backup, Restore and Security
 * Users, roles and permissions&#x20;
 
-### Module 7: ORM
+### Module 8: ORM
 
 * Introduction to ORMs
 * Dapper
@@ -131,7 +148,7 @@ description: Mukhammadkarim Tukhtaboev
   10. Performance optimization and caching&#x20;
   11. Code First and Database First approaches
 
-### Module 8: Introduction to ASP.NET Core
+### Module 9: Introduction to ASP.NET Core
 
 * Basic of web development, client-server architecture (HTTP, HTTPS)
 * Setting up an ASP.NET Core project
@@ -139,9 +156,10 @@ description: Mukhammadkarim Tukhtaboev
 * Returning data from APIs
 * Handling errors and status codes
 * Versioning and documentation
+* Working with Postman
 * Content negotition and serialization
 
-### Module 9: Advanced ASP.NET Core Concepts
+### Module 10: Advanced ASP.NET Core Concepts
 
 * Middlewares
 * Dependency injection
@@ -155,7 +173,7 @@ description: Mukhammadkarim Tukhtaboev
 * In-memory caching
 * Distributed caching
 
-### Module 10: Software Design Principles
+### Module 11: Software Design Principles
 
 * Introduction to design principles
 * SOLID: Single Responsibility Principle
@@ -165,14 +183,14 @@ description: Mukhammadkarim Tukhtaboev
 * SOLID: Dependency Inversion Principle
 * DRY, KISS, YAGNI principles
 
-### Module 11: Software architecture and non-GoF Design Patterns
+### Module 12: Software architecture and non-GoF Design Patterns
 
 * Introduction to Software architecture
 * N-Tier Architecture
 * Unit of Work and Generic Repository Patterns
 * Implementing N-tier architecture
 
-### Module 12: Testing and debugging
+### Module 13: Testing and debugging
 
 * Introduction to Unit Testing
 * Testing basics and testing frameworks
@@ -185,7 +203,7 @@ description: Mukhammadkarim Tukhtaboev
 * Test coverage and code analysis
 * Advanced testing techniques
 
-### Module 13: Deployment and Continuous Integration
+### Module 14: Deployment and Continuous Integration
 
 * Publishing ASP.NET Core applications
 * Introduction to Deployment and CI/CD
@@ -200,7 +218,7 @@ description: Mukhammadkarim Tukhtaboev
 * Monitoring and alerts
 * Integration testing and quality checks
 
-### Module 14: Advanced technologies and architecture in .NET
+### Module 15: Advanced technologies and architecture in .NET
 
 * Introduction to advanced .NET technologies
 * RabbitMQ and Messaging
@@ -294,7 +312,7 @@ description: Mukhammadkarim Tukhtaboev
   12. Pitfalls, challenges and best practices
   13. Integrating SignalR with other technologies
 
-### Module: 15: Design Patterns
+### Module: 16: Design Patterns
 
 * Introduction to Design Patterns
 * Creational Patterns
@@ -323,7 +341,7 @@ description: Mukhammadkarim Tukhtaboev
   9. Template Method Pattern
   10. Visitor Pattern
 
-### Module 16: Building a real-world projects
+### Module 17: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
