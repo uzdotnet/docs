@@ -34,23 +34,23 @@ description: Mukhammadkarim Tukhtaboev
 * Loops, break and continue
 * Math functions
 * Comments
+* Methods and params
+* Arrays
 
 ### Module 3: Essentials C# programming concepts
 
-* Functions and params
-* Ref and out
-* Arrays
-* String arguments in Main function
 * Introduction to OOP (vs functional programing)
 * Major components of OOP
 * Classes and objects
-* Property and fields
 * Constructor and Destructor
+* Property and fields
+* Incapsulation
 * Inheritance and this/base keywords
 * Polimorphism
-* Incapsulation
 * Abstraction
 * Enum and struct
+* Ref and out
+* String arguments in Main function
 * static, sealed, abstract classes
 * String and StringBuilder
 * Exception Handling
@@ -70,6 +70,7 @@ description: Mukhammadkarim Tukhtaboev
 * Multithreading
 * Asynchronoues programming
 * Reflection and attributes
+* HttpClient and HTTP methods
 
 ### Module 5: LINQ
 
@@ -551,7 +552,7 @@ description: Mukhammadkarim Tukhtaboev
   4. Performance optimization and lazy loading.
   5. Integrating Blazor with authentication providers.
 
-### Module 19: Building a real-world projects
+### Module 20: Building a real-world projects
 
 * Delivering system (BARQ, Talabat)
 * Producing real-world package for Nuget
