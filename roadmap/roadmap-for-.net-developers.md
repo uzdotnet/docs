@@ -29,6 +29,7 @@ description: Mukhammadkarim Tukhtaboev
 * Print data to console
 * Date types and variables
 * Input data to console
+* String interpolation
 * If/else operator
 * Switch/case operator
 * Goto operator
