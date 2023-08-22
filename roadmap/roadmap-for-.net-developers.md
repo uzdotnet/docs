@@ -26,6 +26,7 @@ description: Mukhammadkarim Tukhtaboev
 
 ### Module 2: C# Fundamentals
 
+* Print data to console
 * Date types and variables
 * Input data to console
 * If/else operator
