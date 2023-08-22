@@ -40,6 +40,7 @@ description: Mukhammadkarim Tukhtaboev
 * Arrays
 * Casting types
 * Boxing and unboxing
+* Managed code and unmanaged code
 
 ### Module 3: Essentials C# programming concepts
 
