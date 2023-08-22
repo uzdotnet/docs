@@ -38,6 +38,8 @@ description: Mukhammadkarim Tukhtaboev
 * Comments
 * Methods and params
 * Arrays
+* Casting types
+* Boxing and unboxing
 
 ### Module 3: Essentials C# programming concepts
 
@@ -51,9 +53,10 @@ description: Mukhammadkarim Tukhtaboev
 * Polimorphism
 * Abstraction
 * Enum and struct
+* Value type and reference type
 * Ref and out
 * String arguments in Main function
-* static, sealed, abstract classes
+* Static, sealed, abstract classes
 * String and StringBuilder
 * Exception Handling
 
