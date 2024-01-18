@@ -6,6 +6,8 @@
   * [.NET bilan bog'liq mavhumliklardan qochish](c-.net/.net-bilan-bogliq-mavhumliklardan-qochish.md)
   * [.NET asoslari](c-.net/.net-asoslari/README.md)
     * [MSIL](c-.net/.net-asoslari/msil.md)
+    * [Memory Management](c-.net/.net-asoslari/memory-management/README.md)
+      * [Stack & Heap](c-.net/.net-asoslari/memory-management/stack-and-heap.md)
     * [CLR](c-.net/.net-asoslari/clr.md)
   * [Basics](c-.net/basic/README.md)
     * [Starter (boshlang'ich)](c-.net/basic/starter/README.md)
