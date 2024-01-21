@@ -63,6 +63,7 @@
       * [Abstrakt class va funksiyalar](c-.net/basic/essential/abstrakt-class-va-funksiyalar.md)
       * [String](c-.net/basic/essential/string.md)
       * [StringBuilder](c-.net/basic/essential/stringbuilder.md)
+      * [String Intern Pool](c-.net/basic/essential/string-intern-pool.md)
       * [Exception Handling](c-.net/basic/essential/exception-handling.md)
       * [try/catch](c-.net/basic/essential/try-catch.md)
       * [finally](c-.net/basic/essential/finally.md)
