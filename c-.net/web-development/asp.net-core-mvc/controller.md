@@ -45,3 +45,4 @@ namespace dotnetuz.Controllers
     }
 }
 ```
+ASP.NET Core da Barcha controller sinflar Controller suffixi bilan tugashi lozim. Yuqoridagi Contoller aynan shu tufayli HomeController deb nomlangan. Sinf ichidagi public modifikatoriga ega bo'lgan metodlar Action deb nomlanadi.
