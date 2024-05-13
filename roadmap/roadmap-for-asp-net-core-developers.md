@@ -1,3 +1,7 @@
+---
+description: Buzurgmexr Sultonaliyev
+---
+
 # ASP.NET Core Dasturchi Yo'l Xaritasi
 
 > 2024 yilda [ASP.NET Core](https://docs.microsoft.com/aspnet/core) dasturchisi bo'lish uchun yo'l xaritasi:
