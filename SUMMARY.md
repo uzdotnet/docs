@@ -284,7 +284,7 @@
       * [Swagger ni sozlash](c-.net/web-development/asp.net-core-web-api/swagger-ni-sozlash.md)
       * [Filter va atributlar](c-.net/web-development/asp.net-core-web-api/filter-va-atributlar.md)
       * [Configuration va middleware](c-.net/web-development/asp.net-core-web-api/configuration-va-middleware.md)
-      * [Logging (Serilog)](c-.net/web-development/asp.net-core-web-api/logging-serilog.md)
+      * [Logging](c-.net/web-development/asp.net-core-web-api/logging.md)
       * [Mapping (AutoMapper)](c-.net/web-development/asp.net-core-web-api/mapping-automapper.md)
       * [SignalR](c-.net/web-development/asp.net-core-web-api/signalr.md)
       * [Keshlash](c-.net/web-development/asp.net-core-web-api/keshlash.md)
