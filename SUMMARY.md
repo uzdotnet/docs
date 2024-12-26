@@ -385,3 +385,4 @@
 * [Roadmap](roadmap/README.md)
   * [Roadmap for .NET developers](roadmap/roadmap-for-.net-developers.md)
   * [Roadmap for Azure developers](roadmap/roadmap-for-azure-developers.md)
+  * [Roadmap for ASP.NET Core Developers](roadmap/roadmap-for-asp-net-core-developers.md)
