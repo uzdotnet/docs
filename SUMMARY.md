@@ -288,6 +288,7 @@
       * [Mapping (AutoMapper)](c-.net/web-development/asp.net-core-web-api/mapping-automapper.md)
       * [SignalR](c-.net/web-development/asp.net-core-web-api/signalr.md)
       * [Keshlash](c-.net/web-development/asp.net-core-web-api/keshlash.md)
+      * [FluentValidation](c-.net/web-development/asp.net-core-web-api/validation.md)
     * [ASP.NET Core MVC](c-.net/web-development/asp.net-core-mvc/README.md)
       * [MVC nima?](c-.net/web-development/asp.net-core-mvc/mvc-nima.md)
       * [ASP.NET Core MVC haqida qisqacha](c-.net/web-development/asp.net-core-mvc/asp.net-core-mvc-haqida-qisqacha.md)

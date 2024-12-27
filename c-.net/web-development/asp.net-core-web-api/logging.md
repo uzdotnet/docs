@@ -1,5 +1,5 @@
 ---
-description: Muhammad Xodjayev
+description: Muhammad Khodjaev
 ---
 
 # Logging
@@ -122,4 +122,4 @@ Bunday formatda o’zgaruvchilarni qayd qilib ketsak keyin masalan  **Azure’da
 
 **_Xurmat bilan,_**
 
-**_Muhammad Xodjayev._**
+**_Muhammad Khodjaev._**

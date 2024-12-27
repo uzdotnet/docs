@@ -1,5 +1,5 @@
 ---
-description: Muhammad Xodjayev
+description: Muhammad Khodjaev
 ---
 
 # Middleware tushunchasi
@@ -251,4 +251,4 @@ Quyidagi jadvalda [http://localhost:5000](http://localhost:5000)’ga yuborilgan
 
 Xurmat bilan,
 
-Muhammad Xodjayev
+Muhammad Khodjaev
