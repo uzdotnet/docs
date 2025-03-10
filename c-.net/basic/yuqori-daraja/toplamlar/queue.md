@@ -79,3 +79,4 @@ Queueda qolgan elementlar: 8 13 21
 ```
 
 Maqola siz uchun foydali bo'ldi degan umiddaman. E'tiboringiz uchun rahmat.
+
