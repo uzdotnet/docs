@@ -2,29 +2,34 @@
 description: Nodirbek Abdulaxadov
 ---
 
-# FileInfo
+## FileInfo
 
-FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun xususiyatlar va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
+[FileInfo](https://learn.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-7.0) sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish uchun property va metodlarni taqdim etadi. Shuningdek, [FileStream](https://docs.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-5.0) obyektlarini yaratishda yordam beradi.
 
-**FileInfo xususiyatlari:**
 
-| Directory | Fayl joylashgan katalog nomini qaytaradi |
+[**FileInfo propertylari:**](https://learn.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-7.0#properties)
+
+
+| Property nomi | Xususiyati |
 | :--- | :--- |
+| Directory | Fayl joylashgan katalog nomini qaytaradi |
 | DirectoryName | Fayl joylashgan to’liq katalog nomini qaytaradi |
 | Exists | Fayl mavjudligini tekshiradi |
 | Extension | Fayl turini\(kengaytmasini\) qaytaradi |
 | FullName | Faylning to’liq manzilini qaytaradi |
-| IsReadOnly | Fayl faqat o’qish uchunligini tekshiradi |
+| IsReadOnly | Fayl faqat o’qish uchun ekanligini tekshiradi |
 | CreationTime | Fayl yaratilgan vaqtini qaytaradi |
 | LastAccessTime | Fayl ishlatilgan oxirgi vaqtni qaytaradi |
 | LastWriteTime | Faylning oxirgi o’zgartirilgan vaqtini qaytaradi |
 | Length | Fayl hajmini qaytaradi \(baytlarda\) |
 | Name | Fayl nomini qayatardi |
 
-**FileInfo metodlari:**
 
-| AppendText | FileInfo ushbu nusxasi tomonidan taqdim etilgan faylga matn qo'shadigan StreamWriter yaratadi. |
+[**FileInfo metodlari:**](https://learn.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-7.0#methods)
+
+| Metod nomi | Funksionalligi |
 | :--- | :--- |
+| AppendText | FileInfo ushbu nusxasi tomonidan taqdim etilgan faylga matn qo'shadigan StreamWriter yaratadi. |
 | CopyTo | Mavjud faylning ustiga yozishni taqiqlab, mavjud faylni yangi faylga ko'chiradi. |
 | Create | Fayl yaratadi |
 | CreateText | Yangi matnli faylni yozadigan StreamWriter-ni yaratadi. |
@@ -38,105 +43,75 @@ FileInfo sinfi - fayllarni yaratish, nusxalash, o'chirish, ko'chirish va ochish 
 _FileInfo xususiyatlardan foydalanish:_
 
 ```csharp
-using System;
-using System.IO;
+//faylga joylashgan path
+string path = @"C:\Users\user\Desktop\test.txt";
 
-namespace FileInfo_examples
+//FileInfo sinfidan yangi obyekt hosil qilish
+FileInfo fileInfo = new FileInfo(path);
+
+//Exist yordamida fayl mavjudligini tekshirish
+if (fileInfo.Exists)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            //faylga yo'l
-            string path = @"C:\Users\user\Desktop\test.txt";
-
-            //FileInfo sinfidan yangi obyekt hosil qilish
-            FileInfo fileInfo = new FileInfo(path);
-
-            //Exist yordamida fayl mavjudligini tekshirish
-            if (fileInfo.Exists)
-            {
-                //fayl xususiyatlarini chiqarish
-                Console.WriteLine($"Fayl joylashgan katalog: \t{fileInfo.Directory}");
-                Console.WriteLine($"Fayl kengaytmasi: \t{fileInfo.Extension}");
-                Console.WriteLine($"Faylning to'liq nomi: \t{fileInfo.FullName}");
-                Console.WriteLine($"Yaratilgan vaqti: \t{fileInfo.CreationTime}");
-                Console.WriteLine($"Hajmi: \t{fileInfo.Length} bayt");
-            }
-
-            Console.ReadKey();
-        }
-    }
+    //fayl xususiyatlarini chiqarish
+    Console.WriteLine($"Fayl joylashgan katalog: \t{fileInfo.Directory}");
+    Console.WriteLine($"Fayl kengaytmasi: \t{fileInfo.Extension}");
+    Console.WriteLine($"Faylning to'liq nomi: \t{fileInfo.FullName}");
+    Console.WriteLine($"Yaratilgan vaqti: \t{fileInfo.CreationTime}");
+    Console.WriteLine($"Hajmi: \t{fileInfo.Length} bayt");
 }
 ```
-
-![](../../../../.gitbook/assets/image%20%2824%29.png)
 
 _FileInfo metodlaridan foydalanish:_
 
 ```csharp
-using System;
-using System.IO;
-namespace FileInfo_Examples
+string path = "Example.txt";
+var fileInfo = new FileInfo(path);
+
+try
 {
-    class Test
-    {
-        public static void Main()
-        {
-            string path = Path.GetTempFileName();
-            var fi1 = new FileInfo(path);
+    string path2 = "Example_copy.txt";
 
-            // Create a file to write to.
-            using (StreamWriter sw = fi1.CreateText())
-            {
-                sw.WriteLine("Hello");
-                sw.WriteLine("And");
-                sw.WriteLine("Welcome");
-            }
+    // faylni pathdan path2 ga nusxalash
+    fileInfo.CopyTo(path2);
+    Console.WriteLine($"{path} fayl {path2} ga nusxalandi.");
 
-            // Open the file to read from.
-            using (StreamReader sr = fi1.OpenText())
-            {
-                var s = "";
-                while ((s = sr.ReadLine()) != null)
-                {
-                    Console.WriteLine(s);
-                }
-            }
-
-            try
-            {
-                string path2 = Path.GetTempFileName();
-                var fi2 = new FileInfo(path2);
-
-                // Ensure that the target does not exist.
-                fi2.Delete();
-
-                // Copy the file.
-                fi1.CopyTo(path2);
-                Console.WriteLine($"{path} was copied to {path2}.");
-
-                // Delete the newly created file.
-                fi2.Delete();
-                Console.WriteLine($"{path2} was successfully deleted.");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine($"The process failed: {e.ToString()}");
-            }
-            Console.ReadKey();
-        }
-    }
+    // faylni o'chiradi
+    fileInfo.Delete();
+    Console.WriteLine($"{path} fayl o'chirildi");
+}
+catch (Exception e)
+{
+    Console.WriteLine($"Xatolik sodir bo'ldi: {e.Message}");
 }
 ```
 
-![](../../../../.gitbook/assets/image%20%2883%29.png)
+**Izoh:**
 
-**Izohlar:**
+Fayllarni ochish, yaratish, ko'chirish, nomini o'zgartirish va o'chirish kabi odatiy operatsiyalar uchun FileInfo sinfidan foydalanamiz. C# dasturlash tilida fayllar bilan ishlashni yanada osonlashtira oladigan **File** sinfi ham mavjud. Agar siz fayl ustida bir-nechta amallarni bajarmoqchi bo'lsangiz FileInfo sinfidan foydalanganingiz ma'qul.
 
-Fayllarni ko'chirish, nomini o'zgartirish, yaratish, ochish, o'chirish va qo'shib qo'yish kabi odatiy operatsiyalar uchun FileInfo sinfidan foydalaning.
+## File
 
-Agar bitta faylda bir nechta operatsiyalarni bajarayotgan bo'lsangiz , [File](https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=net-5.0) sinfining tegishli statik metodlari o'rniga [FileInfo](https://docs.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view=net-5.0) instansiya metodlaridan foydalanish samaraliroq bo'lishi mumkin , chunki xavfsizlikni tekshirish har doim ham talab qilinmaydi.
+[**File**](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.opentext?view=net-7.0) sinfi - FileInfo metodlari bilan bir xil funksionallikka ega metodlardan statik holatda foydalanishni ta'minlaydigan sinfdir.
+File sinfi metodlari haqida batafsil ma'lumotni [bu yerdan](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-7.0#methods) olishingiz mumkin.
 
-**Code source**👉[FileInfo xususiyatlari va metodlari qo’llanishiga doir misollar](https://github.com/Nodirbek-Abdulaxadov/FileInfo-examples)
+Yuqoridagi kod qismini File sinfi yordamida alternativini yozishimishiz mumkin:
 
+```csharp
+string path = "Example.txt";
+try
+{
+    string path2 = "Example_copy.txt";
+
+    // faylni pathdan path2 ga nusxalash
+    File.Copy(path, path2);
+    Console.WriteLine($"{path} fayl {path2} ga nusxalandi.");
+
+    //faylni o'chiradi
+    File.Delete(path);
+    Console.WriteLine($"{path} fayl o'chirildi");
+}
+catch (Exception e)
+{
+    Console.WriteLine($"Xatolik sodir bo'ldi: {e.Message}");
+}
+```
