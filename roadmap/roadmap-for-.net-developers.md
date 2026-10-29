@@ -62,7 +62,11 @@ description: Mukhammadkarim Tukhtaboev
 * Exception Handling
 
 ### Module 4: Advanced topics in .NET
-
+* Introduction to Generics
+* Generic Classes and Methods
+* Generic Interfaces
+* Generic Constraints
+* Covariance and Contravariance
 * Collections: IEnumerable, ICollection, IReadonlyList
 * Collections: List, Stack, Queue, LinkedList, Dictionary, HashSet, ArrayList
 * KeyValuePair, Tuple and ValueTuple
